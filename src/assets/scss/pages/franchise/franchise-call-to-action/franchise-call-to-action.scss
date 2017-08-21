@@ -1,0 +1,41 @@
+.franchise-call-to-action {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+
+  // Title
+  .franchise-call-to-action__title {
+    font-size: 36px;
+    font-weight: $weigth_reg;
+    margin-bottom: 10px;
+    &.franchise-call-to-action__title_margin-bottom-big {
+      margin-bottom: 80px; } }
+
+  // Description
+  .franchise-call-to-action__description {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 525px;
+    margin: 0px auto 50px auto; }
+
+  // BTN
+  .franchise-call-to-action__btn {
+    width: 280px;
+    height: 70px;
+    text-transform: uppercase; }
+
+  &.franchise-call-to-action_filials-bg {
+    background: url( ../images/franchise/franchise-call-to-action/_filials/franchise-call-to-action_filials.jpg ) 50% 0% no-repeat;
+    background-size: cover; }
+
+  &.franchise-call-to-action_business-plan-bg {
+    background: url( ../images/franchise/franchise-call-to-action/_business-plan/franchise-call-to-action_business-plan-bg.jpg ) 50% 0% no-repeat;
+    background-size: cover; }
+
+  &.franchise-call-to-action_skill-bg {
+    background: url( ../images/franchise/franchise-call-to-action/_skill/franchise-call-to-action_skill.jpg ) 50% 0% no-repeat;
+    background-size: cover; }
+}
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

@@ -1,0 +1,25 @@
+.franchise-pano {
+  padding-top: 70px;
+  text-align: center;
+
+  // Title
+  .franchise-pano__title {
+    font-size: 30px;
+    font-weight: $weigth_reg;
+    margin-bottom: 20px; }
+
+  // Description
+  .franchise-pano__description {
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 757px;
+    margin: 0px auto 40px auto; }
+
+  //mod
+  &.franchise-pano_bg-gray {
+    background: $color_gr_light;
+  }
+}
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

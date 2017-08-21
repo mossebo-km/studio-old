@@ -1,0 +1,25 @@
+.call-to-action-calc {
+  padding: 100px 15px;
+  background: $color_pr;
+  text-align: center;
+
+  // Title
+  .call-to-action-calc__title {
+    color: $color_wt;
+    font-size: 30px;
+    font-weight: $weigth_reg;
+    display: block;
+    max-width: 770px;
+    margin: 0px auto 50px auto; }
+  // btn
+  .call-to-action-calc__btn {
+    text-transform: uppercase;
+    padding: 20px 50px; } }
+
+@media #{$xs} {
+  .call-to-action-calc {
+    padding: 50px 15px;
+    // title
+    .call-to-action-calc__title {
+      font-size: 24px;
+      margin-bottom: 30px; } } }

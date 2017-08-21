@@ -1,0 +1,35 @@
+.franchise-your-profit {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+
+  // Title
+  .franchise-your-profit__title {
+    font-size: 30px;
+    font-weight: $weigth_reg;
+    margin-bottom: 60px; }
+
+  // IMG
+  .franchise-your-profit__img {
+    max-width: 220px;
+    margin: 0 auto 35px auto;
+    img {
+      display: block;
+      width: 100%;
+      height: auto; } }
+
+  // Description
+  .franchise-your-profit__description {
+    font-size: 24px;
+    line-height: 27px;
+    max-width: 745px;
+    margin: 0px auto 50px auto; }
+
+  // Numbers
+  .franchise-your-profit__numbers {
+    font-size: 16px;
+    font-weight: $weigth_reg;
+    text-align: center; } }
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

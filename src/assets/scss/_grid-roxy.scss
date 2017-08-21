@@ -1,0 +1,245 @@
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 0px;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+  figure.effect-roxy {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 0px;
+    width: 100%;
+    max-width: 100%;
+    height: 378px;
+    background: $color_pr;
+    text-align: center;
+    cursor: pointer;
+    .roxy-grid-img-bg {
+      position: absolute;
+			top: 0px;
+			left: 0px;
+      display: block;
+			height: 100%;
+			width: 100%;
+      opacity: 1;
+    	width: -webkit-calc(100% + 60px);
+    	width: calc(100% + 60px);
+    	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    	transition: opacity 0.35s, transform 0.35s;
+    	-webkit-transform: translate3d(-50px,0,0);
+    	transform: translate3d(-50px,0,0);
+    }
+    figcaption {
+      padding: 3em;
+      color: #fff;
+      font-size: 18px;
+      font-weight: $weigth_reg;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    	text-align: left;
+      &::before,
+      &::after {
+        pointer-events: none;
+      }
+      &::before {
+        position: absolute;
+      	top: 30px;
+      	right: 30px;
+      	bottom: 30px;
+      	left: 30px;
+      	content: '';
+      	opacity: 0;
+      	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      	transition: opacity 0.35s, transform 0.35s;
+      	-webkit-transform: translate3d(-20px,0,0);
+      	transform: translate3d(-20px,0,0);
+      }
+      &, & > a.main-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+      & > a.main-link {
+        z-index: 1000;
+        text-indent: 200%;
+        white-space: nowrap;
+        font-size: 0;
+        opacity: 0;
+      }
+    }
+    p {
+      opacity: 0;
+    	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    	transition: opacity 0.35s, transform 0.35s;
+    	-webkit-transform: translate3d(-10px,0,0);
+    	transform: translate3d(-10px,0,0);
+      display: inline-block;
+      width: 230px;
+      position: absolute;
+      left: 50%;
+      margin-left: -115px;
+      top: 50%;
+      margin-bottom: 0px;
+      margin-top: -30px;
+    }
+    span.link-arrow {
+      opacity: 0;
+    	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    	transition: opacity 0.35s, transform 0.35s;
+    	-webkit-transform: translate3d(-10px,0,0);
+    	transform: translate3d(-10px,0,0);
+      font-size: 12px;
+      display: inline-block;
+      position: absolute;
+      right: 80px;
+      bottom: 50px;
+      text-transform: none;
+			font-weight: $weigth_reg;
+			text-transform: uppercase;
+      &::before {
+        content: '';
+        display: inline-block;
+				width: 16px;
+				height: 16px;
+        position: absolute;
+        right: -25px;
+        top: 50%;
+        margin-top: -9px;
+        background: url(../images/icon/right-arrow.svg) 50% 50% no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        background-size: contain;
+        -webkit-filter: brightness(0%) invert(100%);
+					 -moz-filter: brightness(0%) invert(100%);
+        				filter: brightness(0%) invert(100%);
+      }
+    }
+    &:hover .roxy-grid-img-bg {
+      opacity: 0.1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+
+		.portfolio-page-block {
+			opacity: 0;
+    	-webkit-transition: .4s ease;
+    	-moz-transition: .4s ease;
+    	transition: .4s ease;
+			position: relative;
+			top: 50%;
+			margin-top: -60px;
+
+			// Portfolio page roxy grid
+			h3 {
+				font-size: 20px;
+				line-height: 24px;
+				font-weight: $weigth_reg;
+				color: #fff;
+				display: block;
+				margin-bottom: 10px;	}
+
+			// Portfolio page roxy grid description
+			span.portfolio-page-grid-description {
+				display: block;
+				color: #fff;
+				font-size: 16px;
+				line-height: 18px;
+				font-weight: $weigt_light;
+				text-transform: none;	}
+				// Porfolio page roxy grid BTN
+
+		}
+
+		a.link-arrow {
+			font-size: 13px;
+			font-weight: $weigth_reg;
+			color: #fff;
+			position: absolute;
+			right: 45px;
+			bottom: 20px;
+			opacity: 0;
+    	-webkit-transition: .4s ease;
+    	-moz-transition: .4s ease;
+    	transition: .4s ease;
+			&::before {  filter: brightness(0%) invert(100%);  }	}
+
+    &:hover .portfolio-page-block, &:hover a.link-arrow {
+      opacity: 1;
+    }
+
+    &:hover figcaption::before,
+    &:hover p, &:hover span.link-arrow {
+      opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+
+  }
+
+	.mobile-row-portfolio-info { display: none; }
+}
+
+
+// lg 992-1199px
+@media #{$lg} {
+	.grid figure.effect-roxy span.link-arrow, .grid figure.effect-roxy a.link-arrow { display: none; }
+	.grid figure.effect-roxy { margin-bottom: 10px; }
+	.grid .mobile-row-portfolio-info {
+		display: block;
+		margin-bottom: 15px;
+		.mobile-geid-title {
+			font-size: 14px;
+			font-weight: bold;
+			display: block; } }
+}
+
+// md 768-991px
+@media #{$md} {
+	.grid figure.effect-roxy span.link-arrow, .grid figure.effect-roxy a.link-arrow { display: none; }
+	.grid figure.effect-roxy { margin-bottom: 10px; }
+	.grid .mobile-row-portfolio-info {
+		display: block;
+		margin-bottom: 10px;
+		.mobile-geid-title {
+			font-size: 14px;
+			font-weight: bold;
+			display: block; } }
+}
+
+// sm 576-767px
+@media #{$sm} {
+	.grid figure.effect-roxy span.link-arrow, .grid figure.effect-roxy a.link-arrow { display: none; }
+	.grid figure.effect-roxy { margin-bottom: 10px; }
+	.grid .mobile-row-portfolio-info {
+		display: block;
+		margin-bottom: 10px;
+		.mobile-geid-title {
+			font-size: 16px;
+			font-weight: bold;
+			display: block; } }
+
+	.grid figure.effect-roxy p {
+		width: 160px;
+		margin-left: -80px;	}
+}
+
+// xs max575px
+@media #{$xs} {
+	.grid figure.effect-roxy span.link-arrow, .grid figure.effect-roxy a.link-arrow { display: none; }
+	.grid figure.effect-roxy { margin-bottom: 10px; }
+	.grid .mobile-row-portfolio-info {
+		display: block;
+		margin-bottom: 10px;
+		.mobile-geid-title {
+			font-size: 16px;
+			font-weight: bold;
+			display: block; } }
+
+	.grid figure.effect-roxy p {
+		width: 160px;
+		margin-left: -80px;	}
+}

@@ -1,0 +1,107 @@
+.vacancies {
+  background: $color_gr_light;
+  padding-top: 70px;
+
+  // Title
+  .vacancies__section-title {
+    text-align: center;
+    margin-bottom: 70px; }
+
+  // Vacancies content
+  .vacancies-content {
+    background: $color_wt;
+    margin-bottom: 15px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    // Panorama
+    .vacancies__panorama {
+      margin: -45px 0px 40px 0px; }
+    // Vacancies row
+    .vacancies-content__row {
+      margin-bottom: 20px;
+      // Row title
+      .vacancies-content__row-title {
+        font-size: 30px;
+        font-weight: $weigth_reg;
+        color: $color_pr;
+        margin-bottom: 20px; }
+      // Col
+      .vacancies-content__row-col {
+        margin-bottom: 30px;
+        // Col title
+        .vacancies-content__row-col-title {
+          // TODO: remove display none!!!
+          // display: none !important;
+          font-size: 16px;
+          font-weight: $weigth_reg;
+          color: $color_gr;
+          margin-bottom: 15px; }
+        // Col item
+        .vacancies-content__row-col-item {
+          margin-bottom: 10px;
+          // Col link
+          .vacancies-content__row-col-item-link {
+            font-size: 12px;
+            text-transform: uppercase;
+            text-decoration: none; }
+          &:last-child {
+            margin-bottom: 0px; } } } } }
+
+
+
+  // vacancies feeedback
+  .vacancies-feedback {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: url( ../images/vacancies/vacancies-feedback/vacancies-feedback__bg.jpg ) 50% 0% no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    // Feedback-form
+    .vacancies-feedback__feedback-form {
+      max-width: 475px;
+      margin: 0 auto;
+      // Subtitle
+      .feedback-form__subtitle {
+        text-align: center;
+        font-size: 24px; } } }
+
+
+
+  // vacancies page
+
+    // text
+    .vacancies__text {
+      margin-bottom: 60px;
+      // paragraph
+      p {
+        color: $color_gr; } }
+    // list
+    .vacancies__list-block {
+      margin-bottom: 50px;
+      // title
+      .vacancies__list-block-title {
+        font-size: 24px;
+        font-weight: $weigth_reg;
+        margin-bottom: 25px; }
+      // ul
+      .vacancies__list {
+        @include list-pr(); } }
+
+    // sidebar
+    .vacancies__sidebar {
+      margin-bottom: 30px;
+      // col
+      .vacancies__sidebar-col {
+        margin-bottom: 35px;
+        // title
+        .vacancies__sidebar-col-title {
+          color: $color_gr;
+          font-size: 16px;
+          font-weight: $weigth_reg;
+          margin-bottom: 10px; }
+        // info
+        .vacancies__sidebar-col-info {
+          font-weight: $weigth_reg;
+          font-size: 24px; } } }
+}

@@ -1,0 +1,13 @@
+.franchise-brand-style {
+
+  // Description
+  .franchise-brand-style__description {
+    margin: 0px auto 20px auto; }
+
+  // IMG
+  .franchise-brand-style__img {
+    img {
+      //mod
+      &.franchise-brand-style__img_desctop { display: none; }
+      &.franchise-brand-style__img_mobile { display: block; } } }
+}

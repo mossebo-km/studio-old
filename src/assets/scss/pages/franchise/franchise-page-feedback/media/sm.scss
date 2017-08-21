@@ -1,0 +1,30 @@
+.franchise-page-feedback {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  // Title
+  .franchise-page-feedback__title {
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+
+  // Subtitle
+  .franchise-page-feedback__subtitle {
+    margin: 0px 0px 15px 0px;
+    font-size: 16px; }
+
+  // youtube-player
+  .franchise-page-feedback__youtube-player {
+    margin-bottom: 20px; }
+
+  // About us write
+  .franchise-page-feedback__about-us-write {
+    .franchise-page-feedback__about-us-write-col {
+      // img
+      .franchise-page-feedback__about-us-write-img {
+        max-height: 25px;
+        margin-bottom: 10px;}
+        // text
+        .franchise-page-feedback__about-us-write-text {
+          padding-bottom: 20px; } } }
+}

@@ -1,0 +1,125 @@
+// 404 page
+.error404 {
+  background-color: $color_pr;
+  background-image: url( ../images/404/bg.png );
+  background-repeat: no-repeat;
+  background-position: 80% 0%;
+
+  // Container height for vertical center
+  .error404__container {
+    min-height: 100vh;
+    height: 100vh;
+    max-width: 900px;
+
+    .error404__row {
+      min-height: 100%; } }
+
+  // Title
+  .error404__title {
+    font-size: 486px;
+    line-height: 400px;
+    color: $color_wt;
+    text-align: center;
+    &.error404__title_text-shadow {
+      text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3); }
+  }
+
+  .error404__sub-title {
+    font-size: 72px;
+    font-weight: $weigth_reg;
+    color: $color_wt;
+    text-align: center;
+    margin-bottom: 20px;
+    &.error404__sub-title-shadow {
+      text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3); } }
+
+  .error404__description {
+    font-size: 26px;
+    line-height: 32px;
+    color: $color_wt;
+    margin: 0 auto 40px auto;
+    a {
+      color: $color_wt;
+      text-decoration: underline;
+    } }
+
+  .error404__link-arrow {
+    color: #fff;
+    font-size: 23px;
+    &::before {
+      -webkit-filter: brightness(0%) invert(100%);
+      -moz-filter: brightness(0%) invert(100%);
+      filter: brightness(0%) invert(100%);
+      width: 20px;
+      height: 20px;
+      margin-top: -10px; } }
+}
+
+
+// md 768-991px
+@media #{$md} {
+  .error404 {
+    background-position: 140% 0%;
+    background-size: 630px; }
+  // Title
+  .error404 .error404__title {
+    font-size: 200px;
+    line-height: 200px; }
+
+  // Sub title
+  .error404 .error404__sub-title {
+    font-size: 30px; } }
+
+
+// sm 576-767px
+@media #{$sm} {
+  // Title
+  .error404 .error404__title {
+    font-size: 150px;
+    line-height: 150px; }
+
+  // Sub title
+  .error404 .error404__sub-title {
+    font-size: 20px; }
+
+  // Description
+  .error404 .error404__description {
+    font-size: 20px;
+    line-height: 26px; }
+
+  // Link arrow
+  .error404 .error404__link-arrow {
+    font-size: 15px;
+    &::before {
+      width: 15px;
+      height: 15px;
+      margin-top: -7.5px; } } }
+
+
+// xs max575px
+@media #{$xs} {
+  .error404 {
+    background-position: 22px 0%;
+    background-size: 400px; }
+
+  // Title
+  .error404 .error404__title {
+    font-size: 100px;
+    line-height: 100px; }
+
+  // Sub title
+  .error404 .error404__sub-title {
+    font-size: 20px; }
+
+  // Description
+  .error404 .error404__description {
+    font-size: 20px;
+    line-height: 26px; }
+
+  // Link arrow
+  .error404 .error404__link-arrow {
+    font-size: 15px;
+    &::before {
+      width: 15px;
+      height: 15px;
+      margin-top: -7.5px; } } }

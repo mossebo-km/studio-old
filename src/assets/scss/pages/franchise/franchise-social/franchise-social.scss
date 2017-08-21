@@ -1,0 +1,79 @@
+.franchise-social {
+  text-align: center;
+  background:  $color_pr;
+  padding-top: 50px;
+
+  // Title
+  .franchise-social__title {
+    color: $color_wt;
+    position: relative;
+    margin-bottom: 20px;
+    margin: 70px 0px 20px 0px;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      margin-left: -30px;
+      background: url( ../images/franchise/franchise-social/_title-before-icon.svg ) 50% 50% no-repeat;
+      -moz-background-size: contain;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      filter: saturate(0%) brightness(0%) brightness(0%) invert(100%); } }
+
+  // Subtitle
+  .franchise-social__subtitle {
+    color: $color_wt;
+    font-size: 18px;
+    margin-bottom: 50px; }
+
+  // Carousel icon
+  .franchise-social__carousel-icon {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 5px;
+    img {
+      display: block;
+      height: 100%;
+      filter: saturate(0%) brightness(0%) brightness(0%) invert(100%);
+      width: auto; } }
+
+  // Carousel IMG
+  .franchise-social__carousel-img {
+    img {
+      border: 1px solid $color_pr;
+      border-bottom: none;
+      box-shadow: 0px 0px 15px 0px rgba(69, 69, 69, 0.15); }
+  }
+
+  // Carousel nav
+  .franchise-social__carousel {
+    .owl-prev, .owl-next {
+      text-indent: -10000px;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      background: $color_pr;
+      cursor: pointer;
+      box-shadow: 0px 0px 15px 0px rgba(69, 69, 69, 0.15);
+      z-index: 1; }
+
+      .owl-prev {
+          left: 5%;
+          background-image: url( ../images/icon/back.svg);
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: 50% 50%; }
+      .owl-next {
+          right: 5%;
+          background-image: url( ../images/icon/next.svg);
+          background-size: 25px 25px;
+          background-repeat: no-repeat;
+          background-position: 50% 50%; } }
+}

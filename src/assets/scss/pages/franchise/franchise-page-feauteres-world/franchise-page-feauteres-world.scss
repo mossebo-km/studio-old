@@ -1,0 +1,22 @@
+.franchise-page-feauteres-world {
+  background: $color_pr;
+  text-align: center;
+
+  .franchise-page-feauteres-world__grid {
+    border-right: 2px solid $color_wt;
+    padding: 40px 30px;
+
+    // Title
+    .franchise-page-feauteres-world__grid-title {
+      font-size: 20px;
+      font-weight: $weigth_reg;
+      color: $color_wt;
+      margin-bottom: 15px; }
+
+      &:nth-child( 3 ) {
+        border-right: none; }
+  }
+}
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

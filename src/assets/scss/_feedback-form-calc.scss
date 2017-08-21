@@ -1,0 +1,247 @@
+.feedback-form-calc {
+  background: $color_wt;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 50px 50px 25px 50px;
+  border: 4px solid $color_pr;
+
+  // Title
+  .feedback-form-calc__title {
+    font-size: 24px;
+    font-weight: $weigth_reg;
+    display: block;
+    margin: 0px 0px 30px 70px;
+    position: relative;
+    text-align: left;
+    &::before {
+      content: '';
+      display: inline-block;
+      background: url( ../images/icon/calc-icon.svg ) 50% 50% no-repeat;
+      background-size: contain;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      left: -70px;
+      top: 50%;
+      margin-top: -23px; } }
+
+  // label
+  .feedback-form-calc__label {
+    text-align: left;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 12px; }
+
+  // description
+  .form-description-text {
+    font-size: 12px;
+    margin-bottom: 18px;
+    color: $color_gr;
+    display: block;
+    min-height: 20px;
+    // Radio description
+    .radio-description {
+      font-size: 16px;
+      color: $color_bk;
+      display: inline-block;
+      margin-right: 20px; }
+      // Radio
+      .radio-wraper {
+      	padding: 0px;
+      	margin: 0px;
+      	list-style: none;
+      	font-size: 0px;
+        display: inline-block;
+      	li {
+      		display: inline-block;
+      		&:first-child { margin-right: 20px; }
+      		input[type="radio"] {
+      			display: none;
+      			& + label {
+      				color: $color_bk;
+      				display: inline-block;
+      				position: relative;
+              margin: 0px 0px 0px 20px;
+      				font-size: 16px;
+      				font-weight: $weigth_reg;
+      				cursor: pointer;
+      				&::before {
+      					content: '';
+      					display: inline-block;
+      					width: 14px;
+      					height: 14px;
+      					border-radius: 10px;
+      					border: 2px solid $color_pr;
+      					position: absolute;
+      					top: 0px;
+      					left: -20px; } }
+      			&:checked + label::before { background: $color_pr; } } } } }
+
+  // Form calc style's
+  .feedback-form-calc__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+    .input-inner {
+      // display: block;
+      flex: 0 0 70%;
+      max-width: 70%;
+      padding-right: 15px;
+
+      // Select wrapper
+      .input-select_wrapper {
+        position: relative;
+        label {
+          margin-bottom: 0px;
+          width: 100%;
+          &::after {
+            content: '';
+            display: block;
+            background: url( ../images/icon/down-arrow.svg ) 50% 50% no-repeat;
+            background-size: contain;
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            margin-top: -8px;
+            pointer-events: none; } } }
+
+      select.calc-step-2 {
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+      }
+
+      input.calc-form-input, select.calc-step-2 {
+        height: 52px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 14px;
+        text-align: center;
+        color: $color_bk;
+        border: none;
+        padding: 0px;
+        background: #f1f1f1;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        @include trs( .6s );
+        &::-webkit-input-placeholder { color: $color_bk; }
+        &::-moz-placeholder          { color: $color_bk; }
+        &:-moz-placeholder           { color: $color_bk; }
+        &:-ms-input-placeholder      { color: $color_bk; }
+        &:focus {
+          border: 1px solid $color_pr;
+          box-shadow: none;
+          outline: 0 !important; } }
+    }
+
+    // BTN calc
+    .btn-form-inner {
+      flex: 0 0 30%;
+      max-width: 30%;
+
+      button.btn {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 46px;
+        text-transform: uppercase;
+        position: relative;
+
+        // loader
+        & .btn-submit-load-icon {
+          display: none;
+          width: 20px;
+          height: 20px;
+          position: absolute;
+          top: calc(50% - 10px);
+          left: calc(50% - 10px); }
+
+        // btn load mod
+        &.btn-submit_load {
+          color: transparent;
+          opacity: .5;
+          transform: translateY(0px) !important;
+          box-shadow: 0px 6px 0px 0px #ff9b00 !important; } } }
+  } // Form input block END
+
+  // Calc form step's
+  .calc-steps {
+    font-size: 15px;
+    color: $color_pr;
+    text-align: center; }
+}
+
+
+// sm 576-767px
+@media #{$sm} {
+  .feedback-form-calc {
+    // Title
+    .feedback-form-calc__title { font-size: 20px; }
+    // Block
+      .feedback-form-calc__wrapper {
+        flex-wrap: wrap;
+        .input-inner {
+          flex: 0 0 100%;
+          max-width: 100%;
+          padding-right: 0px;
+          margin-bottom: 15px; }
+        .btn-form-inner {
+          flex: 0 0 100%;
+          max-width: 100%; } } } }
+
+// xs max575px
+@media #{$xs} {
+
+  .feedback-form-calc {
+    max-width: 100%;
+    padding: 15px;
+
+    // Title
+    .feedback-form-calc__title {
+      font-size: 16px;
+      margin: 0px 0px 15px 50px;
+      &::before {
+        width: 36px;
+        height: 36px;
+        left: -50px;
+        margin-top: -18px; } }
+
+    // Fom calc title
+    .feedback-form-calc__label {
+      font-size: 14px; }
+
+    // Input and BTN
+    .feedback-form-calc__wrapper {
+      flex-wrap: wrap;
+      // Input inner
+      .input-inner {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding-right: 0px;
+        margin-bottom: 10px;
+        // Font size input's
+        input.calc-form-input, select.calc-step-2 { font-size: 13px; } }
+      // BTN inner
+      .btn-form-inner {
+        flex: 0 0 100%;
+        max-width: 100%; } }
+
+    // Text sms block
+    .form-description-text {
+      min-height: 0px;
+      // Radio description
+      span.radio-description {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        font-size: 14px; } }
+  }
+}

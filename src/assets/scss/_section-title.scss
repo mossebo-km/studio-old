@@ -1,0 +1,18 @@
+// Section title
+.section-title {
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 20px;
+
+  // mod
+  &.section-title_theme-1 {
+    font-weight: $weigth_reg;
+    text-align: center; } }
+
+// sm 576-767px
+@media #{$sm} {
+	.section-title { font-size: 20px; } }
+
+// xs max575px
+@media #{$xs} {
+	.section-title { font-size: 24px; } }

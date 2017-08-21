@@ -1,0 +1,134 @@
+// Contact page
+div#contact-page {
+  margin-bottom: 30px;
+
+  // Title
+  h1.section-title { margin: 30px 0px 15px 0px; }
+
+  // SubTitle
+  h2.sub-title {
+    font-weight: $weigt_light;
+    font-size: 20px;
+    margin-bottom: 60px; }
+
+  // Contact section block
+  h3.contact-sub-title-page {
+    color: $color_gr;
+    font-size: 24px;
+    margin-bottom: 50px; }
+
+  // Contact page item wrapper
+  .contact-page-item-adress {
+    position: relative;
+    margin-bottom: 60px;
+
+    // Icon before
+    &::before {
+      content: '';
+      display: block;
+      width: 16px;
+      height: 23px;
+      position: absolute;
+      top: 50%;
+      left: 0px;
+      margin-top: -11.5px;
+      background: url( ../images/icon/map-pin-silhouette.png) 50% 50% no-repeat;
+      @include background-size( contain );  }
+    //City
+    .contact-page-city-name {
+      font-size: 18px;
+      font-weight: $weigth_reg;
+      display: inline-block;
+      height: 21px;
+      position: absolute;
+      top: 50%;
+      left: 29px;
+      margin-top: -10.5px;  }
+    // Contact page city
+    address.contact-page-adress-item {
+      color: $color_gr;
+      margin-left: 200px;
+      border-left: 2px solid $color_pr;
+      padding: 10px 0px 10px 15px;  } }
+
+  // Contact page email block
+  .contact-page-item-email { color: $color_gr; }
+
+} // Contact page END
+
+
+// sm 576-768px
+@media #{$sm} {
+
+  // Title main
+  div#contact-page h1.section-title { margin-bottom: 0px; }
+
+  // Sub title
+  div#contact-page h2.sub-title { margin-bottom: 40px; }
+
+  // Office title
+  div#contact-page h3.contact-sub-title-page { margin-bottom: 30px; }
+
+  // Email block
+  .contact-page-item-email { margin-bottom: 30px; }
+
+  // Offcie block
+  div#contact-page .contact-page-item-adress { margin-bottom: 30px; }
+
+  // Icon
+  div#contact-page .contact-page-item-adress::before {
+    top: 0px;
+    left: 16px;
+    margin-top: 0px; }
+
+  // City
+  div#contact-page .contact-page-item-adress .contact-page-city-name {
+    top: 0px;
+    left: 45px;
+    margin-top: 0px; }
+
+  // Block
+  div#contact-page .contact-page-item-adress address.contact-page-adress-item {
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 30px; }
+}
+
+// xs 575px
+@media #{$xs} {
+
+  // Title main
+  div#contact-page h1.section-title { margin-bottom: 0px; }
+
+  // Sub title
+  div#contact-page h2.sub-title { margin-bottom: 40px; }
+
+  // Office title
+  div#contact-page h3.contact-sub-title-page {
+    margin-bottom: 30px;
+    font-size: 20px; }
+
+  // Email block
+  .contact-page-item-email { margin-bottom: 30px; }
+
+  // Offcie block
+  div#contact-page .contact-page-item-adress { margin-bottom: 30px; }
+
+  // Icon
+  div#contact-page .contact-page-item-adress::before {
+    top: 0px;
+    left: 16px;
+    margin-top: 0px; }
+
+  // City
+  div#contact-page .contact-page-item-adress .contact-page-city-name {
+    top: 0px;
+    left: 45px;
+    margin-top: 0px; }
+
+  // Block
+  div#contact-page .contact-page-item-adress address.contact-page-adress-item {
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 30px; }
+}

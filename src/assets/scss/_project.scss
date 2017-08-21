@@ -1,0 +1,30 @@
+// Project
+.project {
+  padding-top: 15px;
+  background: $color_wt;
+  // top block
+  .project__top-block {
+    background: $color_gr_light;
+    padding: 65px 15px;
+    margin-bottom: 10px;
+    // description
+    .project__top-block-description {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 22px;
+    }
+  }
+  // img row
+  .project__img-row {
+    margin-left: -5px;
+    margin-right: -5px;
+    // col
+    .project__img-col {
+      padding: 5px;
+      // img
+      .project__img {
+        display: inline-block;
+        width: 100%;
+        max-width: 100%;
+        height: auto; } } } }

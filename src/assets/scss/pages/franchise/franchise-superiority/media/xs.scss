@@ -1,0 +1,73 @@
+.franchise-superiority {
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  // Title
+  .franchise-superiority__main-title {
+      margin-bottom: 25px; }
+
+  // Number one
+  .franchise-superiority__numer-one {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    .franchise-superiority__numer-one_col-1 {
+      text-align: left; }
+
+    .franchise-superiority__numer-one_col-2 {
+      -webkit-box-ordinal-group: 0;
+      -webkit-order: -1;
+      -ms-flex-order: -1;
+      order: -1; }
+
+    // Number one row
+    .franchise-superiority__numer-one-row {
+      margin-bottom: 20px;
+      // Number one tilte
+      .franchise-superiority__numer-one-row-title {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      // Number one description
+      .franchise-superiority__numer-one-row-description {
+        font-size: 14px; } } }
+
+  // Start-price
+  .franchise-superiority__start-price {
+    .franchise-superiority__start-price-col {
+      margin-bottom: 50px;
+      // Title
+      .franchise-superiority__start-price-col-title {
+        font-size: 20px;
+        margin-bottom: 10px; }
+      // Price
+      .franchise-superiority__start-price-col-price {
+        font-size: 35px;
+        margin-bottom: 5px; }
+        // Description
+      .franchise-superiority__start-price-col-description {
+        font-size: 14px; } }
+      &::before {
+        width: 100vw;
+        left: 50%; } }
+
+  // Business-start
+  .franchise-superiority__business-start {
+    .franchise-superiority__business-start-col {
+      margin-bottom: 25px;
+      // Img
+      .franchise-superiority__business-start-col-img {
+        img {  } }
+      // Title
+      .franchise-superiority__business-start-col-title {
+        font-size: 20px;
+        margin: 0px 0px 15px 30px;
+        min-height: 40px;
+        .franchise-superiority__business-start-col-title-counter {
+          font-size: 20px; } }
+      // ul
+      .franchise-superiority__business-start-col-list {
+        li {
+          font-size: 14px; } } } }
+
+}

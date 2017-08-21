@@ -1,0 +1,18 @@
+// Reviews page
+.reviews__section-title {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 90px; }
+
+@media #{xs} {
+  .reviews__section-title {
+    margin-bottom: 20px; } }
+
+// About
+@import 'reviews-about/reviews-about';
+
+// Video
+@import 'reviews-video/reviews-video';
+
+// Service
+@import 'reviews__service/reviews__service';

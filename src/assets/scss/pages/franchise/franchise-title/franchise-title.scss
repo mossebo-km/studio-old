@@ -1,0 +1,8 @@
+.franchise-title {
+  font-size: 30px;
+  font-weight: $weigth_reg;
+  margin-bottom: 40px;
+  text-align: center; }
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

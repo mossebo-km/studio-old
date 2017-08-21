@@ -1,0 +1,21 @@
+.franchise-call-to-action {
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  // Title
+  .franchise-call-to-action__title {
+    font-size: 20px;
+    &.franchise-call-to-action__title_margin-bottom-big {
+      margin-bottom: 40px; } }
+
+  // Description
+  .franchise-call-to-action__description {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 525px;
+    margin: 0px auto 20px auto; }
+
+  // BTN
+  .franchise-call-to-action__btn {
+    width: 100%; }
+}

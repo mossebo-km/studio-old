@@ -1,0 +1,40 @@
+.clients-find-us {
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+  // Title
+  .clients-find-us__title-main {
+    margin-bottom: 25px; }
+
+  .clients-find-us__row {
+    margin-bottom: 30px; }
+
+  // Row img mobile
+  .clients-find-us__row-img_mobile {
+    display: block;
+    margin-bottom: 20px;
+    img {
+      display: block;
+      width: 100%;
+      height: auto; } }
+
+  // Row title
+  .clients-find-us__title {
+    font-size: 18px;
+    color: $color_pr;
+    max-width: 285px;
+    margin-bottom: 15px;
+    //mod
+    &.clients-find-us__title_bold {
+      font-weight: $weigth_reg; } }
+
+  // Row description
+  .clients-find-us__description {
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 440px; }
+
+  // Img block
+  .clients-find-us__img { display: none !important; }
+
+}

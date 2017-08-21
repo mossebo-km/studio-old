@@ -1,0 +1,43 @@
+// Social link's
+// Social link title
+.icon-social-link {
+  text-align: center;
+	margin-bottom: 20px;
+
+  h3 {
+    margin-bottom: 15px;
+    padding-bottom: 0px; }
+
+  .item-social-link-icon {
+    font-size: 0px;
+
+    a:last-child  i { margin-right: 0px;}
+
+    i.footer-soc-icon {
+      display: inline-block;
+      width: 18px;
+      height: 18px;
+      margin-right: 12px;
+      filter: opacity( 80% );
+      transition: .3s ease;
+      background-size: contain !important;
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+
+      // icon's
+      &.fb {
+        background-image: url( ../images/icon/social/fb.svg ); }
+      &.vk {
+        background-image: url( ../images/icon/social/vk.svg );
+        background-size: 25px 25px !important; }
+      &.odn {
+        background-image: url( ../images/icon/social/odn.svg ); }
+      &.inst {
+        background-image: url( ../images/icon/social/inst.svg ); }
+      &.you {
+        background-image: url( ../images/icon/social/play-button.svg ); }
+
+    // hover
+    &:hover { filter: opacity( 100% ); } } }
+
+}

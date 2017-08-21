@@ -1,0 +1,89 @@
+.franchise-page-map {
+  position: relative;
+  overflow: hidden;
+
+  // Title
+  .franchise-page-map__franchise-title {
+    display: none; }
+
+  #yandex-map-claster-office {
+    margin-bottom: 0px; }
+
+  // Info
+  .franchise-page-map__info {
+    background: #f3f3f3;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: .3s ease;
+    z-index: 1;
+
+    // Inner
+    .franchise-page-map__info-inner {
+      display: block;
+      width: 240px;
+      margin: 85px auto 0 auto;
+
+      // Title
+      .franchise-page-map__info-title {
+        font-size: 22px;
+        font-weight: $weigth_reg;
+        white-space: nowrap;
+        margin-bottom: 15px; }
+
+      // Subtitle
+      .franchise-page-map__info-subtitle {
+        font-size: 12px;
+        color: $color_gr;
+        margin-bottom: 35px; }
+
+      // Location
+      .franchise-page-map__info-locations {
+        font-size: 12px;
+        line-height: 16px;
+        margin-bottom: 30px; }
+
+    }
+
+    // Close info
+    &.franchise-page-map__info_close {
+      transform: translateX(-400px); }
+  }
+
+}
+
+.franchise-page-map__btn {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  right: -25px;
+  transition: .3s ease;
+  transform: translateZ(0);
+  box-shadow: 0px 0px 15px 0px rgba(69, 69, 69, 0.15);
+  cursor: pointer;
+  transform: rotate( 180deg );
+
+  &:before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url( ../images/franchise/franchise-page-map/franchise-page-map__btn.svg ) 50% 50% no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+  &.franchise-page-map__btn_open {
+    background-color: $color_pr;
+    transform: rotate( 0deg ); }
+}
+
+@media #{$xs} {
+  @import "media/xs.scss"; }

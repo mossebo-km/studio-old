@@ -1,0 +1,86 @@
+// About us PAGE
+div#abous-us-page {
+
+  section {
+    padding: 35px 0px;
+    .section-title {
+      margin-bottom: 40px; } }
+
+
+  // Section 1
+  section#about-us-section-1 {
+    padding: 35px 0px 0px;
+
+    // Carousel
+    #about-us-section-1-carousel.owl-carousel {
+      // Dot's
+      .owl-dots {
+        text-align: center;
+        margin: 15px 0px;
+        .owl-dot {
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border: 2px solid $color_pr;
+          border-radius: 10px;
+          margin-right: 5px;
+          -webkit-transition: .3s ease;
+          -moz-transition: .3s ease;
+          transition: .3s ease;
+          // Active dot
+          &.active {
+            background: $color_pr; }
+          // Last child margin right remove
+          &:last-child {
+            margin-right: 0px; } } } } }
+
+  // Section 2
+  section#about-us-section-2 {
+    h2.section-title {
+      margin-bottom: 15px; } }
+
+  // Section 3
+  section#about-us-section-3 {
+    padding: 35px 0px 0px;
+    background: $color_gr_light;
+    overflow: hidden;
+
+    // Paver
+    figure {
+      margin-bottom: 0px; }
+  }
+
+
+  // Section 5
+  section#about-us-section-5 {
+    padding: 70px 0px;
+    background: $color_pr;
+
+    // BTN
+    a.btn.btn_1 {
+      background: $color_wt;
+      color: $color_bk;
+      text-transform: uppercase;
+      width: 160px; }
+  }
+
+
+  // Section 6
+  section#about-us-section-6 {
+    background: $color_gr_light;
+    padding: 70px 0px;
+
+    // Feautere's
+    .about-us-sec-5-feauteres-grid {
+      max-width: 250px;
+      margin: 0 auto;
+      img {
+        display: block;
+        height: 90px;
+        margin: 0px auto 30px auto; }
+      h3 {
+        color: $color_bk;
+        white-space: nowrap; } }
+  }
+
+} // About us END
