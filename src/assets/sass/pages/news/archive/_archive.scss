@@ -1,5 +1,7 @@
 // Style's file of news page
-.section-title.news-page-title { margin: 30px 0px; }
+.section-title.news-page-title {
+  margin: 30px 0px;
+}
 
 // News page wrapper
 .news-page-wrapper {
@@ -28,11 +30,13 @@
           min-height: 100%;
           position: absolute;
           top: 0px;
-          left: 0px; } }
+          left: 0px;
+        }
+      }
 
       .news-page-text-block {
-      padding-left: 30px;
-      padding-right: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
 
         // New's item ifo row
         .news-page-ifo-row {
@@ -51,13 +55,23 @@
                 display: inline-block;
                 margin-right: 8px;
                 float: left;
-                &:last-child { margin-right: 0px; }
+                &:last-child {
+                  margin-right: 0px;
+                }
                 a {
                   color: #a0a0a0;
                   text-decoration: none !important;
-                  &:hover { color: $color_pr;  } } } } } // Cat info END
+                  &:hover {
+                    color: $color_pr;
+                  }
+                }
+              }
+            }
+          }
+          // Cat info END
 
-        } // Info row END
+        }
+        // Info row END
 
         // Title
         .news-page-title-link {
@@ -66,13 +80,19 @@
             color: $color_bk;
             font-size: 30px;
             margin-bottom: 15px;
-            @include trs( .3s );
-            &:hover, &:focus, &:active { color:  $color_pr; } }
+            @include trs(.3s);
+            &:hover, &:focus, &:active {
+              color: $color_pr;
+            }
+          }
         }
 
-      } // Text block END
-    } // Section page item END
-  } // Content left END
+      }
+      // Text block END
+    }
+    // Section page item END
+  }
+  // Content left END
 
   // Right sidebar
   .sidebar-right {
@@ -82,7 +102,8 @@
     .sidebar-title {
       color: $color_pr;
       font-size: 28px;
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+    }
     // Sidebar news latest
     ul.sidebar-latest {
       display: block;
@@ -100,43 +121,58 @@
           text-decoration: none !important;
           font-weight: $weigth_reg;
           &:hover, &:focus, &:active {
-            color: $color_pr;  }  }
+            color: $color_pr;
+          }
+        }
       }
-    } // Sidebar new's latest END
+    }
+    // Sidebar new's latest END
     // Sidebar new's subsribe
     .sidebar-subscribe {
-        input {
-          border: 1px solid transparent;
-          display: block;
-          width: 100%;
-          max-width: 260px;
-          font-weight: normal;
-          font-size: 14px;
+      input {
+        border: 1px solid transparent;
+        display: block;
+        width: 100%;
+        max-width: 260px;
+        font-weight: normal;
+        font-size: 14px;
+        color: $color_bk;
+        background: #f1f1f1;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-bottom: 17px;
+        @include trs(.6s);
+        &::-webkit-input-placeholder {
           color: $color_bk;
-          background: #f1f1f1;
-          padding-top: 10px;
-          padding-bottom: 10px;
-          padding-left: 15px;
-          padding-right: 15px;
-          margin-bottom: 17px;
-          @include trs( .6s );
-          &::-webkit-input-placeholder {color: $color_bk; }
-          &::-moz-placeholder          {color: $color_bk; }
-          &:-moz-placeholder           {color: $color_bk; }
-          &:-ms-input-placeholder      {color: $color_bk; }
-          &:focus {
-            border: 1px solid $color_pr;
-            -webkit-box-shadow: none;
-            -moz-box-shadow: none;
-            box-shadow: none;
-            outline: 0 !important; } }
+        }
+        &::-moz-placeholder {
+          color: $color_bk;
+        }
+        &:-moz-placeholder {
+          color: $color_bk;
+        }
+        &:-ms-input-placeholder {
+          color: $color_bk;
+        }
+        &:focus {
+          border: 1px solid $color_pr;
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          outline: 0 !important;
+        }
+      }
 
       button.btn {
         padding-top: 10px;
         padding-bottom: 10px;
         width: 100%;
         max-width: 260px;
-        text-transform: uppercase;  } }
+        text-transform: uppercase;
+      }
+    }
 
     // Sidebar new's category
     .sidebar-category {
@@ -153,8 +189,13 @@
             font-size: 16px;
             color: $color_gr;
             text-decoration: none !important;
-            &:hover, &:focus, &:active { color: $color_pr; }  }
-            &.current-cat a { color: $color_pr; }
+            &:hover, &:focus, &:active {
+              color: $color_pr;
+            }
+          }
+          &.current-cat a {
+            color: $color_pr;
+          }
         }
       }
     }
@@ -167,7 +208,8 @@
         font-size: 14px;
         display: block;
         padding-bottom: 12px;
-        margin-bottom: 17px;  }
+        margin-bottom: 17px;
+      }
       ul {
         padding: 0px;
         margin: 0px;
@@ -181,31 +223,47 @@
             font-size: 16px;
             text-decoration: none;
             &:hover, &:active, &:focus {
-              color: $color_pr; } } } }
-    } // Sidebar new's archive link END
-  } // Sidebar right END
+              color: $color_pr;
+            }
+          }
+        }
+      }
+    }
+    // Sidebar new's archive link END
+  }
+  // Sidebar right END
   // Share on post page
   .ya-share2 {
-    margin-bottom: 50px; }
-} // News page wrapper END
+    margin-bottom: 50px;
+  }
+}
 
+// News page wrapper END
 
 // lg 992-1200px
 @media #{$lg} {
-  .news-page-wrapper .content-left { margin-right: 0px; }
+  .news-page-wrapper .content-left {
+    margin-right: 0px;
+  }
 }
 
 // md 768-991px
 @media #{$md} {
-  .news-page-wrapper .content-left { margin-right: 0px; }
+  .news-page-wrapper .content-left {
+    margin-right: 0px;
+  }
 }
 
 // sm 576-767px
 @media #{$sm} {
-  .news-page-wrapper .content-left { margin-right: 0px; }
+  .news-page-wrapper .content-left {
+    margin-right: 0px;
+  }
 }
 
 // xs 575px
 @media #{$xs} {
-  .news-page-wrapper .content-left { margin-right: 0px; }
+  .news-page-wrapper .content-left {
+    margin-right: 0px;
+  }
 }

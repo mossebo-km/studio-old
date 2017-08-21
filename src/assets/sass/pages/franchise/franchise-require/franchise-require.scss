@@ -6,7 +6,8 @@
 
   // Main title
   .franchise-require__main-title {
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+  }
 
   // Col
   .franchise-require__col {
@@ -19,7 +20,9 @@
       margin: 0px 0px 30px 0px;
       //mod
       &.franchise-require__col-title_pr {
-        color: $color_pr; } }
+        color: $color_pr;
+      }
+    }
 
     // Col ul
     .franchise-require__col-list {
@@ -39,19 +42,29 @@
           border-radius: 7px;
           position: absolute;
           top: 2px;
-          left: -30px; } }
+          left: -30px;
+        }
+      }
       //mod
       &.franchise-require__col-list_pr li::before {
-        border: 4px solid $color_pr; } } } }
+        border: 4px solid $color_pr;
+      }
+    }
+  }
+}
 
 @media #{$lg} {
-  @import "media/lg.scss"; }
+  @import "media/lg.scss";
+}
 
 @media #{$md} {
-  @import "media/md.scss"; }
+  @import "media/md.scss";
+}
 
 @media #{$sm} {
-  @import "media/sm.scss"; }
+  @import "media/sm.scss";
+}
 
 @media #{$xs} {
-  @import "media/xs.scss"; }
+  @import "media/xs.scss";
+}

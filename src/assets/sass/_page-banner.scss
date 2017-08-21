@@ -5,29 +5,34 @@
   // background's modification
   // - main page
   &.page-banner_main-page {
-    background: url( ../images/main_page/main-page-1/bg.jpg ) 50% 50% no-repeat;
+    background: url(../images/main_page/main-page-1/bg.jpg) 50% 50% no-repeat;
     min-height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+  }
   // - main page
   &.page-banner_main-page_2 {
-    background: url( ../images/main_page/main-page-1/bg_2.jpg ) 50% 50% no-repeat;
+    background: url(../images/main_page/main-page-1/bg_2.jpg) 50% 50% no-repeat;
     min-height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+  }
   // help getting
   &.page-banner_help-getting {
-    background: url( ../images/service/help-getting/bg.jpg ) 50% 50% no-repeat;
+    background: url(../images/service/help-getting/bg.jpg) 50% 50% no-repeat;
     min-height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+  }
   // cottage
   &.page-banner_cottage {
-    background: url( ../images/service/cottage/bg.jpg ) 50% 0% no-repeat;
+    background: url(../images/service/cottage/bg.jpg) 50% 0% no-repeat;
     min-height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+  }
   // office
   &.page-banner_office {
-    background: url( ../images/service/office/bg.jpg ) 50% 100% no-repeat;
+    background: url(../images/service/office/bg.jpg) 50% 100% no-repeat;
     min-height: 100vh;
-    background-size: cover; }
+    background-size: cover;
+  }
 
   // Main title H1
   .page-banner__title {
@@ -43,10 +48,13 @@
       background: $color_pr;
       position: absolute;
       bottom: 0px;
-      left: 0px; }
+      left: 0px;
+    }
     // mod
     &.page-banner__title_white {
-      color: $color_wt; } }
+      color: $color_wt;
+    }
+  }
 
   // SubTitle
   .page-banner__sub-title {
@@ -55,11 +63,14 @@
     margin-bottom: 45px;
     // mod
     &.page-banner__sub-title_theme-color-black {
-      color: $color_bk; } }
+      color: $color_bk;
+    }
+  }
 
-  .page-banner__logo-mobile { display: none; } }
-
-
+  .page-banner__logo-mobile {
+    display: none;
+  }
+}
 
 // lg 992-1200px
 @media #{$lg} {
@@ -71,9 +82,10 @@
   }
 
   // Cacl title
-  .calculator-wrapper .calc-title { font-size: 22px; }
+  .calculator-wrapper .calc-title {
+    font-size: 22px;
+  }
 }
-
 
 // lg 768-991px
 @media #{$md} {
@@ -81,65 +93,88 @@
   .page-banner {
     // Main title
     .page-banner__title {
-      margin-top: 0px; }
+      margin-top: 0px;
+    }
     // Calc wrapper
     .page-banner__sub-title {
       font-size: 14px;
-      margin-bottom: 75px; }
+      margin-bottom: 75px;
+    }
     // Logo img block
     .page-banner__logo-mobile {
-     display: block;
-     margin: 30px 0px;
-     img { max-width: 126px; } }
+      display: block;
+      margin: 30px 0px;
+      img {
+        max-width: 126px;
+      }
+    }
     // Section calc
     .calculator-wrapper {
       max-width: 675px;
-      padding: 40px 40px 25px 40px; } } }
+      padding: 40px 40px 25px 40px;
+    }
+  }
+}
 
 // sm 576-767px
 @media #{$sm} {
   // Logo img block
   .page-banner__logo-mobile {
-   display: block !important;
-   margin: 25px 0px 5px 0;
-   img { max-width: 126px; } }
+    display: block !important;
+    margin: 25px 0px 5px 0;
+    img {
+      max-width: 126px;
+    }
+  }
 
-   // Main title
+  // Main title
   .page-banner .page-banner__title {
     margin-top: 20px;
-    font-size: 30px; }
+    font-size: 30px;
+  }
 
   // Main sub-title
   .page-banner .page-banner__sub-title {
     font-size: 14px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+  }
 
   // Calculator wrapper
   .calculator-wrapper {
     max-width: 100%;
-    padding: 20px; } }
+    padding: 20px;
+  }
+}
 
 // xs max575px
 @media #{$xs} {
   // Logo img block
   .page-banner__logo-mobile {
-   display: block;
-   margin-top: 50px;
-   margin-bottom: -15px !important;
-   img { max-width: 100px; } }
+    display: block;
+    margin-top: 50px;
+    margin-bottom: -15px !important;
+    img {
+      max-width: 100px;
+    }
+  }
 
-   // Main title
+  // Main title
   .page-banner {
     // Title
     .page-banner__title {
       margin-top: 20px;
-      font-size: 20px; }
+      font-size: 20px;
+    }
     // Main sub-title
     .page-banner__sub-title {
       font-size: 12px;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px;
+    }
+  }
 
   // Paege banner background 2 theme's
   .page-banner.page-banner_main-page_2 {
-    background: url( ../images/main_page/main-page-1/bg_2_mobile.png ) 0% 0% no-repeat;
-    background-size: 100% auto; } }
+    background: url(../images/main_page/main-page-1/bg_2_mobile.png) 0% 0% no-repeat;
+    background-size: 100% auto;
+  }
+}

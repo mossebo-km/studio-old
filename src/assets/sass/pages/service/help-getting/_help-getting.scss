@@ -6,7 +6,9 @@
   .how-getting__sub-title {
     text-align: center;
     font-size: 22px;
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+  }
+}
 
 // Why help
 .why-help {
@@ -15,7 +17,9 @@
   .why-help__description {
     font-size: 22px;
     margin-bottom: 70px;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 // Indicators feauteres
 .indicators-feauteres {
@@ -25,7 +29,8 @@
   .indicators-feauteres__description {
     text-align: center;
     font-size: 22px;
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+  }
   // feauteres
   .indicators-feauteres__row {
     // grid
@@ -41,30 +46,40 @@
           font-size: 72px;
           position: absolute;
           left: -60px;
-          top: 0px; } } } }
+          top: 0px;
+        }
+      }
+    }
+  }
   // bottom block
   .indicators-feauteres__bottom-row {
     margin-bottom: 80px;
     align-items: center;
     // title
     .indicators-feauteres__bottom-row-title {
-      text-align: left; }
+      text-align: left;
+    }
     // description
     .indicators-feauteres__bottom-row-description {
-      font-size: 18px; }
+      font-size: 18px;
+    }
     // img
     .indicators-feauteres__bottom-row-img {
       display: inline-block;
       width: 100%;
       max-width: 100%;
-      height: auto; } } }
+      height: auto;
+    }
+  }
+}
 
 // Protect you
 .protect-you {
   margin-bottom: 80px;
   // title
   .protect-you__title {
-    margin-bottom: 45px; }
+    margin-bottom: 45px;
+  }
   // row
   .protect-you__row {
     align-items: center;
@@ -73,10 +88,15 @@
       display: block;
       width: 100%;
       max-width: 100%;
-      height: auto; }
+      height: auto;
+    }
     // text
     .protect-you__text {
-      font-size: 18px; } } }
+      font-size: 18px;
+    }
+  }
+}
 
 @media #{$xs} {
-  @import "media/xs"; }
+  @import "media/xs";
+}

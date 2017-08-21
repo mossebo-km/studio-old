@@ -5,7 +5,8 @@
   // Title
   .franchise-social-rating__title {
     text-align: center;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+  }
 
   // Img block
   .franchise-social-rating__rate {
@@ -13,7 +14,9 @@
     img {
       display: block;
       width: 100%;
-      height: auto; } }
+      height: auto;
+    }
+  }
 
   // Info block
   .franchise-social-rating__info {
@@ -24,11 +27,13 @@
     .franchise-social-rating__info-year {
       font-size: 28px;
       font-weight: $weigth_reg;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+    }
     // Description
     .franchise-social-rating__info-description {
       line-height: 1.2em;
-      color: $color_gr; }
+      color: $color_gr;
+    }
     // Before icon
     &::before {
       content: '';
@@ -38,12 +43,15 @@
       position: absolute;
       top: -60px;
       left: 15px;
-      background: url( ../images/franchise/franchise-social-rating/rate-icon.svg ) 50% 50% no-repeat;
+      background: url(../images/franchise/franchise-social-rating/rate-icon.svg) 50% 50% no-repeat;
       -webkit-background-size: contain;
       -moz-background-size: contain;
-      background-size: contain; } }
+      background-size: contain;
+    }
+  }
 
 }
 
 @media #{$xs} {
-  @import "media/xs.scss"; }
+  @import "media/xs.scss";
+}

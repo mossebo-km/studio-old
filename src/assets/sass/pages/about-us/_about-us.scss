@@ -4,8 +4,9 @@ div#abous-us-page {
   section {
     padding: 35px 0px;
     .section-title {
-      margin-bottom: 40px; } }
-
+      margin-bottom: 40px;
+    }
+  }
 
   // Section 1
   section#about-us-section-1 {
@@ -29,15 +30,23 @@ div#abous-us-page {
           transition: .3s ease;
           // Active dot
           &.active {
-            background: $color_pr; }
+            background: $color_pr;
+          }
           // Last child margin right remove
           &:last-child {
-            margin-right: 0px; } } } } }
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
 
   // Section 2
   section#about-us-section-2 {
     h2.section-title {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px;
+    }
+  }
 
   // Section 3
   section#about-us-section-3 {
@@ -47,9 +56,9 @@ div#abous-us-page {
 
     // Paver
     figure {
-      margin-bottom: 0px; }
+      margin-bottom: 0px;
+    }
   }
-
 
   // Section 5
   section#about-us-section-5 {
@@ -61,9 +70,9 @@ div#abous-us-page {
       background: $color_wt;
       color: $color_bk;
       text-transform: uppercase;
-      width: 160px; }
+      width: 160px;
+    }
   }
-
 
   // Section 6
   section#about-us-section-6 {
@@ -77,10 +86,15 @@ div#abous-us-page {
       img {
         display: block;
         height: 90px;
-        margin: 0px auto 30px auto; }
+        margin: 0px auto 30px auto;
+      }
       h3 {
         color: $color_bk;
-        white-space: nowrap; } }
+        white-space: nowrap;
+      }
+    }
   }
 
-} // About us END
+}
+
+// About us END

@@ -7,12 +7,20 @@
   // mod
   &.section-title_theme-1 {
     font-weight: $weigth_reg;
-    text-align: center; } }
+    text-align: center;
+  }
+}
 
 // sm 576-767px
 @media #{$sm} {
-	.section-title { font-size: 20px; } }
+  .section-title {
+    font-size: 20px;
+  }
+}
 
 // xs max575px
 @media #{$xs} {
-	.section-title { font-size: 24px; } }
+  .section-title {
+    font-size: 24px;
+  }
+}
