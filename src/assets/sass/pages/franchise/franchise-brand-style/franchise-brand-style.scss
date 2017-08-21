@@ -6,14 +6,16 @@
   // Title
   .franchise-brand-style__main-title {
     color: $color_wt;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
 
   // Description
   .franchise-brand-style__description {
     font-size: 20px;
     color: $color_wt;
     max-width: 560px;
-    margin: 0 auto 120px auto; }
+    margin: 0 auto 120px auto;
+  }
 
   // IMG
   .franchise-brand-style__img {
@@ -24,8 +26,13 @@
       width: 100%;
       height: auto;
       //mod
-      &.franchise-brand-style__img_mobile { display: none; } } }
+      &.franchise-brand-style__img_mobile {
+        display: none;
+      }
+    }
+  }
 }
 
 @media #{$xs} {
-  @import "media/xs.scss"; }
+  @import "media/xs.scss";
+}

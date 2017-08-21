@@ -12,8 +12,10 @@
 
     // MOD black and white
     &.youtube-player__img-preview_theme-bnw {
-        -moz-filter: saturate( 0% );
-        filter: saturate( 0% ); } }
+      -moz-filter: saturate(0%);
+      filter: saturate(0%);
+    }
+  }
 
   // Btn play
   .youtube-player__btn-play {
@@ -22,30 +24,37 @@
     left: 0px;
     height: 100%;
     width: 100%;
-    background: url( ../images/franchise/youtube-player/youtube-player__btn.svg ) 50% 50% no-repeat;
+    background: url(../images/franchise/youtube-player/youtube-player__btn.svg) 50% 50% no-repeat;
     background-size: 58px 58px;
-    opacity: .8; }
+    opacity: .8;
+  }
 
-    // Trasition
-    .youtube-player__img-preview, .youtube-player__btn-play {
-      transition: .3s ease; }
+  // Trasition
+  .youtube-player__img-preview, .youtube-player__btn-play {
+    transition: .3s ease;
+  }
 
-    // Hover effect
-    &:hover {
-      // Btn play
-      .youtube-player__btn-play {
-        opacity: 1; }
-      // MOD black and white
-      .youtube-player__img-preview {
-        -moz-filter: saturate( 100% );
-        filter: saturate( 100% ); }
-      // MOD light
-      .youtube-player__img-preview_theme-light {
-        filter: brightness(110%); } }
+  // Hover effect
+  &:hover {
+    // Btn play
+    .youtube-player__btn-play {
+      opacity: 1;
+    }
+    // MOD black and white
+    .youtube-player__img-preview {
+      -moz-filter: saturate(100%);
+      filter: saturate(100%);
+    }
+    // MOD light
+    .youtube-player__img-preview_theme-light {
+      filter: brightness(110%);
+    }
+  }
 
   &::before {
     content: '';
     padding-bottom: 56.25%;
     display: block;
-    width: 100%; }
+    width: 100%;
+  }
 }

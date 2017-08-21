@@ -4,7 +4,9 @@
   padding-bottom: 40px;
   // title
   .office-feauteres-grids__title {
-    margin-bottom: 55px; } }
+    margin-bottom: 55px;
+  }
+}
 
 // Work happy
 .office-work-happy {
@@ -12,22 +14,27 @@
   padding-bottom: 60px;
   // row
   .office-work-happy__row {
-    align-items: center; }
+    align-items: center;
+  }
   // img
   .office-work-happy__img {
     display: inline-block;
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+  }
   // title
   .office-work-happy__title {
     font-weight: $weigth_reg;
     font-size: 24px;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
   // description
   .office-work-happy__description {
-    max-width: 435px; } }
+    max-width: 435px;
+  }
+}
 
 // Office add feauteres
 .office-add-feauteres {
@@ -35,4 +42,6 @@
   padding-bottom: 40px;
   // title
   .office-add-feauteres__title {
-    margin-bottom: 80px; } }
+    margin-bottom: 80px;
+  }
+}

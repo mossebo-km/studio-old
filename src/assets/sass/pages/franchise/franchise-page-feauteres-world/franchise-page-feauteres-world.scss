@@ -11,12 +11,15 @@
       font-size: 20px;
       font-weight: $weigth_reg;
       color: $color_wt;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+    }
 
-      &:nth-child( 3 ) {
-        border-right: none; }
+    &:nth-child( 3 ) {
+      border-right: none;
+    }
   }
 }
 
 @media #{$xs} {
-  @import "media/xs.scss"; }
+  @import "media/xs.scss";
+}

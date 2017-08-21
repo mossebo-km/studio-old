@@ -3,42 +3,55 @@ section#main-page-social {
   padding: 50px 0px;
 
   // Link
-  a.link-arrow { margin-bottom: 25px; }
+  a.link-arrow {
+    margin-bottom: 25px;
+  }
 
   // IMG section
   img.inst-icon {
     position: relative;
-    top: -15px;  }
+    top: -15px;
+  }
 
   .inst-photo-row {
     margin-bottom: 25px;
 
     .main-page-social-item {
       padding: 5px;
-      height: 185px; }
+      height: 185px;
+    }
   }
 }
 
 @media #{$lg} {
-  section#main-page-social img.inst-icon { top: 30px; }
+  section#main-page-social img.inst-icon {
+    top: 30px;
+  }
 }
 
 @media #{$md} {
-  section#main-page-social img.inst-icon { top: 30px; }
+  section#main-page-social img.inst-icon {
+    top: 30px;
+  }
 }
 
 @media #{$sm} {
   section#main-page-social {
     padding: 20px 0px;
 
-    h2.section-title { margin-bottom: 0px; }
+    h2.section-title {
+      margin-bottom: 0px;
+    }
 
     img.inst-icon {
       top: 20px;
       width: 25px;
       height: 25px;
     }
-    a.link-arrow { margin-bottom: 10px; } }
+    a.link-arrow {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 // xs max575px
@@ -46,11 +59,17 @@ section#main-page-social {
   section#main-page-social {
     padding: 20px 0px;
 
-    h2.section-title { margin-bottom: 0px; }
+    h2.section-title {
+      margin-bottom: 0px;
+    }
 
     img.inst-icon {
       top: 20px;
       width: 25px;
-      height: 25px; }
-    a.link-arrow { margin-bottom: 10px; } }
+      height: 25px;
+    }
+    a.link-arrow {
+      margin-bottom: 10px;
+    }
+  }
 }

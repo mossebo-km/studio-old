@@ -5,7 +5,8 @@
 
   // Main title
   .franchise-superiority__main-title {
-    margin-bottom: 70px; }
+    margin-bottom: 70px;
+  }
 
   // Number one
   .franchise-superiority__numer-one {
@@ -22,13 +23,16 @@
         font-size: 25px;
         font-weight: $weigth_reg;
         color: $color_pr;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+      }
 
       // Number one description
       .franchise-superiority__numer-one-row-description {
         font-size: 17px;
         display: inline-block;
-        max-width: 300px; } }
+        max-width: 300px;
+      }
+    }
 
     // Img number one
     .franchise-superiority__number-one-img {
@@ -38,114 +42,135 @@
       img {
         display: block;
         width: 100%;
-        height: auto; } } }
-
-    // Start-price
-    .franchise-superiority__start-price {
-      position: relative;
-      padding-top: 100px;
-      margin-bottom: 100px;
-
-      .franchise-superiority__start-price-col {
-        margin-bottom: 130px;
-        // Title
-        .franchise-superiority__start-price-col-title {
-          font-size: 26px;
-          font-weight: $weigth_reg;
-          color: $color_pr;
-          margin-bottom: 15px; }
-        // Price
-        .franchise-superiority__start-price-col-price {
-          font-size: 50px;
-          white-space: nowrap;
-          margin-bottom: 5px;
-          // mod
-          .franchise-superiority__start-price-col-price_font-min {
-            font-size: 16px;
-            font-weight: $weigth_reg; } }
-          // Description
-          .franchise-superiority__start-price-col-description {
-            font-size: 16px;
-            max-width: 265px;
-            margin-right: auto; } }
-
-      &::before {
-        content: '';
-        display: block;
-        width: calc(100vw - 260px);
-        height: 100%;
-        background: $color_gr_light;
-        position: absolute;
-        top: 0px;
-        left: calc(50% + 130px);
-        right: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw;
-        z-index: -1; } }
-
-    // Business-start
-    .franchise-superiority__business-start {
-      .franchise-superiority__business-start-col {
-        margin-bottom: 60px;
-        min-width: 240px;
-
-        // Img
-        .franchise-superiority__business-start-col-img {
-          height: 55px;
-          padding-left: 30px;
-          margin-bottom: 20px;
-          img {
-            display: block;
-            width: auto;
-            height: 100%;
-            text-indent: -100000px; } }
-
-        // Title
-        .franchise-superiority__business-start-col-title {
-          font-size: 24px;
-          font-weight: $weigth_reg;
-          position: relative;
-          margin: 0px 0px 30px 30px;
-          // Counter
-          .franchise-superiority__business-start-col-title-counter {
-            font-size: 24px;
-            font-weight: $weigth_reg;
-            color: $color_pr;
-            display: inline-block;
-            position: absolute;
-            top: 0px;
-            left: -30px; } }
-
-        // ul
-        .franchise-superiority__business-start-col-list {
-          list-style: none;
-          padding: 0px;
-          margin: 0px;
-          li {
-            font-size: 16px;
-            position: relative;
-            margin: 0px 0px 10px 30px;
-            &::before {
-              content: '';
-              display: block;
-              width: 16px;
-              height: 2px;
-              position: absolute;
-              top: 7px;
-              left: -30px;
-              background: $color_pr; } } }
+        height: auto;
       }
     }
+  }
+
+  // Start-price
+  .franchise-superiority__start-price {
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 100px;
+
+    .franchise-superiority__start-price-col {
+      margin-bottom: 130px;
+      // Title
+      .franchise-superiority__start-price-col-title {
+        font-size: 26px;
+        font-weight: $weigth_reg;
+        color: $color_pr;
+        margin-bottom: 15px;
+      }
+      // Price
+      .franchise-superiority__start-price-col-price {
+        font-size: 50px;
+        white-space: nowrap;
+        margin-bottom: 5px;
+        // mod
+        .franchise-superiority__start-price-col-price_font-min {
+          font-size: 16px;
+          font-weight: $weigth_reg;
+        }
+      }
+      // Description
+      .franchise-superiority__start-price-col-description {
+        font-size: 16px;
+        max-width: 265px;
+        margin-right: auto;
+      }
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      width: calc(100vw - 260px);
+      height: 100%;
+      background: $color_gr_light;
+      position: absolute;
+      top: 0px;
+      left: calc(50% + 130px);
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      z-index: -1;
+    }
+  }
+
+  // Business-start
+  .franchise-superiority__business-start {
+    .franchise-superiority__business-start-col {
+      margin-bottom: 60px;
+      min-width: 240px;
+
+      // Img
+      .franchise-superiority__business-start-col-img {
+        height: 55px;
+        padding-left: 30px;
+        margin-bottom: 20px;
+        img {
+          display: block;
+          width: auto;
+          height: 100%;
+          text-indent: -100000px;
+        }
+      }
+
+      // Title
+      .franchise-superiority__business-start-col-title {
+        font-size: 24px;
+        font-weight: $weigth_reg;
+        position: relative;
+        margin: 0px 0px 30px 30px;
+        // Counter
+        .franchise-superiority__business-start-col-title-counter {
+          font-size: 24px;
+          font-weight: $weigth_reg;
+          color: $color_pr;
+          display: inline-block;
+          position: absolute;
+          top: 0px;
+          left: -30px;
+        }
+      }
+
+      // ul
+      .franchise-superiority__business-start-col-list {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        li {
+          font-size: 16px;
+          position: relative;
+          margin: 0px 0px 10px 30px;
+          &::before {
+            content: '';
+            display: block;
+            width: 16px;
+            height: 2px;
+            position: absolute;
+            top: 7px;
+            left: -30px;
+            background: $color_pr;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media #{$lg} {
-  @import "media/lg.scss"; }
+  @import "media/lg.scss";
+}
 
 @media #{$md} {
-  @import "media/md.scss"; }
+  @import "media/md.scss";
+}
 
 @media #{$sm} {
-  @import "media/sm.scss"; }
+  @import "media/sm.scss";
+}
 
 @media #{$xs} {
-  @import "media/xs.scss"; }
+  @import "media/xs.scss";
+}

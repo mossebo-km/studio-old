@@ -1,28 +1,32 @@
 .modal-tnx {
-	background: #fff;
-	text-align: center;
-	margin: 40px auto;
-	padding: 10px;
-	max-width: 700px;
-	position: relative;
+  background: #fff;
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px;
+  max-width: 700px;
+  position: relative;
 
-	// title
-	.modal-tnx__section-title {
-	  padding-top: 50px;
-	  color: $color_pr; }
+  // title
+  .modal-tnx__section-title {
+    padding-top: 50px;
+    color: $color_pr;
+  }
 
-	// description
-	.modal-tnx__description {
-	  margin-bottom: 34px;
-	  font-size: 18px; }
+  // description
+  .modal-tnx__description {
+    margin-bottom: 34px;
+    font-size: 18px;
+  }
 
-	// video
-	.modal-tnx__video {
-		margin-bottom: 30px; }
+  // video
+  .modal-tnx__video {
+    margin-bottom: 30px;
+  }
 
-	// link
-	.modal-tnx__policy-link {
-		display: block;
-		padding: 10px 0px; }
+  // link
+  .modal-tnx__policy-link {
+    display: block;
+    padding: 10px 0px;
+  }
 
 }

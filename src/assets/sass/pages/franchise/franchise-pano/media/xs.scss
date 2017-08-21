@@ -4,18 +4,21 @@
   // Title
   .franchise-pano__title {
     font-size: 20px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+  }
 
   // Description
   .franchise-pano__description {
     font-size: 14px;
     line-height: 18px;
-    margin: 0px auto 15px auto; }
+    margin: 0px auto 15px auto;
+  }
 
   // Pano
   .panorama {
     height: 200px;
     .panorama-view {
-      height: 200px; }
+      height: 200px;
+    }
   }
 }

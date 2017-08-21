@@ -2,7 +2,9 @@
 section#main-page-portfolio {
   padding-top: 50px;
   // padding-bottom: 85px;
-  a.link-arrow { margin-bottom: 20px; }
+  a.link-arrow {
+    margin-bottom: 20px;
+  }
 
   .portfolio-mobile-carousel {
     display: -webkit-box;
@@ -12,7 +14,8 @@ section#main-page-portfolio {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 100%; }
+    width: 100%;
+  }
 
 }
 
@@ -24,7 +27,8 @@ section#main-page-portfolio {
 
     .padding-50-sm-portfolio {
       padding-left: 50px;
-      padding-right: 50px; }
+      padding-right: 50px;
+    }
 
     .grid__effect-roxy_nav {
       .owl-prev, .owl-next {
@@ -40,21 +44,24 @@ section#main-page-portfolio {
         height: 60px;
         top: 50%;
         margin-top: -30px;
-        z-index: 1; }
+        z-index: 1;
+      }
 
       .owl-prev {
         left: 15px;
         background-image: url(../images/icon/back.svg);
         background-size: 20px 20px;
         background-repeat: no-repeat;
-        background-position: 50% 50%; }
+        background-position: 50% 50%;
+      }
 
       .owl-next {
         right: 15px;
         background-image: url(../images/icon/next.svg);
         background-size: 25px 25px;
         background-repeat: no-repeat;
-        background-position: 50% 50%; }
+        background-position: 50% 50%;
+      }
 
     }
 
@@ -69,7 +76,8 @@ section#main-page-portfolio {
 
     .padding-50-sm-portfolio {
       padding-left: 30px;
-      padding-right: 30px; }
+      padding-right: 30px;
+    }
 
     .grid__effect-roxy_nav {
       .owl-prev, .owl-next {
@@ -85,21 +93,24 @@ section#main-page-portfolio {
         height: 40px;
         top: 50%;
         margin-top: -20px;
-        z-index: 1; }
+        z-index: 1;
+      }
 
       .owl-prev {
         left: 10px;
         background-image: url(../images/icon/back.svg);
         background-size: 20px 20px;
         background-repeat: no-repeat;
-        background-position: 50% 50%; }
+        background-position: 50% 50%;
+      }
 
       .owl-next {
         right: 10px;
         background-image: url(../images/icon/next.svg);
         background-size: 25px 25px;
         background-repeat: no-repeat;
-        background-position: 50% 50%; }
+        background-position: 50% 50%;
+      }
 
     }
 

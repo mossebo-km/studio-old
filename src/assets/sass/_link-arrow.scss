@@ -5,39 +5,49 @@ a.link-arrow {
   font-size: 12px;
   // white-space: nowrap;
   font-weight: $weigth_reg;
-	text-transform: uppercase;
-	text-decoration: none !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
   &.left-side {
     margin-left: 30px;
     margin-right: 0px;
     &::before {
       left: -30px;
-      transform: rotate( 180deg );
+      transform: rotate(180deg);
     }
-  } // Arrow on left side
+  }
+  // Arrow on left side
   &::before {
     content: '';
     display: inline-block;
-		width: 16px;
-		height: 16px;
+    width: 16px;
+    height: 16px;
     position: absolute;
     right: -30px;
     top: 50%;
     margin-top: -9px;
     background: url(../images/icon/right-arrow.svg) 50% 50% no-repeat;
-    background-size: contain; }
-    // mod
-    &.link-arrow_white {
-      color: $color_wt;
-      &::before {
-        filter: brightness(0%) invert(100%); } } }
+    background-size: contain;
+  }
+  // mod
+  &.link-arrow_white {
+    color: $color_wt;
+    &::before {
+      filter: brightness(0%) invert(100%);
+    }
+  }
+}
 
 // sm 576-767px
 @media #{$sm} {
-	a.link-arrow { font-size: 11px; } }
-
+  a.link-arrow {
+    font-size: 11px;
+  }
+}
 
 // xs max575px
 @media #{$xs} {
-	// ArrowLink
-	a.link-arrow { font-size: 10px; } }
+  // ArrowLink
+  a.link-arrow {
+    font-size: 10px;
+  }
+}

@@ -14,7 +14,8 @@
     .feddback-form__title-sub {
       font-weight: $weigt_light;
       font-size: 16px;
-      padding: 5px 0px; }
+      padding: 5px 0px;
+    }
     &::before {
       content: '';
       display: inline-block;
@@ -24,7 +25,9 @@
       background-size: 46px 50px;
       position: absolute;
       top: calc(50% - 25px);
-      left: -70px; } }
+      left: -70px;
+    }
+  }
 
   // Input inner
   .feedback-form__input-inner {
@@ -41,7 +44,9 @@
         max-width: 100%;
         text-align: left;
         height: auto;
-        line-height: 1; } }
+        line-height: 1;
+      }
+    }
     // Input
     .feedback-form__input {
       font-size: 14px;
@@ -58,11 +63,20 @@
       padding: 15px;
       transition: .6s;
       &:focus {
-        border: 1px solid $color_pr; }
-      &::-webkit-input-placeholder { color: $color_gr; }
-      &::-moz-placeholder          { color: $color_gr; }
-      &:-moz-placeholder           { color: $color_gr; }
-      &:-ms-input-placeholder      { color: $color_gr; }
+        border: 1px solid $color_pr;
+      }
+      &::-webkit-input-placeholder {
+        color: $color_gr;
+      }
+      &::-moz-placeholder {
+        color: $color_gr;
+      }
+      &:-moz-placeholder {
+        color: $color_gr;
+      }
+      &:-ms-input-placeholder {
+        color: $color_gr;
+      }
       //mod
       &.feedback-form__input_textarea {
         width: 100%;
@@ -70,21 +84,27 @@
         resize: none;
         height: 100px;
         padding: 15px;
-        text-align: left; } }
+        text-align: left;
+      }
+    }
     &::after {
       content: '';
       display: table;
-      clear: both; }
+      clear: both;
+    }
     // Mod's
     &.feedback-form__input-inner-margin-bottom-big {
-      margin-bottom: 35px; } }
+      margin-bottom: 35px;
+    }
+  }
 
   // Text description
   .feedback-form__text-description {
     font-size: 12px;
     color: $color_gr;
     margin-bottom: 20px;
-    margin-top: -15px; }
+    margin-top: -15px;
+  }
 
   // Btn submit
   .feedback-form__btn-submit {
@@ -102,7 +122,8 @@
       height: 20px;
       position: absolute;
       top: calc(50% - 10px);
-      left: calc(50% - 10px); }
+      left: calc(50% - 10px);
+    }
 
     // btn load mod
     &.feedback-form__btn-submit_load {
@@ -111,21 +132,23 @@
       transform: translateY(0px) !important;
       -webkit-box-shadow: 0px 4px 0px 0px #ff9b00 !important;
       -moz-box-shadow: 0px 4px 0px 0px #ff9b00 !important;
-      box-shadow: 0px 6px 0px 0px #ff9b00 !important; }
+      box-shadow: 0px 6px 0px 0px #ff9b00 !important;
+    }
   }
 }
-
 
 // Modal feedback
 .feedback-form-modal {
   position: relative;
   max-width: 580px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 // Modal thank page
 .feedback-form-modal-thank-page {
   .feedback-form-modal-thank-page__btn {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+  }
 }
 
 @media #{$xs} {
@@ -134,10 +157,15 @@
     padding: 25px;
     // title
     .feedback-form__title {
-      font-size: 18px; }
+      font-size: 18px;
+    }
     // subtitle
     .feedback-form__subtitle {
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+    }
     // label
     .feedback-form__label {
-      display: none !important; } } }
+      display: none !important;
+    }
+  }
+}

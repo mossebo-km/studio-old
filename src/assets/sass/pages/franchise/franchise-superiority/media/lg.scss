@@ -10,10 +10,14 @@
       // Number one tilte
       .franchise-superiority__numer-one-row-title {
         font-size: 20px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+      }
       // Number one description
       .franchise-superiority__numer-one-row-description {
-        font-size: 14px; } } }
+        font-size: 14px;
+      }
+    }
+  }
 
   // Start-price
   .franchise-superiority__start-price {
@@ -21,31 +25,44 @@
       // Title
       .franchise-superiority__start-price-col-title {
         font-size: 20px;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+      }
       // Price
       .franchise-superiority__start-price-col-price {
         font-size: 35px;
-        margin-bottom: 5px; }
-        // Description
+        margin-bottom: 5px;
+      }
+      // Description
       .franchise-superiority__start-price-col-description {
-        font-size: 14px; } } }
+        font-size: 14px;
+      }
+    }
+  }
 
   // Business-start
   .franchise-superiority__business-start {
     .franchise-superiority__business-start-col {
       // Img
       .franchise-superiority__business-start-col-img {
-        img {  } }
+        img {
+        }
+      }
       // Title
       .franchise-superiority__business-start-col-title {
         font-size: 20px;
         margin: 0px 0px 15px 30px;
         min-height: 40px;
         .franchise-superiority__business-start-col-title-counter {
-          font-size: 20px; } }
+          font-size: 20px;
+        }
+      }
       // ul
       .franchise-superiority__business-start-col-list {
         li {
-          font-size: 14px; } } } }
+          font-size: 14px;
+        }
+      }
+    }
+  }
 
 }

@@ -1,33 +1,39 @@
 // Background size mixin
 @mixin background-size( $size ) {
-  background-size: $size; }
+  background-size: $size;
+}
 
 // Transition time mixin
 @mixin trs( $time ) {
-  transition: $time ease; }
+  transition: $time ease;
+}
 
 // Set display flex
 @mixin display-flex() {
-display: flex;
-flex-wrap: wrap; }
+  display: flex;
+  flex-wrap: wrap;
+}
 
 // li dot
 @mixin list-pr( $font-size: 16px, $color: $color_gr ) {
-		list-style: none;
-		padding: 0px;
-		margin: 0px;
-		li {
-			font-size: $font-size;
-			color: $color;
-			position: relative;
-			margin: 0px 0px 10px 30px;
-			&::before {
-				content: '';
-				display: inline-block;
-				width: 14px;
-				height: 14px;
-				border: 4px solid $color_pr;
-				border-radius: 7px;
-				position: absolute;
-				top: 0px;
-				left: -30px; } } }
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  li {
+    font-size: $font-size;
+    color: $color;
+    position: relative;
+    margin: 0px 0px 10px 30px;
+    &::before {
+      content: '';
+      display: inline-block;
+      width: 14px;
+      height: 14px;
+      border: 4px solid $color_pr;
+      border-radius: 7px;
+      position: absolute;
+      top: 0px;
+      left: -30px;
+    }
+  }
+}

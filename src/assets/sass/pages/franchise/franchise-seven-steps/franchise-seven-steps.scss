@@ -1,5 +1,5 @@
 .franchise-seven-steps {
-  background: url( ../images/franchise/franchise-seven-steps/franchise-seven-steps.jpg ) 50% 50% no-repeat;
+  background: url(../images/franchise/franchise-seven-steps/franchise-seven-steps.jpg) 50% 50% no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -9,7 +9,8 @@
   // Title
   .franchise-seven-steps__title {
     text-align: center;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+  }
 
   // Step's
   .franchise-seven-steps__step {
@@ -29,12 +30,16 @@
         position: absolute;
         top: 70%;
         left: -60px;
-        margin-top: -35px; } } }
+        margin-top: -35px;
+      }
+    }
+  }
 
   // Feedback form
   .franchise-seven-steps__feedback-form {
     max-width: 450px;
-    margin: 0 auto; }
+    margin: 0 auto;
+  }
 
   //mod
   .franchise-seven-steps__row {
@@ -44,4 +49,5 @@
 }
 
 @media #{$lg} {
-  @import "media/lg.scss"; }
+  @import "media/lg.scss";
+}

@@ -5,45 +5,45 @@
 ////////////////////////
 
 // overlay
-$mfp-overlay-color:                   rgba(0, 0, 0, 0.6);                    // Color of overlay screen
-$mfp-overlay-opacity:                 1;                        // Opacity of overlay screen
-$mfp-shadow:                          none; // Shadow on image or iframe
+$mfp-overlay-color: rgba(0, 0, 0, 0.6); // Color of overlay screen
+$mfp-overlay-opacity: 1; // Opacity of overlay screen
+$mfp-shadow: none; // Shadow on image or iframe
 
 // spacing
-$mfp-popup-padding-left:              8px;                        // Padding from left and from right side
-$mfp-popup-padding-left-mobile:       6px;                        // Same as above, but is applied when width of window is less than 800px
+$mfp-popup-padding-left: 8px; // Padding from left and from right side
+$mfp-popup-padding-left-mobile: 6px; // Same as above, but is applied when width of window is less than 800px
 
-$mfp-z-index-base:                    1040;                       // Base z-index of popup
+$mfp-z-index-base: 1040; // Base z-index of popup
 
 // controls
-$mfp-include-arrows:                  true;                       // Include styles for nav arrows
-$mfp-controls-opacity:                0.65;                       // Opacity of controls
-$mfp-controls-color:                  $color_pr;                       // Color of controls
-$mfp-controls-border-color:           none; 	                 // Border color of controls
-$mfp-inner-close-icon-color:          $color_bk;                       // Color of close button when inside
-$mfp-controls-text-color:             $color_bk;                   // Color of preloader and "1 of X" indicator
-$mfp-controls-text-color-hover:       #FFF;                       // Hover color of preloader and "1 of X" indicator
+$mfp-include-arrows: true; // Include styles for nav arrows
+$mfp-controls-opacity: 0.65; // Opacity of controls
+$mfp-controls-color: $color_pr; // Color of controls
+$mfp-controls-border-color: none; // Border color of controls
+$mfp-inner-close-icon-color: $color_bk; // Color of close button when inside
+$mfp-controls-text-color: $color_bk; // Color of preloader and "1 of X" indicator
+$mfp-controls-text-color-hover: #FFF; // Hover color of preloader and "1 of X" indicator
 
 // Iframe-type options
-$mfp-include-iframe-type:             true;                       // Enable Iframe-type popups
-$mfp-iframe-padding-top:              40px;                       // Iframe padding top
-$mfp-iframe-background:               #000;                       // Background color of iframes
-$mfp-iframe-max-width:                900px;                      // Maximum width of iframes
-$mfp-iframe-ratio:                    9/16;                       // Ratio of iframe (9/16 = widescreen, 3/4 = standard, etc.)
+$mfp-include-iframe-type: true; // Enable Iframe-type popups
+$mfp-iframe-padding-top: 40px; // Iframe padding top
+$mfp-iframe-background: #000; // Background color of iframes
+$mfp-iframe-max-width: 900px; // Maximum width of iframes
+$mfp-iframe-ratio: 9/16; // Ratio of iframe (9/16 = widescreen, 3/4 = standard, etc.)
 
 // Image-type options
-$mfp-include-image-type:              true;                       // Enable Image-type popups
-$mfp-image-background:                #444;
-$mfp-image-padding-top:               40px;                       // Image padding top
-$mfp-image-padding-bottom:            40px;                       // Image padding bottom
-$mfp-include-mobile-layout-for-image: true;                       // Removes paddings from top and bottom
+$mfp-include-image-type: true; // Enable Image-type popups
+$mfp-image-background: #444;
+$mfp-image-padding-top: 40px; // Image padding top
+$mfp-image-padding-bottom: 40px; // Image padding bottom
+$mfp-include-mobile-layout-for-image: true; // Removes paddings from top and bottom
 
 // Image caption options
-$mfp-caption-title-color:             #F3F3F3;                    // Caption title color
-$mfp-caption-subtitle-color:          #BDBDBD;                    // Caption subtitle color
+$mfp-caption-title-color: #F3F3F3; // Caption title color
+$mfp-caption-subtitle-color: #BDBDBD; // Caption subtitle color
 
 // A11y
-$mfp-use-visuallyhidden: false;                      // Hide content from browsers, but make it available for screen readers
+$mfp-use-visuallyhidden: false; // Hide content from browsers, but make it available for screen readers
 
 ////////////////////////
 //
@@ -66,8 +66,6 @@ $mfp-use-visuallyhidden: false;                      // Hide content from browse
 //    - IE7 support
 //
 ////////////////////////
-
-
 
 ////////////////////////
 // 1. General styles
@@ -139,6 +137,7 @@ $mfp-use-visuallyhidden: false;                      // Hide content from browse
   text-align: left;
   z-index: $mfp-z-index-base + 5;
 }
+
 .mfp-inline-holder,
 .mfp-ajax-holder {
   .mfp-content {
@@ -151,6 +150,7 @@ $mfp-use-visuallyhidden: false;                      // Hide content from browse
 .mfp-ajax-cur {
   cursor: progress;
 }
+
 // .mfp-zoom-out-cur {
 //   &, .mfp-image-holder .mfp-close {
 //     cursor: -moz-zoom-out;
@@ -174,7 +174,7 @@ $mfp-use-visuallyhidden: false;                      // Hide content from browse
 .mfp-arrow,
 .mfp-preloader,
 .mfp-counter {
-  -webkit-user-select:none;
+  -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
 }
@@ -204,7 +204,6 @@ $mfp-use-visuallyhidden: false;                      // Hide content from browse
     display: none !important;
   }
 }
-
 
 ////////////////////////
 // 2. Appearance
@@ -259,11 +258,10 @@ button {
     touch-action: manipulation;
   }
   &::-moz-focus-inner {
-      padding: 0;
-      border: 0
+    padding: 0;
+    border: 0
   }
 }
-
 
 // Close icon
 .mfp-close {
@@ -305,10 +303,11 @@ button {
     left: 50%;
     margin-top: -15px;
     margin-left: -15px;
-    background: url( ../images/icon/close-circular-button-of-a-cross.svg ) 50% 50% no-repeat;
+    background: url(../images/icon/close-circular-button-of-a-cross.svg) 50% 50% no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
-    background-size: contain; }
+    background-size: contain;
+  }
 }
 
 .mfp-close-btn-in {
@@ -316,6 +315,7 @@ button {
     color: $mfp-inner-close-icon-color;
   }
 }
+
 .mfp-image-holder,
 .mfp-iframe-holder {
   .mfp-close {
@@ -357,7 +357,8 @@ button {
     transition: .3s ease;
 
     &:hover {
-      opacity: 1; }
+      opacity: 1;
+    }
   }
 
   .mfp-arrow-left {
@@ -372,10 +373,12 @@ button {
       left: 50%;
       margin-top: -12.5px;
       margin-left: -12.5px;
-      background: url( ../images/icon/back.svg ) 50% 50% no-repeat;
+      background: url(../images/icon/back.svg) 50% 50% no-repeat;
       -webkit-background-size: contain;
       -moz-background-size: contain;
-      background-size: contain; } }
+      background-size: contain;
+    }
+  }
 
   .mfp-arrow-right {
     right: 70px;
@@ -389,13 +392,13 @@ button {
       left: 50%;
       margin-top: -12.5px;
       margin-left: -12.5px;
-      background: url( ../images/icon/next.svg ) 50% 50% no-repeat;
+      background: url(../images/icon/next.svg) 50% 50% no-repeat;
       -webkit-background-size: contain;
       -moz-background-size: contain;
-      background-size: contain; } }
+      background-size: contain;
+    }
+  }
 }
-
-
 
 // Iframe content type
 @if $mfp-include-iframe-type {
@@ -428,8 +431,6 @@ button {
     }
   }
 }
-
-
 
 // Image content type
 @if $mfp-include-image-type {
@@ -505,9 +506,8 @@ button {
     }
   }
 
-
   @if $mfp-include-mobile-layout-for-image {
-    @media screen and (max-width: 800px) and (orientation:landscape), screen and (max-height: 300px) {
+    @media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
       /**
        * Remove all paddings around the image on small screen
        */
@@ -533,7 +533,7 @@ button {
           }
         }
         .mfp-bottom-bar {
-          background: rgba(0,0,0,0.6);
+          background: rgba(0, 0, 0, 0.6);
           bottom: 0;
           margin: 0;
           top: auto;
@@ -542,11 +542,13 @@ button {
           box-sizing: border-box;
           &:empty {
             padding: 0;
-          } }
+          }
+        }
 
         .mfp-counter {
           right: 5px;
-          top: 3px; }
+          top: 3px;
+        }
 
         .mfp-close {
           top: 0;
@@ -556,13 +558,12 @@ button {
           line-height: 35px;
           position: fixed;
           text-align: center;
-          padding: 0; }
+          padding: 0;
+        }
       }
     }
   }
 }
-
-
 
 // Scale navigation arrows and reduce padding from sides
 @media all and (max-width: 900px) {
@@ -589,12 +590,12 @@ button {
 /* Custom style's */
 /* -------------------------------------------------------------------------- */
 .white-popup-block {
-    background: #FFF;
-    // padding: 15px 30px;
-    text-align: center;
-    max-width: 700px;
-    margin: 40px auto;
-    position: relative;
+  background: #FFF;
+  // padding: 15px 30px;
+  text-align: center;
+  max-width: 700px;
+  margin: 40px auto;
+  position: relative;
 }
 
 .mfp-container,
@@ -609,10 +610,11 @@ button {
 }
 
 .mfp-ready .mfp-container {
-    opacity: 1;
+  opacity: 1;
 }
+
 .mfp-ready.mfp-bg {
-    opacity: 1;
+  opacity: 1;
 }
 
 .mfp-removing .mfp-container,
@@ -621,5 +623,5 @@ button {
 }
 
 .mfp-bg {
-  background-color: rgba( 0, 0, 0, .5 );
+  background-color: rgba(0, 0, 0, .5);
 }
