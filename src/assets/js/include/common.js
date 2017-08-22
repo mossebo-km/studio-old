@@ -131,6 +131,7 @@ function validateEmail(email) {
         resultLog = pattern.test(email);
     return resultLog;
 }
+window.validateEmail = validateEmail;
 
 /* -----------------------------------------*/
 
@@ -151,6 +152,7 @@ jQuery(function (jQuery) {
 function resizeContent(selectorEl, rate) {
     jQuery(selectorEl).height(( jQuery(selectorEl).width() * rate ));
 }
+window.resizeContent = resizeContent;
 
 /* -----------------------------------------*/
 
@@ -278,6 +280,7 @@ function hideOverlay() {
 /* -----------------------------------------*/
 // Footer address responsive
 jQuery(function (jQuery) {
+
     var myDiv2Para;
 
     if (jQuery(window).width() <= 767 && jQuery('.footer-col-contacts').children('.footer-col-contact__wrapper').length !== 0) {
@@ -372,6 +375,7 @@ function initWidgets() {
         document.querySelector('.fcbook-iframe').appendChild(iframeFB);
     }
 }
+window.initWidgets = initWidgets;
 
 /* -----------------------------------------*/
 
@@ -379,21 +383,21 @@ function initWidgets() {
 /* -----------------------------------------*/
 
 // Show modal Thank you page
-function thnModal() {
-    jQuery.magnificPopup.open({
-        items: {
-            src: '.modal-tnx'
-        },
-        removalDelay: 300,
-        // Callbacck функция, инициализация пикселей
-        callbacks: {
-            open: function () {
-                initWidgets();
+    function thnModal() {
+        jQuery.magnificPopup.open({
+            items: {
+                src: '.modal-tnx'
+            },
+            removalDelay: 300,
+            // Callbacck функция, инициализация пикселей
+            callbacks: {
+                open: function () {
+                    initWidgets();
+                }
             }
-        }
-    });
-}
-
+        });
+    }
+    window.thnModal = thnModal;
 /* -----------------------------------------*/
 
 
@@ -420,6 +424,7 @@ function getCookie(name) {
     ))
     return matches ? decodeURIComponent(matches[1]) : undefined
 }
+window.getCookie = getCookie;
 
 /* -----------------------------------------*/
 

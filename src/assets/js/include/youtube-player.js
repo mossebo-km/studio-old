@@ -34,6 +34,7 @@ function playerInit(elem) {
         });
     });
 }
+window.playerInit = playerInit;
 
 // Инициализируем плееры
 jQuery('.youtube-player').each(function () {

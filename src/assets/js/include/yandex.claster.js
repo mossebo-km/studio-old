@@ -18,7 +18,7 @@ jQuery(function (jQuery) {
                     hintContent: jQuery('#map-main-page').attr('data-geo-city')
                 }, {
                     iconLayout: 'default#image',
-                    iconImageHref: '/wp-content/themes/mossebo/dir/img/icon/map-pin-silhouette.png',
+                    iconImageHref: '/wp-content/themes/mossebo/assets/images/icon/map-pin-silhouette.png',
                     iconImageSize: [30, 42],
                     iconImageOffset: [-5, -38]
                 });
@@ -95,7 +95,7 @@ jQuery(function (jQuery) {
                 getPointOptions = function () {
                     return {
                         iconLayout: 'default#image',
-                        iconImageHref: '/wp-content/themes/mossebo/dir/img/icon/map-pin-silhouette.png',
+                        iconImageHref: '/wp-content/themes/mossebo/assets/images/icon/map-pin-silhouette.png',
                         iconImageSize: [30, 42]
                     };
                 },

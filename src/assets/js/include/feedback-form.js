@@ -3,8 +3,14 @@ jQuery(function (jQuery) {
         thisElem, // This elem
         thankModal,
         yaReachCol,
-        formId,
-        facebookEvent; // Modal window
+        formId;
+
+    // Facebook
+    function facebookEvent() {
+        var cookieUTM = getCookie('utm_source');
+        if (cookieUTM === 'facebook' || cookieUTM === 'instagram') fbq('trackCustom', 'LeadFormFranchise');
+    };
+    window.facebookEvent = facebookEvent;
 
     jQuery('.feedback-form').on('submit', function (event) {
         event.preventDefault();
@@ -19,12 +25,8 @@ jQuery(function (jQuery) {
                     yaReachCol = function () {
                         yaCounter42716444.reachGoal('franchise__feedback-form');
                     };
+                    facebookEvent();
                     formId = 1;
-                    // Facebook
-                    facebookEvent = function () {
-                        var cookieUTM = getCookie('utm_source');
-                        if (cookieUTM === 'facebook' || cookieUTM === 'instagram') fbq('trackCustom', 'LeadFormFranchise');
-                    };
                     break;
 
                 case 2:
