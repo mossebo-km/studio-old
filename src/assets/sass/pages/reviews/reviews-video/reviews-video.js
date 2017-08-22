@@ -22,8 +22,8 @@ jQuery(function (jQuery) {
         nav: true,
         navContainer: '.reviews-video__owl-arrow',
         navText: [
-            '<img src="/wp-content/themes/mossebo/../images/icon/back.svg" />', // prev
-            '<img src="/wp-content/themes/mossebo/../images/icon/next.svg" />' // next
+            '<img src="/wp-content/themes/mossebo/assets/images/icon/back.svg" />', // prev
+            '<img src="/wp-content/themes/mossebo/assets/images/icon/next.svg" />' // next
         ],
         // callback's
         onTranslated: function (event) {

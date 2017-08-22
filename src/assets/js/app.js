@@ -9,6 +9,8 @@
 //
 
 import $ from 'jquery';
+// import 'jquery-migrate';
+// import 'jquery.maskedinput';
 import 'magnific-popup/dist/jquery.magnific-popup';
 import 'owl.carousel/dist/owl.carousel';
 
@@ -26,3 +28,7 @@ import './include/youtube-player'
 import './include/jquery.panorama360';
 import './include/back-top'
 
+import '../sass/pages/reviews/reviews-video/reviews-video'
+import '../sass/pages/franchise/franchise-page-map/franchise-page-map'
+import '../sass/pages/franchise/franchise-social/franchise-social'
+import '../sass/pages/franchise/video-carousel/video-carousel'

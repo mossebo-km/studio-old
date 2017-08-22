@@ -36,9 +36,7 @@ function playerInit(elem) {
 }
 
 // Инициализируем плееры
-jQuery(function (jQuery) {
-    jQuery('.youtube-player').each(function () {
-        var self = this;
-        playerInit(self);
-    });
+jQuery('.youtube-player').each(function () {
+    var self = this;
+    playerInit(self);
 });

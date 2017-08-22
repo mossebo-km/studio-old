@@ -6,15 +6,10 @@ jQuery(function (jQuery) {
         loop: true,
         margin: 15,
         items: 1,
-        nav: true, 1
-        navContainer
-:
-    '.video-carousel__nav',
-        onTranslate
-:
-    carouselPagination
-})
-    ;
+        nav: true,
+        navContainer: '.video-carousel__nav',
+        onTranslate: carouselPagination
+    });
 
     function carouselPagination(event) {
         var carouselPageIndex = ( event.page.index + 1 ),

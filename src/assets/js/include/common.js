@@ -64,10 +64,10 @@ jQuery(function (jQuery) {
 
 /* -----------------------------------------*/
 // Маска на телефон.
-jQuery(function (jQuery) {
-    jQuery.mask.definitions['~'] = '[+-]';
-    jQuery('.phone-mask').mask('+7 (999)999-99-99');
-});
+//jQuery(function (jQuery) {
+//    jQuery.mask.definitions['~'] = '[+-]';
+//    jQuery('.phone-mask').mask('+7 (999)999-99-99');
+//});
 /* -----------------------------------------*/
 
 
@@ -399,9 +399,14 @@ function thnModal() {
 
 /* -----------------------------------------*/
 // Sub menu
-jQuery('.menu-item-has-children > a').on('click', function (event) {
-    event.preventDefault();
-    jQuery(this).parent().toggleClass('current-menu-ancestor');
+
+jQuery(function (jQuery) {
+
+    jQuery('.menu-item-has-children > a').on('click', function (event) {
+        event.preventDefault();
+        jQuery(this).parent().toggleClass('current-menu-ancestor');
+    });
+
 });
 /* -----------------------------------------*/
 

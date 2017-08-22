@@ -1,4 +1,4 @@
-document.querySelector('.back-top').style.display = 'none';
+// document.querySelector('.back-top').style.display = 'none';
 
 jQuery(function (jQuery) {
 

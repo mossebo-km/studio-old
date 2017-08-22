@@ -15,7 +15,7 @@ get_header();
     <div class="panorama vacancies__panorama">
       <div class="panorama-view">
         <div class="panorama-container" style="margin-left: 0px; width: 3770px; height: 400px;">
-          <img src="<?php echo get_template_directory_uri(); ?>/dir/img/vacancies/vacancies-panorama/panorama.jpg" data-width="1885" data-height="400" alt="Наши офисы" style="left: 0px;">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vacancies/vacancies-panorama/panorama.jpg" data-width="1885" data-height="400" alt="Наши офисы" style="left: 0px;">
         </div>
       </div>
     </div>

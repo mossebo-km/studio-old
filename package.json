@@ -17,6 +17,8 @@
   "dependencies": {
     "cross-env": "^5.0.5",
     "jquery": "^3.2.1",
+    "jquery-migrate": "^3.0.0",
+    "jquery.maskedinput": "^1.4.1",
     "laravel-mix": "^1.4.2",
     "magnific-popup": "^1.1.0",
     "normalize.css": "^7.0.0",

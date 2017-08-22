@@ -15,7 +15,7 @@ get_header();
 <div class="reviews-about container">
 	<div class="reviews-about__row_align-center row">
 		<div class="reviews-about__col col-md-4 offset-md-1">
-			<img src="<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews-about__img.svg" alt="Отзывы Mossebo" class="reviews-about__img">
+			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews-about__img.svg" alt="Отзывы Mossebo" class="reviews-about__img">
 		</div>
 		<div class="reviews-about__col col-md-7">
 			<div class="reviews-about__title">Реальные отзывы о Mossebo: дизайн и ремонт, который мы сделали</div>
@@ -89,36 +89,36 @@ if ($rows):
 	<!-- Grid's -->
 	<div class="row">
 		<div class="reviews__service-item col-xl-4 col-12">
-			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/1.jpg);">
+			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/1.jpg);">
 				<div class="reviews__service-inner">
 					<div class="reviews__service-link-arrow">
 						<a href="/dizayn-i-remont-kottedzhey/" class="link-arrow link-arrow_white">подробнее</a>
 					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/icons/cottage_renovation.svg" alt="" class="reviews__service-img">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/icons/cottage_renovation.svg" alt="" class="reviews__service-img">
 					<div class="reviews__service-title">Ремонт коттеджей</div>
 					<div class="reviews__service-text">Создаем интерьеры загородных домов в Санкт-Петербурге и Ленинградской области</div>
 				</div>
 			</div>
 		</div>
 		<div class="reviews__service-item col-xl-4 col-12">
-			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/2.jpg);">
+			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/2.jpg);">
 				<div class="reviews__service-inner">
 					<div class="reviews__service-link-arrow">
 						<a href="/remont-ofisov/" class="link-arrow link-arrow_white">подробнее</a>
 					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/icons/office_renovation.svg" alt="" class="reviews__service-img">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/icons/office_renovation.svg" alt="" class="reviews__service-img">
 					<div class="reviews__service-title">Ремонт офисов</div>
 					<div class="reviews__service-text">Создаем интерьеры для офисов, магазинов, банков, гостиниц, салонов красоты и других видов бизнеса</div>
 				</div>
 			</div>
 		</div>
 		<div class="reviews__service-item col-xl-4 col-12">
-			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/4.jpg);">
+			<div class="reviews__service-col" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/4.jpg);">
 				<div class="reviews__service-inner">
 					<div class="reviews__service-link-arrow">
 						<a href="/pomoshh-v-priemke-kvartiryi-u-zastroyshhika/" class="link-arrow link-arrow_white">подробнее</a>
 					</div>
-					<img src="<?php echo get_template_directory_uri(); ?>/dir/img/page-reviews/reviews__service/icons/help_getting.svg" alt="" class="reviews__service-img">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/page-reviews/reviews__service/icons/help_getting.svg" alt="" class="reviews__service-img">
 					<div class="reviews__service-title">Приемка квартиры</div>
 					<div class="reviews__service-text">Сохрани от 70 000 до 300 000 рублей на новую машину, будущий ремонт или долгожданный отпуск</div>
 				</div>

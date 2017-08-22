@@ -1,21 +1,31 @@
 <?php
+
+
+define('SITE_TITLE', get_bloginfo('name'));
+define('SITE_DESCRIPTION', get_bloginfo('description'));
+define('SITE_CHARSET', get_bloginfo('charset'));
+define('SITE_URL', get_bloginfo('url'));
+define('THEME_DIR', get_template_directory_uri());
+
+if ($_SERVER["SCRIPT_NAME"] == THEME_DIR . "functions.php") {
+    die();
+}
+
   // *----------------------------------------------------------------------- */
   // Подключаем стили и скрипты
-  function enqueue_styles() {
-  	wp_enqueue_style( 'style-main', get_stylesheet_uri() );
-  }
-  add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
-
-  function enqueue_scripts () {
-  	wp_enqueue_script( 'lib-jquery', get_template_directory_uri() . '/dir/js/lib/jquery.min.js', array(), false, true );
-  	wp_enqueue_script( 'lib-owl', get_template_directory_uri() . '/dir/js/lib/owl.carousel.min.js', array(), false, true );
-  	wp_enqueue_script( 'lib-mask', get_template_directory_uri() . '/dir/js/lib/jquery.maskedinput-1.2.2.js', array(), false, true );
-    wp_enqueue_script( 'jquery-magnific-popup-script', get_template_directory_uri() . '/dir/js/lib/jquery.magnific-popup.min.js', array(), false, true );
-    wp_enqueue_script( 'ya-share', 'https://yastatic.net/share2/share.js', array(), false, true );
-    wp_enqueue_script( 'jquery-panorama360', get_template_directory_uri() . '/dir/js/lib/jquery.panorama360.min.js', array(), false, true );
-    wp_enqueue_script( 'customscript', get_template_directory_uri() . '/dir/js/main.min.js', array(), false, true );
-  }
-  add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
+function theme_files()
+{
+    // JQuery
+    wp_deregister_script('jquery');
+    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js', array(), false, true);
+    wp_enqueue_script('jquery');
+    // JQuery-migrate
+    wp_deregister_script('jquery-migrate');
+    // Custom CSS
+    wp_register_style('style-css', THEME_DIR . '/assets/css/app.css', array(), null, 'all');
+    wp_enqueue_style('style-css');
+}
+add_action('wp_enqueue_scripts', 'theme_files');
   // *----------------------------------------------------------------------- */
 
 
@@ -31,7 +41,6 @@
   }
   function my_scripts_method() {
   	wp_enqueue_script( 'test_test', '//api-maps.yandex.ru/2.1/?&lang=ru_RU', array(), false, true);
-    wp_enqueue_script( 'YaClaster', get_template_directory_uri() . '/dir/js/yandex.claster.min.js', array(), false, true );
   }
   // *----------------------------------------------------------------------- */
 
@@ -239,7 +248,7 @@
       'menu_title'  =>   'Mossebo',
       'menu_slug'   =>   'mossebo',
       'capability'  =>   'edit_posts',
-      'icon_url'    =>   '/wp-content/themes/mossebo/dir/img/icon/cropped-cropped-favicon-32x32.png', // Add this line and replace the second inverted commas with class of the icon you like
+      'icon_url'    =>   '/wp-content/themes/mossebo/assets/images/icon/cropped-cropped-favicon-32x32.png', // Add this line and replace the second inverted commas with class of the icon you like
       'position'    =>    4,
 		  'redirect' 	  =>    true
     ));

@@ -18,7 +18,7 @@ $select_id = rand();
   <div class="row">
     <!-- logo mobile -->
     <div class="page-banner__logo-mobile col-12">
-      <img src="<?php echo get_template_directory_uri(); ?>/dir/img/header/logo.svg" alt="Mossebo дизайн и ремонт">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.svg" alt="Mossebo дизайн и ремонт">
     </div>
     <!-- title -->
     <div class="col-xl-11 offset-xl-1 col-12">
@@ -141,31 +141,31 @@ $select_id = rand();
     <div class="write-about-us__row_ai-center row">
       <!-- Item's -->
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/4.png" alt="РБК">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/4.png" alt="РБК">
         <div class="write-about-us__grid-text">Рост компании отмечен премией «Бизнес-успех»</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/2.png" alt="ТНТ">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/2.png" alt="ТНТ">
         <div class="write-about-us__grid-text">Реклама Mossebo говорит голосом ТНТ</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/1.png" alt="Капиталист">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/1.png" alt="Капиталист">
         <div class="write-about-us__grid-text">Наивысшая оценка от ведущего бизнес журнала</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/3.png" alt="Победитель народного голосования">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/3.png" alt="Победитель народного голосования">
         <div class="write-about-us__grid-text">Победитель народного голосования</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/5.png" alt="Проекты на ведущем портале о дизайне">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/5.png" alt="Проекты на ведущем портале о дизайне">
         <div class="write-about-us__grid-text">Проекты отмечены крупнейшим медиа о дизайне интерьера</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/7.svg" alt="Лучшая компания России">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/7.svg" alt="Лучшая компания России">
         <div class="write-about-us__grid-text">Премии «Лидер отрасли» и «Межрегиональное развитие»</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/dir/img/main_page/abous_us_write/6.svg" alt="Лучшие световые решения для интерьера">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/6.svg" alt="Лучшие световые решения для интерьера">
         <div class="write-about-us__grid-text">Лучшие световые решения для интерьеров</div>
       </div>
     </div>

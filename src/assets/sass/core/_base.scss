@@ -1,3 +1,21 @@
+
+html {
+}
+
+*,::after,::before {
+  box-sizing: inherit;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Proxima Nova';
   font-weight: $weigt_light;

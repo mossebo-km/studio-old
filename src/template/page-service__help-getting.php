@@ -44,7 +44,7 @@ get_header();
   <!-- youtube -->
   <div class="how-getting__youtube-player row">
     <div class="col-md-8 offset-md-2">
-      <div class="youtube-player" data-youtube-player-src-img="<?php echo get_template_directory_uri(); ?>/dir/img/service/help-getting/how-getting/youtube-player__tum.jpg" data-youtube-player-id="3bkb7-U-DwY">
+      <div class="youtube-player" data-youtube-player-src-img="<?php echo get_template_directory_uri(); ?>/assets/images/service/help-getting/how-getting/youtube-player__tum.jpg" data-youtube-player-id="3bkb7-U-DwY">
         <div class="youtube-player__img-preview youtube-player__img-preview_theme-bnw"></div>
       </div>
     </div>
@@ -145,7 +145,7 @@ get_header();
       <div class="indicators-feauteres__bottom-row-description">Пригласите на приемку профессионала и сохраните свое<br> время и деньги.</div>
     </div>
     <div class="col-md-5">
-      <img class="indicators-feauteres__bottom-row-img" src="<?php echo get_template_directory_uri(); ?>/dir/img/service/help-getting/indicators-feauteres/indicators-feauteres__bottom-row-img.jpg" alt="">
+      <img class="indicators-feauteres__bottom-row-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service/help-getting/indicators-feauteres/indicators-feauteres__bottom-row-img.jpg" alt="">
     </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ get_header();
   <div class="section-title section-title_theme-1 protect-you__title">Защитим вас от незаконных переплат за лишние метры</div>
   <div class="protect-you__row row">
     <div class="col-md-5">
-      <img class="protect-you__img" src="<?php echo get_template_directory_uri(); ?>/dir/img/service/help-getting/protect-you/protect-you__img.png" alt="">
+      <img class="protect-you__img" src="<?php echo get_template_directory_uri(); ?>/assets/images/service/help-getting/protect-you/protect-you__img.png" alt="">
     </div>
     <div class="col-md-6 offset-md-1">
       <div class="protect-you__text">Застройщики всегда включают в договор пункт о доплатах после обмера помещения. Только специалист сможет правильно составить план квартиры и высчитать жилую и общую площадь, сохранив ваш бюджет.</div>

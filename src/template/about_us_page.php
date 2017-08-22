@@ -25,11 +25,11 @@ get_header();
         <!-- Left carousel -->
         <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-12">
           <div id="about-us-section-1-carousel" class="owl-carousel">
-            <div><img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_1/3.jpg" alt=""></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_1/4.jpg" alt=""></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_1/2.jpg" alt=""></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_1/1.jpg" alt=""></div>
-            <div><img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_1/5.jpg" alt=""></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_1/3.jpg" alt=""></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_1/4.jpg" alt=""></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_1/2.jpg" alt=""></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_1/1.jpg" alt=""></div>
+            <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_1/5.jpg" alt=""></div>
           </div>
         </div>
 
@@ -68,10 +68,10 @@ get_header();
       </div>
     </div>
 
-    <div class="panorama" data-pano-mobile-src="<?php echo get_template_directory_uri(); ?>/dir/img/franchise/franchise-pano/__office_mobile.jpg">
+    <div class="panorama" data-pano-mobile-src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__office_mobile.jpg">
       <div class="panorama-view">
         <div class="panorama-container">
-          <img src="<?php echo get_template_directory_uri(); ?>/dir/img/franchise/franchise-pano/__office.jpg" usemap="hotspots" data-width="1885" data-height="400" alt="Наши офисы" />
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__office.jpg" usemap="hotspots" data-width="1885" data-height="400" alt="Наши офисы" />
         </div>
       </div>
     </div>
@@ -136,21 +136,21 @@ get_header();
       <div class="row">
         <div class="col-xl-4 col-lg-4 col-md-4">
           <div class="about-us-sec-5-feauteres-grid">
-            <img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_6/1.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_6/1.svg" alt="">
             <h3><?php the_field( 'about_us_block_4_feauteres_title_0' ); ?></h3>
             <p><?php the_field( 'about_us_block_4_feauteres_text_0' ); ?></p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4">
           <div class="about-us-sec-5-feauteres-grid">
-            <img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_6/2.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_6/2.svg" alt="">
             <h3><?php the_field( 'about_us_block_4_feauteres_title_1' ); ?></h3>
             <p><?php the_field( 'about_us_block_4_feauteres_text_1' ); ?></p>
           </div>
         </div>
         <div class="col-xl-4 col-lg-4 col-md-4">
           <div class="about-us-sec-5-feauteres-grid">
-            <img src="<?php echo get_template_directory_uri(); ?>/dir/img/about_us_page/section_6/3.svg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about_us_page/section_6/3.svg" alt="">
             <h3><?php the_field( 'about_us_block_4_feauteres_title_2' ); ?></h3>
             <p><?php the_field( 'about_us_block_4_feauteres_text_2' ); ?></p>
           </div>

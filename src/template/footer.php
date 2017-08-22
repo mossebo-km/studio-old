@@ -24,7 +24,7 @@
               <!-- Logo -->
               <div class="col-xl-3 col-lg-2 col-md-2">
                 <a href="<?php echo get_home_url(); ?>">
-                  <img src="<?php echo get_template_directory_uri(); ?>/dir/img/header/logo.svg" alt="Mossebo" class="footer-logo">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.svg" alt="Mossebo" class="footer-logo">
                 </a>
               </div>
 
@@ -97,7 +97,7 @@
                   </div>
                   <!-- Share BTN's -->
                   <div class="col-xl-4 text-right">
-                    <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo get_template_directory_uri(); ?>/dir/img/header/logo.jpg"></div>
+                    <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
                   </div>
                 </div>
               </div>
