@@ -59,18 +59,18 @@ $select_id = rand();
   <div class="row">
     <div class="feauteres__grid col-sm-4">
         <i class="feauteres__icon feauteres__icon_1"></i>
-        <div class="feauteres__text">Оплата по факту<br> выполненных работ</div>
-        <div class="feauteres__description">Смета не растет после утверждения в договоре. Нет скрытых наценок и доплат на всех этапах ремонта. </div>
+        <div class="feauteres__text">Бесплатный <br>авторский надзор</div>
+        <div class="feauteres__description">Дизайнер следит за работой строительной бригады на всем протяжении ремонта</div>
     </div>
     <div class="feauteres__grid col-sm-4">
         <i class="feauteres__icon feauteres__icon_2"></i>
-        <div class="feauteres__text">Дизайн-проект и ремонт<br> в одной компании</div>
-        <div class="feauteres__description">Дизайнеры и прорабы в офисах Mossebo совместно работают над каждым проектом. Получите реализуемый проект, а не абстрактные картинки.</div>
+        <div class="feauteres__text">Дизайн интерьера <br>за один месяц</div>
+        <div class="feauteres__description">Всю рабочую документацию, скетчи и наглядные 3D визуализации интерьера специалисты Mossebo разработают за 30 дней или быстрее</div>
     </div>
     <div class="feauteres__grid col-sm-4">
         <i class="feauteres__icon feauteres__icon_3"></i>
-        <div class="feauteres__text">Европейский стандарт<br> качества работ</div>
-        <div class="feauteres__description">Следуем технологиям строительства и подтверждаем это гарантией на 2 года.</div>
+        <div class="feauteres__text">Эксклюзивные <br>материалы и мебель</div>
+        <div class="feauteres__description">Вы получаете доступ к базе поставщиков Mossebo и покупаете все для своего интерьера по специальным ценам</div>
     </div>
   </div>
 </div>

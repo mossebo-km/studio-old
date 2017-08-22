@@ -87,11 +87,11 @@ $form_city_name_geo = geoInit( 'city' );
 <!-- Map -->
 <div class="franchise-page-map">
   <div class="container-fluid">
-    <div class="franchise-title franchise-page-map__franchise-title">Mossebo в 35 городах</div>
+    <div class="franchise-title franchise-page-map__franchise-title">Mossebo в 40 городах</div>
   </div>
   <div class="franchise-page-map__info">
     <div class="franchise-page-map__info-inner">
-      <div class="franchise-page-map__info-title">Mossebo в 35 городах</div>
+      <div class="franchise-page-map__info-title">Mossebo в 40 городах</div>
       <div class="franchise-page-map__info-subtitle">Офисы Mossebo открыты уже в 19 городах, 14 в процессе запуска.</div>
       <div class="franchise-page-map__info-locations"><span class="text-primary">Россия:</span> Санкт-Петербург, Москва, Краснодар, Волгоград, Ульяновск, Тюмень, Челябинск, Самара, Ростов-на-Дону, Воронеж, Новосибирск, Владивосток, Иркутск, Орел, Новороссийск, Уссурийск, Калининград, Тула,  Уфа, Оренбург, Пенза</div>
       <div class="franchise-page-map__info-locations"><span class="text-primary">Мир:</span>  Бишкек, Минск</div>
@@ -174,10 +174,10 @@ $form_city_name_geo = geoInit( 'city' );
 
   		<!-- Descritpion -->
   		<div class="reviews-video__article">
-  			<div class="reviews-video__article-title">Отзывы о Mossebo говорят сами за себя</div>
+  			<div class="reviews-video__article-title">Отзывы реальных франчайзи Mossebo говорят сами за себя</div>
 
-  			<div class="reviews-video__article-text">Завоевать безупречную репутацию и доверие клиентов способна только компания, выполняющая свои обещания. Mossebo — одна из таких.</div>
-  			<div class="reviews-video__article-text">Мы высоко подняли планку. Каждый проект Mossebo — это профессиональный подход к дизайну и ремонту интерьеров вкупе с безупречным сервисом. Это не просто слова, мы готовы доказать их на деле. Реальные отзывы о Mossebo говорят сами за себя. </div>
+  			<div class="reviews-video__article-text">Франчайзи Mossebo проходят обучающий курс в Санкт-Петербурге и получают поддержку от управляющей компании на всех этапах работ. С каждым франчайзинговым филиалом работает личный аккаунт менеджер, готовый ответить на все возникающие вопросы.</div>
+  			<div class="reviews-video__article-text">Мы не бросаемся обещаниями, громкими словами и голословными титулами — безупречная репутация Mossebo говорит сама за себя. Франчайзи Mossebo, уже прошедший обучающий курс, открыто оставляют свои отзывы о компании.</div>
   		</div>
   	</div>
   <?php endif; ?>

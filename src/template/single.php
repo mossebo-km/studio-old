@@ -5,10 +5,6 @@
   while ( have_posts() ) {  the_post();
 
 ?>
-  <!-- banner -->
-  <div class="news-single-page-header">
-    <div class="news-img-inner-bg" style="background: url( <?php the_post_thumbnail_url( $size ); ?> ) 50% 50% no-repeat; background-size: cover;"></div>
-  </div>
 
   <!-- Content -->
   <div class="news-page-wrapper">
@@ -33,10 +29,8 @@
 
               <div class="single-page-main-news-text gallery-img-post">
                 <?php
-
                   // ACF editor loop
                   get_template_part( 'template/editor/editor-loop' );
-
                 ?>
               </div>
               <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
@@ -56,17 +50,15 @@
         </div>
 
         <?php
-
           // Sidebar right
           get_template_part( 'template/sidebar' );
-
         ?>
 
       </div> <!-- Row END -->
     </div>  <!-- Container fluid END -->
   </div> <!-- News page wrapper END -->
 
-<?
+<?php
 
   } //endwhile;
 

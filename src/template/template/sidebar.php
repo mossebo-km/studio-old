@@ -6,7 +6,9 @@
     <!-- Sidebar new's latest -->
     <ul class="sidebar-latest">
       <?php
-        $recent_posts = wp_get_recent_posts( 5 );
+        $recent_posts = wp_get_recent_posts([
+                'numberposts'      => 10,
+            ]);
         foreach($recent_posts as $post){
         echo '<li><a href="' . get_permalink($post["ID"]) . '" title="'.$post["post_title"].'" >' .   $post["post_title"].'</a> </li> ';
         } ?>
@@ -16,7 +18,7 @@
     <div class="sidebar-category">
       <h3>Рубрики</h3>
       <ul>
-        <?php wp_list_categories( $args ); ?>
+        <?php wp_list_categories(); ?>
       </ul>
     </div><!-- Sidebar new's category END -->
 

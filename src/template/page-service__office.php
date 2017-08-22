@@ -65,7 +65,7 @@ get_header();
 <div class="project container-fluid">
   <div class="project__top-block">
     <div class="section-title section-title_theme-1">Наши проекты</div>
-    <div class="project__top-block-description">Реализуем проекты в 35 городах России и СНГ. Адаптируем проект под задачи вашего бизнеса.</div>
+    <div class="project__top-block-description">Реализуем проекты в 40 городах России и СНГ. Адаптируем проект под задачи вашего бизнеса</div>
   </div>
   <div class="project__img-row row gallery-img-post">
     <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/project/2.jpg" alt="" class="project__img img-post-gallary"></div>
