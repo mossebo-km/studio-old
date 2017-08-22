@@ -17,7 +17,7 @@ function theme_files()
 {
     // JQuery
     wp_deregister_script('jquery');
-    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js', array(), false, true);
+    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js', true, null, false);
     wp_enqueue_script('jquery');
     // JQuery-migrate
     wp_deregister_script('jquery-migrate');
@@ -285,11 +285,11 @@ add_action('wp_enqueue_scripts', 'theme_files');
 
   // *----------------------------------------------------------------------- */
   // Добавляем img класс в editor
-  function add_img_editor_post_class( $class, $id, $align, $size) {
+/*  function add_img_editor_post_class( $class, $id, $align, $size) {
     $class =  $class . ' img-post-gallary';
     return $class;
   }
-  add_filter( 'get_image_tag_class', 'add_img_editor_post_class' );
+  add_filter( 'get_image_tag_class', 'add_img_editor_post_class' );*/
   // *----------------------------------------------------------------------- */
 
 

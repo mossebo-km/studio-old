@@ -145,6 +145,7 @@ header#main-header {
       font-weight: $weigth_reg;
       margin-bottom: 18px;
       letter-spacing: 0.5px;
+      font-style: normal;
     }
     // Phone's
     .header-phone {
@@ -154,9 +155,11 @@ header#main-header {
         white-space: nowrap;
         letter-spacing: 0.5px;
         margin-bottom: 5px;
+        font-style: normal;
       }
       .phone-info {
         font-size: 0.9em;
+        font-style: normal;
       }
     }
   }

@@ -34,10 +34,16 @@ function playerInit(elem) {
         });
     });
 }
+
 window.playerInit = playerInit;
 
 // Инициализируем плееры
-jQuery('.youtube-player').each(function () {
-    var self = this;
-    playerInit(self);
+
+jQuery(function (jQuery) {
+
+    jQuery('.youtube-player').each(function () {
+        var self = this;
+        playerInit(self);
+    });
+
 });

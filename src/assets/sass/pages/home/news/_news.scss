@@ -11,7 +11,10 @@ section#main-page-news {
 
   // New's owlCarousel
   .owl-carousel {
-
+    .owl-item {
+      transform: translate3d(-1px, 0px, 0px);
+      overflow: auto;
+    }
     // Left block
     .carousel-item-block-news-left {
       margin-top: 50px;

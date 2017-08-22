@@ -1,6 +1,8 @@
-document.querySelector('.back-top').style.display = 'none';
+//document.querySelector('.back-top').style.display = 'none';
 
 jQuery(function (jQuery) {
+
+    jQuery('.back-top').fadeOut();
 
     jQuery(window).scroll(function () {
         if (jQuery(this).scrollTop() > 200) {
