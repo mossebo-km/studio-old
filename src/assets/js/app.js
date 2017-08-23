@@ -19,16 +19,17 @@ import 'owl.carousel/dist/owl.carousel';
 // Import Scripts
 //
 
-import './include/common'
-import './include/feedback-form'
-import './include/feedback-form-calc'
-import './include/feedback-form-calc-2'
-import './include/yandex.claster'
-import './include/youtube-player'
+import './include/common';
+import './include/feedback-form';
+import './include/feedback-form-calc';
+import './include/feedback-form-calc-2';
+import './include/yandex.claster';
+import './include/youtube-player';
 import './include/jquery.panorama360';
-import './include/back-top'
+import './include/back-top';
+import './include/cookie';
 
-import '../sass/pages/reviews/reviews-video/reviews-video'
-import '../sass/pages/franchise/franchise-page-map/franchise-page-map'
-import '../sass/pages/franchise/franchise-social/franchise-social'
-import '../sass/pages/franchise/video-carousel/video-carousel'
+import '../sass/pages/reviews/reviews-video/reviews-video';
+import '../sass/pages/franchise/franchise-page-map/franchise-page-map';
+import '../sass/pages/franchise/franchise-social/franchise-social';
+import '../sass/pages/franchise/video-carousel/video-carousel';

@@ -179,7 +179,7 @@ $select_id = rand();
     <!-- Title -->
     <div class="row">
       <div class="col-xl-12 text-center">
-        <h2 class="section-title">Новости</h2>
+        <h2 class="section-title">Блог</h2>
       </div>
       <div class="col-xl-12 text-right text-center-sm text-center-xs">
         <a href="/novosti/" class="link-arrow">Посмотреть все новости</a>
@@ -225,6 +225,6 @@ $select_id = rand();
 </section> <!-- Section news END -->
 
 <!-- Section social's -->
-<?php get_template_part( 'template/social_section' ) ?>
+<?php get_template_part( 'template/social_section' ); ?>
 
 <?php get_footer(); ?>

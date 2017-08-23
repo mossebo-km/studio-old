@@ -93,8 +93,8 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="franchise-page-map__info-inner">
       <div class="franchise-page-map__info-title">Mossebo в 40 городах</div>
       <div class="franchise-page-map__info-subtitle">Офисы Mossebo открыты уже в 19 городах, 14 в процессе запуска.</div>
-      <div class="franchise-page-map__info-locations"><span class="text-primary">Россия:</span> Санкт-Петербург, Москва, Краснодар, Волгоград, Ульяновск, Тюмень, Челябинск, Самара, Ростов-на-Дону, Воронеж, Новосибирск, Владивосток, Иркутск, Орел, Новороссийск, Уссурийск, Калининград, Тула,  Уфа, Оренбург, Пенза</div>
-      <div class="franchise-page-map__info-locations"><span class="text-primary">Мир:</span>  Бишкек, Минск</div>
+      <div class="franchise-page-map__info-locations"><span class="text-primary">Россия:</span> Москва, Санкт-Петербург, Волгоград, Тюмень, Самара, Ростов-на-Дону, Уссурийск, Оренбург, Тула, Уфа, Пенза.</div>
+      <div class="franchise-page-map__info-locations"><span class="text-primary">Мир:</span> Бишкек, Минск, Ташкент, Астана.</div>
     </div>
     <div class="franchise-page-map__btn"></div>
   </div>
@@ -113,7 +113,7 @@ $form_city_name_geo = geoInit( 'city' );
       <div class="franchise-page-feauteres-world__grid-description">Мы адаптируем работу call-центра и маркетинга для разных часовых поясов</div>
     </div>
     <div class="franchise-page-feauteres-world__grid col col-sm-4 col-12">
-      <div class="franchise-page-feauteres-world__grid-title">Работаем в трёх культурах</div>
+      <div class="franchise-page-feauteres-world__grid-title">Работаем в пяти странах</div>
       <div class="franchise-page-feauteres-world__grid-description">Мы проверили бизнес в разных культурах, народах и этнических местностях</div>
     </div>
   </div>
@@ -346,7 +346,7 @@ $form_city_name_geo = geoInit( 'city' );
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">1.</span>Обучение в Санкт-Петербурге</div>
         <ul class="franchise-superiority__business-start-col-list">
           <li>Билеты</li>
-          <li>Проживание 5 дней 4 ночи</li>
+          <li>Проживание 2 дня и 2 ночи</li>
           <li>Питание</li>
         </ul>
       </div>
@@ -596,7 +596,7 @@ $form_city_name_geo = geoInit( 'city' );
     </div>
     <div class="franchise-social-rating__info col-sm-4">
       <div class="franchise-social-rating__info-year">2019 год</div>
-      <div class="franchise-social-rating__info-description">Поток аудиториии из новых каналов: TV и мессенджеров</div>
+      <div class="franchise-social-rating__info-description">Поток аудиториии из новых каналов: видеоплатформы и мессенджеры</div>
     </div>
   </div>
 </div>

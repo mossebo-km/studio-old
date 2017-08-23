@@ -11,14 +11,64 @@ get_header();
   <!-- Vacancies content -->
   <div class="vacancies-content">
 
-    <!-- panorama -->
-    <div class="panorama vacancies__panorama">
-      <div class="panorama-view">
-        <div class="panorama-container" style="margin-left: 0px; width: 3770px; height: 400px;">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/vacancies/vacancies-panorama/panorama.jpg" data-width="1885" data-height="400" alt="Наши офисы" style="left: 0px;">
-        </div>
+      <!-- Video -->
+      <div class="reviews-video container">
+          <div class="reviews-video__owl-wrapper row">
+              <div class="col-sm-10 offset-sm-1 col-12">
+                  <div class="owl-carousel">
+                      <!-- item's -->
+                          <div class="reviews-video__item item">
+                              <div class="youtube-player" data-youtube-player-src-img="/wp-content/uploads/Mark-1.jpg" data-youtube-player-id="fW9mAe1aMG4">
+                                  <div class="youtube-player__img-preview"></div>
+                              </div>
+                              <div class="reviews-video__item-title">Директор отдела маркетинга</div>
+                          </div>
+                      <!-- item's -->
+                          <div class="reviews-video__item item">
+                              <div class="youtube-player" data-youtube-player-src-img="/wp-content/uploads/Untitled-4.jpg" data-youtube-player-id="mek0xvs9Obw">
+                                  <div class="youtube-player__img-preview"></div>
+                              </div>
+                              <div class="reviews-video__item-title">Директор отдела продаж</div>
+                          </div>
+                      <!-- item's -->
+                          <div class="reviews-video__item item">
+                              <div class="youtube-player" data-youtube-player-src-img="/wp-content/uploads/maxresdefault-1.jpg" data-youtube-player-id="TEyB_dFB9tc">
+                                  <div class="youtube-player__img-preview"></div>
+                              </div>
+                              <div class="reviews-video__item-title">Руководитель отдела маркетинга</div>
+                          </div>
+                  </div>
+              </div>
+              <!-- arrow -->
+              <div class="reviews-video__owl-arrow"></div>
+          </div>
+
+          <!-- pagination -->
+          <div class="reviews-video__pagination">
+              <!-- title -->
+              <div class="reviews-video__pagination-title">Узнай больше о жизни и работе в Mossebo</div>
+
+              <!-- pagination -->
+              <div class="row">
+                      <div class="reviews-video__pagination-grid col-md-4" data-carousel-index="0">
+                          <div class="reviews-video__pagination-preview" style="background-image: url(/wp-content/uploads/Mark-1.jpg)"></div>
+                          <div class="reviews-video__pagination-grid-title">Директор отдела маркетинга</div>
+                          <div class="reviews-video__pagination-grid-description">Как стать специалистом в digital</div>
+                      </div>
+                      <div class="reviews-video__pagination-grid col-md-4" data-carousel-index="1">
+                          <div class="reviews-video__pagination-preview" style="background-image: url(/wp-content/uploads/Untitled-4.jpg)"></div>
+                          <div class="reviews-video__pagination-grid-title">Директор отдела продаж</div>
+                          <div class="reviews-video__pagination-grid-description">Работа в продажах — как не впаривать</div>
+                      </div>
+                      <div class="reviews-video__pagination-grid col-md-4" data-carousel-index="2">
+                          <div class="reviews-video__pagination-preview" style="background-image: url(/wp-content/uploads/maxresdefault-1.jpg)"></div>
+                          <div class="reviews-video__pagination-grid-title">Руководитель отдела маркетинга</div>
+                          <div class="reviews-video__pagination-grid-description">Работа маркетологом — правда и ложь</div>
+                      </div>
+
+              </div>
+          </div>
       </div>
-    </div>
 
     <div class="col-xl-10 offset-xl-1">
 
