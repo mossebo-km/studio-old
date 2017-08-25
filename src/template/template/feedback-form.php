@@ -39,7 +39,7 @@ function feedback_form( $array ) {
     <!-- phone -->
     <div class="feedback-form__input-inner">
       <!-- <label class="feedback-form__label" for="feedback-form__phone_1-modal">Укажите ваш номер телефона:</label> -->
-      <input class="feedback-form__input" type="number" placeholder="Ваш номер телефона" id="feedback-form__phone_1-modal" name="feedback-form__phone" required>
+      <input class="feedback-form__input" type="tel" placeholder="Ваш номер телефона" id="feedback-form__phone_1-modal" name="feedback-form__phone" required>
     </div>
 
     <!-- email -->

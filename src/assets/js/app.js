@@ -25,6 +25,7 @@ import './include/feedback-form-calc';
 import './include/feedback-form-calc-2';
 import './include/yandex.claster';
 import './include/youtube-player';
+// import './include/youtube-player-autoplay';
 import './include/jquery.panorama360';
 import './include/back-top';
 import './include/cookie';

@@ -6,7 +6,7 @@
 
   <!-- video -->
   <div class="modal-tnx__video">
-    <div class="youtube-player" data-youtube-player-src-img="/wp-content/uploads/vlcsnap-2017-02-08-12h42m10s813.jpg" data-youtube-player-id="p2Yj0kO5kRY">
+    <div class="youtube-player" data-youtube-player-src-img="/wp-content/uploads/joxi_screenshot_1503652965228.png" data-youtube-player-id="yVZ_t8NRvcc">
       <div class="youtube-player__img-preview youtube-player__img-preview_theme-bnw"></div>
     </div>
   </div>
