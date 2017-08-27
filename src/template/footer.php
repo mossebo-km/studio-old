@@ -110,9 +110,10 @@
                         </div>
                         <!-- Share BTN's -->
                         <div class="col-xl-4 text-right">
-                            <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram"
+                            <?php echo do_shortcode( '[addtoany]' ); ?>
+                            <!-- <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram"
                                  data-counter=""
-                                 data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
+                                 data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div> -->
                         </div>
                     </div>
                 </div>

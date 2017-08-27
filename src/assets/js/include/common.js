@@ -131,6 +131,7 @@ function validateEmail(email) {
         resultLog = pattern.test(email);
     return resultLog;
 }
+
 window.validateEmail = validateEmail;
 
 /* -----------------------------------------*/
@@ -152,6 +153,7 @@ jQuery(function (jQuery) {
 function resizeContent(selectorEl, rate) {
     jQuery(selectorEl).height(( jQuery(selectorEl).width() * rate ));
 }
+
 window.resizeContent = resizeContent;
 
 /* -----------------------------------------*/
@@ -375,6 +377,7 @@ function initWidgets() {
         document.querySelector('.fcbook-iframe').appendChild(iframeFB);
     }
 }
+
 window.initWidgets = initWidgets;
 
 /* -----------------------------------------*/
@@ -383,21 +386,22 @@ window.initWidgets = initWidgets;
 /* -----------------------------------------*/
 
 // Show modal Thank you page
-    function thnModal() {
-        jQuery.magnificPopup.open({
-            items: {
-                src: '.modal-tnx'
-            },
-            removalDelay: 300,
-            // Callbacck функция, инициализация пикселей
-            callbacks: {
-                open: function () {
-                    initWidgets();
-                }
+function thnModal() {
+    jQuery.magnificPopup.open({
+        items: {
+            src: '.modal-tnx'
+        },
+        removalDelay: 300,
+        // Callbacck функция, инициализация пикселей
+        callbacks: {
+            open: function () {
+                initWidgets();
             }
-        });
-    }
-    window.thnModal = thnModal;
+        }
+    });
+}
+
+window.thnModal = thnModal;
 /* -----------------------------------------*/
 
 
@@ -424,6 +428,7 @@ function getCookie(name) {
     ))
     return matches ? decodeURIComponent(matches[1]) : undefined
 }
+
 window.getCookie = getCookie;
 
 /* -----------------------------------------*/
@@ -431,7 +436,11 @@ window.getCookie = getCookie;
 
 /* -----------------------------------------*/
 // Цель на кнопку политика конфедициальности на 3 шаге калькулятора
-jQuery('#feedback-form-calc__privacy-policy').click(function () {
-    yaCounter42716444.reachGoal('feedback-form-calc__privacy-policy');
+
+jQuery(function (jQuery) {
+    jQuery('#feedback-form-calc__privacy-policy').click(function () {
+        yaCounter42716444.reachGoal('feedback-form-calc__privacy-policy');
+    });
+
 });
 /* -----------------------------------------*/
