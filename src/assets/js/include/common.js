@@ -337,50 +337,48 @@ jQuery(function (jQuery) {
 /* -----------------------------------------*/
 
 // Init widgets
+function initWidgets() {
 
-jQuery(function (jQuery) {
-    function initWidgets() {
+    if (jQuery(window).width() >= 767) {
 
-        if (jQuery(window).width() >= 767) {
+        // Инициализируем виджет vk
+        var urlVk = '//vk.com/js/api/openapi.js?139';
+        jQuery.getScript(urlVk, function () {
+            VK.Widgets.Group("vk_groups", {mode: 0, width: "auto", height: "214"}, 76599685);
+        });
 
-            // Инициализируем виджет vk
-            var urlVk = '//vk.com/js/api/openapi.js?139';
-            jQuery.getScript(urlVk, function () {
-                VK.Widgets.Group("vk_groups", {mode: 0, width: "auto", height: "214"}, 76599685);
-            });
-
-            // Инициализируем виджет ОК
-            !function (d, id, did, st) {
-                var js = d.createElement("script");
-                js.src = "https://connect.ok.ru/connect.js";
-                js.onload = js.onreadystatechange = function () {
-                    if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
-                        if (!this.executed) {
-                            this.executed = true;
-                            setTimeout(function () {
-                                OK.CONNECT.insertGroupWidget(id, did, st);
-                            }, 0);
-                        }
+        // Инициализируем виджет ОК
+        !function (d, id, did, st) {
+            var js = d.createElement("script");
+            js.src = "https://connect.ok.ru/connect.js";
+            js.onload = js.onreadystatechange = function () {
+                if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+                    if (!this.executed) {
+                        this.executed = true;
+                        setTimeout(function () {
+                            OK.CONNECT.insertGroupWidget(id, did, st);
+                        }, 0);
                     }
-                };
-                d.documentElement.appendChild(js);
-            }(document, "ok_group_widget", " 53291776606394", '{"width":200,"height":214}');
+                }
+            };
+            d.documentElement.appendChild(js);
+        }(document, "ok_group_widget", " 53291776606394", '{"width":200,"height":214}');
 
-            // Инициализируем виджет FB
-            var iframeFB = document.createElement('iframe');
-            iframeFB.src = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmossebodesign%2F&tabs&width=220&height=214&small_heade­r=false&adapt_container_width=true&hide_cover=false&show_fac­epile=true&appId';
-            iframeFB.width = '100%';
-            iframeFB.height = '214';
-            iframeFB.style.border = 'none';
-            iframeFB.style.overflow = 'hidden';
-            iframeFB.scrolling = 'no';
-            iframeFB.setAttribute('frameborder', 0);
-            iframeFB.setAttribute('allowTransparency', true);
-            document.querySelector('.fcbook-iframe').appendChild(iframeFB);
-        }
+        // Инициализируем виджет FB
+        var iframeFB = document.createElement('iframe');
+        iframeFB.src = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmossebodesign%2F&tabs&width=220&height=214&small_heade­r=false&adapt_container_width=true&hide_cover=false&show_fac­epile=true&appId';
+        iframeFB.width = '100%';
+        iframeFB.height = '214';
+        iframeFB.style.border = 'none';
+        iframeFB.style.overflow = 'hidden';
+        iframeFB.scrolling = 'no';
+        iframeFB.setAttribute('frameborder', 0);
+        iframeFB.setAttribute('allowTransparency', true);
+        document.querySelector('.fcbook-iframe').appendChild(iframeFB);
     }
+}
 
-});
+window.initWidgets = initWidgets;
 
 /* -----------------------------------------*/
 
