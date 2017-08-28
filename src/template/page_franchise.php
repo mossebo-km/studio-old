@@ -23,7 +23,7 @@ $form_city_name_geo = geoInit( 'city' );
           <h2 class="franchise-page-feedback__subtitle">Бизнес по дизайну интерьера с гарантией входящих заявок</h2>
           <!-- YouTube player -->
           <div class="franchise-page-feedback__youtube-player">
-            <div class="youtube-player" data-youtube-player-src-img="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/frachise-page-feedback/__youtube-player/franchise-page-feedback__youtube-player-img-preview.jpg" data-youtube-player-id="x6H4trs4yDc">
+            <div class="youtube-player" data-youtube-player-src-img="<?php echo THEME_DIR; ?>/assets/images/franchise/frachise-page-feedback/__youtube-player/franchise-page-feedback__youtube-player-img-preview.jpg" data-youtube-player-id="x6H4trs4yDc">
               <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
             </div>
           </div>
@@ -31,15 +31,15 @@ $form_city_name_geo = geoInit( 'city' );
           <div class="franchise-page-feedback__about-us-write">
             <div class="row">
               <div class="franchise-page-feedback__about-us-write-col col">
-                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/frachise-page-feedback/__about-us-write/franchise-page-feedback__about-us-write-img-1.png" alt="РБК">
+                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo THEME_DIR; ?>/assets/images/franchise/frachise-page-feedback/__about-us-write/franchise-page-feedback__about-us-write-img-1.png" alt="РБК">
                 <div class="franchise-page-feedback__about-us-write-text">Победитель конкурса РБК</div>
               </div>
               <div class="franchise-page-feedback__about-us-write-col col">
-                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/frachise-page-feedback/__about-us-write/franchise-page-feedback__about-us-write-img-2.png" alt="ТНТ">
+                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo THEME_DIR; ?>/assets/images/franchise/frachise-page-feedback/__about-us-write/franchise-page-feedback__about-us-write-img-2.png" alt="ТНТ">
                 <div class="franchise-page-feedback__about-us-write-text">Реклама Mossebo говорит голосом «Школы ремонта» на ТНТ</div>
               </div>
               <div class="franchise-page-feedback__about-us-write-col col">
-                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/7.svg" alt="Лучшие световые решения для интерьера">
+                <img class="franchise-page-feedback__about-us-write-img" src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/7.svg" alt="Лучшие световые решения для интерьера">
                 <div class="franchise-page-feedback__about-us-write-text">Премии “Лидер отрасли” и “Межрегиональное развитие”</div>
               </div>
             </div>
@@ -196,10 +196,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="franchise-pano__title">Офисы Mossebo в городах мира</div>
     <div class="franchise-pano__description">Все офисы Mossebo оформляются в едином стиле и оснащаются оборудованием и мебелью от проверенных поставщиков. У вас будет все необходимое для заключения сделок</div>
   </div>
-  <div class="panorama" data-pano-mobile-src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__office_mobile.jpg">
+  <div class="panorama" data-pano-mobile-src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-pano/__office_mobile.jpg">
     <div class="panorama-view">
       <div class="panorama-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__office.jpg" usemap="hotspots" data-width="2168" data-height="500" alt="Наши офисы" />
+        <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-pano/__office.jpg" usemap="hotspots" data-width="2168" data-height="500" alt="Наши офисы" />
       </div>
     </div>
   </div>
@@ -208,7 +208,7 @@ $form_city_name_geo = geoInit( 'city' );
 <!-- your profit -->
 <div class="franchise-your-profit container-fluid">
   <div class="franchise-your-profit__title">Прибыль от 1 500 000 рублей в месяц в любом городе</div>
-  <div class="franchise-your-profit__img"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-your-profit__img/franchise-your-profit__img.svg" alt="Сколько вы будете зарабатывать"></div>
+  <div class="franchise-your-profit__img"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-your-profit__img/franchise-your-profit__img.svg" alt="Сколько вы будете зарабатывать"></div>
   <div class="franchise-your-profit__description">Это ваша ежемесячная прибыль через 1 год после запуска студии при условии соблюдения всех регламентов франшизы</div>
   <div class="franchise-your-profit__numbers">
     <span class="franchise-your-profit__numbers-inner">
@@ -235,24 +235,24 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="col-xl-4 offset-xl-1">
       <div class="row">
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__office/__office-1.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__office/__office-1.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title"><span class="text-bold">«Выращиваем»</span> клиента</div>
           <div class="clients-find-us__description">Централизованно собираем запросы на дизайн интерьера с собственных площадок и онлайн рекламы</div>
         </div>
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__office/__office-2.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__office/__office-2.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title"><span class="text-bold">«Прогреваем»</span> клиента</div>
           <div class="clients-find-us__description">Вы получаете целевую заявку на дизайн интерьера и готового к встрече в офисе клиента через CRM-систему</div>
         </div>
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__office/__office-3.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__office/__office-3.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title"><span class="text-bold">«Передаём»</span> согласного на встречу клиента вам</div>
           <div class="clients-find-us__description">Вы получите не просто бренд пакет, а уже напечатанную и готовую для работы продукцию со знаком обслуживания Mossebo</div>
         </div>
       </div>
     </div>
     <div class="clients-find-us__img clients-find-us__img_pr-0 col-xl-7">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__office/__office.jpg" alt="Офис">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__office/__office.jpg" alt="Офис">
     </div>
   </div>
 </div>
@@ -265,8 +265,8 @@ $form_city_name_geo = geoInit( 'city' );
         <div class="franchise-title franchise-brand-style__main-title">Единый фирменный стиль по всему миру</div>
         <div class="franchise-brand-style__description">Каждая деталь фирменного стиля помогает в заключении сделок. Вы получите уже готовый и напечатанный бренд пакет сразу после обучения.</div>
         <div class="franchise-brand-style__img">
-          <img class="franchise-brand-style__img_desctop" src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-brand-style/franchise-brand-style.png" alt="Единый фирменный стиль по всему миру">
-          <img class="franchise-brand-style__img_mobile" src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-brand-style/franchise-brand-style_mobile.png" alt="Единый фирменный стиль по всему миру">
+          <img class="franchise-brand-style__img_desctop" src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-brand-style/franchise-brand-style.png" alt="Единый фирменный стиль по всему миру">
+          <img class="franchise-brand-style__img_mobile" src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-brand-style/franchise-brand-style_mobile.png" alt="Единый фирменный стиль по всему миру">
         </div>
       </div>
     </div>
@@ -295,7 +295,7 @@ $form_city_name_geo = geoInit( 'city' );
       </div>
       <div class="col-md-4 col-12 franchise-superiority__numer-one_col-2">
         <div class="franchise-superiority__number-one-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/franchise-superiority__number-one-img.jpg" alt="Превосходство Mossebo над другими">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/franchise-superiority__number-one-img.jpg" alt="Превосходство Mossebo над другими">
         </div>
       </div>
       <div class="col-md-4 col-12 franchise-superiority__numer-one_col-3">
@@ -341,7 +341,7 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="row">
       <div class="franchise-superiority__business-start-col col-lg-4 col-md-4 col-sm-6">
         <div class="franchise-superiority__business-start-col-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/__business-start/1.svg" alt="Обучение в Санкт-Петербурге">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/__business-start/1.svg" alt="Обучение в Санкт-Петербурге">
         </div>
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">1.</span>Обучение в Санкт-Петербурге</div>
         <ul class="franchise-superiority__business-start-col-list">
@@ -352,7 +352,7 @@ $form_city_name_geo = geoInit( 'city' );
       </div>
       <div class="franchise-superiority__business-start-col col-lg-4 col-md-4 col-sm-6">
         <div class="franchise-superiority__business-start-col-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/__business-start/5.svg" alt="Офис">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/__business-start/5.svg" alt="Офис">
         </div>
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">2.</span>Офис</div>
         <ul class="franchise-superiority__business-start-col-list">
@@ -364,7 +364,7 @@ $form_city_name_geo = geoInit( 'city' );
       </div>
       <div class="franchise-superiority__business-start-col col-lg-4 col-md-4 col-sm-6">
         <div class="franchise-superiority__business-start-col-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/__business-start/2.svg" alt="Брендирование">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/__business-start/2.svg" alt="Брендирование">
         </div>
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">3.</span> Брендирование</div>
         <ul class="franchise-superiority__business-start-col-list">
@@ -376,7 +376,7 @@ $form_city_name_geo = geoInit( 'city' );
       </div>
       <div class="franchise-superiority__business-start-col col-lg-4 col-md-4 col-sm-6">
         <div class="franchise-superiority__business-start-col-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/__business-start/4.svg" alt="Первичный рекламный взнос">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/__business-start/4.svg" alt="Первичный рекламный взнос">
         </div>
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">4.</span>Первичный маркетинговый платеж</div>
         <ul class="franchise-superiority__business-start-col-list">
@@ -385,7 +385,7 @@ $form_city_name_geo = geoInit( 'city' );
       </div>
       <div class="franchise-superiority__business-start-col col-lg-4 col-md-4 col-sm-6">
         <div class="franchise-superiority__business-start-col-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-superiority/__business-start/3.svg" alt="Посещение объектов">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-superiority/__business-start/3.svg" alt="Посещение объектов">
         </div>
         <div class="franchise-superiority__business-start-col-title"><span class="franchise-superiority__business-start-col-title-counter">5.</span>Найм дизайнеров</div>
         <ul class="franchise-superiority__business-start-col-list">
@@ -440,10 +440,10 @@ $form_city_name_geo = geoInit( 'city' );
 <div class="franchise-pano franchise-pano_bg-gray">
   <div class="franchise-pano__title">Портфолио Mossebo теперь ваше</div>
   <div class="franchise-pano__description">Потому что вы — лицо бренда Mossebo</div>
-  <div class="panorama" data-pano-mobile-src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__portfolio_mobile.jpg">
+  <div class="panorama" data-pano-mobile-src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-pano/__portfolio_mobile.jpg">
     <div class="panorama-view">
       <div class="panorama-container">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-pano/__portfolio.jpg" usemap="hotspots" data-width="1887" data-height="600" alt="Наши офисы" />
+        <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-pano/__portfolio.jpg" usemap="hotspots" data-width="1887" data-height="600" alt="Наши офисы" />
       </div>
     </div>
   </div>
@@ -458,22 +458,22 @@ $form_city_name_geo = geoInit( 'city' );
   </div>
   <div class="row align-item-center">
     <div class="clients-find-us__img clients-find-us__img_pr-0 clients-find-us__img_pl-0 col-xl-7">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__work/__work.jpg" alt="Открыть бизнес под брендом Mossebo выгодно, потому что мы:">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__work/__work.jpg" alt="Открыть бизнес под брендом Mossebo выгодно, потому что мы:">
     </div>
     <div class="col-xl-4 offset-xl-1">
       <div class="row">
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__work/__work-1.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__work/__work-1.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title clients-find-us__title_bold">Устранили сезонность</div>
           <div class="clients-find-us__description">Мы находим и передаем вам контакты клиентов каждый месяц, включая летний и зимний сезоны</div>
         </div>
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__work/__work-2.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__work/__work-2.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title clients-find-us__title_bold">Снизили стартовые вложения</div>
           <div class="clients-find-us__description">Технология Mossebo позволяет заработать максимальную прибыль с инвестиций по сравнению с рынками общественного питания, одежды и детских товаров</div>
         </div>
         <div class="clients-find-us__row col-12">
-          <div class="clients-find-us__row-img_mobile"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/clients-find-us/__work/__work-3.jpg" alt="«Выращиваем» клиента"></div>
+          <div class="clients-find-us__row-img_mobile"><img src="<?php echo THEME_DIR; ?>/assets/images/franchise/clients-find-us/__work/__work-3.jpg" alt="«Выращиваем» клиента"></div>
           <div class="clients-find-us__title clients-find-us__title_bold">Не работаем в сегменте «эконом»</div>
           <div class="clients-find-us__description">В 2015 году в кризис на территории России введено в эксплуатацию рекордное число новостроек, в 2016 году заключено рекордное количество ДДУ. Среди этих людей мы найдем и передадим вам заказы среднего и VIP сегмента</div>
         </div>
@@ -493,31 +493,31 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="write-about-us__row_ai-center row">
       <!-- Item's -->
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/4.png" alt="РБК">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/4.png" alt="РБК">
         <div class="write-about-us__grid-text">Рост компании отмечен премией «Бизнес-успех»</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/2.png" alt="ТНТ">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/2.png" alt="ТНТ">
         <div class="write-about-us__grid-text">Реклама Mossebo говорит голосом ТНТ</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/1.png" alt="Капиталист">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/1.png" alt="Капиталист">
         <div class="write-about-us__grid-text">Наивысшая оценка от ведущего бизнес журнала</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/3.png" alt="Победитель народного голосования">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/3.png" alt="Победитель народного голосования">
         <div class="write-about-us__grid-text">Победитель народного голосования</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/5.png" alt="Проекты на ведущем портале о дизайне">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/5.png" alt="Проекты на ведущем портале о дизайне">
         <div class="write-about-us__grid-text">Проекты отмечены крупнейшим медиа о дизайне интерьера</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/7.svg" alt="Лучшая компания России">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/7.svg" alt="Лучшая компания России">
         <div class="write-about-us__grid-text">Премии «Лидер отрасли» и «Межрегиональное развитие»</div>
       </div>
       <div class="write-about-us__grid col-md col-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/main_page/abous_us_write/6.svg" alt="Лучшие световые решения для интерьера">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/6.svg" alt="Лучшие световые решения для интерьера">
         <div class="write-about-us__grid-text">Лучшие световые решения для интерьеров</div>
       </div>
     </div>
@@ -533,10 +533,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="item">
       <a href="https://www.instagram.com/remont.design/" target="_blank">
         <div class="franchise-social__carousel-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/social/inst.svg" alt="Inst">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/icon/social/inst.svg" alt="Inst">
         </div>
         <div class="franchise-social__carousel-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social/__carousel-img/inst.jpg" alt="Inst">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social/__carousel-img/inst.jpg" alt="Inst">
         </div>
       </a>
     </div>
@@ -544,10 +544,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="item">
       <a href="https://www.facebook.com/mossebodesign/" target="_blank">
         <div class="franchise-social__carousel-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/social/fb.svg" alt="facebook">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/icon/social/fb.svg" alt="facebook">
         </div>
         <div class="franchise-social__carousel-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social/__carousel-img/fb.jpg" alt="Страница вк">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social/__carousel-img/fb.jpg" alt="Страница вк">
         </div>
       </a>
     </div>
@@ -555,10 +555,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="item">
       <a href="https://vk.com/design_mossebo" target="_blank">
         <div class="franchise-social__carousel-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/social/vk.svg" alt="vk">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/icon/social/vk.svg" alt="vk">
         </div>
         <div class="franchise-social__carousel-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social/__carousel-img/vk.jpg" alt="Vkontakte">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social/__carousel-img/vk.jpg" alt="Vkontakte">
         </div>
       </a>
     </div>
@@ -566,10 +566,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="item">
       <a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank">
         <div class="franchise-social__carousel-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/social/youtube-logo.svg" alt="youtube">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/icon/social/youtube-logo.svg" alt="youtube">
         </div>
         <div class="franchise-social__carousel-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social/__carousel-img/you.jpg" alt="YouTube">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social/__carousel-img/you.jpg" alt="YouTube">
         </div>
       </a>
     </div>
@@ -577,10 +577,10 @@ $form_city_name_geo = geoInit( 'city' );
     <div class="item">
       <a href="https://ok.ru/group/53291776606394" target="_blank">
         <div class="franchise-social__carousel-icon">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon/social/odn.svg" alt="OK">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/icon/social/odn.svg" alt="OK">
         </div>
         <div class="franchise-social__carousel-img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social/__carousel-img/ok.jpg" alt="OK">
+          <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social/__carousel-img/ok.jpg" alt="OK">
         </div>
       </a>
     </div>
@@ -592,7 +592,7 @@ $form_city_name_geo = geoInit( 'city' );
   <div class="franchise-title franchise-social-rating__title">Рост аудитории Mossebo в соцсетях</div>
   <div class="row align-item-center">
     <div class="franchise-social-rating__rate col-sm-6">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/franchise/franchise-social-rating/rate.png" alt="График социальных сетей">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-social-rating/rate.png" alt="График социальных сетей">
     </div>
     <div class="franchise-social-rating__info col-sm-4">
       <div class="franchise-social-rating__info-year">2019 год</div>

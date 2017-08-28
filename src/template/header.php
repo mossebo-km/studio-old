@@ -16,7 +16,7 @@
       <header id="main-header">
         <div class="logo-header">
           <a href="<?php echo get_home_url(); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo-mossebo.svg" alt="Mossebo дизайн и ремонт">
+            <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo-mossebo.svg" alt="Mossebo дизайн и ремонт">
           </a>
         </div>
         <!-- Main navigation -->

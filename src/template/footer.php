@@ -24,7 +24,7 @@
                 <!-- Logo -->
                 <div class="col-xl-3 col-lg-2 col-md-2">
                     <a href="<?php echo get_home_url(); ?>">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo-mossebo.svg"
+                        <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo-mossebo.svg"
                              alt="Mossebo" class="footer-logo">
                     </a>
                 </div>
@@ -38,10 +38,11 @@
                         $phone_footer = geoInit('phone');
                         if (isset($addres_footer) && isset($phone_footer)) { ?>
                             <address
-                                    class="footer-adress text-center-sm text-center-xs footer-col-contacts-sm-3"><?php echo geoInit('address'); ?></address>
-                            <div class="footer-phone-block text-center-sm text-center-xs footer-col-contacts-sm-3 phone-geo ">
+                                class="footer-adress text-center-sm text-center-xs footer-col-contacts-sm-3"><?php echo geoInit('address'); ?></address>
+                            <div
+                                class="footer-phone-block text-center-sm text-center-xs footer-col-contacts-sm-3 phone-geo ">
                                 <div class="footer-phone"><a
-                                            href="tel:<?php echo geoInit('phone'); ?>"><?php echo geoInit('phone'); ?></a>
+                                        href="tel:<?php echo geoInit('phone'); ?>"><?php echo geoInit('phone'); ?></a>
                                 </div>
                                 <div class="footer-phone-info">10:00-19:00 пн-пт</div>
                             </div>
@@ -71,15 +72,15 @@
                         <h3>Присоединяйтесь</h3>
                         <div class="item-social-link-icon">
                             <a href="https://www.facebook.com/mossebodesign/" target="_blank"><i
-                                        class="footer-soc-icon fb"></i></a>
+                                    class="footer-soc-icon fb"></i></a>
                             <a href="https://vk.com/design_mossebo" target="_blank"><i
-                                        class="footer-soc-icon vk"></i></a>
+                                    class="footer-soc-icon vk"></i></a>
                             <a href="https://ok.ru/group/53291776606394" target="_blank"><i
-                                        class="footer-soc-icon odn"></i></a>
+                                    class="footer-soc-icon odn"></i></a>
                             <a href="https://www.instagram.com/remont.design/" target="_blank"><i
-                                        class="footer-soc-icon inst"></i></a>
+                                    class="footer-soc-icon inst"></i></a>
                             <a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank"><i
-                                        class="footer-soc-icon you"></i></a>
+                                    class="footer-soc-icon you"></i></a>
                         </div>
                         <iframe src="/wp-content/themes/mossebo/template/yell.html" frameborder="0" width="160"
                                 height="60" style="margin-top: 15px;"></iframe>
@@ -102,8 +103,8 @@
                         <div class="col-xl-8">
                             <div class="copyright">
                                 <div class="copyright__row">Copyright &copy; 2017 MOSSEBO | <a
-                                            href="/politika-konfidentsialnosti/">Политика конфиденциальности</a> | <a
-                                            href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/">Положение
+                                        href="/politika-konfidentsialnosti/">Политика конфиденциальности</a> | <a
+                                        href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/">Положение
                                         о порядке хранения и защиты персональных данных пользователей</a></div>
                                 <div class="copyright__row">Информация на сайте не является публичной офертой</div>
                             </div>
@@ -112,7 +113,7 @@
                         <div class="col-xl-4 text-right">
                             <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram"
                                  data-counter=""
-                                 data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
+                                 data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div>
                         </div>
                     </div>
                 </div>
@@ -167,7 +168,7 @@ if (is_page(979)) { ?>
             </div>
         </div>
         <div class="tnx-descr">А также скачайте нашу презентацию:</div>
-        <a href="<?php echo get_template_directory_uri(); ?>/mossebo.pdf" download
+        <a href="<?php echo THEME_DIR; ?>/mossebo.pdf" download
            class="btn btn_1 feedback-form-modal-thank-page__btn">Скачать презентацию</a>
     </div>
 
@@ -195,7 +196,7 @@ if (is_page(979)) { ?>
             </div>
         </div>
         <div class="tnx-descr">А также скачайте нашу презентацию:</div>
-        <a href="<?php echo get_template_directory_uri(); ?>/mossebo.pdf" download
+        <a href="<?php echo THEME_DIR; ?>/mossebo.pdf" download
            class="btn btn_1 feedback-form-modal-thank-page__btn">Скачать презентацию</a>
     </div>
 <?php } ?>

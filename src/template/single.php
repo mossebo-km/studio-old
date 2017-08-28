@@ -33,7 +33,7 @@
                   get_template_part( 'template/editor/editor-loop' );
                 ?>
               </div>
-              <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
+              <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div>
               <!-- Single page nav prev/next -->
               <div class="single-page-nav-prev-next">
                 <div class="row">

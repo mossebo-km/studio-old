@@ -68,9 +68,9 @@ get_header();
     <div class="project__top-block-description">Реализуем проекты в 40 городах России и СНГ. Адаптируем проект под задачи вашего бизнеса</div>
   </div>
   <div class="project__img-row row gallery-img-post">
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/project/2.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/project/1.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/project/3.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/2.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/1.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/3.jpg" alt="" class="project__img img-post-gallary"></div>
   </div>
 </div>
 
@@ -82,16 +82,16 @@ get_header();
       </div>
       <!-- Item's -->
       <div class="write-about-us__grid col-md col-sm-6 col-12">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/abous-us-write/1.png" alt="">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/abous-us-write/1.png" alt="">
       </div>
       <div class="write-about-us__grid col-md col-sm-6 col-12">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/abous-us-write/2.png" alt="">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/abous-us-write/2.png" alt="">
       </div>
       <div class="write-about-us__grid col-md col-sm-6 col-12">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/abous-us-write/3.png" alt="">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/abous-us-write/3.png" alt="">
       </div>
       <div class="write-about-us__grid col-md col-sm-6 col-12">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/abous-us-write/4.png" alt="">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/abous-us-write/4.png" alt="">
       </div>
     </div>
 </div>
@@ -147,7 +147,7 @@ call_to_action( array(
 <div class="office-work-happy container">
   <div class="office-work-happy__row row">
     <div class="col-sm-6">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/office/work-happy/image.jpg" alt="" class="office-work-happy__img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/work-happy/image.jpg" alt="" class="office-work-happy__img">
     </div>
     <div class="col-sm-6">
       <div class="office-work-happy__title">Когда работа в радость</div>

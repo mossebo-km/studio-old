@@ -68,12 +68,12 @@ get_header();
     <div class="project__top-block-description">Мы работаем со всеми стилистическими направлениями и предлагаем оптимальные решения для интерьеров деревянных, кирпичных, блочных и других типов коттеджей.</div>
   </div>
   <div class="project__img-row row gallery-img-post">
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/1.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/6.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/3.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/4.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/2.jpg" alt="" class="project__img img-post-gallary"></div>
-    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/project/5.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/1.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/6.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/3.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/4.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/2.jpg" alt="" class="project__img img-post-gallary"></div>
+    <div class="col-sm-4 col-12 project__img-col"><img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/project/5.jpg" alt="" class="project__img img-post-gallary"></div>
   </div>
 </div>
 
@@ -137,27 +137,27 @@ call_to_action( array(
   <!-- grid's -->
   <div class="row">
     <div class="algorithm-work__grid col-sm-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/1.jpg" alt="" class="algorithm-work__grid-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/1.jpg" alt="" class="algorithm-work__grid-img">
       <div class="algorithm-work__grid-title">Замер и оценка объекта</div>
       <div class="algorithm-work__grid-description">Выезжаем на загородный объект, на расстояние до 100 км от города. Оцениваем состояние жилого пространства и придомовой территории, производим все необходимые замеры, составляем поэтапный план ремонтных работ.</div>
     </div>
     <div class="algorithm-work__grid col-sm-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/3.jpg" alt="" class="algorithm-work__grid-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/3.jpg" alt="" class="algorithm-work__grid-img">
       <div class="algorithm-work__grid-title">Организация работы</div>
       <div class="algorithm-work__grid-description">Организуем рабочее пространство на объекте, закупаем и доставляем строительные и отделочные материалы, устанавливаем временные бытовки.</div>
     </div>
     <div class="algorithm-work__grid col-sm-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/2.jpg" alt="" class="algorithm-work__grid-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/2.jpg" alt="" class="algorithm-work__grid-img">
       <div class="algorithm-work__grid-title">Черновые работы</div>
       <div class="algorithm-work__grid-description">Закладываем основы качественного ремонта. Производим весь комплекс черновых работ по стяжке пола, выравниванию стен, обработке потолков, электропроводке, установке систем отопления и проводке коммуникаций.</div>
     </div>
     <div class="algorithm-work__grid col-sm-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/4.jpg" alt="" class="algorithm-work__grid-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/4.jpg" alt="" class="algorithm-work__grid-img">
       <div class="algorithm-work__grid-title">Чистовые работы и монтаж</div>
       <div class="algorithm-work__grid-description">Превращаем загородный объект в комфортное пространство для жизни с помощью выбранных вами отделочных материалов. Устанавливаем сантехнику, кухонное оборудование, монтируем межкомнатные двери и другие функциональные элементы интерьера.</div>
     </div>
     <div class="algorithm-work__grid col-sm-4">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/5.jpg" alt="" class="algorithm-work__grid-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/5.jpg" alt="" class="algorithm-work__grid-img">
       <div class="algorithm-work__grid-title">Меблировка и декор</div>
       <div class="algorithm-work__grid-description">Оснащаем пространство внутри и снаружи дома всей необходимой мебелью, подобранной в соответствии со стилем дизайна и вкусом заказчика. Декорируем внутренние помещения и придомовую территорию, расставляем стильные акценты, придаем интерьеру индивидуальность.</div>
     </div>
@@ -169,7 +169,7 @@ call_to_action( array(
       <div class="algorithm-work__bottom-description">Компания Mossebo предлагает услуги по дизайну и ремонту интерьеров в 35 городах России, СНГ и во всех прилегающих пригородах. Мы работаем как с городскими квартирами, так и с удаленными объектами загородной недвижимости, расположенными на расстоянии до 50 км от города. На нашем счету 214 проектов, реализованных в загородных домах за 2016 год.</div>
     </div>
     <div class="algorithm-work__bottom-right col-sm-5">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/service/cottage/algorithm-work/bottom.svg" alt="" class="algorithm-work__bottom-img">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/service/cottage/algorithm-work/bottom.svg" alt="" class="algorithm-work__bottom-img">
     </div>
   </div>
 </div>

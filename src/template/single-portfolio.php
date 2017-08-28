@@ -9,7 +9,7 @@
       <div class="portfolio-top-paragraph">
         <?php the_field( 'port_header_text' ) ?>
       </div>
-      <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo get_template_directory_uri(); ?>/assets/images/header/logo.jpg"></div>
+      <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter="" data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div>
     </div>
     <!-- Portfolio right sidebar -->
     <?php get_template_part( 'template/sidebar-portfolio-single' ) ?>

@@ -66,4 +66,4 @@ $message =
 'URL: ' . $data[ 'page_url' ] . "\n";
 
 mail( $to, $subject, $message );
-?>
+
