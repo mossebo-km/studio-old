@@ -41,18 +41,19 @@ if ( $post_objects_port_main ) {
 	<div class="row portfolio-page-grids-project-row">
 
 		<?php
-		if ( have_posts() ) {
-			while ( have_posts() ) {
-				the_post(); ?>
+        $query = new WP_Query( array( 'offset' => '1' ) );
+		if ( $query->have_posts() ) {
+			while ( $query->have_posts() ) {
+                $query->the_post(); ?>
 
 			<div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-grid">
 				<div class="grid">
 					<figure class="effect-roxy">
-						<div class="roxy-grid-img-bg" style="background: url(<?php the_field( 'port_img_header' ) ?>) 50% 50% no-repeat; background-size: cover;"></div>
+						<div class="roxy-grid-img-bg" style="background: url(<?php the_field('port_img_header'); ?>) 50% 50% no-repeat; background-size: cover;"></div>
 						<figcaption>
 							<div class="portfolio-page-block">
-								<h3 class="text-center"><?php the_field('port_title') ?></h3>
-								<span class="portfolio-page-grid-description text-center"><?php the_field( 'port_description_text_archive' ) ?></span>
+								<h3 class="text-center"><?php the_field('port_title'); ?></h3>
+								<span class="portfolio-page-grid-description text-center"><?php the_field( 'port_description_text_archive'); ?></span>
 							</div>
 							<a href="javascript:void(0)" class="link-arrow">Подробнее</a>
 							<a class="main-link" href="<?php echo get_permalink(); ?>">Перейти</a>
