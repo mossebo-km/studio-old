@@ -16,7 +16,7 @@
         <div class="row">
 
             <!-- Left side content -->
-            <div class="col-xl-8 col-lg-12">
+            <div class="col-xl-6">
                 <div class="content-left">
 
                     <?php if (have_posts()) {

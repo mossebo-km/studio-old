@@ -168,6 +168,10 @@ $select_id = rand();
         <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/6.svg" alt="Лучшие световые решения для интерьера">
         <div class="write-about-us__grid-text">Лучшие световые решения для интерьеров</div>
       </div>
+      <div class="write-about-us__grid col-md col-6">
+        <img src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/7.png" alt="Новый взгляд на дизайн дома">
+        <div class="write-about-us__grid-text">Новый взгляд на дизайн дома</div>
+      </div>
     </div>
   </div>
 </div>

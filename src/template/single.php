@@ -11,7 +11,7 @@
     <div class="container-fluid">
       <div class="row">
 
-        <div class="col-xl-8">
+        <div class="col-xl-6">
           <div class="content-left">
             <div class="cingle-page-news-main">
               <div class="row top-info-row">

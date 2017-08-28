@@ -1,4 +1,4 @@
-<div class="col-xl-4 col-lg-12">
+<div class="col-xl-6 col-lg-12">
   <div class="sidebar-right">
     <!-- Here content for sidebar -->
     <h3 class="sidebar-title">Свежие новости<br> от компании Mossebo:</h3>
