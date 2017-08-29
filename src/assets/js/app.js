@@ -20,6 +20,7 @@ import 'owl.carousel/dist/owl.carousel';
 //
 
 import './include/common';
+import './include/use_https';
 import './include/feedback-form';
 import './include/feedback-form-calc';
 import './include/feedback-form-calc-2';
