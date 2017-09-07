@@ -24,7 +24,7 @@ get_header();
 
 
 
-<iframe src="https://player.twitch.tv/?volume=0.8&!muted&channel=mossebo"
+<iframe src="https://player.twitch.tv/?volume=1.0&!muted&channel=mossebo"
         width="100%"
         height="100%"
         allowfullscreen="true"
