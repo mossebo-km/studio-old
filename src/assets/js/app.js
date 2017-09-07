@@ -9,8 +9,6 @@
 //
 
 import $ from 'jquery';
-// import 'jquery-migrate';
-// import 'jquery.maskedinput';
 import 'magnific-popup/dist/jquery.magnific-popup';
 import 'owl.carousel/dist/owl.carousel';
 
@@ -26,7 +24,6 @@ import './include/feedback-form-calc';
 import './include/feedback-form-calc-2';
 import './include/yandex.claster';
 import './include/youtube-player';
-// import './include/youtube-player-autoplay';
 import './include/jquery.panorama360';
 import './include/back-top';
 import './include/cookie';
