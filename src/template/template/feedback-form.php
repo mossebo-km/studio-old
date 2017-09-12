@@ -15,6 +15,8 @@ Id's
 2 - воронка ремонт
 3 - на почту в отдел кадров2
 */
+
+
 function feedback_form( $array ) {
 
   $form_office_address = geoInit( 'address' );

@@ -45,7 +45,34 @@ get_header();
     </div>
 </div>
 
-
+<div class="co-work-block container-fluid">
+    <div class="row">
+        <div class="co-work-block__title">Присоединитесь к базе поставщиков сети дизайн студий Mossebo и ваши товары купят в сотни интерьеров по всей России и СНГ</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/wp-content/themes/mossebo/assets/images/co-work/1.png" alt="">
+            <div class="icon-title">
+                <span>от <strong>150</strong></span>
+                новых проектов интерьера создают в Mossebo в месяц
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="/wp-content/themes/mossebo/assets/images/co-work/2.png" alt="">
+            <div class="icon-title">
+                <span>более<strong>70</strong></span>
+                закупочных позиций в каждом дизайне интерьера
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="/wp-content/themes/mossebo/assets/images/co-work/3.png" alt="">
+            <div class="icon-title">
+                <span><strong>10 000</strong> возможностей</span>
+                продать свои товары вместе с Mossebo
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Section social's -->

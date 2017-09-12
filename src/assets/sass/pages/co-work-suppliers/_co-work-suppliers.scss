@@ -1,6 +1,6 @@
 .co-work-suppliers {
     padding-top: 45px;
-    padding-bottom: 60px;
+    padding-bottom: 300px;
     background: url(//mossebo.studio/wp-content/uploads/Fotolia_165841324_Subscription_Monthly_M.jpeg) 50% 50% no-repeat;
     background-size: cover;
     &__title {
@@ -26,5 +26,16 @@
         font-size: 18px;
         font-weight: $weigth_reg;
         margin: 10px 0px 30px 0px;
+    }
+}
+.co-work-block {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    &__title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: bold;
+        width: 70%;
+        margin: 0 auto 65px;
     }
 }

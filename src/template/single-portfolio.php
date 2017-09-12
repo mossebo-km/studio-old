@@ -44,6 +44,10 @@
   ),
 )); ?>
 
+
+<!-- Hypercomments -->
+<?php get_template_part( 'template/hypercomments' ); ?>
+
 <!-- Section other project section -->
 <section id="portfolio-single-other-profect">
 

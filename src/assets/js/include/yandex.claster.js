@@ -96,7 +96,8 @@ jQuery(function (jQuery) {
                     return {
                         iconLayout: 'default#image',
                         iconImageHref: '/wp-content/themes/mossebo/assets/images/icon/map-pin-silhouette.png',
-                        iconImageSize: [30, 42]
+                        iconImageSize: [31, 42],
+                        iconImageOffset: [-17, -42]
                     };
                 },
                 geoObjects = [];
