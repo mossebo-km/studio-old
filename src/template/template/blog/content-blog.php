@@ -14,7 +14,7 @@
     <!-- Blog data/category -->
     <div class="row news-page-ifo-row">
       <div class="col-xl-6 text-left cat-info"><?php echo get_the_category_list(); ?></div>
-      <div class="col-xl-6 text-right"><?php echo the_date(); ?></div>
+      <div class="col-xl-6 text-right data-news"><img src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_access_time_black_24px.svg" alt=""> <?php echo the_date(); ?> &nbsp;&nbsp;&nbsp; <img src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_remove_red_eye_black_24px.svg" alt=""> <?php the_field('count-views'); ?></div>
     </div>
 
     <!-- Blog title -->
