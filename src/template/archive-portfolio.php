@@ -42,37 +42,42 @@ if ($post_objects_port_main) {
     <div class="row portfolio-page-grids-project-row">
 
         <?php
-        $query = new WP_Query(
+        $posts = get_posts(
             array(
-                'offset' => '1',
-                'post_type' => 'portfolio'
+                //'offset' => '1',
+                'post_type' => 'portfolio',
+                'posts_per_page' => -1,
+                'meta_key' => 'count-views',
+                'orderby' => 'meta_value_num',
+                'order' => 'DESC'
             )
         );
-        $portfolio_posts = $query->posts;
-        if ($portfolio_posts) {
-            foreach ($portfolio_posts as $portfolio_single_post) { ?>
+        if ($posts) {
+            foreach ($posts as $post) { ?>
 
                 <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-grid">
                     <div class="grid">
                         <figure class="effect-roxy">
                             <div class="roxy-grid-img-bg"
-                                 style="background: url(<?php the_field('port_img_header', $portfolio_single_post->ID); ?>) 50% 50% no-repeat; background-size: cover;"></div>
+                                 style="background: url(<?php the_field('port_img_header', $post->ID); ?>) 50% 50% no-repeat; background-size: cover;">
+                                <!-- <span style="color: #f00; font-size: 20px"><?php the_field('count-views', $post->ID); ?></span> -->
+                            </div>
                             <figcaption>
                                 <div class="portfolio-page-block">
-                                    <h3 class="text-center"><?php the_field('port_title', $portfolio_single_post->ID); ?></h3>
+                                    <h3 class="text-center"><?php the_field('port_title', $post->ID); ?></h3>
                                     <span
-                                        class="portfolio-page-grid-description text-center"><?php the_field('port_description_text_archive', $portfolio_single_post->ID); ?></span>
+                                        class="portfolio-page-grid-description text-center"><?php the_field('port_description_text_archive', $post->ID); ?></span>
                                 </div>
                                 <a href="javascript:void(0)" class="link-arrow">Подробнее</a>
-                                <a class="main-link" href="<?php echo get_permalink($portfolio_single_post->ID); ?>">Перейти</a>
+                                <a class="main-link" href="<?php echo get_permalink($post->ID); ?>">Перейти</a>
                             </figcaption>
                         </figure>
 
                         <!-- Only mobile -->
                         <div class="mobile-row-portfolio-info text-left">
                             <span
-                                class="mobile-geid-title"><?php the_field('port_title', $portfolio_single_post->ID); ?></span>
-                            <a href="<?php the_permalink($portfolio_single_post->ID); ?>"
+                                class="mobile-geid-title"><?php the_field('port_title', $post->ID); ?></span>
+                            <a href="<?php the_permalink($post->ID); ?>"
                                class="link-arrow">Подробнее</a>
                         </div>
 

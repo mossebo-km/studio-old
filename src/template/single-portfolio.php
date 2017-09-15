@@ -14,8 +14,13 @@ get_template_part('template/count-views');
             <div class="portfolio-top-paragraph">
                 <?php the_field('port_header_text') ?>
             </div>
-            <span class="data-count-portfolio"><img src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_access_time_black_24px.svg" alt=""> <?php echo the_date(); ?> &nbsp;&nbsp;&nbsp; <img src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_remove_red_eye_black_24px.svg" alt=""> <?php the_field('count-views'); ?> <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter=""
-                                                                                                                                                                                                                                                                                                                                data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div></span>
+            <span class="data-count-portfolio"><img
+                    src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_access_time_black_24px.svg"
+                    alt=""> <?php echo the_date(); ?> &nbsp;&nbsp;&nbsp; <img
+                    src="<?php echo THEME_DIR; ?>/assets/images/icon/ic_remove_red_eye_black_24px.svg"
+                    alt=""> <?php the_field('count-views'); ?>
+                <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter=""
+                     data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div></span>
         </div>
         <!-- Portfolio right sidebar -->
         <?php get_template_part('template/sidebar-portfolio-single') ?>
