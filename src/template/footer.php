@@ -104,8 +104,7 @@
                             <div class="copyright">
                                 <div class="copyright__row">Copyright &copy; 2017 MOSSEBO | <a
                                         href="/politika-konfidentsialnosti/">Политика конфиденциальности</a> | <a
-                                        href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/">Положение
-                                        о порядке хранения и защиты персональных данных пользователей</a></div>
+                                        href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/">Защита персональных данных</a></div>
                                 <div class="copyright__row">Информация на сайте не является публичной офертой</div>
                             </div>
                         </div>

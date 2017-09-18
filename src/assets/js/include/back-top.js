@@ -20,3 +20,14 @@ jQuery(function (jQuery) {
     });
 
 });
+
+jQuery(function (jQuery) {
+
+    jQuery('.scroll-top').click(function (event) {
+        event.preventDefault();
+        jQuery('body,html').animate({
+            scrollTop: 0
+        }, 1500);
+    });
+
+});

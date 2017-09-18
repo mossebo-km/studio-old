@@ -34,8 +34,8 @@ get_header();
                 <div class="col-md-6">
                     <!-- Feedback form -->
                     <?php feedback_form(array(
-                        'feedback-form__id' => 1, // Описание после полей
-                        'feedback-form__form-place' => 'Гланый экран', // Имя формы
+                        'feedback-form__id' => 4, // Описание после полей
+                        'feedback-form__form-place' => 'Страница поставщики', // Имя формы
                         'feedback-form__class' => 'franchise-page-feedback__feedback-form',
                         'feedback-form__mail-input' => true, // Поле email
                         'feedback-form__title' => 'Узнайте подробнее', // Заголовок
@@ -87,7 +87,7 @@ get_header();
     <div class="co-work-mossebo-big__subtitle">Получите доступ к точкам продаж и контакт
         с клиентами в 40 городах
     </div>
-    <button class="btn btn_1" type="button">Начать сотрудничество</button>
+    <button class="btn btn_1 scroll-top" type="button">Начать сотрудничество</button>
 </div>
 
 <div class="co-work-where container-fluid">

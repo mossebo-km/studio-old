@@ -36,6 +36,11 @@ mix.copyDirectory('src/assets/images', '../hs-project/mossebo.dev/wp-content/the
 mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery']
 });
-mix.sourceMaps();
+// mix.sourceMaps();
 mix.setPublicPath('../hs-project/mossebo.dev/wp-content/themes/mossebo');
 mix.copyDirectory('src/template', '../hs-project/mossebo.dev/wp-content/themes/mossebo');
+mix.browserSync({
+    proxy: {
+        target: "https://mossebo.dev"
+    }
+});

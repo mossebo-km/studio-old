@@ -80,6 +80,15 @@ if ( $_POST[ 'formId' ] == 1 ) {
 		'mail_to' => 'hr@mossebo.ru',
 		'subject' => 'Заявка со страницы ' . $data_val[ 'page_url' ]
 	);
+} elseif ( $_POST['formId'] == 4 ) {
+	$data_config = 	array(
+		'form_id' => 4,
+		// 'pipeline_id' => 190857,
+		// 'status_id' => 11769034,
+		// 'responsible_user_id' => 'Иванов Владимир',
+		'mail_to' => 'product@mossebo.market',
+		'subject' => 'Зявка стать поставщиком'
+	);
 }
 
 $data = $data_val + $data_config;

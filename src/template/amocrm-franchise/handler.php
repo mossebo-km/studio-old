@@ -10,7 +10,7 @@ if ( isset( $_POST['name'] ) ) {
   require $root . '/prepare.php'; #Объявление функций, поля
   require $root . '/mail.php'; #Объявление функций, поля
 
-  if ( $data[ 'form_id' ] != 3 ) {
+  if ( ($data[ 'form_id' ] != 3) && ($data[ 'form_id' ] != 4) ) {
     require $root . '/auth.php'; #Авторизация
     require $root . '/account_current.php'; #Получим информацию об аккаунте
     require $root . '/user_list_info.php'; #Получим информацию о пользователях
