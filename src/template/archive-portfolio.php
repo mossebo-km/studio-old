@@ -46,7 +46,7 @@ if ($post_objects_port_main) {
             array(
                 //'offset' => '1',
                 'post_type' => 'portfolio',
-                'posts_per_page' => -1,
+                'posts_per_page' => 99999,
                 'meta_key' => 'count-views',
                 'orderby' => 'meta_value_num',
                 'order' => 'DESC'
@@ -60,7 +60,7 @@ if ($post_objects_port_main) {
                         <figure class="effect-roxy">
                             <div class="roxy-grid-img-bg"
                                  style="background: url(<?php the_field('port_img_header', $post->ID); ?>) 50% 50% no-repeat; background-size: cover;">
-                                <!-- <span style="color: #f00; font-size: 20px"><?php the_field('count-views', $post->ID); ?></span> -->
+                                 <!-- <span style="color: #f00; font-size: 20px"><?php the_field('count-views', $post->ID); ?></span> -->
                             </div>
                             <figcaption>
                                 <div class="portfolio-page-block">

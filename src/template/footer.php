@@ -96,9 +96,20 @@
         <div class="container-fluid footer-bottom-container-wrapper">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1 col-md-12">
+                    <div class="row">
+                        <div class="col-xl-8">
                     <nav class="footer">
                         <?php wp_nav_menu('menu=footer'); ?>
                     </nav>
+                        </div>
+                        <div class="col-xl-4 text-right">
+                            <!-- Yandex.Metrika informer -->
+                            <a href="https://metrika.yandex.ru/stat/?id=42716444&amp;from=informer"
+                               target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/42716444/3_1_FFFFECFF_FFFFCCFF_0_pageviews"
+                                                                   style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="42716444" data-lang="ru" /></a>
+                            <!-- /Yandex.Metrika informer -->
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-xl-8">
                             <div class="copyright">

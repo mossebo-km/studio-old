@@ -42,16 +42,22 @@
     &__title {
         font-size: 30px;
         text-align: center;
-        font-weight: bold;
         width: 70%;
-        margin: 0 auto 65px;
+        margin: 0 auto 20px;
+    }
+    &__subtitle {
+        font-size: 18px;
+        margin-bottom: 70px;
     }
     .co-work-icon {
         margin-bottom: 30px;
+        max-width: 140px;
+        height: auto;
     }
     .icon-title {
         font-size: 18px;
-        margin-bottom: 40px;
+        max-width: 200px;
+        margin: 0 auto 40px;
         span {
             color: $color_pr;
             display: block;
@@ -74,6 +80,7 @@
         margin-left: auto;
         margin-right: auto;
         margin-bottom: 30px;
+        position: relative;
     }
     &__subtitle {
         font-size: 18px;

@@ -15,14 +15,15 @@ if ($_SERVER["SCRIPT_NAME"] == THEME_DIR . "functions.php") {
   // Подключаем стили и скрипты
 function theme_files()
 {
+    $version_assets = '0000004';
     // JQuery
     wp_deregister_script('jquery');
-    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js', true, null, false);
+    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js?' . $version_assets, true, null, false);
     wp_enqueue_script('jquery');
     // JQuery-migrate
     wp_deregister_script('jquery-migrate');
     // Custom CSS
-    wp_register_style('style-css', THEME_DIR . '/assets/css/app.css', array(), null, 'all');
+    wp_register_style('style-css', THEME_DIR . '/assets/css/app.css?' . $version_assets, array(), null, 'all');
     wp_enqueue_style('style-css');
 }
 add_action('wp_enqueue_scripts', 'theme_files');

@@ -50,11 +50,8 @@ get_header();
 </div>
 
 <div class="co-work-block container-fluid">
-    <div class="row">
-        <div class="co-work-block__title">Присоединитесь к базе поставщиков сети дизайн студий Mossebo и ваши товары
-            купят в сотни интерьеров по всей России и СНГ
-        </div>
-    </div>
+        <div class="co-work-block__title">Присоединитесь к базе поставщиков Mossebo</div>
+        <div class="co-work-block__subtitle">Ваши товары купят в сотни интерьеров по всей России и СНГ</div>
     <div class="row">
         <div class="col-md-4">
             <img src="/wp-content/themes/mossebo/assets/images/co-work/1.png" alt="" class="co-work-icon">
