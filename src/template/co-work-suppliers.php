@@ -35,8 +35,8 @@ get_header();
                 <div class="col-md-6">
                     <!-- Feedback form -->
                     <?php feedback_form(array(
-                        'feedback-form__id' => 4, // Описание после полей
-                        'feedback-form__form-place' => 'Страница поставщики', // Имя формы
+                        'feedback-form__id' => 5, // Описание после полей
+                        'feedback-form__form-place' => 'Страница продакшен', // Имя формы
                         'feedback-form__class' => 'franchise-page-feedback__feedback-form',
                         'feedback-form__mail-input' => true, // Поле email
                         'feedback-form__title' => 'Узнайте подробнее', // Заголовок

@@ -53,6 +53,12 @@ jQuery(function (jQuery) {
                     };
                     formId = 4;
                     break;
+                case 5:
+                    thankModal = function () {
+                        alert('Спасибо за интерес к рекламным площадкам Mossebo. Представитель Mossebo обязательно свяжется с вами.');
+                    };
+                    formId = 5;
+                    break;
                 default:
                     alert('Feedback form error!');
             }

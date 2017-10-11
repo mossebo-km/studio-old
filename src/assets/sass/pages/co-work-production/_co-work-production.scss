@@ -1,0 +1,57 @@
+.co-work-production {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background: url(//mossebo.studio/wp-content/uploads/original/1-marketing.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    &__title {
+        color: $color_bk;
+        font-size: 46px;
+        font-weight: $weigth_reg;
+        position: relative;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        @media (max-width: 640px) {
+            font-size: 22px;
+        }
+        &:before {
+            content: '';
+            display: block;
+            background: $color_pr;
+            width: 50px;
+            height: 6px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+    }
+    &__subtitle {
+        color: $color_bk;
+        font-size: 18px;
+        font-weight: $weigth_reg;
+        margin: 10px 0px 30px 0px;
+        @media (max-width: 640px) {
+            font-size: 16px;
+        }
+    }
+    &__iframe {
+        margin-top: 140px;
+        margin-bottom: 30px;
+    }
+    &__lastvideo {
+        font-size: 24px;
+    }
+
+    &-about {
+        padding: 50px 0;
+        &__title {
+            font-size: 48px;
+        }
+        &__subtitle {
+            font-size: 18px;
+        }
+        &__p {
+            font-size: 30px;
+        }
+    }
+}
