@@ -75,14 +75,161 @@ get_header();
                         рекламные интеграции и прямая реклама для вашего бренда.</p>
                 </div>
                 <div class="col-md-6">
-
+                    <img src="//mossebo.studio/wp-content/uploads/marketing.jpg" alt=""
+                         class="co-work-production-about__photo">
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- Section social's -->
-<?php get_template_part('template/social_section'); ?>
+<div class="co-work-production-projects container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="co-work-production-leadform container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong class="co-work-production-leadform__title">Получите подробную
+                        презентацию
+                        о наших медиа</strong>
+                </div>
+                <div class="col-md-6">
+                    <!-- Feedback form -->
+                    <?php feedback_form(array(
+                        'feedback-form__id' => 5, // Описание после полей
+                        'feedback-form__form-place' => 'Страница продакшн', // Имя формы
+                        'feedback-form__class' => 'franchise-page-feedback__feedback-form',
+                        'feedback-form__mail-input' => true, // Поле email
+                        'feedback-form__title' => 'Получите медиа-кит', // Заголовок
+                        'feedback-form__title-sub' => 'с ценами и рекламными возможностями на площадках Mossebo', // Подзаголовок
+                        'feedback-form__text-description' => '', // Описание после полей
+                        'feedback-form__btn-value' => 'Получить', // Описание после полей
+                    )); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="co-work-production-brands container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="co-work-production-brands__title">В выпусках уже были:</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row co-work-production-brands__icons">
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-yota.png"
+                         alt="Yota">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-audi.png"
+                         alt="Audi">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-dost.png"
+                         alt="Dostayevsky">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-hh.png"
+                         alt="HeadHunter">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-subway.png"
+                         alt="SubWay">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-benua.png"
+                         alt="Benua">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-painty.png"
+                         alt="Painty">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-kwakinn.png"
+                         alt="Kwakinn">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-eus.png"
+                         alt="Единая Юридическая Служба">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-ilocked.png"
+                         alt="iLocked">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-shulz.png"
+                         alt="Shulz">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-igooods.png"
+                         alt="Igooods">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-kreslo.png"
+                         alt="Kreslo">
+                </div>
+                <div class="col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-moguta.png"
+                         alt="MOGUTA CMS">
+                </div>
+                <div class="col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-pitas.png"
+                         alt="Pitas">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="co-work-production-spaces container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="co-work-production-leadform container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <strong class="co-work-production-leadform__title">Получите подробную
+                        презентацию
+                        о наших медиа</strong>
+                </div>
+                <div class="col-md-6">
+                    <!-- Feedback form -->
+                    <?php feedback_form(array(
+                        'feedback-form__id' => 5, // Описание после полей
+                        'feedback-form__form-place' => 'Страница продакшн', // Имя формы
+                        'feedback-form__class' => 'franchise-page-feedback__feedback-form',
+                        'feedback-form__mail-input' => true, // Поле email
+                        'feedback-form__title' => 'Получите медиа-кит', // Заголовок
+                        'feedback-form__title-sub' => 'с ценами и рекламными возможностями на площадках Mossebo', // Подзаголовок
+                        'feedback-form__text-description' => '', // Описание после полей
+                        'feedback-form__btn-value' => 'Получить', // Описание после полей
+                    )); ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <?php get_footer(); ?>

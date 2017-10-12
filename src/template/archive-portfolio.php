@@ -44,12 +44,9 @@ if ($post_objects_port_main) {
         <?php
         $posts = get_posts(
             array(
-                //'offset' => '1',
+                'offset' => '1',
                 'post_type' => 'portfolio',
-                'posts_per_page' => 99999,
-                'meta_key' => 'count-views',
-                'orderby' => 'meta_value_num',
-                'order' => 'DESC'
+                'posts_per_page' => 99999
             )
         );
         if ($posts) {
