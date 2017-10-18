@@ -21,17 +21,14 @@ get_header();
 
                 <!-- Title -->
                 <div class="col-12">
-                    <h1 class="co-work-suppliers__title">Станьте поставщиком <br>
-                        для проектов Mossebo</h1>
-                </div>
-                <div class="col-md-6 col-12">
-                    <!-- Sub title -->
-                    <h2 class="co-work-suppliers__subtitle">Продавайте товары в крупнейшей сети студий дизайна</h2>
+                    <h1 class="co-work-suppliers__title">Станьте поставщиком Mossebo</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <!-- Sub title -->
+                    <h2 class="co-work-suppliers__subtitle">Продавайте товары в крупнейшей сети студий дизайна</h2></div>
                 <div class="col-md-6">
                     <!-- Feedback form -->
                     <?php feedback_form(array(
@@ -39,6 +36,7 @@ get_header();
                         'feedback-form__form-place' => 'Страница продакшен', // Имя формы
                         'feedback-form__class' => 'franchise-page-feedback__feedback-form',
                         'feedback-form__mail-input' => true, // Поле email
+                        'feedback-form__textarea' => true,
                         'feedback-form__title' => 'Узнайте подробнее', // Заголовок
                         'feedback-form__title-sub' => 'Оставьте свой номер и с вами свяжется специалист по закупкам Mossebo и обсудит формат сотрудничества', // Подзаголовок
                         'feedback-form__text-description' => '', // Описание после полей

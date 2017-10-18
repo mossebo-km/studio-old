@@ -214,6 +214,6 @@ if (is_page(979)) { ?>
 <?php wp_footer(); ?>
 
 <?php get_template_part('template/cookie'); ?>
-
+</div>
 </body>
 </html>

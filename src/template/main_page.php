@@ -18,7 +18,7 @@ $select_id = rand();
   <div class="row">
     <!-- logo mobile -->
     <div class="page-banner__logo-mobile col-12">
-      <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo.svg" alt="Mossebo дизайн и ремонт">
+      <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo-mossebo.svg" alt="Mossebo дизайн и ремонт">
     </div>
     <!-- title -->
     <div class="col-xl-11 offset-xl-1 col-12">

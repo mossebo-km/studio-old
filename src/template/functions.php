@@ -18,7 +18,7 @@ function theme_files()
     $version_assets = '0000004';
     // JQuery
     wp_deregister_script('jquery');
-    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js?' . $version_assets, true, null, false);
+    wp_register_script('jquery', THEME_DIR . '/assets/js/app.js?' . $version_assets, true, null, true);
     wp_enqueue_script('jquery');
     // JQuery-migrate
     wp_deregister_script('jquery-migrate');

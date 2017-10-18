@@ -8,6 +8,34 @@
 // Import Libs
 //
 
+import Vue from 'vue';
+import { Carousel3d, Slide } from 'vue-carousel-3d';
+
+
+    var ProductionMedia = new Vue({
+        el: '#productionmedia',
+        components: {
+            'carousel-3d': Carousel3d,
+            'slide': Slide
+        }
+    });
+    var ProductionSpaces = new Vue({
+        el: '#production-spaces',
+        components: {
+            'carousel-3d': Carousel3d,
+            'slide': Slide
+        }
+    });
+    var ProductionPerson = new Vue({
+        el: '#person_mobile',
+        components: {
+            'carousel-3d': Carousel3d,
+            'slide': Slide
+        }
+    });
+
+
+
 import $ from 'jquery';
 import 'magnific-popup/dist/jquery.magnific-popup';
 import 'owl.carousel/dist/owl.carousel';
