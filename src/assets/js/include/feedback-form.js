@@ -53,12 +53,14 @@ jQuery(function (jQuery) {
                     };
                     formId = 4;
                     break;
+
                 case 5:
                     thankModal = function () {
                         alert('Спасибо за интерес к рекламным площадкам Mossebo. Представитель Mossebo обязательно свяжется с вами.');
                     };
                     formId = 5;
                     break;
+
                 default:
                     alert('Feedback form error!');
             }
@@ -79,6 +81,8 @@ jQuery(function (jQuery) {
                     email: jQuery(thisElem).find('input[name="feedback-form__email"]').val(),
                     // Телефон
                     phone: jQuery(thisElem).find('input[name="feedback-form__phone"]').val(),
+                    // Текст сообщения
+                    message: jQuery(thisElem).find('textarea[name="feedback-form__text"]').val() + ' ',
                     // URL страницы
                     urlPage: document.location.href,
                     // Имя формы
@@ -100,7 +104,7 @@ jQuery(function (jQuery) {
                     jQuery.magnificPopup.close();
                     setTimeout(thankModal, 600);
                     // Yandex reachGoal
-                    yaReachCol();
+                    //yaReachCol();
                     // Facebook
                     facebookEvent();
                     // hide load btn
