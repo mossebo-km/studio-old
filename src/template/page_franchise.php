@@ -415,27 +415,27 @@ $form_city_name_geo = geoInit('city');
     </div>
     <!-- Start price -->
     <div class="franchise-superiority__start-price">
-        <div class="franchise-title franchise-superiority__main-title">Пакеты франшизы Mossebo</div>
+        <div class="franchise-title franchise-superiority__main-title">Получение права открытия студии Mossebo<br>(вступительный взнос)</div>
         <div class="row">
             <div class="franchise-superiority__start-price-col col-lg-4 col-md-4 col-sm-6">
-                <div class="franchise-superiority__start-price-col-title">Конверсионная франшиза</div>
-                <div class="franchise-superiority__start-price-col-price">350 000.-</div>
-                <div class="franchise-superiority__start-price-col-description">обновите свою дизайн-студию до уровня
-                    международных стандартов Mossebo
+                <div class="franchise-superiority__start-price-col-title">Конверсионная лицензия<br>(ребрендинг вашей студии дизайна)</div>
+                <div class="franchise-superiority__start-price-col-price">от 350 000.-</div>
+                <div class="franchise-superiority__start-price-col-description">*для действующих студий, которые нуждаются
+                    в кратном увеличении клиентопотока
                 </div>
             </div>
             <div class="franchise-superiority__start-price-col col-lg-4 col-md-4 col-sm-6">
-                <div class="franchise-superiority__start-price-col-title">Филиал</div>
-                <div class="franchise-superiority__start-price-col-price">500 000.-</div>
-                <div class="franchise-superiority__start-price-col-description">для открытия новой студии Mossebo</div>
+                <div class="franchise-superiority__start-price-col-title">Лицензия «Стандарт» <br>на открытие одной студии</div>
+                <div class="franchise-superiority__start-price-col-price">от 500 000.-</div>
+                <div class="franchise-superiority__start-price-col-description">*для открытия с нуля студии дизайна
+                    интерьера под брендом лидера отрасли</div>
             </div>
             <div class="franchise-superiority__start-price-col col-lg-4 col-md-4 col-sm-6">
-                <div class="franchise-superiority__start-price-col-title">Эксклюзив</div>
-                <div class="franchise-superiority__start-price-col-price"><span
-                        class="franchise-superiority__start-price-col-price_font-min">от</span>1 500 000.-
+                <div class="franchise-superiority__start-price-col-title">Эксклюзивное право <br>на развитие бренда в городе</div>
+                <div class="franchise-superiority__start-price-col-price">от 1 500 000.-
                 </div>
-                <div class="franchise-superiority__start-price-col-description">экскюзивные права в вашем городе или
-                    области
+                <div class="franchise-superiority__start-price-col-description">*права на всю прибыль новых студий
+                    города, которые будут открыты вами
                 </div>
             </div>
         </div>

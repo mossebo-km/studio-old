@@ -189,14 +189,9 @@ jQuery(function (jQuery) {
                 getPointData('Тула', 'Каминского 1/30', '8-800-707-83-47'),
                 getPointOptions());
 
-            //Одинцово
-            //geoObjects[20] = new ymaps.Placemark([55.696364, 37.337501],
-            //    getPointData('Одинцово', 'Трехгорка, Чистяковой 26 В', '8 (495) 151-20-89 '),
-            //    getPointOptions());
-
             //Уфа
-            geoObjects[20] = new ymaps.Placemark([54.177843, 37.599902],
-                getPointData('Уфа', 'Ленина 70", 3 эт., оф. 304.', '8-800-707-83-47'),
+            geoObjects[20] = new ymaps.Placemark([54.733021, 55.951172],
+                getPointData('Уфа', 'улица Ленина, 70, 3 эт., оф. 304.', '8-800-707-83-47'),
                 getPointOptions());
 
             //Пенза
@@ -205,8 +200,8 @@ jQuery(function (jQuery) {
                 getPointOptions());
 
             //Магнитогорск
-            geoObjects[22] = new ymaps.Placemark([54.608968, 39.795304],
-                getPointData('Магнитогорск', 'улица Советской Армии, 17А', '8-800-707-83-47'),
+            geoObjects[22] = new ymaps.Placemark([53.390363, 58.975108],
+                getPointData('Магнитогорск', 'улица Советской Армии, 17А', '+7 (3519) 51-00-62'),
                 getPointOptions());
 
             //Казань
