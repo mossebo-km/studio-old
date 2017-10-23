@@ -1,6 +1,6 @@
 <?
 if (array_key_exists('roomSpace', $_POST)) {
-    $to = 'averinuveren@yandex.ru';
+    $to = 'code@mossebo.ru';
     $subject = 'Заполнена контактная форма с ' . $_SERVER['HTTP_REFERER'];
     $subject = "=?utf-8?b?" . base64_encode($subject) . "?=";
     $message = "Площадь помещения: " . $_POST['roomSpace'] . "\nТип помещения: " . $_POST['roomType'] . "\nТелефон: " . $_POST['phoneNumber'] . "\nСтраницы заполнения формы: " . $_POST['urlPage'];

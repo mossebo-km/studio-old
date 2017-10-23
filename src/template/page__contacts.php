@@ -32,7 +32,7 @@ get_header();
                         <span class="contact-page-city-name text-primary"><?php echo $footer_map_city; ?></span>
                         <address class="contact-page-adress-item">
                             <?php echo $footer_map_address; ?><br>
-                            <a href="<?php echo $phone_footer; ?>"><?php echo $phone_footer; ?></a>
+                            <a href="tel:<?php echo $phone_footer; ?>"><?php echo $phone_footer; ?></a>
                         </address>
                     </div>
                 </div>
