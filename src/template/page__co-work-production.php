@@ -105,36 +105,36 @@ get_header();
             <slide :index="0">
                 <div class="slide-block">
                     <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/original/1-logo.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1-logo.png" alt="">
                     </div>
                     <div class="decription">
                         Хайповый бизнес – канал бизнес-интервью с известными и интересными людьми. Бизнесмены, top-менеджеры международных и российских компаний, звезды спорта и шоу-бизнеса – все они есть в выпусках на канале.
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/original/1.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1.jpg" class="slide-image">
             </slide>
             <slide :index="1">
                 <div class="slide-block">
                     <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/original/2-logo.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2-logo.png" alt="">
                     </div>
                     <div class="decription">
                         Канал о дизайне интерьера с элементами fashion, beauty и lifestyle.
                         Ведущая канала и первый в России IKEA-art блогер - Liza Loft.
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/original/2.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2.jpg" class="slide-image">
             </slide>
             <slide :index="2">
                 <div class="slide-block">
                     <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/original/3-logo.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3-logo.png" alt="">
                     </div>
                     <div class="decription">
                         Канал об идеях для бизнеса для предпринимателей и инвесторов.
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/original/3.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3.jpg" class="slide-image">
             </slide>
         </carousel-3d>
     </div>
@@ -178,63 +178,63 @@ get_header();
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row co-work-production-brands__icons">
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-yota.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-yota.png"
                          alt="Yota">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-audi.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-audi.png"
                          alt="Audi">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-dost.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-dost.png"
                          alt="Dostayevsky">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-hh.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-hh.png"
                          alt="HeadHunter">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-subway.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-subway.png"
                          alt="SubWay">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-benua.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-benua.png"
                          alt="Benua">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-painty.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-painty.png"
                          alt="Painty">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-kwakinn.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-kwakinn.png"
                          alt="Kwakinn">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-eus.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-eus.png"
                          alt="Единая Юридическая Служба">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-ilocked.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-ilocked.png"
                          alt="iLocked">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-shulz.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-shulz.png"
                          alt="Shulz">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-igooods.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-igooods.png"
                          alt="Igooods">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-kreslo.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-kreslo.png"
                          alt="Kreslo">
                 </div>
                 <div class="col-4 col-md-3">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-moguta.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-moguta.png"
                          alt="MOGUTA CMS">
                 </div>
                 <div class="col-4 col-md-2">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/1-pitas.png"
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/1-pitas.png"
                          alt="Pitas">
                 </div>
             </div>
@@ -249,13 +249,13 @@ get_header();
             <div class="subtitle">Получайте новых клиентов через наши площадки</div>
                 <div class="row instagrams">
                     <div class="col-md-4">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-1.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-1.png" alt="">
                     </div>
                     <div class="col-md-4">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-2.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-2.png" alt="">
                     </div>
                     <div class="col-md-4">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-3.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-3.png" alt="">
                     </div>
                 </div>
             <div class="co-work-production-spaces__mobile" id="production-spaces">
@@ -271,13 +271,13 @@ get_header();
                     height="320px"
                 >
                     <slide :index="0">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-1.png">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-1.png">
                     </slide>
                     <slide :index="1">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-2.png">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-2.png">
                     </slide>
                     <slide :index="2">
-                        <img src="//mossebo.studio/wp-content/uploads/original/logos/2-3.png">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/2-3.png">
                     </slide>
                 </carousel-3d>
             </div>
@@ -323,21 +323,21 @@ get_header();
             <div class="row stat-2">
                 <!--
                 <div class="col-md-1">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/3-1.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/3-1.png" alt="">
                 </div> -->
                 <div class="col-md-4">
                     <strong>80%</strong>
                     <span>аудитории находится в России</span>
                 </div>
                 <!-- <div class="col-md-1">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/3-2.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/3-2.png" alt="">
                 </div> -->
                 <div class="col-md-4">
                     <strong>90%</strong>
                     <span>видео выходит в тренды YouTube</span>
                 </div>
                 <!-- <div class="col-md-1">
-                    <img src="//mossebo.studio/wp-content/uploads/original/logos/3-3.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/logos/3-3.png" alt="">
                 </div> -->
                 <div class="col-md-4">
                     <strong>72.5%</strong>
@@ -351,10 +351,10 @@ get_header();
 
 <div class="co-work-production-gallery container-fluid">
     <div class="panorama"
-         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/original/gallery_mobile.jpg">
+         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__co-work-production/gallery_mobile.jpg">
         <div class="panorama-view">
             <div class="panorama-container">
-                <img src="//mossebo.studio/wp-content/uploads/original/gallery.jpg"
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/gallery.jpg"
                      usemap="hotspots" data-width="2430" data-height="500" alt=""/>
             </div>
         </div>
@@ -369,19 +369,19 @@ get_header();
             <div class="row mobile_hide">
                 <div class="col-md-3">
                     <div class="person_name">Марк <br>Еремин</div>
-                    <img src="//mossebo.studio/wp-content/uploads/original/mark.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/mark.png" alt="">
                 </div>
                 <div class="col-md-3">
                     <div class="person_name">Юрий <br>Еремин</div>
-                    <img src="//mossebo.studio/wp-content/uploads/original/yury.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/yury.png" alt="">
                 </div>
                 <div class="col-md-3">
                     <div class="person_name">Владислав <br>Туржанский</div>
-                    <img src="//mossebo.studio/wp-content/uploads/original/vlad.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/vlad.png" alt="">
                 </div>
                 <div class="col-md-3">
                     <div class="person_name">Liza <br>Loft</div>
-                    <img src="//mossebo.studio/wp-content/uploads/original/liza.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/liza.png" alt="">
                 </div>
             </div>
             <div id="person_mobile">
@@ -398,19 +398,19 @@ get_header();
                 >
                     <slide :index="0">
                         <div class="person_name">Марк <br>Еремин</div>
-                        <img src="//mossebo.studio/wp-content/uploads/original/mark.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/mark.png" alt="">
                     </slide>
                     <slide :index="1">
                         <div class="person_name">Юрий <br>Еремин</div>
-                        <img src="//mossebo.studio/wp-content/uploads/original/yury.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/yury.png" alt="">
                     </slide>
                     <slide :index="2">
                         <div class="person_name">Владислав <br>Туржанский</div>
-                        <img src="//mossebo.studio/wp-content/uploads/original/vlad.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/vlad.png" alt="">
                     </slide>
                     <slide :index="3">
                         <div class="person_name">Liza <br>Loft</div>
-                        <img src="//mossebo.studio/wp-content/uploads/original/liza.png" alt="">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/liza.png" alt="">
                     </slide>
                 </carousel-3d>
             </div>
@@ -424,32 +424,32 @@ get_header();
             <strong class="co-work-production-pay__title">Наши друзья</strong>
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/1.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/1.jpg" alt="">
                     <strong>Вячеслав Малафеев</strong>
                     <p>Российский футболист, владелец агентства недвижимости "М16"</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/2.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/2.jpg" alt="">
                     <strong>Руслан Татунашвили</strong>
                     <p>Основатель крупнейшего сервиса коллтрекинга Callbackhunter</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/3.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/3.jpg" alt="">
                     <strong>Дмитрий Портнягин</strong>
                     <p>Топ 1 бизнес-блогер в Youtube, создатель канала Трансформатор, основатель экспортно-импортной компании TRANSITplus</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/4.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/4.jpg" alt="">
                     <strong>Евгений Гаврилин</strong>
                     <p>Сооснователь boomstarter.ru, MediaToday, и YouTube канала Жизнь Би</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/5.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/5.jpg" alt="">
                     <strong>Ольга Блудовская</strong>
                     <p>Президент компании "Subway Россия"</p>
                 </div>
                 <div class="col-sm-4">
-                    <img src="//mossebo.studio/wp-content/uploads/original/friends/6.jpg" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/6.jpg" alt="">
                     <strong>Артемий Пономарев</strong>
                     <p>Директор по направлению смартфонов в компании Yota</p>
                 </div>
@@ -489,10 +489,10 @@ get_header();
             <p class="co-work-production-pay__subtitle">Оплата рекламы и интеграций возможны на расчетный счет, карту Сбербанка или на другой удобный для вас формат.</p>
             <div class="row">
                 <div class="col-md-6">
-                    <img src="//mossebo.studio/wp-content/uploads/original/pay-1.png" alt="" style="margin-top: 25px;">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/pay-1.png" alt="" style="margin-top: 25px;">
                 </div>
                 <div class="col-md-6">
-                    <img src="//mossebo.studio/wp-content/uploads/original/pay-2.png" alt="">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/pay-2.png" alt="">
                 </div>
             </div>
         </div>
@@ -519,7 +519,7 @@ get_header();
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <img src="//mossebo.studio/wp-content/uploads/original/5-1.jpg" alt=""
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/5-1.jpg" alt=""
                              class="co-work-production-inventary__photo">
                     </div>
                 </div>
