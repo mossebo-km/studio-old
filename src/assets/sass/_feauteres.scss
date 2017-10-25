@@ -1,224 +1,227 @@
 // Section feauteres
 .feauteres {
-  background: #f7f9fa;
-  text-align: center;
-  // --mod's
-  &.feauteres_theme-background-white {
-    background: #fff;
-  }
-
-  // Feauteeres grid wrapper
-  .feauteres__grid {
-    padding-top: 80px;
-    padding-bottom: 40px;
-    transition: .3s ease;
-    overflow: hidden;
-    cursor: default;
-
-    // Feauteres icon
-    .feauteres__icon {
-      display: block;
-      height: 90px;
-      position: relative;
-      margin-bottom: 25px;
-      transition: .3s ease;
-
-      &::before {
-        content: '';
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-position: 50% 50%;
-        background-size: contain;
-      }
-      // main page
-      &.feauteres__icon_1::before {
-        background-image: url(../images/main_page/feauteres/1.svg);
-      }
-      &.feauteres__icon_2::before {
-        background-image: url(../images/main_page/feauteres/2.svg);
-      }
-      &.feauteres__icon_3::before {
-        background-image: url(../images/main_page/feauteres/3.svg);
-      }
-
-      // franchise
-      &.feauteres__icon_4::before {
-        background-image: url(../images/franchise/francise-page-feauteres/1.svg);
-      }
-      &.feauteres__icon_5::before {
-        background-image: url(../images/franchise/francise-page-feauteres/2.svg);
-      }
-      &.feauteres__icon_6::before {
-        background-image: url(../images/franchise/francise-page-feauteres/3.svg);
-      }
-
-      // service cottage
-      &.feauteres__icon_7::before {
-        background-image: url(../images/service/cottage/feauteres/1.svg);
-      }
-      &.feauteres__icon_8::before {
-        background-image: url(../images/service/cottage/feauteres/2.svg);
-      }
-      &.feauteres__icon_9::before {
-        background-image: url(../images/service/cottage/feauteres/3.svg);
-      }
-
-      // service office
-      &.feauteres__icon_10::before {
-        background-image: url(../images/service/office/feauteres/1.svg);
-      }
-      &.feauteres__icon_11::before {
-        background-image: url(../images/service/office/feauteres/2.svg);
-      }
-      &.feauteres__icon_12::before {
-        background-image: url(../images/service/office/feauteres/3.svg);
-      }
+    background: #f7f9fa;
+    text-align: center;
+    // --mod's
+    &.feauteres_theme-background-white {
+        background: #fff;
     }
 
-    // Feauteres text
-    .feauteres__text {
-      @include trs(.3s);
-      font-size: 20px;
-      line-height: 22px;
-      color: $color_bk;
-      display: block;
-      position: relative;
-      margin-bottom: 25px;
+    // Feauteeres grid wrapper
+    .feauteres__grid {
+        padding-top: 80px;
+        padding-bottom: 40px;
+        transition: .3s ease;
+        overflow: hidden;
+        cursor: default;
+
+        // Feauteres icon
+        .feauteres__icon {
+            display: block;
+            height: 90px;
+            position: relative;
+            margin-bottom: 25px;
+            transition: .3s ease;
+
+            &::before {
+                content: '';
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-size: contain;
+            }
+            // main page
+            &.feauteres__icon_1::before {
+                background-image: url(../images/main_page/feauteres/1.svg);
+            }
+            &.feauteres__icon_2::before {
+                background-image: url(../images/main_page/feauteres/2.svg);
+            }
+            &.feauteres__icon_3::before {
+                background-image: url(../images/main_page/feauteres/3.svg);
+            }
+
+            // franchise
+            &.feauteres__icon_4::before {
+                background-image: url(../images/franchise/francise-page-feauteres/1.svg);
+            }
+            &.feauteres__icon_5::before {
+                background-image: url(../images/franchise/francise-page-feauteres/2.svg);
+            }
+            &.feauteres__icon_6::before {
+                background-image: url(../images/franchise/francise-page-feauteres/3.svg);
+            }
+
+            // service cottage
+            &.feauteres__icon_7::before {
+                background-image: url(../images/service/cottage/feauteres/1.svg);
+            }
+            &.feauteres__icon_8::before {
+                background-image: url(../images/service/cottage/feauteres/2.svg);
+            }
+            &.feauteres__icon_9::before {
+                background-image: url(../images/service/cottage/feauteres/3.svg);
+            }
+
+            // service office
+            &.feauteres__icon_10::before {
+                background-image: url(../images/service/office/feauteres/1.svg);
+            }
+            &.feauteres__icon_11::before {
+                background-image: url(../images/service/office/feauteres/2.svg);
+            }
+            &.feauteres__icon_12::before {
+                background-image: url(../images/service/office/feauteres/3.svg);
+            }
+        }
+
+        // Feauteres text
+        .feauteres__text {
+            @include trs(.3s);
+            font-size: 20px;
+            line-height: 22px;
+            color: $color_bk;
+            display: block;
+            position: relative;
+            margin-bottom: 25px;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+        }
+
+        // Feauteres description
+        .feauteres__description {
+            @include trs(.3s);
+            font-size: 14px;
+            line-height: 18px;
+            font-weight: $weigt_light;
+            color: #fff;
+            opacity: 0;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+
+        // Hover and focus
+        &:hover, &:focus {
+            background: $color_pr;
+            .feauteres__icon {
+                opacity: 0;
+            }
+
+            .feauteres__text {
+                -webkit-transform: translateY(-85px);
+                -moz-transform: translateY(-85px);
+                transform: translateY(-85px);
+                color: #fff;
+            }
+
+            .feauteres__description {
+                opacity: 1;
+                -webkit-transform: translateY(-85px);
+                -moz-transform: translateY(-85px);
+                transform: translateY(-85px);
+            }
+        }
+
     }
-
-    // Feauteres description
-    .feauteres__description {
-      @include trs(.3s);
-      font-size: 14px;
-      line-height: 18px;
-      font-weight: $weigt_light;
-      color: #fff;
-      opacity: 0;
-      margin: 0 auto;
-      max-width: 300px;
-    }
-
-    // Hover and focus
-    &:hover, &:focus {
-      background: $color_pr;
-      .feauteres__icon {
-        opacity: 0;
-      }
-
-      .feauteres__text {
-        -webkit-transform: translateY(-85px);
-        -moz-transform: translateY(-85px);
-        transform: translateY(-85px);
-        color: #fff;
-      }
-
-      .feauteres__description {
-        opacity: 1;
-        -webkit-transform: translateY(-85px);
-        -moz-transform: translateY(-85px);
-        transform: translateY(-85px);
-      }
-    }
-
-  }
 }
 
 // lg 992-1200px
 @media #{$lg} {
-  // Icon and width fix
-  .feauteres {
-    .feauteres__grid {
-      padding-top: 40px;
-      max-height: 250px;
-      .feauteres__icon {
-        height: 70px;
-      }
-      .feauteres__text {
-        font-size: 17px;
-      }
+    // Icon and width fix
+    .feauteres {
+        .feauteres__grid {
+            padding-top: 40px;
+            max-height: 250px;
+            .feauteres__icon {
+                height: 70px;
+            }
+            .feauteres__text {
+                font-size: 17px;
+            }
+        }
     }
-  }
 }
 
 // lg 768-991px
 @media #{$md} {
 
-  // Height and padding fix
-  .feauteres .feauteres__grid {
-    max-height: 245px;
-    padding-top: 35px;
-    padding-bottom: 40px;
-  }
+    // Height and padding fix
+    .feauteres .feauteres__grid {
+        max-height: 245px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
 
-  // Icon fix
-  .feauteres .feauteres__grid .feauteres__icon {
-    margin-bottom: 15px;
-  }
+    // Icon fix
+    .feauteres .feauteres__grid .feauteres__icon {
+        margin-bottom: 15px;
+    }
 
-  // Title fix
-  .feauteres .feauteres__grid .feauteres__text {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18px;
-  }
+    // Title fix
+    .feauteres .feauteres__grid .feauteres__text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
 }
 
 // sm 576-768px
 @media #{$sm} {
 
-  // Height and padding fix
-  .feauteres .feauteres__grid {
-    max-height: 230px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
+    // Height and padding fix
+    .feauteres .feauteres__grid {
+        max-height: 230px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 
-  // Icon fix
-  .feauteres .feauteres__grid .feauteres__icon {
-    margin-bottom: 15px;
-    height: 70px;
-  }
+    // Icon fix
+    .feauteres .feauteres__grid .feauteres__icon {
+        margin-bottom: 15px;
+        height: 70px;
+    }
 
-  // Title fix
-  .feauteres .feauteres__grid .feauteres__text {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18px;
-  }
+    // Title fix
+    .feauteres .feauteres__grid .feauteres__text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
 
-  // Text
-  .feauteres .feauteres__grid .feauteres__description {
-    font-size: 12px;
-  }
+    // Text
+    .feauteres .feauteres__grid .feauteres__description {
+        font-size: 12px;
+    }
 }
 
 // xs max575px
 @media #{$xs} {
 
-  // Height and padding fix
-  .feauteres .feauteres__grid {
-    max-height: 200px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
+    // Height and padding fix
+    .feauteres .feauteres__grid {
+        max-height: 200px;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
 
-  // Icon fix
-  .feauteres .feauteres__grid .feauteres__icon {
-    margin-bottom: 15px;
-    height: 70px;
-  }
+    // Icon fix
+    .feauteres .feauteres__grid .feauteres__icon {
+        margin-bottom: 15px;
+        height: 70px;
+    }
 
-  // Title fix
-  .feauteres .feauteres__grid .feauteres__text {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 18px;
-  }
+    // Title fix
+    .feauteres .feauteres__grid .feauteres__text {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
 
-  // Text
-  .feauteres .feauteres__grid .feauteres__description {
-    font-size: 12px;
-  }
+    // Text
+    .feauteres .feauteres__grid .feauteres__description {
+        font-size: 12px;
+    }
 }
