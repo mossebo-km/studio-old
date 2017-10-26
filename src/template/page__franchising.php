@@ -108,12 +108,17 @@ get_header();
     <div class="page-franchising-map__info">
         <div class="page-franchising-map__info-inner">
             <div class="page-franchising-map__info-title">Mossebo в СНГ</div>
-            <div class="page-franchising-map__info-locations"><span class="text-primary">Россия:</span> Москва, Санкт-Петербург, Ростов-на-Дону, Краснодар, Казань, Сочи, Волгоград, Тюмень, Самара, Уссурийск, Оренбург, Тула, Уфа, Пенза, Иркутск, Магнитогорск, Рязань, Якутск
+            <div class="page-franchising-map__info-locations"><span class="text-primary">Россия:</span> Москва,
+                Санкт-Петербург, Ростов-на-Дону, Краснодар, Казань, Сочи, Волгоград, Тюмень, Самара, Уссурийск,
+                Оренбург, Тула, Уфа, Пенза, Иркутск, Магнитогорск, Рязань, Якутск
             </div>
             <div class="page-franchising-map__info-locations"><span class="text-primary">Киргизия:</span> Бишкек</div>
             <div class="page-franchising-map__info-locations"><span class="text-primary">Беларусь:</span> Минск</div>
-            <div class="page-franchising-map__info-locations"><span class="text-primary">Узбекистан:</span> Ташкент</div>
-            <div class="page-franchising-map__info-locations"><span class="text-primary">Казахстан:</span> Астана, Алма-Ата</div>
+            <div class="page-franchising-map__info-locations"><span class="text-primary">Узбекистан:</span> Ташкент
+            </div>
+            <div class="page-franchising-map__info-locations"><span class="text-primary">Казахстан:</span> Астана,
+                Алма-Ата
+            </div>
         </div>
         <div class="page-franchising-map__btn"></div>
     </div>
@@ -130,11 +135,15 @@ get_header();
         </div>
         <div class="page-franchising-world__grid col col-sm-4 col-12">
             <div class="page-franchising-world__grid-title">8 часовых поясов</div>
-            <div class="page-franchising-world__grid-description">Работа call-центра и маркетинга адаптирована для всех регионов</div>
+            <div class="page-franchising-world__grid-description">Работа call-центра и маркетинга адаптирована для всех
+                регионов
+            </div>
         </div>
         <div class="page-franchising-world__grid col col-sm-4 col-12">
             <div class="page-franchising-world__grid-title">5 стран</div>
-            <div class="page-franchising-world__grid-description">Международный статус открывает двери для любых поставщиков</div>
+            <div class="page-franchising-world__grid-description">Международный статус открывает двери для любых
+                поставщиков
+            </div>
         </div>
     </div>
 </div>
@@ -175,7 +184,7 @@ get_header();
             <!-- pagination -->
             <div class="reviews-video__pagination">
                 <!-- title -->
-                <div class="reviews-video__pagination-title">Видео-отзывы от франчайзи Mossebo</div>
+                <div class="reviews-video__pagination-title">Интервью с франчайзи Mossebo</div>
 
                 <!-- pagination -->
                 <div class="row">
@@ -202,14 +211,15 @@ get_header();
     <?php endif; ?>
 </div>
 
-
+<!-- Leadform -->
 <div class="page-franchising-leadform container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row">
                 <div class="col-md-6">
                     <strong class="page-franchising-leadform__title">Получите план прибыли/инвестиций</strong>
-                    <strong class="page-franchising-leadform__subtitle">На основе фактических финансовых показателей студий Mossebo за последние несколько лет.</strong>
+                    <strong class="page-franchising-leadform__subtitle">На основе фактических финансовых показателей
+                        студий Mossebo за последние несколько лет.</strong>
                 </div>
                 <div class="col-md-6">
                     <!-- Feedback form -->
@@ -230,11 +240,12 @@ get_header();
     </div>
 </div>
 
-<!-- franchise Offices -->
+<!-- Offices Panorama -->
 <div class="page-franchising-offices">
     <div class="container-fluid">
         <div class="page-franchising-offices__title">Оформление студий дизайна интерьера Mossebo</div>
-        <div class="page-franchising-offices__description">Оснащение целиком приобретается в управляющей компании по методу «единого окна» с существенной экономией, в т.ч. на компьютерном оборудовании.
+        <div class="page-franchising-offices__description">Оснащение целиком приобретается в управляющей компании по
+            методу «единого окна» с существенной экономией, в т.ч. на компьютерном оборудовании.
         </div>
     </div>
     <div class="panorama"
@@ -247,5 +258,153 @@ get_header();
         </div>
     </div>
 </div>
+
+<!-- your profit -->
+<div class="page-franchising-profit container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row align-item-center">
+                <div class="col-md-6">
+                    <div class="page-franchising-profit__title">
+                        <span class="text-primary">от</span>
+                        1.500.000 р. прибыли в месяц чистыми
+                    </div>
+                    <div class="page-franchising-profit__numbers">
+                        <div class="page-franchising-profit__numbers-inner">
+                            <span class="text-primary">* 22 455</span> EUR, <span class="text-primary">25 000</span>
+                            USD, <span
+                                class="text-primary">8 173 362</span> KZT, <span class="text-primary">650 561</span>
+                            UAH, <span
+                                class="text-primary">48 025</span> BYN
+                        </div>
+                    </div>
+                    <div class="page-franchising-profit__description">Ежемесячная прибыль каждой студии через 1,5 года
+                        при соблюдении стандартов обслуживания в любом городе
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="page-franchising-profit__img">
+                        <img
+                            src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-your-profit__img/franchise-your-profit__img.svg"
+                            alt="Сколько вы будете зарабатывать">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<!-- Portfolio Panorama -->
+<div class="page-franchising-offices page-franchising-offices__bg-gray">
+    <div class="page-franchising-offices__title">Портфолио дизайн-проектов Mossebo</div>
+    <div class="page-franchising-offices__description">Пополняется каждую неделю.
+        Предоставьте клиенту свободу принятия решения о стиле.</div>
+    <div class="panorama"
+         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__franchising/__portfolio_mobile.jpg">
+        <div class="panorama-view">
+            <div class="panorama-container">
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/__portfolio.jpg"
+                     usemap="hotspots" data-width="3414" data-height="655" alt="Наши офисы"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Atmosfera -->
+<div class="co-work-production-about container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row align-item-center">
+                <div class="col-md-4">
+                    <strong class="co-work-production-about__title">Студия Mossebo - атмосфера доверия и стиля</strong>
+                    <p class="co-work-production-about__p">Каждый клиент открывается дизайнеру и рассказывает о своих желаниях и предпочтениях. За счет статуса лидера отрасли бренду доверяют и клиенты премиум класса.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/atmosfera.jpg" alt=""
+                         class="co-work-production-about__photo">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Bran style -->
+<div class="page-franchising-style">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="page-franchising-style__title">Единый фирменный стиль по всему миру
+                </div>
+                <div class="page-franchising-style__description">Каждая деталь фирменного стиля важна. Готовый комплект брендированной атрибутики заказывается в управляющей компании.
+                </div>
+                <div class="page-franchising-style__img">
+                    <img class="page-franchising-style__img_desctop"
+                         src="//mossebo.studio/wp-content/uploads/page__franchising/franchise-brand-style.png"
+                         alt="Единый фирменный стиль по всему миру">
+                    <img class="page-franchising-style__img_mobile"
+                         src="//mossebo.studio/wp-content/uploads/page__franchising/franchise-brand-style_mobile.png"
+                         alt="Единый фирменный стиль по всему миру">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Seasons -->
+<div class="co-work-production-about container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row align-item-center">
+                <div class="col-md-6">
+                    <p class="co-work-production-about__strong">Mossebo - единственный бренд, не зависящий от сезонности<br><br>
+                        Кризисы не влияют, т.к. нет эконом-аудитории, чувствительной к кризисам</>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/seasons.svg" alt=""
+                         class="co-work-production-about__photo">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Price -->
+<div class="page-franchising-price container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="page-franchising-price__title">Получение права открытия студии Mossebo (вступительный взнос)</div>
+            <div class="row align-item-center">
+                <div class="col-md-4">
+                    <div class="page-franchising-price__name">Конверсионная лицензия (ребрендинг вашей студии дизайна)</div>
+                    <div class="page-franchising-price__bigprice">от 350 000.-</div>
+                    <div class="page-franchising-price__description">*для действующих студий, которые нуждаются
+                        в кратном увеличении клиентопотока</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="page-franchising-price__name">Лицензия «Стандарт» на открытие одной студии</div>
+                    <div class="page-franchising-price__bigprice">от 500 000.-</div>
+                    <div class="page-franchising-price__description">*для открытия с нуля студии дизайна
+                        интерьера под брендом лидера отрасли</div>
+                </div>
+                <div class="col-md-4">
+                    <div class="page-franchising-price__name">Эксклюзивное право на развитие бренда в городе</div>
+                    <div class="page-franchising-price__bigprice">от 1 500 000.-</div>
+                    <div class="page-franchising-price__description">*права на всю прибыль новых студий
+                        города, которые будут открыты вами</div>
+                </div>
+            </div>
+            <div class="page-franchising-price__subtitle_gray">*цены указаны в рублях РФ</div>
+            <div class="page-franchising-price__subtitle">** Подробности об открытии бизнеса по дизайну интерьера и ремонту объяснит специалист по франчайзингу Mossebo</div>
+        </div>
+    </div>
+</div>
+
 
 <?php get_footer(); ?>
