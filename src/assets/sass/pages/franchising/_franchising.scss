@@ -391,4 +391,130 @@
             min-height: 54px;
         }
     }
+    &-call-to-action {
+        padding-top: 260px;
+        padding-bottom: 260px;
+        text-align: center;
+        background-size: cover;
+        background-position: center center;
+        @media #{$xs} {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        &__title {
+            font-size: 36px;
+            color: $color_wt;
+            font-weight: $weigth_reg;
+            margin-bottom: 10px;
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+            @media #{$xs} {
+                font-size: 20px;
+            }
+        }
+        &__btn {
+            min-width: 280px;
+            height: 70px;
+            text-transform: uppercase;
+            margin-top: 80px;
+            @media #{$xs} {
+                margin-top: 25px;
+            }
+        }
+    }
+    &-musthave {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        &__title {
+            font-size: 36px;
+            font-weight: $weigth_reg;
+            margin-bottom: 70px;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        &__have {
+            strong {
+                color: $color_pr;
+            }
+            ul {
+                li {
+                    background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/icons/list_pr.png);
+                }
+            }
+        }
+        &__need {
+            ul {
+                li {
+                    background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/icons/list_bk.png);
+                }
+            }
+        }
+        strong {
+            font-size: 24px;
+            display: block;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        img {
+            width: auto;
+            height: 100px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 35px;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            li {
+                padding-left: 30px;
+                padding-top: 3px;
+                font-size: 18px;
+                background-position: 0 0;
+                background-repeat: no-repeat;
+                max-width: 90%;
+            }
+            li + li {
+                margin-top: 15px;
+            }
+        }
+    }
+    &-find-us {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        &__title-main {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+        &__description-main {
+            font-size: 18px;
+        }
+        &__title {
+            font-size: 24px;
+            color: $color_pr;
+            max-width: 285px;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        &__description {
+            font-size: 16px;
+            line-height: 20px;
+            max-width: 440px;
+            margin-bottom: 10px;
+            line-height: 1;
+        }
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
 }

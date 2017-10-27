@@ -301,7 +301,8 @@ get_header();
 <div class="page-franchising-offices page-franchising-offices__bg-gray">
     <div class="page-franchising-offices__title">Портфолио дизайн-проектов Mossebo</div>
     <div class="page-franchising-offices__description">Пополняется каждую неделю.
-        Предоставьте клиенту свободу принятия решения о стиле.</div>
+        Предоставьте клиенту свободу принятия решения о стиле.
+    </div>
     <div class="panorama"
          data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__franchising/__portfolio_mobile.jpg">
         <div class="panorama-view">
@@ -320,7 +321,9 @@ get_header();
             <div class="row align-item-center">
                 <div class="col-md-4">
                     <strong class="co-work-production-about__title">Студия Mossebo - атмосфера доверия и стиля</strong>
-                    <p class="co-work-production-about__p">Каждый клиент открывается дизайнеру и рассказывает о своих желаниях и предпочтениях. За счет статуса лидера отрасли бренду доверяют и клиенты премиум класса.
+                    <p class="co-work-production-about__p">Каждый клиент открывается дизайнеру и рассказывает о своих
+                        желаниях и предпочтениях. За счет статуса лидера отрасли бренду доверяют и клиенты премиум
+                        класса.
                     </p>
                 </div>
                 <div class="col-md-8">
@@ -340,7 +343,8 @@ get_header();
             <div class="col text-center">
                 <div class="page-franchising-style__title">Единый фирменный стиль по всему миру
                 </div>
-                <div class="page-franchising-style__description">Каждая деталь фирменного стиля важна. Готовый комплект брендированной атрибутики заказывается в управляющей компании.
+                <div class="page-franchising-style__description">Каждая деталь фирменного стиля важна. Готовый комплект
+                    брендированной атрибутики заказывается в управляющей компании.
                 </div>
                 <div class="page-franchising-style__img">
                     <img class="page-franchising-style__img_desctop"
@@ -379,30 +383,320 @@ get_header();
 <div class="page-franchising-price container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="page-franchising-price__title">Получение права открытия студии Mossebo (вступительный взнос)</div>
+            <div class="page-franchising-price__title">Получение права открытия студии Mossebo (вступительный взнос)
+            </div>
             <div class="row align-item-center">
                 <div class="col-md-4">
-                    <div class="page-franchising-price__name">Конверсионная лицензия (ребрендинг вашей студии дизайна)</div>
+                    <div class="page-franchising-price__name">Конверсионная лицензия (ребрендинг вашей студии дизайна)
+                    </div>
                     <div class="page-franchising-price__bigprice">от 350 000.-</div>
                     <div class="page-franchising-price__description">*для действующих студий, которые нуждаются
-                        в кратном увеличении клиентопотока</div>
+                        в кратном увеличении клиентопотока
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="page-franchising-price__name">Лицензия «Стандарт» на открытие одной студии</div>
                     <div class="page-franchising-price__bigprice">от 500 000.-</div>
                     <div class="page-franchising-price__description">*для открытия с нуля студии дизайна
-                        интерьера под брендом лидера отрасли</div>
+                        интерьера под брендом лидера отрасли
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="page-franchising-price__name">Эксклюзивное право на развитие бренда в городе</div>
                     <div class="page-franchising-price__bigprice">от 1 500 000.-</div>
                     <div class="page-franchising-price__description">*права на всю прибыль новых студий
-                        города, которые будут открыты вами</div>
+                        города, которые будут открыты вами
+                    </div>
                 </div>
             </div>
             <div class="page-franchising-price__subtitle_gray">*цены указаны в рублях РФ</div>
-            <div class="page-franchising-price__subtitle">** Подробности об открытии бизнеса по дизайну интерьера и ремонту объяснит специалист по франчайзингу Mossebo</div>
+            <div class="page-franchising-price__subtitle">** Подробности об открытии бизнеса по дизайну интерьера и
+                ремонту объяснит специалист по франчайзингу Mossebo
+            </div>
         </div>
+    </div>
+</div>
+
+
+<!-- call to action -->
+<div class="page-franchising-call-to-action container-fluid"
+     style="background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/call-to-action.jpg);">
+    <div class="page-franchising-call-to-action__title">Получите презентацию и пояснения о бизнесе Mossebo по дизайну
+        интерьеров
+    </div>
+    <button class="page-franchising-call-to-action__btn btn btn_1" type="button">Получить</button>
+</div>
+
+
+<div class="page-franchising-musthave container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="page-franchising-musthave__title">Получение права открытия студии Mossebo (вступительный взнос)
+            </div>
+            <div class="row">
+                <div class="col-md-6 page-franchising-musthave__have">
+                            <strong>Обязательно</strong>
+                            <img src="//mossebo.studio/wp-content/uploads/page__franchising/finger_up.svg" alt="">
+                            <ul>
+                                <li>Способность обеспечивать бизнес финансированием в соответствии с технологией</li>
+                                <li>Способность обеспечивать системность развития бизнеса</li>
+                                <li>Способность изучить и передать исполнителям бизнес-процессы</li>
+                                <li>Понимание, что бизнес по франшизе требует работы по инструкциям и их соблюдения на 100%</li>
+                            </ul>
+                </div>
+                <div class="col-md-6 page-franchising-musthave__need">
+                            <strong>Желательно</strong>
+                            <img src="//mossebo.studio/wp-content/uploads/page__franchising/ok_icon.svg" alt="">
+                            <ul>
+                                <li>Опыт в бизнесе, управлении, администрировании и менеджменте</li>
+                                <li>Достижения в переговорах, продажах услуг</li>
+                                <li>Связи и/или контакты с поставщиками местного значения</li>
+                                <li>Опыт ведения бизнеса по франшизам более низкого класса</li>
+                            </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- clients find us -->
+<div class="page-franchising-find-us container-fluid">
+    <div class="row align-item-center">
+        <div class="col-xl-4 offset-xl-1">
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-franchising-find-us__title-main">Обучение франчайзи</div>
+                    <div class="page-franchising-find-us__description-main">Обучение проходит в Санкт-Петербурге. Вы получите всю информацию в нужной форме и сможете запустить студию в работу</div>
+                    <div class="page-franchising-find-us__title">День 1</div>
+                    <div class="page-franchising-find-us__description">- Как оказывать сервис</div>
+                    <div class="page-franchising-find-us__description">- Технология продажи услуг дизайна</div>
+                    <div class="page-franchising-find-us__description">- Работа с большими финансовыми потоками</div>
+                </div>
+                <div class="col-12">
+                    <div class="page-franchising-find-us__title">День 2</div>
+                    <div class="page-franchising-find-us__description">- Технология контроля качества и исполнения заказов</div>
+                    <div class="page-franchising-find-us__description">- Как вести бизнес-процессы и нанимать исполнителей</div>
+                    <div class="page-franchising-find-us__description">- Взаимодействие с управляющей компанией и партнерами</div>
+                </div>
+            </div>
+        </div>
+        <div class="page-franchising-find-us__img col-xl-7">
+            <img src="//mossebo.studio/wp-content/uploads/page__franchising/education.jpg"
+                 alt="Офис">
+        </div>
+    </div>
+</div>
+
+
+<div class="co-work-production-projects container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="title">Медиа-проекты Mossebo</div>
+        </div>
+    </div>
+    <div id="productionmedia">
+        <carousel-3d
+            :perspective="35"
+            :space="400"
+            :display="3"
+            :border="0"
+            :autoplay="true"
+            :autoplay-timeout="6000"
+            :autoplay-hover-pause="true"
+            width="900px"
+            height="800px"
+        >
+            <slide :index="0">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Хайповый бизнес – канал бизнес-интервью с известными и интересными людьми. Бизнесмены, top-менеджеры международных и российских компаний, звезды спорта и шоу-бизнеса – все они есть в выпусках на канале.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1.jpg" class="slide-image">
+            </slide>
+            <slide :index="1">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Канал о дизайне интерьера с элементами fashion, beauty и lifestyle.
+                        Ведущая канала и первый в России IKEA-art блогер - Liza Loft.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2.jpg" class="slide-image">
+            </slide>
+            <slide :index="2">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Канал об идеях для бизнеса для предпринимателей и инвесторов.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3.jpg" class="slide-image">
+            </slide>
+        </carousel-3d>
+    </div>
+</div>
+
+<div class="co-work-production-friends container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <strong class="co-work-production-pay__title">Наши друзья</strong>
+            <div class="row">
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/1.jpg" alt="">
+                    <strong>Вячеслав Малафеев</strong>
+                    <p>Российский футболист, владелец агентства недвижимости "М16"</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/2.jpg" alt="">
+                    <strong>Руслан Татунашвили</strong>
+                    <p>Основатель крупнейшего сервиса коллтрекинга Callbackhunter</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/3.jpg" alt="">
+                    <strong>Дмитрий Портнягин</strong>
+                    <p>Топ 1 бизнес-блогер в Youtube, создатель канала Трансформатор, основатель экспортно-импортной компании TRANSITplus</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/4.jpg" alt="">
+                    <strong>Евгений Гаврилин</strong>
+                    <p>Сооснователь boomstarter.ru, MediaToday, и YouTube канала Жизнь Би</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/5.jpg" alt="">
+                    <strong>Ольга Блудовская</strong>
+                    <p>Президент компании "Subway Россия"</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/friends/6.jpg" alt="">
+                    <strong>Артемий Пономарев</strong>
+                    <p>Директор по направлению смартфонов в компании Yota</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="co-work-production-brands container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="co-work-production-brands__title">Mossebo в медиа и СМИ</div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row co-work-production-brands__icons">
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/1.png"
+                         alt="РБК">
+                </div>
+                <div class="col-4 col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/2.png"
+                         alt="Forbes">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/3.png"
+                         alt="Капиталист">
+                </div>
+                <div class="col-4 col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/4.png"
+                         alt="ТНТ">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/5.png"
+                         alt="Трансформатор">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/6.png"
+                         alt="Лучшая компания россии">
+                </div>
+                <div class="col-4 col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/7.png"
+                         alt="Аргументы и факты">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/8.png"
+                         alt="MyHome">
+                </div>
+                <div class="col-4 col-md-3">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/9.png"
+                         alt="NOVATE">
+                </div>
+                <div class="col-4 col-md-2">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/icons/brands/10.png"
+                         alt="houzz">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="co-work-production-projects container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="title">Медиа-проекты Mossebo</div>
+        </div>
+    </div>
+    <div id="">
+        <carousel-3d
+            :perspective="35"
+            :space="400"
+            :display="3"
+            :border="0"
+            :autoplay="true"
+            :autoplay-timeout="6000"
+            :autoplay-hover-pause="true"
+            width="900px"
+            height="800px"
+        >
+            <slide :index="0">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Хайповый бизнес – канал бизнес-интервью с известными и интересными людьми. Бизнесмены, top-менеджеры международных и российских компаний, звезды спорта и шоу-бизнеса – все они есть в выпусках на канале.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1.jpg" class="slide-image">
+            </slide>
+            <slide :index="1">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Канал о дизайне интерьера с элементами fashion, beauty и lifestyle.
+                        Ведущая канала и первый в России IKEA-art блогер - Liza Loft.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2.jpg" class="slide-image">
+            </slide>
+            <slide :index="2">
+                <div class="slide-block">
+                    <div class="logo">
+                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3-logo.png" alt="">
+                    </div>
+                    <div class="decription">
+                        Канал об идеях для бизнеса для предпринимателей и инвесторов.
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3.jpg" class="slide-image">
+            </slide>
+        </carousel-3d>
     </div>
 </div>
 

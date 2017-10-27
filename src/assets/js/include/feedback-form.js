@@ -130,7 +130,7 @@ jQuery(function (jQuery) {
     }
 
     // Modal calc window
-    jQuery('.franchise-page-feedback-form-modal').click(function () {
+    jQuery('.page-franchising-call-to-action__btn').click(function () {
         $.magnificPopup.open({
             items: {
                 src: '.feedback-form-modal',
