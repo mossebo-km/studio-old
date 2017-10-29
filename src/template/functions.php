@@ -15,7 +15,7 @@ if ($_SERVER["SCRIPT_NAME"] == THEME_DIR . "functions.php") {
   // Подключаем стили и скрипты
 function theme_files()
 {
-    $version_assets = '20102017';
+    $version_assets = '29102017';
     // JQuery
     wp_deregister_script('jquery');
     wp_register_script('jquery', THEME_DIR . '/assets/js/app.js?' . $version_assets, true, null, true);

@@ -26,7 +26,7 @@ get_header();
                         клиентопотоком</h2>
                     <!-- YouTube player -->
                     <div class="youtube-player"
-                         data-youtube-player-src-img="<?php echo THEME_DIR; ?>/assets/images/franchise/frachise-page-feedback/__youtube-player/franchise-page-feedback__youtube-player-img-preview.jpg"
+                         data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/page__franchising/franchise-page-feedback__youtube-player-img-preview.jpg"
                          data-youtube-player-id="x6H4trs4yDc">
                         <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
                     </div>
@@ -285,7 +285,7 @@ get_header();
                 <div class="col-md-6">
                     <div class="page-franchising-profit__img">
                         <img
-                            src="<?php echo THEME_DIR; ?>/assets/images/franchise/franchise-your-profit__img/franchise-your-profit__img.svg"
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/franchise-your-profit__img.svg"
                             alt="Сколько вы будете зарабатывать">
                     </div>
                 </div>
@@ -383,7 +383,7 @@ get_header();
 <div class="page-franchising-price container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="page-franchising-price__title">Получение права открытия студии Mossebo (вступительный взнос)
+            <div class="page-franchising-price__title">Получение права открытия студии Mossebo <br>(вступительный взнос)
             </div>
             <div class="row align-item-center">
                 <div class="col-md-4">
@@ -644,59 +644,209 @@ get_header();
 
 
 
-<div class="co-work-production-projects container-fluid">
+<div class="page-franchising-social container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="title">Медиа-проекты Mossebo</div>
+            <div class="page-franchising-social__title">4 500 000 касаний с аудиторией в неделю</div>
+            <div class="page-franchising-social__description">Статьи, видео, лайки, репосты, комментарии, звонки, встречи, дизайн-проекты, презентации, трансляции и т.п.<br><br>
+                Все это - работа Mossebo в социальных сетях </div>
         </div>
     </div>
-    <div id="">
+    <div id="page-franchising-social">
         <carousel-3d
             :perspective="35"
             :space="400"
-            :display="3"
+            :display="7"
             :border="0"
             :autoplay="true"
             :autoplay-timeout="6000"
             :autoplay-hover-pause="true"
-            width="900px"
-            height="800px"
+            width="514px"
+            height="564px"
         >
             <slide :index="0">
-                <div class="slide-block">
-                    <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1-logo.png" alt="">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/inst.svg" alt="">
                     </div>
-                    <div class="decription">
-                        Хайповый бизнес – канал бизнес-интервью с известными и интересными людьми. Бизнесмены, top-менеджеры международных и российских компаний, звезды спорта и шоу-бизнеса – все они есть в выпусках на канале.
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Instagram
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/1.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/1.png" class="page-franchising-social__slide-image">
             </slide>
             <slide :index="1">
-                <div class="slide-block">
-                    <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2-logo.png" alt="">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/youtube-logo.svg" alt="">
                     </div>
-                    <div class="decription">
-                        Канал о дизайне интерьера с элементами fashion, beauty и lifestyle.
-                        Ведущая канала и первый в России IKEA-art блогер - Liza Loft.
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в YouTube
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/2.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/2.png" class="page-franchising-social__slide-image">
             </slide>
             <slide :index="2">
-                <div class="slide-block">
-                    <div class="logo">
-                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3-logo.png" alt="">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/telegram.svg" alt="">
                     </div>
-                    <div class="decription">
-                        Канал об идеях для бизнеса для предпринимателей и инвесторов.
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Telegram
                     </div>
                 </div>
-                <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/3.jpg" class="slide-image">
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/3.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="3">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/inst.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Instagram
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/4.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="4">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/youtube-logo.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в YouTube
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/5.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="5">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/vk.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Вконтакте
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/6.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="6">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/inst.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Instagram
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/7.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="7">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/youtube-logo.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в YouTube
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/8.png" class="page-franchising-social__slide-image">
+            </slide>
+            <slide :index="8">
+                <div class="page-franchising-social__slide-block">
+                    <div class="page-franchising-social__logo">
+                        <img src="//mossebo.studio/wp-content/themes/mossebo/assets/images/icon/social/odn.svg" alt="">
+                    </div>
+                    <div class="page-franchising-social__slide-decription">
+                        Mossebo в Одноклассниках
+                    </div>
+                </div>
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/social/9.png" class="page-franchising-social__slide-image">
             </slide>
         </carousel-3d>
+    </div>
+</div>
+
+
+
+<div class="page-franchising-auditory container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="page-franchising-auditory__title">Охват Mossebo с каждым годом повышается <br>в 2,5 - 3 раза
+            </div>
+            <div class="row align-item-center">
+                <div class="col-md-8">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/graph.png" alt="">
+                </div>
+                <div class="col-md-4">
+                    <div class="page-franchising-auditory__info_year">2018 год</div>
+                    <div class="page-franchising-auditory__info_desc">Поток аудиториии из новых каналов: видеоплатформы и мессенджеры
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Leadform2 -->
+<div class="page-franchising-leadform2 container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-franchising-leadform2__title">Важное <br>о Mossebo:</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>1.</strong>
+                                РБК признал Mossebo лидером отрасли по дизайну интерьера
+                            </div>
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>2.</strong>
+                                Ошибки в бизнесе исключены, т.к.
+                                поддержка франчайзи - не лимитируется
+                            </div>
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>3.</strong>
+                                Прибыль с любого объекта достигается всегда за счет комплексности заказа
+                            </div>
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>4.</strong>
+                                Моссэбо обладает технологией работы с более чем 30 заказами одновременно
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>5.</strong>
+                                Управляющая компания берет фиксированные платежи со студий
+                            </div>
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>6.</strong>
+                                99% клиентов каждой студии Mossebo передаются напрямую из управляющей компании
+                            </div>
+                            <div class="page-franchising-leadform2__list-item">
+                                <strong>7.</strong>
+                                Статус лидера отрасли позволяет получать большие скидки от поставщиков, которые понимают/знают возможности студий Mossebo
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <!-- Feedback form -->
+                    <?php feedback_form(array(
+                        'feedback-form__id' => 1, // Описание после полей
+                        'feedback-form__form-place' => 'Страница Франчайзинг Футер', // Имя формы
+                        'feedback-form__class' => '',
+                        'feedback-form__mail-input' => true, // Поле email
+                        'feedback-form__title' => 'Узнайте подробнее', // Заголовок
+                        'feedback-form__title-sub' => 'о старте бизнеса под брендом Mossebo у руководителя отдела франчайзинга', // Подзаголовок
+                        'feedback-form__text-description' => '', // Описание после полей
+                        'feedback-form__btn-value' => 'Узнать подробнее', // Описание после полей
+                    )); ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

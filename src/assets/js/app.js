@@ -33,6 +33,13 @@ import { Carousel3d, Slide } from 'vue-carousel-3d';
             'slide': Slide
         }
     });
+    var FranchsingPage = new Vue({
+        el: '#page-franchising-social',
+        components: {
+            'carousel-3d': Carousel3d,
+            'slide': Slide
+        }
+    });
 
 
 

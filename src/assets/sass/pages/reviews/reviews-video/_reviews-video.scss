@@ -6,6 +6,9 @@
     .reviews-video__owl-wrapper {
         position: relative;
         margin-bottom: 80px;
+        @media #{$xs} {
+            margin-bottom: 25px;
+        }
 
         // title
         .reviews-video__item-title {
@@ -75,7 +78,7 @@
                     top: 50%;
                     left: 50%;
                     transform: translate(-29px, -29px);
-                    background: url(../images/franchise/youtube-player/youtube-player__btn.svg) 50% 50% no-repeat;
+                    background: url(../images/youtube-player__btn.svg) 50% 50% no-repeat;
                     background-size: 58px 58px;
                     opacity: .7;
                 }

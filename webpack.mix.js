@@ -11,12 +11,17 @@ let mix = require('laravel-mix');
  |
  */
 
-publicDir = '../Projects/mossebo.dev/public_html/wp-content/themes/mossebo';
+// Office
+// publicDir = '../Projects/mossebo.dev/public_html/wp-content/themes/mossebo';
 
+// Home
+publicDir = '../../Laravel-Projets/mossebo.dev/public_html/wp-content/themes/mossebo';
+
+//MAC CONFIG
 mix.js('src/assets/js/app.js', publicDir + '/assets/js');
 mix.sass('src/assets/sass/app.scss', publicDir + '/assets/css')
     .options({
-        processCssUrls: false,
+        processCssUrls: false
     });
 mix.copyDirectory('src/assets/fonts', publicDir + '/assets/fonts');
 mix.copyDirectory('src/assets/images', publicDir + '/assets/images');
@@ -24,10 +29,12 @@ mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery']
 });
 mix.sourceMaps();
-mix.setPublicPath(publicDir);
 mix.copyDirectory('src/template', publicDir);
 mix.browserSync({
     proxy: {
         target: "https://mossebo.dev"
     }
 });
+
+mix.setResourceRoot(path.normalize(publicDir));
+mix.setPublicPath(path.normalize(publicDir));
