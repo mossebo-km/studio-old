@@ -265,6 +265,11 @@ get_header();
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row align-item-center">
                 <div class="col-md-6">
+                    <div class="page-franchising-profit__img page-franchising-mobile_show">
+                        <img
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/franchise-your-profit__img.svg"
+                            alt="Сколько вы будете зарабатывать">
+                    </div>
                     <div class="page-franchising-profit__title">
                         <span class="text-primary">от</span>
                         1.500.000 р. прибыли в месяц чистыми
@@ -283,7 +288,7 @@ get_header();
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="page-franchising-profit__img">
+                    <div class="page-franchising-profit__img page-franchising-mobile_hide">
                         <img
                             src="//mossebo.studio/wp-content/uploads/page__franchising/icons/franchise-your-profit__img.svg"
                             alt="Сколько вы будете зарабатывать">
@@ -364,9 +369,11 @@ get_header();
 <div class="co-work-production-about container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
+
             <div class="row align-item-center">
                 <div class="col-md-6">
-                    <p class="co-work-production-about__strong">Mossebo - единственный бренд, не зависящий от сезонности<br><br>
+                    <strong class="co-work-production-about__title">Mossebo не зависит от кризиса и сезонности</strong>
+                    <p class="co-work-production-about__p">Mossebo - единственный бренд, не зависящий от сезонности<br><br>
                         Кризисы не влияют, т.к. нет эконом-аудитории, чувствительной к кризисам</>
                     </p>
                 </div>
@@ -431,8 +438,7 @@ get_header();
 <div class="page-franchising-musthave container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="page-franchising-musthave__title">Получение права открытия студии Mossebo (вступительный взнос)
-            </div>
+            <div class="page-franchising-musthave__title">Требования к франчайзи</div>
             <div class="row">
                 <div class="col-md-6 page-franchising-musthave__have">
                             <strong>Обязательно</strong>
@@ -464,6 +470,10 @@ get_header();
 <div class="page-franchising-find-us container-fluid">
     <div class="row align-item-center">
         <div class="col-xl-4 offset-xl-1">
+            <div class="page-franchising-find-us__img page-franchising-mobile_show">
+                <img src="//mossebo.studio/wp-content/uploads/page__franchising/education.jpg"
+                     alt="Офис">
+            </div>
             <div class="row">
                 <div class="col-12">
                     <div class="page-franchising-find-us__title-main">Обучение франчайзи</div>
@@ -481,7 +491,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="page-franchising-find-us__img col-xl-7">
+        <div class="page-franchising-find-us__img col-xl-7 page-franchising-mobile_hide">
             <img src="//mossebo.studio/wp-content/uploads/page__franchising/education.jpg"
                  alt="Офис">
         </div>

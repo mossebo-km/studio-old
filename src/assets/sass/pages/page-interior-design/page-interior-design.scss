@@ -1,0 +1,40 @@
+.page-interior-design {
+    &-main {
+        padding-top: 45px;
+        padding-bottom: 120px;
+        background: url(//mossebo.studio/wp-content/uploads/page__interior_design/bg.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        &__title {
+            color: $color_bk;
+            font-size: 46px;
+            font-weight: $weigth_reg;
+            position: relative;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            max-width: 55%;
+            @media #{$xs} {
+                font-size: 20px;
+            }
+            &::before {
+                content: '';
+                display: block;
+                background: $color_pr;
+                width: 50px;
+                height: 6px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        }
+        &__subtitle {
+            color: $color_gr;
+            font-size: 18px;
+            font-weight: $weigth_reg;
+            margin: 10px 0px 30px 0px;
+            @media #{$xs} {
+                font-size: 12px;
+            }
+        }
+    }
+}

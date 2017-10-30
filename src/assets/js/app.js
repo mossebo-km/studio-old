@@ -66,9 +66,6 @@ import './include/cookie';
 import './include/share'
 
 import '../sass/pages/reviews/reviews-video/reviews-video';
-//import '../sass/pages/franchise/franchise-page-map/franchise-page-map';
-//import '../sass/pages/franchise/franchise-social/franchise-social';
-//import '../sass/pages/franchise/video-carousel/video-carousel';
 
 
 import '../sass/pages/franchising/page-franchising-map';
