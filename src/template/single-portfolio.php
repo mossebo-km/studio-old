@@ -3,13 +3,22 @@
 get_template_part('template/count-views');
 
 ?>
-<div class="posrtfolio-single-header-img"
-     style="background: url(<?php the_field('port_img_header'); ?>) 50% 50% no-repeat; -webkit-background-size: cover;background-size: cover;"></div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-8 col-lg-7 col-md-7">
+            <div class="posrtfolio-single-header-img"
+                 style="background: url(<?php the_field('port_img_header'); ?>) 50% 50% no-repeat; -webkit-background-size: cover;background-size: cover;"></div>
+        </div>
+        <!-- Portfolio right sidebar -->
+        <?php get_template_part('template/sidebar-portfolio-single') ?>
+    </div>
+</div>
+
 
 <div class="portfolio-single-page-container container-fluid">
     <div class="row">
         <!-- Portfolio left-top content -->
-        <div class="col-xl-8 col-lg-7 col-md-7">
+        <div class="col-12">
             <h1 class="portfolio-single-title text-center"><?php the_field('port_title'); ?></h1>
             <div class="portfolio-top-paragraph">
                 <?php the_field('port_header_text') ?>
@@ -22,8 +31,6 @@ get_template_part('template/count-views');
                 <div class="ya-share2" data-services="vkontakte,facebook,gplus,odnoklassniki,telegram" data-counter=""
                      data-image="<?php echo THEME_DIR; ?>/assets/images/header/logo.jpg"></div></span>
         </div>
-        <!-- Portfolio right sidebar -->
-        <?php get_template_part('template/sidebar-portfolio-single') ?>
     </div>
 
     <!-- editor -->

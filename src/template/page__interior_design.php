@@ -55,18 +55,20 @@ $select_id = rand();
 </div>
 
 
+
 <!-- Feauteres -->
 <div class="feauteres container-fluid">
     <div class="row">
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_1"></i>
             <div class="feauteres__text">Работа по договору</div>
-            <div class="feauteres__description">Дизайнер следит за работой строительной бригады на всем протяжении ремонта</div>
+            <div class="feauteres__description">Строго соблюдаем сроки выполнения работ, прописанные в договоре, не выходим за рамки оговоренного бюджета и разбиваем платежи на удобные этапы.
+            </div>
         </div>
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_2"></i>
             <div class="feauteres__text">Несколько вариантов дизайна</div>
-            <div class="feauteres__description">Всю рабочую документацию, скетчи и наглядные 3D визуализации интерьера специалисты Mossebo разработают за 30 дней или быстрее</div>
+            <div class="feauteres__description">Предлагаем от 3 до 5 вариантов дизайна Вашего будущего интерьера, демонстрирующие разные стили, концепции и цветовые решения. Вам точно будет из чего выбирать.</div>
         </div>
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_3"></i>
@@ -76,6 +78,18 @@ $select_id = rand();
     </div>
 </div>
 
+<div id="portfolio">
+    <div>Портфолио</div>
+    <ul>
+        <li v-for="category in categorys">{{ category.name }}</li>
+    </ul>
+    <div class="portfolio-item" v-for="item in items" :category="{{ item.category }}">
+        <div class="title">{{ item.title }}</div>
+        <div class="subtitle">{{ item.subtitle }}</div>
+        <img src="{{ item.image }}" alt="">
+
+    </div>
+</div>
 
 
 <?php get_footer(); ?>

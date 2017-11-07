@@ -92,6 +92,9 @@ get_header();
     </div>
     <div id="productionmedia">
         <carousel-3d
+            :controls-visible="true"
+            :controls-prev-html="'&#10092;'"
+            :controls-next-html="'&#10093;'"
             :perspective="35"
             :space="400"
             :display="3"

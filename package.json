@@ -17,11 +17,11 @@
   "dependencies": {
     "cross-env": "^5.1.1",
     "jquery": "^3.2.1",
-    "laravel-mix": "^1.5.1",
+    "laravel-mix": "^1.6.1",
     "magnific-popup": "^1.1.0",
     "normalize.css": "^7.0.0",
     "owl.carousel": "^2.2.0",
-    "vue": "^2.5.2",
+    "vue": "^2.5.3",
     "vue-carousel-3d": "^0.1.18"
   },
   "devDependencies": {
