@@ -12,7 +12,7 @@ let mix = require('laravel-mix');
  */
 
 // Office
-publicDir = '../Projects/mossebo.dev/public_html/wp-content/themes/mossebo';
+publicDir = '../../devsrv/mossebo.dev/public_html/wp-content/themes/mossebo';
 
 // Home
 //publicDir = '../../Laravel-Projets/mossebo.dev/public_html/wp-content/themes/mossebo';

@@ -8,7 +8,7 @@
 // Import Libs
 //
 
-window.Vue = require('vue');
+import Vue from 'vue';
 import { Carousel3d, Slide } from 'vue-carousel-3d';
 
 
@@ -45,44 +45,7 @@ import { Carousel3d, Slide } from 'vue-carousel-3d';
 new Vue({
     el: '#portfolio',
     data: {
-        categorys: [
-            {
-                name: 'Лофт'
-            },
-            {
-                name: 'Хай-Тек'
-            }
-        ],
-        items: [
-            {
-                title: 'Четырехкомнатная квартира в стиле скандинавский минимализм, 74 м²1',
-                subtitle: 'Прохладные тона, современные мебельные решения и грамотная организация пространства.',
-                url: 'https://mossebo.dev/portfolio/trehkomnatnaya-kvartira-s-evroplanirovkoy-v-stile-sovremennaya-klassika/',
-                image: 'https://mossebo.dev/wp-content/uploads/18-Cropped-Cropped.jpg',
-                category: ['Лофт', 'Хай-Тек']
-            },
-            {
-                title: 'Четырехкомнатная квартира в стиле скандинавский минимализм, 74 м²2',
-                subtitle: 'Прохладные тона, современные мебельные решения и грамотная организация пространства.',
-                url: 'https://mossebo.dev/portfolio/trehkomnatnaya-kvartira-s-evroplanirovkoy-v-stile-sovremennaya-klassika/',
-                image: 'https://mossebo.dev/wp-content/uploads/18-Cropped-Cropped.jpg',
-                category: ['Лофт']
-            },
-            {
-                title: 'Четырехкомнатная квартира в стиле скандинавский минимализм, 74 м²3',
-                subtitle: 'Прохладные тона, современные мебельные решения и грамотная организация пространства.',
-                url: 'https://mossebo.dev/portfolio/trehkomnatnaya-kvartira-s-evroplanirovkoy-v-stile-sovremennaya-klassika/',
-                image: 'https://mossebo.dev/wp-content/uploads/18-Cropped-Cropped.jpg',
-                category: ['Лофт', 'Хай-Тек']
-            },
-            {
-                title: 'Четырехкомнатная квартира в стиле скандинавский минимализм, 74 м²4',
-                subtitle: 'Прохладные тона, современные мебельные решения и грамотная организация пространства.',
-                url: 'https://mossebo.dev/portfolio/trehkomnatnaya-kvartira-s-evroplanirovkoy-v-stile-sovremennaya-klassika/',
-                image: 'https://mossebo.dev/wp-content/uploads/18-Cropped-Cropped.jpg',
-                category: ['Хай-Тек']
-            }
-        ]
+        CategoryName: 'Все'
     }
 });
 
