@@ -5,6 +5,7 @@
         background: url(//mossebo.studio/wp-content/uploads/page__interior_design/bg.jpg) 50% 50% no-repeat;
         background-size: cover;
         background-position: right bottom;
+        min-height: 100vh;
         &__title {
             color: $color_bk;
             font-size: 46px;
@@ -34,6 +35,150 @@
             margin: 10px 0px 30px 0px;
             @media #{$xs} {
                 font-size: 12px;
+            }
+        }
+    }
+    &-portfolio {
+        &__title {
+            font-size: 30px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        &__style {
+            padding: 0;
+            list-style: none;
+            max-width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 40px;
+            text-align: center;
+            a {
+                display: inline-block;
+                font-size: 18px;
+                margin: 5px;
+                padding: 5px 10px;
+                color: $color_bk;
+                border: 1px solid $color_wt;
+                cursor: pointer;
+                &:hover {
+                    color: $color_pr;
+                }
+                &:focus {
+                    border: 1px solid $color_pr;
+                    color: $color_pr;
+                }
+            }
+        }
+
+    }
+    &-steps {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        &__grid {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            max-width: 1920px;
+            margin-left: auto;
+            margin-right: auto;
+            &_revers {
+                flex-direction: row-reverse;
+            }
+        }
+        &__item {
+            width: 235px;
+            height: 235px;
+            box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+            border: 1px solid rgba(0,0,0,0.01);
+            box-sizing: border-box;
+            padding: 25px;
+            margin: 15px;
+            &_first {
+                background: $color_pr;
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+                color: $color_wt;
+                line-height: 1.5;
+            }
+        }
+        &__step_image {
+            width: 60px;
+            height: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 25px;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        &__step_num {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        &__step_text {
+            font-size: 18px;
+            text-align: center;
+            max-width: 155px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .step_1 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/1.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #a0291a;
+            }
+        }
+        .step_2 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/2.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #b34932;
+            }
+        }
+        .step_3 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/3.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #cd5c3b;
+            }
+        }
+        .step_4 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/4.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #d78439;
+            }
+        }
+        .step_5 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/5.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #d78439;
+            }
+        }
+        .step_6 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/6.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #e8b742;
+            }
+        }
+        .step_7 {
+            .page-interior-design-steps__step_image {
+                background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/icons/7.svg);
+            }
+            .page-interior-design-steps__step_num {
+                color: #edd147;
             }
         }
     }

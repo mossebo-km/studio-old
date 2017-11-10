@@ -82,20 +82,51 @@ $select_id = rand();
         </div>
     </div>
 </div>
-<section id="main-page-portfolio">
+
+
+<section id="main-page-portfolio" class="page-interior-design-portfolio">
     <div id="portfolio">
-        <div>Портфолио</div>
+        <div class="page-interior-design-portfolio__title">Портфолио</div>
 
-        <!-- Portfolio item's -->
-        <div class="row">
-            <div class="portfolio-mobile-carousel">
+        <div class="page-interior-design-portfolio__style">
+            <a @click="CategoryName = 'Все'">Все стили</a>
+            <a @click="CategoryName = 'Скандинавский'">Скандинавский</a>
+            <a @click="CategoryName = 'Классический'">Классический</a>
+            <a @click="CategoryName = 'Hi-Tech'">Hi-Tech</a>
+            <a @click="CategoryName = 'Современный'">Современный</a>
+            <a @click="CategoryName = 'Фьюжн'">Фьюжн</a>
+            <a @click="CategoryName = 'Бохо'">Бохо</a>
+            <a @click="CategoryName = 'Необарокко'">Необарокко</a>
+            <a @click="CategoryName = 'Лофт'">Лофт</a>
+            <a @click="CategoryName = 'Рустика'">Рустика</a>
+            <a @click="CategoryName = 'Ар-нуво'">Ар-нуво</a>
+            <a @click="CategoryName = 'Ар-деко'">Ар-деко</a>
+            <a @click="CategoryName = 'Поп-арт'">Поп-арт</a>
+            <a @click="CategoryName = 'Эко'">Эко</a>
+            <a @click="CategoryName = 'Средиземноморский'">Средиземноморский</a>
+            <a @click="CategoryName = 'Сталинский ампир'">Сталинский ампир</a>
+            <a @click="CategoryName = 'Ретро'">Ретро</a>
+            <a @click="CategoryName = 'Английский'">Английский</a>
+            <a @click="CategoryName = 'Прованс'">Прованс</a>
+            <a @click="CategoryName = 'Неоклассика'">Неоклассика</a>
+        </div>
 
-                <?php $main_page_portfolio_section_option = get_field('main_page_portfolio_section_option', 'option');
-                if ($main_page_portfolio_section_option): ?>
-                    <?php foreach ($main_page_portfolio_section_option as $post): // variable must be called $post (IMPORTANT) ?>
-                        <?php setup_postdata($post); ?>
-
-                        <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio">
+        <?php
+        $query_portfolio = new WP_Query([
+            'post_type' => 'portfolio',
+            'posts_per_page' => -1
+        ]);
+        if ($query_portfolio->have_posts()) {
+            ?>
+            <div class="row">
+                <div class="portfolio-mobile-carousel">
+                    <?php
+                    while ($query_portfolio->have_posts()) {
+                        $query_portfolio->the_post(); ?>
+                        <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                             :key="<?php the_ID(); ?>"
+                             v-if="('Все,<?php the_field('port_project_sidebar_row'); ?>').includes(CategoryName)"
+                        >
                             <div class="grid">
                                 <figure class="effect-roxy">
                                     <div class="roxy-grid-img-bg"
@@ -113,56 +144,97 @@ $select_id = rand();
                                 </div>
                             </div>
                         </div>
-
-                    <?php endforeach; ?>
-                    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-                <?php endif; ?>
-                <!-- Carousel nav -->
+                        <?php
+                        $current_post_id++;
+                    }
+                    ?>
+                </div>
             </div>
-        </div><!-- Portfolio item's END -->
-
-
-        <?php
-        // vars
-        $colors = get_field('port_project_sidebar_row');
-        // check
-        if ($colors): ?>
-            <ul>
-                <li @click="CategoryName = 'Все'">Все</li>
-                <?php foreach ($colors as $color): ?>
-                    <li><?php echo $color; ?></li>
-                <?php endforeach; ?>
-            </ul>
-        <?php endif; ?>
-
-        <div class="portfolio-item"
-             v-if="('Все, Лофт, Хай-Тек').includes(CategoryName)"
-        >
-            <div class="title">Заголовок 1</div>
-            <div class="subtitle">Описание 1</div>
-        </div>
-
-        <div class="portfolio-item"
-             v-if="('Все, Хай-Тек').includes(CategoryName)"
-        >
-            <div class="title">Заголовок 2</div>
-            <div class="subtitle">Описание 2</div>
-        </div>
-
-        <div class="portfolio-item"
-             v-if="('Все, Лофт').includes(CategoryName)"
-        >
-            <div class="title">Заголовок 3</div>
-            <div class="subtitle">Описание 3</div>
-        </div>
-
-        <div class="portfolio-item"
-             v-if="('Все, Лофт, Хай-Тек').includes(CategoryName)"
-        >
-            <div class="title">Заголовок 4</div>
-            <div class="subtitle">Описание 4</div>
-        </div>
+            <?php
+        } else {
+            echo 'В данной категории постов нет';
+        }
+        ?>
     </div>
 </section>
+
+<!-- call to action -->
+<div class="page-franchising-call-to-action container-fluid"
+     style="background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/call-to-action.jpg);">
+    <div class="page-franchising-call-to-action__title">Хотите увидеть больше?</div>
+    <div class="page-franchising-call-to-action__subtitle"> У нас в офисе вы можете ознакомиться
+        с полной базой дизайна интерьера </div>
+    <button class="page-franchising-call-to-action__btn btn btn_1" type="button">Назначить встречу</button>
+</div>
+
+
+<div class="page-interior-design-steps container-fluid">
+    <div class="page-interior-design-steps__grid">
+        <div class="page-interior-design-steps__item page-interior-design-steps__item_first">
+            Этапы<br>
+            разработки<br>
+            дизайн-проекта
+        </div>
+        <div class="page-interior-design-steps__item step_1">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">1</div>
+            <div class="page-interior-design-steps__step_text">Встречаемся на объекте</div>
+        </div>
+        <div class="page-interior-design-steps__item step_2">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">2</div>
+            <div class="page-interior-design-steps__step_text">Фиксируем ваши пожелания</div>
+        </div>
+        <div class="page-interior-design-steps__item step_3">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">3</div>
+            <div class="page-interior-design-steps__step_text">Ищем возможные решения</div>
+        </div>
+    </div>
+    <div class="page-interior-design-steps__grid page-interior-design-steps__grid_revers">
+        <div class="page-interior-design-steps__item step_4">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">4</div>
+            <div class="page-interior-design-steps__step_text">Рисуем первые скетчи</div>
+        </div>
+        <div class="page-interior-design-steps__item step_5">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">5</div>
+            <div class="page-interior-design-steps__step_text">Создаем 3D рендеры</div>
+        </div>
+        <div class="page-interior-design-steps__item step_6">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">6</div>
+            <div class="page-interior-design-steps__step_text">Подготавливаем информацию</div>
+        </div>
+        <div class="page-interior-design-steps__item step_7">
+            <div class="page-interior-design-steps__step_image"></div>
+            <div class="page-interior-design-steps__step_num">7</div>
+            <div class="page-interior-design-steps__step_text">Формируем дизайн-проект</div>
+        </div>
+    </div>
+</div>
+
+<!-- Bran style -->
+<div class="page-franchising-style">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <div class="page-franchising-style__title">Что вы получаете в итоге?</div>
+                <div class="page-franchising-style__description">Визуальные материалы и всю необходимую документацию, руководствуясь которой ремонтная бригада сможет воплотить в жизнь вашу мечту об идеальном интерьере
+                </div>
+                <div class="page-franchising-style__img">
+                    <img class="page-franchising-style__img_desctop"
+                         src="//mossebo.studio/wp-content/uploads/page__interior_design/bg_pc.png"
+                         alt="Единый фирменный стиль по всему миру">
+                    <img class="page-franchising-style__img_mobile"
+                         src="//mossebo.studio/wp-content/uploads/page__interior_design/bg_mobile.png"
+                         alt="Единый фирменный стиль по всему миру">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <?php get_footer(); ?>
