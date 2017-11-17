@@ -185,4 +185,133 @@
             }
         }
     }
+    &-economy {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: url(//mossebo.studio/wp-content/uploads/page__interior_design/bg-economy.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        background-position: center center;
+        @media #{$sm} {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        @media #{$xs} {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: $weigth_reg;
+            margin-bottom: 45px;
+            max-width: 475px;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                margin-bottom: 25px;
+                font-size: 24px;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            margin-bottom: 45px;
+            max-width: 475px;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                margin-bottom: 25px;
+                font-size: 24px;
+            }
+        }
+        &__items {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                @media #{$sm} {
+                    margin-bottom: 35px !important;
+                }
+                li {
+                    padding-left: 30px;
+                    font-size: 18px;
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+                    max-width: 90%;
+                    background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/icons/list_pr.png);
+                }
+                li + li {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
+    &-zamer {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        @media #{$sm} {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        @media #{$xs} {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: $weigth_reg;
+            margin-bottom: 45px;
+            max-width: 475px;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                margin-bottom: 25px;
+                font-size: 24px;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            margin-bottom: 45px;
+            max-width: 475px;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                margin-bottom: 25px;
+                font-size: 24px;
+            }
+        }
+        &__items {
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                @media #{$sm} {
+                    margin-bottom: 35px !important;
+                }
+                li {
+                    padding-left: 30px;
+                    font-size: 18px;
+                    background-position: 0 0;
+                    background-repeat: no-repeat;
+                    max-width: 90%;
+                    background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/icons/list_pr.png);
+                }
+                li + li {
+                    margin-top: 15px;
+                }
+            }
+        }
+    }
 }

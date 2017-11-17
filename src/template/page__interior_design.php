@@ -145,7 +145,6 @@ $select_id = rand();
                             </div>
                         </div>
                         <?php
-                        $current_post_id++;
                     }
                     ?>
                 </div>
@@ -285,6 +284,53 @@ $select_id = rand();
 </div>
 
 
+<div class="page-interior-design-economy container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-interior-design-economy__title">Дизайн интерьера экономит на ремонте от 300 000 рублей</div>
+                    <div class="page-interior-design-economy__subtitle">Создание дизайна интерьера – это не только красивые финальные визуализации и советы дизайнера.</div>
+                    <div class="row">
+                        <div class="col-md-6 page-interior-design-economy__items">
+                            <ul>
+                                <li>Список чистовых и черновых материалов точно рассчитан для вашего ремонта и вы не купите лишнего </li>
+                                <li>Чертежи и схемы позволяют строителям не допустить ошибок при ремонте и вы не платите за их исправление </li>
+                                <li>Продуманность дизайна не требует дополнительных покупок после ремонта</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="page-interior-design-zamer container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-interior-design-zamer__title">Замер вашей квартиры  необходим для оценки стоимости ремонта</div>
+                    <div class="row">
+                        <div class="col-md-6 page-interior-design-zamer__items">
+                            <ul>
+                                <li>Точный обмерный план квартиры может сделать только специалист при использовании лазерной рулетки и трехосевого уровня</li>
+                                <li>На основе обмерного плана и визуального осмотра дизайнер сможет сделать воплотимый в реальность дизайн интерьера</li>
+                                <li>Оценка стоимости ремонта и дизайна интерьера только по метражу необъективна и завышена</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__interior_design/zamer.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <?php get_footer(); ?>
