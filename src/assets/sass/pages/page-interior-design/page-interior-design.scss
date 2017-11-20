@@ -56,6 +56,12 @@
             margin-right: auto;
             margin-bottom: 40px;
             text-align: center;
+            @media #{$sm} {
+                display: none;
+            }
+            @media #{$xs} {
+                display: none;
+            }
             a {
                 display: inline-block;
                 font-size: 18px;
@@ -312,6 +318,9 @@
                     margin-top: 15px;
                 }
             }
+        }
+        img {
+            max-width: 100%;
         }
     }
 }

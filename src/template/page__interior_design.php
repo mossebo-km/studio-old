@@ -333,4 +333,57 @@ $select_id = rand();
 </div>
 
 
+<!-- Portfolio Panorama -->
+<div class="page-franchising-offices page-franchising-offices__bg-gray">
+    <div class="page-franchising-offices__title">Мебель – основа долговечного и комфортного интерьера</div>
+    <div class="page-franchising-offices__description">Качественная мебель в ярком дизайне задает тон всему интерьеру. Широкий выбор среди эксклюзивных для России поставщиков и цены ниже розничных получает каждый клиент Mossebo при заказе дизайна интерьера. Отдельные предметы интерьера вы можете купить в нашей группе Вконтакте.</div>
+    <div class="panorama"
+         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__interior_design/tovars_mobile.png">
+        <div class="panorama-view">
+            <div class="panorama-container">
+                <img src="//mossebo.studio/wp-content/uploads/page__interior_design/tovars.png"
+                     usemap="hotspots" data-width="2704" data-height="400" alt="Наши офисы"/>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Banner -->
+<div class="page-banner page-banner_main-page container-fluid" style="background-image: url(//mossebo.studio/wp-content/uploads/page__interior_design/lead-form-footer.jpg);min-height: auto; padding-top: 120px;padding-bottom: 120px;">
+    <div class="row">
+        <!-- title -->
+        <div class="col-xl-11 offset-xl-1 col-12">
+            <h1 class="page-banner__title">
+                <?php $main_title_geo = geoInit('title');
+                if (isset($main_title_geo)) {
+                    echo $main_title_geo;
+                } else {
+                    echo 'Дизайн и ремонт интерьера по всей России и СНГ';
+                } ?>
+            </h1>
+            <h2 class="page-banner__sub-title">Создаем дизайн квартир, коттеджей и коммерческих помещений</h2>
+        </div>
+
+        <!-- Calculator block -->
+        <div class="col-12">
+            <?php feedback_form_calc(array(
+                'form-place' => 'Общая', // Form name
+                'title' => 'Рассчитайте стоимость дизайна <span class="text-primary">прямо сейчас:</span>', // Title
+                'steps' => array( // Step's
+                    'step-1' => array( // Step 1
+                        'label' => 'Укажите площадь помещения:',
+                        'placeholder' => 'площадь помещения, м²'
+                    ),
+                    'step-2' => array( // Step 2
+                        'label' => 'Укажите тип помещения:',
+                        'options' => array('Новостройка', 'Вторичное жилье', 'Загородный дом')
+                    ),
+                ),
+            )); ?>
+        </div>
+    </div>
+</div>
+
+
+
 <?php get_footer(); ?>

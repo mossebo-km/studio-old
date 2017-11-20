@@ -67,7 +67,7 @@ function feedback_form_calc($array)
         </div>
 
         <!-- Radio block -->
-        <div class="form-description-text text-left">
+        <div class="form-description-text text-left" style="display: none;">
             <div style="display:none;" class="radio-block-wrapper">
                 <?php if (isset($array['steps']['step-2'])) ?><span
                         class="radio-description"><?php echo $array['steps']['step-2']['radio-label']; ?></span>
@@ -76,14 +76,14 @@ function feedback_form_calc($array)
                         <input id="calc-raiod-1-<?php echo $radio_id; ?>"
                                type="radio"
                                name="calc-radio"
-                               value="Ремонт + дизайн">
+                               value="Ремонт + дизайн" checked>
                         <label for="calc-raiod-1-<?php echo $radio_id; ?>">Да</label>
                     </li>
                     <li>
                         <input id="calc-raiod-2-<?php echo $radio_id_2; ?>"
                                type="radio"
                                name="calc-radio"
-                               value="Ремонт" checked>
+                               value="Ремонт">
                         <label for="calc-raiod-2-<?php echo $radio_id_2; ?>">Нет</label>
                     </li>
                 </ul>
