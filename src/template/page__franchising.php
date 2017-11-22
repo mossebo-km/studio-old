@@ -866,5 +866,6 @@ get_header();
     </div>
 </div>
 
+<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-187930-ckqja';</script>
 
 <?php get_footer(); ?>

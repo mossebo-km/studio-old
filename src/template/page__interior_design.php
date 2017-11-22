@@ -100,7 +100,7 @@ $select_id = rand();
             <a @click="CategoryName = 'Лофт'">Лофт</a>
             <a @click="CategoryName = 'Рустика'">Рустика</a>
             <a @click="CategoryName = 'Ар-нуво'">Ар-нуво</a>
-            <a @click="CategoryName = 'Ар-деко'">Ар-деко</a>
+            <!--<a @click="CategoryName = 'Ар-деко'">Ар-деко</a>-->
             <a @click="CategoryName = 'Поп-арт'">Поп-арт</a>
             <a @click="CategoryName = 'Эко'">Эко</a>
             <a @click="CategoryName = 'Средиземноморский'">Средиземноморский</a>
@@ -368,7 +368,7 @@ $select_id = rand();
         <div class="col-12">
             <?php feedback_form_calc(array(
                 'form-place' => 'Общая', // Form name
-                'title' => 'Рассчитайте стоимость дизайна <span class="text-primary">прямо сейчас:</span>', // Title
+                'title' => 'Рассчитайте стоимость дизайна <br><span class="text-primary">прямо сейчас:</span>', // Title
                 'steps' => array( // Step's
                     'step-1' => array( // Step 1
                         'label' => 'Укажите площадь помещения:',
