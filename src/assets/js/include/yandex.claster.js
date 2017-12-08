@@ -104,16 +104,10 @@ jQuery(function (jQuery) {
 
             // Санкт-Петербург
             geoObjects[0] = new ymaps.Placemark([59.903814, 30.300658],
-                getPointData('Санкт-Петербург', 'Санкт-Петербург, Митрофаньевское шоссе, 2к2', '8-812-612-48-19'),
+                getPointData('Санкт-Петербург', 'Санкт-Петербург, Обводного канала наб, дом 118а, литера Х', '8-812-612-48-19'),
                 getPointOptions());
             geoObjects[1] = new ymaps.Placemark([59.909567, 30.284220],
                 getPointData('Санкт-Петербург', 'Обводного канала, 199 БЦ «Обводный двор»', '8-812-612-48-19'),
-                getPointOptions());
-            geoObjects[2] = new ymaps.Placemark([59.969493, 30.432571],
-                getPointData('Санкт-Петербург', 'Маршала Тухачевского, 22', '8-812-612-48-19'),
-                getPointOptions());
-            geoObjects[3] = new ymaps.Placemark([59.929926, 30.399914],
-                getPointData('Санкт-Петербург', 'Малоохтинский проспект, 61А', '8-812-612-48-19'),
                 getPointOptions());
 
             // Москва
@@ -205,11 +199,8 @@ jQuery(function (jQuery) {
                 getPointOptions());
 
             //Казань
-            geoObjects[23] = new ymaps.Placemark([55.800615, 49.123365],
-                getPointData('Казань', 'улица Касаткина', '8-800-707-83-47'),
-                getPointOptions());
-            geoObjects[24] = new ymaps.Placemark([55.787401, 49.155480],
-                getPointData('Казань', 'улица Достоевского, 66/17  Салон PREMI', '8-800-707-83-47'),
+            geoObjects[23] = new ymaps.Placemark([55.799143, 49.123266],
+                getPointData('Казань', 'улица Касаткина 11', '8-800-707-83-47'),
                 getPointOptions());
 
 

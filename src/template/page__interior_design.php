@@ -17,6 +17,7 @@ $radio_id_2 = rand();
 #Рандомное чилсо для id select
 $select_id = rand();
 ?>
+
 <!-- Banner -->
 <div class="page-interior-design-main container-fluid">
     <div class="row">
