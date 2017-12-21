@@ -35,6 +35,7 @@ add_action('wp_enqueue_scripts', 'theme_files');
   // *----------------------------------------------------------------------- */
   // Подключаем на определенных страницах YaApi и скрипт инициализации карты
   add_action('wp', 'add_my_script_contant_page_about_us');
+
   function add_my_script_contant_page_about_us() {
   	if ( is_front_page() || is_page( 37 ) || is_page( 39 ) || is_page( 979 ) ) {
       add_action( 'wp_enqueue_scripts', 'my_scripts_method' );

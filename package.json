@@ -17,16 +17,16 @@
   "dependencies": {
     "cross-env": "^5.1.1",
     "jquery": "^3.2.1",
-    "laravel-mix": "^1.6.1",
+    "laravel-mix": "^1.7.2",
     "magnific-popup": "^1.1.0",
-    "node-sass": "^4.6.0",
+    "node-sass": "^4.7.2",
     "normalize.css": "^7.0.0",
     "owl.carousel": "^2.2.0",
-    "vue": "^2.5.3",
-    "vue-carousel-3d": "^0.1.18"
+    "vue": "^2.5.13",
+    "vue-carousel-3d": "^0.1.19"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.19.0",
     "browser-sync-webpack-plugin": "^1.2.0"
   }
 }
