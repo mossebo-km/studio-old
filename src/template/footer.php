@@ -169,11 +169,11 @@ if (is_page(979)) { ?>
     <!-- feeedback forom thank modal  -->
     <div class="feedback-form-modal-thank-page white-popup-block mfp-hide">
         <h3 class="section-title text-center">Спасибо за заявку!</h3>
-        <div class="tnx-descr">Посмотрите наши видео на Youtube:</div>
+        <div class="tnx-descr">Смотрите YouTube канал основателей Mossebo Хайповый Бизнес</div>
         <div class="tnx-vido">
             <div class="youtube-player feedback-form-modal-thank-page__youtube-player"
-                 data-youtube-player-src-img="http://img.youtube.com/vi/es-p_q1BHYo/maxresdefault.jpg"
-                 data-youtube-player-id="es-p_q1BHYo">
+                 data-youtube-player-src-img="/wp-content/uploads/Vyipusk-26-Skolkovo_3.jpg"
+                 data-youtube-player-id="xYLQzjrT5AI">
                 <div class="youtube-player__img-preview youtube-player__img-preview_theme-bnw"></div>
             </div>
         </div>
@@ -197,11 +197,11 @@ if (is_page(979)) { ?>
     <!-- feeedback forom thank modal  -->
     <div class="feedback-form-modal-thank-page white-popup-block mfp-hide">
         <h3 class="section-title text-center">Спасибо за заявку!</h3>
-        <div class="tnx-descr">Посмотрите наши видео на Youtube:</div>
+        <div class="tnx-descr">Смотрите YouTube канал основателей Mossebo Хайповый Бизнес</div>
         <div class="tnx-vido">
             <div class="youtube-player feedback-form-modal-thank-page__youtube-player"
-                 data-youtube-player-src-img="http://img.youtube.com/vi/es-p_q1BHYo/maxresdefault.jpg"
-                 data-youtube-player-id="es-p_q1BHYo">
+                 data-youtube-player-src-img="/wp-content/uploads/Vyipusk-26-Skolkovo_3.jpg"
+                 data-youtube-player-id="xYLQzjrT5AI">
                 <div class="youtube-player__img-preview youtube-player__img-preview_theme-bnw"></div>
             </div>
         </div>
@@ -215,5 +215,6 @@ if (is_page(979)) { ?>
 
 <?php get_template_part('template/cookie'); ?>
 </div>
+
 </body>
 </html>

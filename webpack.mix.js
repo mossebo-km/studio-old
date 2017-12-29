@@ -12,10 +12,10 @@ let mix = require('laravel-mix');
  */
 
 // Office
-publicDir = '../../devsrv/mossebo.dev/public_html/wp-content/themes/mossebo';
+publicDir = '../../devsrv/mossebo.test/public_html/wp-content/themes/mossebo';
 
 // Home
-//publicDir = '../../Laravel-Projets/mossebo.dev/public_html/wp-content/themes/mossebo';
+//publicDir = '../../Laravel-Projets/mossebo.test/public_html/wp-content/themes/mossebo';
 
 //MAC CONFIG
 mix.js('src/assets/js/app.js', publicDir + '/assets/js');
