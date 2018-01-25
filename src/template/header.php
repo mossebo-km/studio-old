@@ -9,11 +9,6 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>"/>
     <?php wp_head(); ?>
 
-    <?php
-    if(is_page(979)) { echo "<noindex><script async src=\"https://stats.lptracker.ru/code/new/47275\"></script></noindex>";}
-// elseif() { }
-    else { echo "<noindex><script async src=\"https://stats.lptracker.ru/code/new/47165\"></script></noindex>"; }
-    ?>
 
 </head>
 <body <?php body_class(); ?>>

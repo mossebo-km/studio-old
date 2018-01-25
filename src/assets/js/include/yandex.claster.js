@@ -131,8 +131,8 @@ jQuery(function (jQuery) {
                 getPointOptions());
 
             //Астана
-            geoObjects[6] = new ymaps.Placemark([51.124549, 71.434274],
-                getPointData('Астана', 'улица Достык, 18', '+7 (812) 612-48-19'),
+            geoObjects[6] = new ymaps.Placemark([51.140534, 71.415104],
+                getPointData('Астана', 'Кабанбай батыр, 11, ЖК Триумф Астана (вход со стороны Цирка) ', '+7 (7172) 69-62-31'),
                 getPointOptions());
 
 

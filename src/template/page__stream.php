@@ -11,10 +11,7 @@ get_header();
 
 ?>
 
-
-
-
-<iframe src="https://play.boomstream.com/player.html?code=wpnFwsMq&autostart=1&volume=100&title=0"
+<iframe src="https://play.boomstream.com/player.html?code=Un1sYaF6&autostart=1&volume=100&title=0"
         frameborder="0"
         scrolling="no"
         allowfullscreen
@@ -23,7 +20,6 @@ get_header();
         style="min-height: 100vh;">
 
 </iframe>
-
 
 
 <?php get_footer(); ?>
