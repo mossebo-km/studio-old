@@ -194,7 +194,6 @@ jQuery(function (jQuery) {
                 getPointOptions());
 
 
-
             /**
              * Можно менять опции кластеризатора после создания.
              */
