@@ -104,7 +104,7 @@ jQuery(function (jQuery) {
                     jQuery.magnificPopup.close();
                     setTimeout(thankModal, 600);
                     // Yandex reachGoal
-                    //yaReachCol();
+                    yaReachCol();
                     // Facebook
                     facebookEvent();
                     // hide load btn
