@@ -370,21 +370,17 @@ get_header();
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="title">Медийные лица Mossebo</div>
             <div class="row mobile_hide">
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="person_name">Марк <br>Еремин</div>
                     <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/mark.png" alt="">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="person_name">Юрий <br>Еремин</div>
                     <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/yury.png" alt="">
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="person_name">Владислав <br>Туржанский</div>
                     <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/vlad.png" alt="">
-                </div>
-                <div class="col-md-3">
-                    <div class="person_name">Liza <br>Loft</div>
-                    <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/liza.png" alt="">
                 </div>
             </div>
             <div id="person_mobile">
@@ -410,10 +406,6 @@ get_header();
                     <slide :index="2">
                         <div class="person_name">Владислав <br>Туржанский</div>
                         <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/vlad.png" alt="">
-                    </slide>
-                    <slide :index="3">
-                        <div class="person_name">Liza <br>Loft</div>
-                        <img src="//mossebo.studio/wp-content/uploads/page__co-work-production/liza.png" alt="">
                     </slide>
                 </carousel-3d>
             </div>

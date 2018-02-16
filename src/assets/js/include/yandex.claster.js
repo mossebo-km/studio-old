@@ -131,66 +131,78 @@ jQuery(function (jQuery) {
                 getPointData('Волгоград', 'Баррикадная улица, 1Б', '8 (844) 259-13-36'),
                 getPointOptions());
 
+
             //Иркутск
             ////1
             geoObjects[5] = new ymaps.Placemark([52.285467, 104.303612],
                 getPointData('Иркутск', 'ул. Фридриха Энгельса, 17 Деловой центр "Сотня", офис 603','+7 (3952) 79-93-25'),
                 getPointOptions());
+            ////1
+            geoObjects[6] = new ymaps.Placemark([52.276001, 104.289158],
+                getPointData('Иркутск', 'г.Иркутск, ул. Коммунаров, 1а','+7 (3952) 79-93-25'),
+                getPointOptions());
+
 
             //Ростов-на-Дону
             ////1
-            geoObjects[6] = new ymaps.Placemark([47.239282, 39.729564],
+            geoObjects[7] = new ymaps.Placemark([47.239282, 39.729564],
                 getPointData('Ростов-на-Дону', 'Текучева 183, офис 221', '+7 (863) 310-31-73'),
                 getPointOptions());
             ////1
-            geoObjects[7] = new ymaps.Placemark([47.231667, 39.701394],
+            geoObjects[8] = new ymaps.Placemark([47.231667, 39.701394],
                 getPointData('Ростов-на-Дону', 'Катаева 293, офис 302', '+7 (863) 310-31-73'),
                 getPointOptions());
 
             //Оренбург
             ////1
-            geoObjects[8] = new ymaps.Placemark([51.777567, 55.143209],
+            geoObjects[9] = new ymaps.Placemark([51.777567, 55.143209],
                 getPointData('Оренбург', 'Туркестанская 161, БЦ «МЕГА», этаж 4, офис 1', '8-800-707-83-47'),
                 getPointOptions());
 
             //Уфа
             ////1
-            geoObjects[9] = new ymaps.Placemark([54.733021, 55.951172],
+            geoObjects[10] = new ymaps.Placemark([54.733021, 55.951172],
                 getPointData('Уфа', 'улица Ленина, 70, 3 эт., оф. 304.', '8-800-707-83-47'),
                 getPointOptions());
 
             //Казань
             ////1
-            geoObjects[10] = new ymaps.Placemark([55.799143, 49.123266],
+            geoObjects[11] = new ymaps.Placemark([55.799143, 49.123266],
                 getPointData('Казань', 'улица Касаткина 11', '8-800-707-83-47'),
                 getPointOptions());
 
             //Рязань
             ////1
-            geoObjects[11] = new ymaps.Placemark([54.635308, 39.734111],
+            geoObjects[12] = new ymaps.Placemark([54.635308, 39.734111],
                 getPointData('Рязань', 'ул. Нижне-Трубежная, д. 2', '+7 (4912) 77-28-86'),
                 getPointOptions());
 
             //Краснодар
             ////1
-            geoObjects[12] = new ymaps.Placemark([45.040719, 38.967363],
+            geoObjects[13] = new ymaps.Placemark([45.040719, 38.967363],
                 getPointData('Краснодар', 'Ул. Фрунзе 186/2', '+7 (861) 204-07-63'),
                 getPointOptions());
             ////1
-            geoObjects[13] = new ymaps.Placemark([45.043087, 38.959118],
+            geoObjects[14] = new ymaps.Placemark([45.043087, 38.959118],
                 getPointData('Краснодар', 'г. Краснодар, ул. Северная 247, 6 этаж, офис 602. Бизнес центр "Gold"', '+7 (861) 204-07-63'),
                 getPointOptions());
 
             //Алматы
             ////1
-            geoObjects[14] = new ymaps.Placemark([43.231639, 76.960090],
+            geoObjects[15] = new ymaps.Placemark([43.231639, 76.960090],
                 getPointData('Алматы', 'проспект Достык 192/2, БЦ Green Tower'),
                 getPointOptions());
 
             //Саратов
             ////1
-            geoObjects[15] = new ymaps.Placemark([51.534874, 46.011272],
+            geoObjects[16] = new ymaps.Placemark([51.534874, 46.011272],
                 getPointData('Саратов', 'Вавилова 28/34 БЦ, Атлант, офис 404'),
+                getPointOptions());
+
+            //Ташкент
+            ////1
+            geoObjects[17] = new ymaps.Placemark([41.313772, 69.313926],
+                getPointData('Ташкент', 'Мирзо-Улугбекский район, проспект Мирзо-Улугбека 7м.'),
                 getPointOptions());
 
 
