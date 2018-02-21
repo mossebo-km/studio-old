@@ -201,8 +201,8 @@ jQuery(function (jQuery) {
 
             //Ташкент
             ////1
-            geoObjects[17] = new ymaps.Placemark([41.313772, 69.313926],
-                getPointData('Ташкент', 'Мирзо-Улугбекский район, проспект Мирзо-Улугбека 7м.'),
+            geoObjects[17] = new ymaps.Placemark([41.347841, 69.349556],
+                getPointData('Ташкент', 'Мирзо-Улугбекский район, проспект Мирзы Улугбека 7м.'),
                 getPointOptions());
 
 

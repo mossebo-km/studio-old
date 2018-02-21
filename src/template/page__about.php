@@ -94,35 +94,8 @@ get_header();
 
     </section>
 
-    <!-- Section 4 MAP -->
-    <section id="about-us-section-4">
-        <div class="container-fluid">
 
-            <!-- Title -->
-            <div class="row">
-                <div class="col-xl-12 text-center">
-                    <h2 class="section-title">Филиалы Mossebo на карте</h2>
-                </div>
-            </div>
-
-            <!-- YaMap -->
-            <div class="row">
-                <div class="col-12 padding-0">
-                    <div id="yandex-map-claster-office"></div>
-                </div>
-            </div>
-
-            <!-- Office -->
-            <div class="row">
-                <div class="col-xl-8 offset-xl-2">
-                    <p><span class="text-primary text-bold">Россия:</span> Москва, Санкт-Петербург, Волгоград, Тюмень,
-                        Самара, Ростов-на-Дону, Уссурийск, Оренбург, Тула, Уфа, Пенза.</p>
-                    <p><span class="text-primary text-bold">Мир:</span> Бишкек, Минск, Ташкент, Астана.</p>
-                </div>
-            </div>
-
-        </div> <!-- Container-fluid END -->
-    </section> <!-- Section 4 END -->
+    <?php get_template_part('template/filial-map'); ?>
 
     <!-- Section 5 -->
     <section id="about-us-section-5">
@@ -130,7 +103,7 @@ get_header();
             <div class="row">
                 <div class="col-xl-8 offset-xl-2 text-center">
                     <h2 class="section-title text-white">Присоединись к Mossebo — открой<br> филиал в своем городе!</h2>
-                    <a href="http://franchiseremont.mossebo.ru/" target="_blank" class="btn btn_1 ya_target_btn_onas">Подробнее</a>
+                    <a href="/franchise/" class="btn btn_1 ya_target_btn_onas">Подробнее</a>
                 </div>
             </div>
         </div>

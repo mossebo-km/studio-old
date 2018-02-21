@@ -32,7 +32,7 @@ mix.sourceMaps();
 mix.copyDirectory('src/template', publicDir);
 mix.browserSync({
     proxy: {
-        target: "https://mossebo.dev"
+        target: "https://mossebo.test"
     }
 });
 
