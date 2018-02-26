@@ -173,7 +173,7 @@ if (is_page(979)) { ?>
         <div class="tnx-vido">
             <div class="youtube-player feedback-form-modal-thank-page__youtube-player"
                  data-youtube-player-src-img="/wp-content/uploads/Zaglushka-Prezentatsiya-franshizyi-1920h1080-2-1.jpg"
-                 data-youtube-player-id="kvreoEYSO0g">
+                 data-youtube-player-id="VIBVyQ8P02M">
                 <div class="youtube-player__img-preview youtube-player__img-preview_theme-bnw"></div>
             </div>
         </div>
