@@ -291,3 +291,16 @@ iframe[src="//t.insigit.com/nsapi/static/partners.html"] {
         text-align: left;
     }
 }
+
+.mobile_show {
+    display: none;
+    @media #{$xs} {
+        display: block;
+    }
+}
+.mobile_hide {
+    display: block;
+    @media #{$xs} {
+        display: none;
+    }
+}

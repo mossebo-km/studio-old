@@ -20,8 +20,8 @@ get_header();
                     <h2 class="page-vacant-header__subtitle">Вы можете познакомиться с нашей компанией с помощью  HR-видео</h2>
                     <!-- YouTube player -->
                     <div class="youtube-player"
-                         data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/page__franchising/franchise-page-feedback__youtube-player-img-preview.jpg"
-                         data-youtube-player-id="x6H4trs4yDc">
+                         data-youtube-player-src-img="/wp-content/uploads/Mark-1.jpg"
+                         data-youtube-player-id="fW9mAe1aMG4">
                         <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
                     </div>
                     <!-- About us write -->
@@ -49,7 +49,7 @@ get_header();
                 <?php
                 if( have_rows('vacant_list') ):
                     while ( have_rows('vacant_list') ) : the_row(); ?>
-                        <div class="col-3">
+                        <div class="col-md-3">
                             <div class="page-vacant-head-office__item" style="background-image: url(<?php the_sub_field('vacant_image'); ?>);">
                                 <div class="page-vacant-head-office__item_bg">
                                     <a href=""><?php the_sub_field('vacant_name'); ?></a>
@@ -72,7 +72,7 @@ get_header();
                 <!-- Contact's -->
                 <?php if(get_field('contact_page_second_address_repeator', 39)): ?>
                     <?php while(has_sub_field('contact_page_second_address_repeator', 39)): ?>
-                        <div class="col-3 col-md-3">
+                        <div class="col-md-3">
                             <div class="page-vacant-head-office__filials-name">
                                 <?php the_sub_field('contact_page_second_address_city'); ?>
                             </div>
@@ -121,7 +121,7 @@ get_header();
         </div>
     </div>
     <div class="panorama"
-         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__franchising/__office_mobile.jpg">
+         data-pano-mobile-src="/wp-content/themes/mossebo/assets/images/vacancies/vacant_office_mobile.jpg">
         <div class="panorama-view">
             <div class="panorama-container">
                 <img src="/wp-content/themes/mossebo/assets/images/vacancies/vacant_office.jpg"
@@ -139,7 +139,8 @@ get_header();
     </div>
     <div class="row">
         <div class="col-12">
-            <img src="/wp-content/themes/mossebo/assets/images/vacancies/structure.png" alt="">
+            <img src="/wp-content/themes/mossebo/assets/images/vacancies/structure.png" alt="" class="mobile_hide">
+            <img src="/wp-content/themes/mossebo/assets/images/vacancies/structure_mobile.png" alt="" class="mobile_show">
         </div>
     </div>
 </div>

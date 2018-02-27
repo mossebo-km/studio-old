@@ -57,14 +57,25 @@
     &-head-office {
         padding-top: 120px;
         padding-bottom: 120px;
+        @media #{$xs} {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
         &__title {
             font-size: 30px;
             font-weight: bold;
+            @media #{$xs} {
+                font-size: 20px;
+            }
         }
         &__subtitle {
             font-size: 18px;
             color: $color_gr;
             margin-bottom: 50px;
+            @media #{$xs} {
+                font-size: 14px;
+                margin-bottom: 25px;
+            }
         }
         &__desc {
             font-size: 18px;
@@ -86,10 +97,10 @@
             }
         }
         &__filials {
-            .col-3:first-child {
+            .col-md-3:first-child {
                 display: none;
             }
-            .col-3 {
+            .col-md-3 {
                 padding-top: 15px;
                 padding-bottom: 15px;
             }
@@ -97,11 +108,17 @@
                 font-size: 18px;
                 font-weight: bold;
                 margin-bottom: 5px;
+                @media #{$xs} {
+                    font-size: 16px;
+                }
             }
             a {
                 font-size: 18px;
                 font-weight: 100;
                 border-bottom: 1px solid $color_pr;
+                @media #{$xs} {
+                    font-size: 16px;
+                }
                 &:hover {
                     text-decoration: none;
                 }
@@ -137,9 +154,8 @@
         }
         img {
             max-width: 1378px;
-            width: 100% !important;
-            height: auto !important;
-            display: block !important;
+            width: 100%;
+            height: auto;
             margin-left: auto;
             margin-right: auto;
         }
