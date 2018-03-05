@@ -54,12 +54,16 @@ get_header();
                                 <?php the_field('vacancies__sidebar-col-info-price'); ?>
                             </div>
                         </div>
+                        <?php
+                        $vacancies__sidebar_col_info_city = get_field('vacancies__sidebar-col-info-city');
+                        if($vacancies__sidebar_col_info_city != '') { ?>
                         <div class="vacancies__sidebar-col col-12">
                             <div class="vacancies__sidebar-col-title">Город</div>
                             <div class="vacancies__sidebar-col-info">
-                                <?php the_field('vacancies__sidebar-col-info-city'); ?>
+                                <?php echo $vacancies__sidebar_col_info_city; ?>
                             </div>
                         </div>
+                        <?php } ?>
                         <div class="vacancies__sidebar-col col-12">
                             <div class="vacancies__sidebar-col-title">Требуемый опыт работы</div>
                             <div class="vacancies__sidebar-col-info">

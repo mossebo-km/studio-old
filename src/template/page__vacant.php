@@ -25,8 +25,8 @@ get_header();
                         <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
                     </div>
                     <!-- About us write -->
-                    <div class="page-vacant-header__subtitle">Приветственное слово директора отдела маркетинга
-                    </div>
+                    <!--<div class="page-vacant-header__subtitle">Приветственное слово директора отдела маркетинга
+                    </div> -->
                 </div>
                 <div class="col">
                     <!-- feedback-form block -->
@@ -49,14 +49,18 @@ get_header();
                 <?php
                 if( have_rows('vacant_list') ):
                     while ( have_rows('vacant_list') ) : the_row(); ?>
+                    <?php if(get_sub_field('vacant_on') == true) { ?>
                         <div class="col-md-3">
-                            <div class="page-vacant-head-office__item" style="background-image: url(<?php the_sub_field('vacant_image'); ?>);">
+                            <div class="page-vacant-head-office__item"
+                                 style="background-image: url(<?php the_sub_field('vacant_image'); ?>);"
+                                 onclick="location.href='<?php the_sub_field('vacant_url'); ?>'">
                                 <div class="page-vacant-head-office__item_bg">
-                                    <a href=""><?php the_sub_field('vacant_name'); ?></a>
+                                    <a href="<?php the_sub_field('vacant_url'); ?>"><?php the_sub_field('vacant_name'); ?></a>
                                 </div>
                             </div>
                         </div>
-                    <?php
+                        <?php
+                    }
                     endwhile;
                 else :
                     // no rows found
@@ -76,7 +80,7 @@ get_header();
                             <div class="page-vacant-head-office__filials-name">
                                 <?php the_sub_field('contact_page_second_address_city'); ?>
                             </div>
-                            <a href="#">Дизайнер интерьера</a>
+                            <a href="/vacancie/sankt-peterburg/dizayner-intererov/">Дизайнер интерьера</a>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>

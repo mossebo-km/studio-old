@@ -2,7 +2,7 @@
     &-header {
         padding-top: 45px;
         padding-bottom: 60px;
-        background: url(//mossebo.studio/wp-content/uploads/page__franchising/frachise-page-feedback_bg.jpg) 50% 50% no-repeat;
+        background: url(//mossebo.studio/wp-content/uploads/page__co-work-production/1-marketing.jpg) 50% 50% no-repeat;
         background-size: cover;
         @media #{$xs} {
             padding-top: 20px;
@@ -88,12 +88,22 @@
             background-size: cover;
             background-position: center center;
             margin-bottom: 30px;
+            cursor: pointer;
             &_bg {
                 width: 100%;
                 height: 250px;
                 background: rgba(0,0,0,0.5);
                 box-sizing: border-box;
                 padding: 30px;
+                transition: 0.5s;
+            }
+            &:hover {
+                .page-vacant-head-office__item_bg {
+                    background: rgba(255,155,0, 0.5);
+                    a {
+                        color: $color_wt;
+                    }
+                }
             }
         }
         &__filials {

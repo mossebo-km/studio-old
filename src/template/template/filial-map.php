@@ -18,7 +18,6 @@
                 Санкт-Петербург, Ростов-на-Дону, Краснодар, Казань, Сочи, Волгоград, Тюмень, Самара, Уссурийск,
                 Оренбург, Тула, Уфа, Пенза, Иркутск, Магнитогорск, Рязань, Якутск
             </div>
-            <div class="page-franchising-map__info-locations"><span class="text-primary">Киргизия:</span> Бишкек</div>
             <div class="page-franchising-map__info-locations"><span class="text-primary">Беларусь:</span> Минск</div>
             <div class="page-franchising-map__info-locations"><span class="text-primary">Узбекистан:</span> Ташкент
             </div>
