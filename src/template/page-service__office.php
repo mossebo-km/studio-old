@@ -43,26 +43,27 @@ get_header();
 </div>
 
 <!-- Feauteres -->
-<div class="feauteres feauteres_theme-background-white container-fluid">
+<div class="feauteres container-fluid">
     <div class="row">
-        <div class="feauteres__grid col-sm-4">
-            <i class="feauteres__icon feauteres__icon_10"></i>
-            <div class="feauteres__text">Точное соблюдение сроков</div>
-            <div class="feauteres__description">Вы ограничены арендными каникулами? Завершим все работы вовремя и не
-                сдвинем дату старта вашего бизнеса.
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_4"></i>
+            <div class="feauteres__text">Только прибыльные заказы</div>
+            <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
+                интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4">
-            <i class="feauteres__icon feauteres__icon_11"></i>
-            <div class="feauteres__text">Грамотная смета</div>
-            <div class="feauteres__description">Предлагаем доступные и функциональные решения и не превышаем бюджет по
-                утвержденной смете.
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_5"></i>
+            <div class="feauteres__text">Не нужно заниматься поиском клиентов</div>
+            <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
+                рекламных площадках
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4">
-            <i class="feauteres__icon feauteres__icon_12"></i>
-            <div class="feauteres__text">Любая площадь</div>
-            <div class="feauteres__description">Работаем с помещениями от 20-ти квадратных метров любого назначения.
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_6"></i>
+            <div class="feauteres__text">Нет зависимости от сезонности</div>
+            <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
+                договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
             </div>
         </div>
     </div>
@@ -76,17 +77,7 @@ get_header();
             задачи вашего бизнеса
         </div>
     </div>
-    <div class="project__img-row row gallery-img-post">
-        <div class="col-sm-4 col-12 project__img-col"><img
-                src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/2.jpg" alt=""
-                class="project__img img-post-gallary"></div>
-        <div class="col-sm-4 col-12 project__img-col"><img
-                src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/1.jpg" alt=""
-                class="project__img img-post-gallary"></div>
-        <div class="col-sm-4 col-12 project__img-col"><img
-                src="<?php echo THEME_DIR; ?>/assets/images/service/office/project/3.jpg" alt=""
-                class="project__img img-post-gallary"></div>
-    </div>
+        <portfolio-office></portfolio-office>
 </div>
 
 <!-- Section Write about us -->

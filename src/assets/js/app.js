@@ -11,6 +11,8 @@
 import Vue from 'vue';
 import { Carousel3d, Slide } from 'vue-carousel-3d';
 
+import PortfolioOffice from './vue/portfolio-office';
+
 
     var ProductionMedia = new Vue({
         el: '#productionmedia',
@@ -46,6 +48,20 @@ new Vue({
     el: '#portfolio',
     data: {
         CategoryName: 'Все'
+    }
+});
+
+/*new Vue({
+    el: '#portfolio-office',
+    components: {
+        'portfolio-office': PortfolioOffice
+    }
+});*/
+
+new Vue({
+    el: '#app',
+    components: {
+        'portfolio-office': PortfolioOffice
     }
 });
 

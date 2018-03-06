@@ -17,7 +17,9 @@ get_header();
 
                 <div class="col-md-6 col-12">
                     <!-- Sub title -->
-                    <h2 class="page-vacant-header__subtitle">Вы можете познакомиться с нашей компанией с помощью  HR-видео</h2>
+                    <h2 class="page-vacant-header__subtitle">
+                        Вы можете познакомиться с нашей компанией с помощью  HR-видео
+                    </h2>
                     <!-- YouTube player -->
                     <div class="youtube-player"
                          data-youtube-player-src-img="/wp-content/uploads/Mark-1.jpg"
@@ -55,7 +57,9 @@ get_header();
                                  style="background-image: url(<?php the_sub_field('vacant_image'); ?>);"
                                  onclick="location.href='<?php the_sub_field('vacant_url'); ?>'">
                                 <div class="page-vacant-head-office__item_bg">
-                                    <a href="<?php the_sub_field('vacant_url'); ?>"><?php the_sub_field('vacant_name'); ?></a>
+                                    <a href="<?php the_sub_field('vacant_url'); ?>">
+                                        <?php the_sub_field('vacant_name'); ?>
+                                    </a>
                                 </div>
                             </div>
                         </div>
