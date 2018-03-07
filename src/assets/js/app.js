@@ -59,7 +59,7 @@ new Vue({
 });*/
 
 new Vue({
-    el: '#app',
+    el: '#main-wrapper',
     components: {
         'portfolio-office': PortfolioOffice
     }
