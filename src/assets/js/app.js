@@ -58,12 +58,14 @@ new Vue({
     }
 });*/
 
-new Vue({
+/*new Vue({
     el: '#main-wrapper',
     components: {
-        'portfolio-office': PortfolioOffice
+        'portfolio-office': PortfolioOffice,
+        'carousel-3d': Carousel3d,
+        'slide': Slide
     }
-});
+});*/
 
 
 import $ from 'jquery';
