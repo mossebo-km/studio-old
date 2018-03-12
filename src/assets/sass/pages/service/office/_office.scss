@@ -45,3 +45,35 @@
         margin-bottom: 80px;
     }
 }
+
+.office-design {
+    &-portfolio {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        &__title {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            position: relative;
+            display: block;
+            color: $color_bk;
+            width: 100%;
+            @media (max-width: 575px) {
+                font-size: 20px;
+            }
+        }
+        &__subtitle {
+            font-size: 18px;
+            line-height: 22px;
+            max-width: 757px;
+            text-align: center;
+            margin: 0px auto 40px auto;
+            color: $color_bk;
+            @media (max-width: 575px) {
+                font-size: 14px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+}
