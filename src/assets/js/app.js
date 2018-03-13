@@ -9,63 +9,24 @@
 //
 
 import Vue from 'vue';
+//import axios from 'axios';
 import { Carousel3d, Slide } from 'vue-carousel-3d';
 
-import PortfolioOffice from './vue/portfolio-office';
-
-
-    var ProductionMedia = new Vue({
-        el: '#productionmedia',
-        components: {
-            'carousel-3d': Carousel3d,
-            'slide': Slide
-        }
-    });
-    var ProductionSpaces = new Vue({
-        el: '#production-spaces',
-        components: {
-            'carousel-3d': Carousel3d,
-            'slide': Slide
-        }
-    });
-    var ProductionPerson = new Vue({
-        el: '#person_mobile',
-        components: {
-            'carousel-3d': Carousel3d,
-            'slide': Slide
-        }
-    });
-    var FranchsingPage = new Vue({
-        el: '#page-franchising-social',
-        components: {
-            'carousel-3d': Carousel3d,
-            'slide': Slide
-        }
-    });
+// До лучших времен
+//import PortfolioOffice from './vue/portfolio-office';
 
 
 new Vue({
-    el: '#portfolio',
+    el: '#main-wrapper',
+    components: {
+        //'portfolio-office': PortfolioOffice,
+        'carousel-3d': Carousel3d,
+        'slide': Slide
+    },
     data: {
         CategoryName: 'Все'
     }
 });
-
-/*new Vue({
-    el: '#portfolio-office',
-    components: {
-        'portfolio-office': PortfolioOffice
-    }
-});*/
-
-/*new Vue({
-    el: '#main-wrapper',
-    components: {
-        'portfolio-office': PortfolioOffice,
-        'carousel-3d': Carousel3d,
-        'slide': Slide
-    }
-});*/
 
 
 import $ from 'jquery';

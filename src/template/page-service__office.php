@@ -69,15 +69,81 @@ get_header();
     </div>
 </div>
 
-<!-- Project -->
-<div class="project container-fluid">
-    <div class="project__top-block">
-        <div class="section-title section-title_theme-1">Наши проекты</div>
-        <div class="project__top-block-description">Реализуем проекты в 40 городах России и СНГ. Адаптируем проект под
-            задачи вашего бизнеса
-        </div>
+<!-- Portfolio -->
+<div class="office-design-portfolio container-fluid">
+    <div class="office-design-portfolio__title">Портфолио</div>
+
+    <section id="main-page-portfolio" class="page-interior-design-portfolio">
+    <div id="portfolio" class="container-fluid">
+    <div class="page-interior-design-portfolio__style">
+        <a @click="CategoryName = 'Все'">Все стили</a>
+        <a @click="CategoryName = 'Скандинавский'">Скандинавский</a>
+        <a @click="CategoryName = 'Классический'">Классический</a>
+        <a @click="CategoryName = 'Hi-Tech'">Hi-Tech</a>
+        <a @click="CategoryName = 'Современный'">Современный</a>
+        <a @click="CategoryName = 'Фьюжн'">Фьюжн</a>
+        <a @click="CategoryName = 'Бохо'">Бохо</a>
+        <a @click="CategoryName = 'Необарокко'">Необарокко</a>
+        <a @click="CategoryName = 'Лофт'">Лофт</a>
+        <a @click="CategoryName = 'Рустика'">Рустика</a>
+        <a @click="CategoryName = 'Ар-нуво'">Ар-нуво</a>
+        <!--<a @click="CategoryName = 'Ар-деко'">Ар-деко</a>-->
+        <a @click="CategoryName = 'Поп-арт'">Поп-арт</a>
+        <a @click="CategoryName = 'Эко'">Эко</a>
+        <a @click="CategoryName = 'Средиземноморский'">Средиземноморский</a>
+        <a @click="CategoryName = 'Сталинский ампир'">Сталинский ампир</a>
+        <a @click="CategoryName = 'Ретро'">Ретро</a>
+        <a @click="CategoryName = 'Английский'">Английский</a>
+        <a @click="CategoryName = 'Прованс'">Прованс</a>
+        <a @click="CategoryName = 'Неоклассика'">Неоклассика</a>
     </div>
-        <portfolio-office></portfolio-office>
+
+    <?php
+    $query_portfolio = new WP_Query([
+        'post_type' => 'portfolio',
+        'posts_per_page' => -1
+    ]);
+    if ($query_portfolio->have_posts()) {
+        ?>
+        <div class="row">
+            <div class="portfolio-mobile-carousel">
+                <?php
+                while ($query_portfolio->have_posts()) {
+                    $query_portfolio->the_post(); ?>
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="<?php the_ID(); ?>"
+                         v-if="('Все,<?php the_field('port_project_sidebar_row'); ?>').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(<?php the_field('port_img_header') ?>) 50% 50% no-repeat; background-size: cover;"></div>
+                                <figcaption>
+                                    <p class="text-center"><?php the_field('port_title'); ?></p>
+                                    <span class="link-arrow">Подробнее</span>
+                                    <a class="main-link" href="<?php the_permalink(); ?>">Перейти</a>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title"><?php the_field('port_title'); ?></span>
+                                <a href="<?php the_permalink(); ?>" class="link-arrow">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
+            </div>
+        </div>
+        <?php
+    } else {
+        echo 'В данной категории постов нет';
+    }
+    ?>
+    </div>
+    </section>
+
 </div>
 
 <!-- Section Write about us -->

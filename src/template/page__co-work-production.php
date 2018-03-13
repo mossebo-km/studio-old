@@ -263,6 +263,9 @@ get_header();
                 </div>
             <div class="co-work-production-spaces__mobile" id="production-spaces">
                 <carousel-3d
+                    :controls-visible="true"
+                    :controls-prev-html="'&#10092;'"
+                    :controls-next-html="'&#10093;'"
                     :perspective="35"
                     :space="100"
                     :display="3"
@@ -385,6 +388,9 @@ get_header();
             </div>
             <div id="person_mobile">
                 <carousel-3d
+                    :controls-visible="true"
+                    :controls-prev-html="'&#10092;'"
+                    :controls-next-html="'&#10093;'"
                     :perspective="35"
                     :space="100"
                     :display="3"
