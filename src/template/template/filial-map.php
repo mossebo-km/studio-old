@@ -9,11 +9,11 @@
 <!-- Map -->
 <div class="page-franchising-map">
     <div class="container-fluid">
-        <div class="page-franchising-map__title">Mossebo в СНГ</div>
+        <div class="page-franchising-map__title">Студии Mossebo работают <br>по всему миру</div>
     </div>
     <div class="page-franchising-map__info">
         <div class="page-franchising-map__info-inner">
-            <div class="page-franchising-map__info-title">Mossebo в СНГ</div>
+            <div class="page-franchising-map__info-title">Студии Mossebo работают <br>по всему миру</div>
             <div class="page-franchising-map__info-locations"><span class="text-primary">Россия:</span> Москва,
                 Санкт-Петербург, Ростов-на-Дону, Краснодар, Казань, Сочи, Волгоград, Тюмень, Самара, Уссурийск,
                 Оренбург, Тула, Уфа, Пенза, Иркутск, Магнитогорск, Рязань, Якутск

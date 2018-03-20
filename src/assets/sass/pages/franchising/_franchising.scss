@@ -53,6 +53,7 @@
             flex-wrap: nowrap;
             align-items: center;
             justify-content: space-between;
+            max-width: 800px;
             @media #{$sm} {
                 margin-bottom: 35px;
             }
@@ -590,6 +591,9 @@
             }
         }
         &__need {
+            @media #{$xs} {
+                margin-bottom: 35px;
+            }
             ul {
                 li {
                     background-image: url(//mossebo.studio/wp-content/uploads/page__franchising/icons/list_bk.png);

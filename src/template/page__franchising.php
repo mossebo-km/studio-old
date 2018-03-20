@@ -26,8 +26,8 @@ get_header();
                         клиентопотоком</h2>
                     <!-- YouTube player -->
                     <div class="youtube-player"
-                         data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/page__franchising/franchise-page-feedback__youtube-player-img-preview.jpg"
-                         data-youtube-player-id="x6H4trs4yDc">
+                         data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/Oblozhka_Vyipusk-31_Mossebo-_6.4.jpg"
+                         data-youtube-player-id="VIBVyQ8P02M">
                         <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
                     </div>
                     <!-- About us write -->
