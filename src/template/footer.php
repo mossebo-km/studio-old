@@ -214,7 +214,6 @@ if (is_page(979)) { ?>
 <?php wp_footer(); ?>
 
 <?php get_template_part('template/cookie'); ?>
-</div>
-
+<img src="//code.directadvert.ru/track/316797.gif" width="1" height="1" />
 </body>
 </html>

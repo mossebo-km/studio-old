@@ -4,7 +4,7 @@
  * User: vladstarkovsky
  * Date: 11.10.2017
  * Time: 12:22
- * Template Name: Страница - Все вакансии - Дизайнер Интерьера
+ * Template Name: Страница - Все вакансии - ОЗС
  */
 
 get_header();
@@ -12,34 +12,35 @@ get_header();
 ?>
 
 <!-- Feedback -->
-<div class="page-vacant-designer-interiera__header container-fluid">
+<div class="page-vacant-ozs__header container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row">
 
                 <!-- Title -->
                 <div class="col-12">
-                    <div class="page-vacant-designer-interiera__header__smalltitle">Вакансия</div>
-                    <h1 class="page-vacant-designer-interiera__header__title">Дизайнер интерьеров</h1>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Уровень зарплаты</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">з/п не указана</span>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Город</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">Все города</span>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Требуемый опыт работы</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">от 3-х лет</span>
-                    </div>
+                    <div class="page-vacant-ozs__header__smalltitle">Перестань продавать!</div>
+                    <h1 class="page-vacant-ozs__header__title">Веди переговоры от имени лидера отрасли дизайна интерьера</h1>
+                    <h1 class="page-vacant-ozs__header__subtitle">Специалист по заключению сделок франчайзинга</h1>
                 </div>
             </div>
 
             <div class="row">
                 <div class="col-md-7 col-12">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <span class="page-vacant-ozs__header_list_name">Уровень зарплаты</span>
+                            <span class="page-vacant-ozs__header_list_value">+ 100 000 руб.</span>
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <span class="page-vacant-ozs__header_list_name">Город</span>
+                            <span class="page-vacant-ozs__header_list_value">Санкт-Петербург</span>
+                        </div>
+                        <div class="col-md-5 col-sm-12">
+                            <span class="page-vacant-ozs__header_list_name">Требуемый опыт работы</span>
+                            <span class="page-vacant-ozs__header_list_value">1–3 года</span>
+                        </div>
+                    </div>
 
                     <div class="youtube-player"
                          data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/Oblozhka_Vyipusk-31_Mossebo-_6.4.jpg"
@@ -86,22 +87,23 @@ get_header();
 <div class="feauteres container-fluid">
     <div class="row">
         <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_13"></i>
-            <div class="feauteres__text">Обустроенный<br>офис</div>
+            <i class="feauteres__icon feauteres__icon_16"></i>
+            <div class="feauteres__text">Перестанешь <br>впаривать</div>
             <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
                 интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
             </div>
         </div>
         <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_14"></i>
-            <div class="feauteres__text">Конкурентноспособная<br>зарплата</div>
+            <i class="feauteres__icon feauteres__icon_17"></i>
+            <div class="feauteres__text">Самостоятельно решишь, <br>сколько зарабатывать
+            </div>
             <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
                 рекламных площадках
             </div>
         </div>
         <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_15"></i>
-            <div class="feauteres__text">Интересные<br>проекты</div>
+            <i class="feauteres__icon feauteres__icon_18"></i>
+            <div class="feauteres__text">Рост <br>неизбежен</div>
             <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
                 договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
             </div>
@@ -110,9 +112,10 @@ get_header();
 </div>
 
 
-
 <div class="page-vacant-designer-interiera__youdo">
     <div class="row">
+        <div class="col-md-6 page-vacant-designer-interiera__youdo_bg">
+        </div>
         <div class="col-md-6">
             <div class="title">Чем будете заниматься:</div>
             <ul class="co-work-list__ul">
@@ -128,8 +131,6 @@ get_header();
                 <li>Ведение проекта, находясь на постоянной связи с клиентом
                 </li>
             </ul>
-        </div>
-        <div class="col-md-6 page-vacant-designer-interiera__youdo_bg">
         </div>
     </div>
 </div>

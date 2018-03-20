@@ -84,7 +84,7 @@ get_header();
                             <div class="page-vacant-head-office__filials-name">
                                 <?php the_sub_field('contact_page_second_address_city'); ?>
                             </div>
-                            <a href="/vakansiya-dizayner-interera/">Дизайнер интерьера</a>
+                            <a href="/interior-designer/">Дизайнер интерьера</a>
                         </div>
                     <?php endwhile; ?>
                 <?php endif; ?>

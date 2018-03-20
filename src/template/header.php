@@ -12,7 +12,6 @@
 
 </head>
 <body <?php body_class(); ?>>
-<div id="app">
     <!-- Main wrapper -->
     <div id="main-wrapper" class="wrapper">
         <!-- Main-header -->
