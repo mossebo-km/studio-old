@@ -1,0 +1,274 @@
+.page-vacant-call {
+    &__header {
+        padding-top: 45px;
+        padding-bottom: 60px;
+        background: url(//mossebo.studio/wp-content/uploads/Vakansiya-dizayner-interera.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        @media #{$xs} {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        &__title {
+            color: $color_bk;
+            font-size: 46px;
+            font-weight: $weigth_reg;
+            position: relative;
+            padding-bottom: 20px;
+            margin-top: 0;
+            margin-bottom: 10px;
+            @media #{$xs} {
+                font-size: 20px;
+            }
+            &::before {
+                content: '';
+                display: block;
+                background: $color_pr;
+                width: 50px;
+                height: 6px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        }
+        &__subtitle {
+            color: $color_bk;
+            font-size: 18px;
+            font-weight: $weigth_reg;
+            margin: 10px 0px 40px 0px;
+            @media #{$xs} {
+                font-size: 12px;
+            }
+        }
+        &__smalltitle {
+            color: $color_bk;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px 0px 10px 0px;
+            @media #{$xs} {
+                font-size: 12px;
+            }
+        }
+        &_list_name {
+            color: $color_gr;
+            font-size: 15px;
+            font-weight: 300;
+            display: block;
+        }
+        &_list_value {
+            color: $color_bk;
+            font-size: 18px;
+            font-weight: $weigth_reg;
+            display: block;
+            margin-bottom: 45px;
+            @media #{$xs} {
+                margin-bottom: 15px;
+            }
+        }
+        .page-franchising-main__brands {
+            margin-top: 25px;
+        }
+        .feedback-form {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .youtube-player {
+            max-width: 800px;
+        }
+    }
+    &__feauteres {
+        img {
+            display: block;
+            width: auto;
+            max-height: 110px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 35px;
+        }
+        &__name {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            max-width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-sm-12 {
+            padding-top: 75px;
+            padding-bottom: 75px;
+            @media #{$xs} {
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+        }
+    }
+    &__youdo {
+        background: #f3f3f3;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding-right: 15px;
+        padding-left: 15px;
+        &_bg {
+            background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/call/youdo.png);
+            background-size: cover;
+            background-position: center center;
+            @media #{$xs} {
+                height: 280px;
+            }
+        }
+        .col-md-6:first-child {
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
+        .title {
+            font-size: 30px;
+            font-weight: $weigth_reg;
+            margin: 30px auto 15px;
+            max-width: 440px;
+            padding-left: 35px;
+            @media #{$xs} {
+                font-size: 23px;
+                display: block;
+                margin-top: 15px;
+            }
+        }
+        @media #{$xs} {
+            .co-work-list__ul {
+                li {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    &__weneed {
+        padding-top: 45px;
+        padding-bottom: 45px;
+        @media #{$xs} {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        .title {
+            font-size: 30px;
+            font-weight: $weigth_reg;
+            white-space: nowrap;
+            margin: 30px 0 45px;
+            @media #{$xs} {
+                text-align: center;
+                font-size: 23px;
+                display: block;
+                margin-top: 15px;
+            }
+        }
+        &__item {
+            font-size: 18px;
+            align-items: center;
+            padding-top: 35px;
+            padding-bottom: 15px;
+            text-align: center;
+            @media #{$xs} {
+                text-align: center;
+                max-width: 280px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &__icon {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-height: 80px;
+        }
+    }
+    &__leadform {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: url(//mossebo.studio/wp-content/themes/mossebo/assets/images/vacancies/call/ff-1.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        background-position: center center;
+        @media #{$xs} {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            display: block;
+            @media #{$xs} {
+                font-size: 24px;
+            }
+        }
+        .co-work-list__ul {
+            max-width: 100%;
+            @media #{$xs} {
+                margin-bottom: 25px;
+                li {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    &__best {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        &_photo {
+            width: 100%;
+            height: 280px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            background-size: cover;
+            background-position: center center;
+        }
+        &_item {
+            height: 280px;
+            display: flex;
+            align-items: center;
+            background: #f3f3f3;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 45px;
+            box-sizing: border-box;
+            .title {
+                font-size: 30px;
+                font-weight: $weigth_reg;
+                margin-bottom: 15px;
+                @media #{$xs} {
+                    text-align: center;
+                    font-size: 23px;
+                    display: block;
+                }
+            }
+        }
+        &_flexrev {
+            display: flex;
+            flex-direction: column-reverse;
+            @media #{$xs} {
+                flex-direction: column;
+            }
+        }
+        &_flex {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    &__leadform2 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: url(//mossebo.studio/wp-content/themes/mossebo/assets/images/vacancies/call/ff-2.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        background-position: center center;
+        @media #{$xs} {
+            padding-top: 35px;
+            padding-bottom: 35px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            display: block;
+        }
+        .co-work-list__ul {
+            max-width: 100%;
+        }
+    }
+}

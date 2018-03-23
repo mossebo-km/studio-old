@@ -131,7 +131,7 @@ get_header();
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="page-franchising-reviews__title">Владельцы бизнеса по франшизе Mossebo</div>
+                <div class="page-franchising-reviews__title">Видеоблог основателей компании Mossebo</div>
             </div>
         </div>
     </div>
@@ -182,7 +182,7 @@ get_header();
                         $carouselIndex++;
                     endwhile; ?>
                     <!-- btn more -->
-                    <div class="reviews-video__pagination-more col-12">Показать больше отзывов</div>
+                    <!-- <div class="reviews-video__pagination-more col-12">Показать больше отзывов</div> -->
                 </div>
             </div>
         </div>
@@ -374,14 +374,14 @@ get_header();
                 <div class="col-md-4">
                     <div class="page-franchising-price__name">Конверсионная лицензия (ребрендинг вашей студии дизайна)
                     </div>
-                    <div class="page-franchising-price__bigprice">от 350 000.-</div>
+                    <div class="page-franchising-price__bigprice">от 500 000.-</div>
                     <div class="page-franchising-price__description">*для действующих студий, которые нуждаются
                         в кратном увеличении клиентопотока
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="page-franchising-price__name">Лицензия «Стандарт» на открытие одной студии</div>
-                    <div class="page-franchising-price__bigprice">от 500 000.-</div>
+                    <div class="page-franchising-price__bigprice">от 750 000.-</div>
                     <div class="page-franchising-price__description">*для открытия с нуля студии дизайна
                         интерьера под брендом лидера отрасли
                     </div>

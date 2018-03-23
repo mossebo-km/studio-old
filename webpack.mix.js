@@ -28,7 +28,12 @@ mix.copyDirectory('src/assets/images', publicDir + '/assets/images');
 mix.autoload({
     jquery: ['$', 'window.jQuery', 'jQuery']
 });
-mix.sourceMaps();
+if (!mix.inProduction()) {
+    mix.webpackConfig({
+        devtool: 'source-map'
+    })
+        .sourceMaps()
+}
 mix.copyDirectory('src/template', publicDir);
 mix.browserSync({
     proxy: {

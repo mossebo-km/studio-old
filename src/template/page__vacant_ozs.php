@@ -19,14 +19,14 @@ get_header();
 
                 <!-- Title -->
                 <div class="col-12">
-                    <div class="page-vacant-ozs__header__smalltitle">Перестань продавать!</div>
-                    <h1 class="page-vacant-ozs__header__title">Веди переговоры от имени лидера отрасли дизайна интерьера</h1>
-                    <h1 class="page-vacant-ozs__header__subtitle">Специалист по заключению сделок франчайзинга</h1>
+                    <div class="page-vacant-ozs__header__smalltitle">Продажник? - Переговорщик!</div>
+                    <h1 class="page-vacant-ozs__header__title">Специалист по заключению сделок франчайзинга</h1>
+                    <h1 class="page-vacant-ozs__header__subtitle">Веди переговоры от имени лидера отрасли дизайна интерьера</h1>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-md-7 col-12">
+                <div class="col-md-12 col-12">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <span class="page-vacant-ozs__header_list_name">Уровень зарплаты</span>
@@ -41,6 +41,8 @@ get_header();
                             <span class="page-vacant-ozs__header_list_value">1–3 года</span>
                         </div>
                     </div>
+
+                    <strong>Смотри блог основателей Mossebo (видео о компании)</strong>
 
                     <div class="youtube-player"
                          data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/Oblozhka_Vyipusk-31_Mossebo-_6.4.jpg"
@@ -72,9 +74,41 @@ get_header();
                             alt="ТНТ">
                     </div>
                 </div>
-                <div class="col">
-                    <!-- feedback-form block -->
-                    <?php get_template_part('/template/vacancies/vacancies-feedback'); ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="page-vacant-ozs__youdo2">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="page-vacant-ozs__youdo2_text">
+                <div class="title">Чем будешь заниматься:</div>
+                <ul class="co-work-list__ul">
+                    <li>Работа с входящими (90%) заявками от тех, кто рассматривает возможность открытия студии дизайна интерьера по брендом «МОССЭБО»</li>
+                    <li>Заключение сделок по франчайзингу в соответствии с уникальной разработанной в «МОССЭБО» методике ведения переговоров</li>
+                    <li>Ведение подробной отчетности по каждой сделке в AMOCRM</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6 page-vacant-ozs__youdo2_bg"></div>
+    </div>
+</div>
+
+
+<div class="page-vacant-ozs__leadform container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <strong class="page-vacant-ozs__leadform__title">Мы дадим тебе:</strong>
+                    <ul class="co-work-list__ul">
+                        <li>Оформление согласно ТК РФ</li>
+                        <li>Привлекательную мощную "лестницу зарплаты"</li>
+                        <li>Перспективу быстрого профессионального роста</li>
+                        <li>Опыт бизнеса "изнутри" - как все устроено</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -82,61 +116,46 @@ get_header();
 </div>
 
 
-
-<!-- Feauteres -->
-<div class="feauteres container-fluid">
+<div class="page-vacant-ozs__instument">
     <div class="row">
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_16"></i>
-            <div class="feauteres__text">Перестанешь <br>впаривать</div>
-            <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
-                интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
+        <div class="col-md-6 page-vacant-ozs__instument_bg">
+            <div class="page-vacant-ozs__youdo_text">
+                <div class="title">У тебя в руках –<br>франшиза лидера отрасли</div>
+                <p>Mossebo – крупнейшая сеть студий дизайна интерьера в мире. Новые студии открываются по всему миру.</p>
+                <p>Задача специалиста отдела – заключить сделку с подходящим партнером, соблюдая все юридические и экономические нюансоы. Также нужно деликатно показать потенциальным франчайзи Mossebo преимущества бизнеса по дизайну интерьера, четко аргументировать доходность, погрузить человека в его будущий бизнес и стать для него хорошим, имеющим вес, другом.</p>
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_17"></i>
-            <div class="feauteres__text">Самостоятельно решишь, <br>сколько зарабатывать
-            </div>
-            <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
-                рекламных площадках
+        <div class="col-md-6 page-vacant-ozs__instument_bg2"></div>
+    </div>
+</div>
+
+
+<!-- Feauteres world -->
+<div class="page-franchising-world container-fluid">
+    <div class="row">
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">Лидер отрасли</div>
+            <div class="page-franchising-world__grid-description">Крупнейший бренд по дизайну интерьера в мире</div>
+        </div>
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">8 часовых поясов</div>
+            <div class="page-franchising-world__grid-description">Работа call-центра и маркетинга адаптирована для всех
+                регионов
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_18"></i>
-            <div class="feauteres__text">Рост <br>неизбежен</div>
-            <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
-                договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">5 стран</div>
+            <div class="page-franchising-world__grid-description">Международный статус открывает двери для любых
+                поставщиков
             </div>
         </div>
     </div>
 </div>
 
-
-<div class="page-vacant-designer-interiera__youdo">
-    <div class="row">
-        <div class="col-md-6 page-vacant-designer-interiera__youdo_bg">
-        </div>
-        <div class="col-md-6">
-            <div class="title">Чем будете заниматься:</div>
-            <ul class="co-work-list__ul">
-                <li>Выполнение дизайна интерьеров под ключ (визуализация, чертежи, спецификация) с учетом современных
-                    тенденций
-                </li>
-                <li>Проведение предпроектного анализа для разработки дизайн-проектов</li>
-                <li>Выполнение расчетов технико-экономического обоснования предлагаемого проекта</li>
-                <li>Разработка колористического решения дизайна</li>
-                <li>Работа с клиентом - консультации клиентов по вопросам дизайна, подбор материалов, проведение
-                    переговоров для подготовки заключения договоров на дизайн
-                </li>
-                <li>Ведение проекта, находясь на постоянной связи с клиентом
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+<?php get_template_part('template/filial-map'); ?>
 
 
-<div class="page-vacant-designer-interiera__weneed container-fluid">
+<div class="page-vacant-ozs__weneed container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row">
@@ -145,40 +164,58 @@ get_header();
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-1.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-1.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Высшее профильное образование в сфере архитектуры или дизайна</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Законченное высшее образование
+                    </div>
                 </div>
 
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-2.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-2.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Знание рынка отделочных материалов, мебели, фурнитуры, аксессуаров и пр.</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Готовность отойти от "классики продаж" к дипломатии переговоров
+                    </div>
                 </div>
 
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-3.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-3.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Коммуникабельность, способность слушать и слышать клиента</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Знание специфики франчайзинга будет являться большим преимуществом
+                    </div>
                 </div>
 
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-4.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-4.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Опыт работы от 3-х лет, в том числе авторского надзора</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Большой опыт аккаунтинга или опыт продаж по телефону
+                    </div>
                 </div>
 
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-5.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-5.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Знание программ 3D Max, Autocad, VRay, Revit</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Способность доминировать в переговорах, сохраняя уважение к контрагенту
+                    </div>
                 </div>
 
-                <div class="col-md-1 page-vacant-designer-interiera__weneed__icon" style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/n-6.png);">
+                <div class="col-md-1 page-vacant-ozs__weneed__icon"
+                     style="background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/n-6.png);">
                 </div>
                 <div class="col-md-3">
-                    <div class="page-vacant-designer-interiera__weneed__item">Наличие портфолио с рабочей документацией</div>
+                    <div class="page-vacant-ozs__weneed__item">
+                        Способность поддержать беседу на разные темы с учетом особенностей контрагента (ментальных, гендерных и пр.)
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,96 +223,118 @@ get_header();
 </div>
 
 
-<div class="page-vacant-designer-interiera__leadform container-fluid">
+
+<div class="page-vacant-ozs__hell">
+    <div class="row">
+        <div class="col-md-4">
+            <img src="/wp-content/themes/mossebo/assets/images/vacancies/ozs/ad-1.jpg" alt="" class="ozs__hell_photo">
+        </div>
+        <div class="col-md-4">
+            <div class="page-vacant-ozs__hell__title">Две недели ада</div>
+            <ul class="co-work-list__ul">
+                <li>Ты пройдешь лед и пламя (и все остальное). Это сложно.</li>
+                <li>Тебе придется отказаться от прошлых скриптов, переосмыслить опыт и полностью обновиться под руководством мощного наставника.</li>
+                <li>Ты будешь знать продукт Mossebo со всех сторон: со стороны клиента, со стороны инвестора, со стороны так называемых «конкурентов», со стороны государства и закона.</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <img src="/wp-content/themes/mossebo/assets/images/vacancies/ozs/ad-2.jpg" alt="" class="ozs__hell_photo">
+        </div>
+    </div>
+</div>
+
+
+<div class="page-vacant-ozs__youdo">
+    <div class="row">
+        <div class="col-md-6 page-vacant-ozs__youdo_bg"></div>
+        <div class="col-md-6">
+            <div class="page-vacant-ozs__youdo_text">
+                <div class="title">Заработай себе на мечту</div>
+                <p>В Mossebo ты приходишь не для звонков по телефону. Твоя задача - вырасти настолько, чтобы захотелось открыть собственный бизнес (наработанных денег и навыков тебе хватит)</p>
+                <p>
+                    <strong>Тебе дадут все инструменты и заставят "поиметь" результат</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Feauteres -->
+<div class="feauteres container-fluid">
+    <div class="row">
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_16"></i>
+            <div class="feauteres__text">Перестанешь <br>впаривать</div>
+            <div class="feauteres__description">Если ты хотел, чтобы тебя научили вести результативные переговоры на высоком профессиональном уровне, ты попал по адресу.
+            </div>
+        </div>
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_17"></i>
+            <div class="feauteres__text">Самостоятельно решишь, <br>сколько зарабатывать
+            </div>
+            <div class="feauteres__description">Зарплата и ее размер полностью зависит от того, насколько быстро ты перестал быть продажником и стал профессионалом переговоров
+            </div>
+        </div>
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_18"></i>
+            <div class="feauteres__text">Рост <br>неизбежен</div>
+            <div class="feauteres__description">Если ты не будешь расти - я сделаю это вместо тебя. Я тебя заставлю и тебе это понравиться. Владислав Туржанский.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="page-vacant-ozs__youdo3">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="page-vacant-ozs__youdo3_text">
+                <div class="title">Владислав Туржанский</div>
+                <p>
+                    <strong>сооснователь компании Mossebo</strong>
+                </p>
+                <p>
+                    Я изменю тебя, если ты сам на это готов пойти. Не пытайся устроиться к нам на работу. Я возьму только того, кто «уже свой». Так что, если ты хочешь заработать очень много и готов принести в жертву ВСЕ - ты станешь «богом переговоров». Ты устроишь свою жизнь здесь. В Моссэбо.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-6 page-vacant-ozs__youdo3_bg"></div>
+    </div>
+</div>
+
+
+
+
+<div class="page-vacant-ozs__leadform2 container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row">
                 <div class="col-md-6">
-                    <strong class="page-vacant-designer-interiera__leadform__title">Что мы предлагаем:</strong>
-                    <ul class="co-work-list__ul">
-                        <li>Стабильный поток заказов</li>
-                        <li>Сдельная оплата труда</li>
-                        <li>Участие в интересных проектах</li>
-                        <li>Корпоративная система обучения</li>
-                        <li>Обустроенные офисы со всем необходимым для творческой работы</li>
-                    </ul>
-                </div>
-                <div class="col-md-6">
-                    <!-- Feedback form -->
-                    <?php get_template_part( '/template/vacancies/vacancies-feedback' ); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<?php get_template_part('template/filial-map'); ?>
-
-
-
-<!-- Portfolio Panorama -->
-<div class="page-franchising-offices page-franchising-offices__bg-gray">
-    <div class="page-franchising-offices__title">Портфолио дизайн-проектов Mossebo</div>
-    <div class="page-franchising-offices__description">Ваши проекты войдут в крупнейшее портфолио проектов интерьера в России, странах СНГ и Прибалтики
-    </div>
-    <div class="panorama"
-         data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__franchising/__portfolio_mobile.jpg">
-        <div class="panorama-view">
-            <div class="panorama-container">
-                <img src="//mossebo.studio/wp-content/uploads/page__franchising/__portfolio.jpg"
-                     usemap="hotspots" data-width="3414" data-height="655" alt="Наши офисы"/>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="page-franchising-musthave container-fluid">
-    <div class="row">
-        <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="page-franchising-musthave__title">Преимущества работы в Mossebo</div>
-            <div class="row">
-                <div class="col-md-6 page-franchising-musthave__need">
-                    <strong>Фриланс</strong>
-                    <img src="/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/f-d.png" alt="">
-                    <ul>
-                        <li>Нестабильный поток заказов, заработок от клиента к клиенту</li>
-                        <li>Самостоятельно оплачивать технику, софт и сервисы</li>
-                        <li>Работа в отрыве от коллег и специалистов по ремонту</li>
-                        <li>Неструктурированное обучение по роликам в Youtube</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 page-franchising-musthave__have">
-                    <strong>Mossebo</strong>
-                    <img src="/wp-content/themes/mossebo/assets/images/vacancies/designer-interiera/f-u.png" alt="">
-                    <ul>
-                        <li>Заказы от клиентов есть всегда, вне зависимости от сезона</li>
-                        <li>Mossebo предоставляет мощные ПК с лучшим софтом каждому дизайнеру</li>
-                        <li>Работа над каждым проектом ведется со специалистами по закупкам, инженерным сетям и строителями</li>
-                        <li>Единая корпоративная платформа обучения и обмена опытом с коллегами</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="page-vacant-designer-interiera__leadform2 container-fluid">
-    <div class="row">
-        <div class="col-xl-10 offset-xl-1 col-12">
-            <div class="row">
-                <div class="col-md-6">
-                    <strong class="page-vacant-designer-interiera__leadform__title">
-                        Стань частью <br>крупнейшей сети <br>студий дизайна
+                    <strong class="page-vacant-ozs__leadform2__title">
+                        Докажи, что можешь взять эту высоту
                     </strong>
-                    <p>Воплощай мечты об уютном и комфортном доме для клиентов <br>Mossebo в команде единомышленников</p>
+
+                    <div class="page-vacant-ozs__leadform2__subtitle">Отдел заключения сделок Mossebo - последний важный шаг к финансовой независимости переговорщика</div>
                 </div>
                 <div class="col-md-6">
-                    <!-- Feedback form -->
-                    <?php get_template_part( '/template/vacancies/vacancies-feedback' ); ?>
+                    <div class="vacancies-feedback row">
+                        <div class="col-12">
+                            <?php feedback_form( array(
+                                'feedback-form__id' => 3, // Описание после полей
+                                'feedback-form__form-place' => 'Футер', // Имя формы
+                                'feedback-form__class' => 'vacancies-feedback__feedback-form',
+                                'feedback-form__mail-input' => true, // Поле email
+                                'feedback-form__textarea' => true,
+                                'feedback-form__title' => 'Хочешь работать у нас? ', // Заголовок
+                                'feedback-form__title-sub' => 'Оставь заявку', // Подзаголовок
+                                'feedback-form__text-description' => '* Мы перезвоним и согласуем встречу', // Описание после полей
+                                'feedback-form__btn-value' => 'Отправить', // Описание после полей
+                            )); ?>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
