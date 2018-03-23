@@ -14,162 +14,197 @@ get_header();
 
 
 <!-- Feedback -->
-<div class="co-work-suppliers container-fluid">
+<div class="co-work-prorab__header container-fluid">
     <div class="row">
         <div class="col-xl-10 offset-xl-1 col-12">
             <div class="row">
 
                 <!-- Title -->
                 <div class="col-12">
-                    <h1 class="co-work-suppliers__title">Получай заказы на ремонт квартир от Mossebo</h1>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-6">
+                    <h1 class="co-work-prorab__header__title">Получай заказы на ремонт <br>квартир от Mossebo</h1>
                     <!-- Sub title -->
-                    <h2 class="co-work-suppliers__subtitle">Продавайте товары в крупнейшей сети студий дизайна</h2></div>
-                <div class="col-md-6">
+                    <h2 class="co-work-prorab__header__subtitle">Бизнес - студия по дизайну интерьера с гарантированным
+                        клиентопотоком</h2>
+                </div>
+
+                <div class="col-md-6 col-12">
+                    <!-- YouTube player -->
+                    <div class="youtube-player"
+                         data-youtube-player-src-img="//mossebo.studio/wp-content/uploads/Oblozhka_Vyipusk-31_Mossebo-_6.4.jpg"
+                         data-youtube-player-id="VIBVyQ8P02M">
+                        <div class="youtube-player__img-preview youtube-player__img-preview_theme-light"></div>
+                    </div>
+                    <!-- About us write -->
+                    <div class="co-work-prorab__header__brands">
+                        <img
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/1.png"
+                            class="icon__1"
+                            alt="РБК">
+                        <img
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/2.png"
+                            class="icon__2"
+                            alt="Forbes">
+                        <img
+                            src="<?php echo THEME_DIR; ?>/assets/images/main_page/abous_us_write/7.svg"
+                            class="icon__3"
+                            alt="Лучшие световые решения для интерьера">
+                        <img
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/4.png"
+                            class="icon__4"
+                            alt="Transformator">
+                        <img
+                            src="//mossebo.studio/wp-content/uploads/page__franchising/icons/5.png"
+                            class="icon__5"
+                            alt="ТНТ">
+                    </div>
+                </div>
+                <div class="col">
                     <!-- Feedback form -->
                     <?php feedback_form(array(
-                        'feedback-form__id' => 4, // Описание после полей
-                        'feedback-form__form-place' => 'Страница для поставщиков', // Имя формы
-                        'feedback-form__class' => 'franchise-page-feedback__feedback-form',
+                        'feedback-form__id' => 1, // Описание после полей
+                        'feedback-form__form-place' => 'Страница Франчайзинг Шапка', // Имя формы
+                        'feedback-form__class' => '',
                         'feedback-form__mail-input' => true, // Поле email
-                        'feedback-form__textarea' => true,
                         'feedback-form__title' => 'Узнайте подробнее', // Заголовок
-                        'feedback-form__title-sub' => 'Оставьте свой номер и с вами свяжется специалист по закупкам Mossebo и обсудит формат сотрудничества', // Подзаголовок
+                        'feedback-form__title-sub' => 'о старте бизнеса под брендом Mossebo у руководителя отдела франчайзинга', // Подзаголовок
                         'feedback-form__text-description' => '', // Описание после полей
                         'feedback-form__btn-value' => 'Узнать подробнее', // Описание после полей
                     )); ?>
                 </div>
+
             </div>
         </div>
     </div>
 </div>
 
-<div class="co-work-block container-fluid">
-        <div class="co-work-block__title">Присоединитесь к базе поставщиков Mossebo</div>
-        <div class="co-work-block__subtitle">Ваши товары купят в сотни интерьеров по всей России и СНГ</div>
+
+<!-- Feauteres -->
+<div class="feauteres container-fluid">
     <div class="row">
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/1.png" alt="" class="co-work-icon">
-            <div class="icon-title">
-                <span>от <strong>150</strong></span>
-                новых проектов интерьера создают в Mossebo в месяц
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_20"></i>
+            <div class="feauteres__text">Работай по проектам <br>интерьера от Mossebo</div>
+            <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
+                интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
             </div>
         </div>
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/2.png" alt="" class="co-work-icon">
-            <div class="icon-title">
-                <span>более<strong>70</strong></span>
-                закупочных позиций в каждом дизайне интерьера
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_21"></i>
+            <div class="feauteres__text">Получай заказы <br>вне зависимости от сезона </div>
+            <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
+                рекламных площадках
             </div>
         </div>
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/3.png" alt="" class="co-work-icon">
-            <div class="icon-title">
-                <span><strong>10 000</strong> возможностей</span>
-                продать свои товары вместе с Mossebo
+        <div class="feauteres__grid col-sm-4 col-12">
+            <i class="feauteres__icon feauteres__icon_22"></i>
+            <div class="feauteres__text">Фиксированный процент <br>от работ по договору</div>
+            <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
+                договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
             </div>
         </div>
     </div>
 </div>
 
-<div class="co-work-mossebo-big container-fluid">
-    <div class="co-work-mossebo-big__title">Mossebo — крупнейшая сеть студий дизайна интерьера
-        в России и СНГ
-    </div>
-    <div class="co-work-mossebo-big__subtitle">Получите доступ к точкам продаж и контакт
-        с клиентами в 40 городах
-    </div>
-    <button class="btn btn_1 scroll-top" type="button">Начать сотрудничество</button>
-</div>
 
-<div class="co-work-where container-fluid">
-    <div class="co-work-where__title">Где покупатели смогут купить ваш товар?</div>
+<?php get_template_part('template/filial-map'); ?>
+
+
+<!-- Feauteres world -->
+<div class="page-franchising-world container-fluid">
     <div class="row">
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/where/1.png" alt="" class="co-work-where__image">
-            <strong class="co-work-where__ititle">В каждом из 40 офисах Mossebo в России и СНГ</strong>
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">Лидер отрасли</div>
+            <div class="page-franchising-world__grid-description">Крупнейший бренд по дизайну интерьера в мире</div>
         </div>
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/where/2.png" alt="" class="co-work-where__image">
-            <strong class="co-work-where__ititle">В интернет магазине mossebo.market</strong>
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">8 часовых поясов</div>
+            <div class="page-franchising-world__grid-description">Работа call-центра и маркетинга адаптирована для всех
+                регионов
+            </div>
         </div>
-        <div class="col-md-4">
-            <img src="/wp-content/themes/mossebo/assets/images/co-work/where/3.png" alt="" class="co-work-where__image">
-            <strong class="co-work-where__ititle">По запросу в Instagram, Youtube, Вконтакте и других площадках
-                компании</strong>
+        <div class="page-franchising-world__grid col col-sm-4 col-12">
+            <div class="page-franchising-world__grid-title">5 стран</div>
+            <div class="page-franchising-world__grid-description">Международный статус открывает двери для любых
+                поставщиков
+            </div>
         </div>
     </div>
 </div>
 
-<div class="co-work-list container-fluid">
-    <div class="co-work-list__title">Как стать партнером сети студий дизайна интерьера Mossebo?</div>
-    <ul class="co-work-list__ul">
-        <li>Соблюдайте сроки поставки товара до 1 месяца</li>
-        <li>Гарантируйте возможность удобного возврата некачественных товаров</li>
-        <li>Оперативно заменяйте товары по рекламациям</li>
-        <li>Предоставьте полную информации о своих товарах вместе с фотографиями в хорошем разрешении без надписей,
-            логотипов и водяных знаков
-        </li>
-        <li>Передайте xml выгрузку - это значительно упростит сотрудничество</li>
-        <li>Предоставьте специальные условия для Mossebo</li>
-    </ul>
-</div>
 
 
-<div class="co-work-reklama container-fluid">
-    <div class="co-work-reklama__title">Как Mossebo будет продвигать ваш товар?</div>
+<div class="co-work-prorab__about container-fluid">
     <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-8">
-            <div class="co-work-reklama__item">
-                <div class="row">
-                    <div class="col-3">
-                        <strong class="co-work-reklama__num">1</strong>
-                    </div>
-                    <div class="col-8">Включаем ваши товары в проекты интерьеров наших клиентов</div>
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row align-item-center">
+                <div class="col-md-6">
+                    <strong class="co-work-prorab__about__title">Ремонт под ключ</strong>
+                    <p class="co-work-prorab__about__p">Вы получаете крупный заказ на ремонт квартиры или дома целиком. Клиенты Mossebo выбирают интересные интерьерные решения, требующие дорогих работ от опытных рабочих.</p>
                 </div>
-            </div>
-            <div class="co-work-reklama__item">
-                <div class="row">
-                    <div class="col-3">
-                        <strong class="co-work-reklama__num">2</strong>
-                    </div>
-                    <div class="col-8">Добавляем их в каталог интернет магазина mossebo.market</div>
-                </div>
-            </div>
-            <div class="co-work-reklama__item">
-                <div class="row">
-                    <div class="col-3">
-                        <strong class="co-work-reklama__num">3</strong>
-                    </div>
-                    <div class="col-8">Продвигаем ваш бренд в соцсетях и площадках Mossebo</div>
-                </div>
-            </div>
-            <div class="co-work-reklama__item">
-                <div class="row">
-                    <div class="col-3">
-                        <strong class="co-work-reklama__num">4</strong>
-                    </div>
-                    <div class="col-8">Ваши товары добавляются на рендеры интерьеров Mossebo и продвигаются в онлайн
-                        и офлайн продукции компании
-                    </div>
-                </div>
-            </div>
-            <div class="co-work-reklama__item">
-                <div class="row">
-                    <div class="col-3">
-                        <strong class="co-work-reklama__num">5</strong>
-                    </div>
-                    <div class="col-8">Дизайнеры Mossebo рекомендуют ваши товары клиентам по всей России</div>
+                <div class="col-md-6">
+                    <img src="/wp-content/themes/mossebo/assets/images/co-work/prorab/remont.jpg" alt=""
+                         class="co-work-prorab__about__photo">
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+<div class="co-work-prorab__project container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="co-work-prorab__project__title">
+                Работа по понятному проекту
+            </div>
+            <div class="co-work-prorab__project__p">
+                Проекты интерьеров от Mossebo не заканчиваются на этапе визуализации и включают все необходимые технические документы. Вы будете работать с пошаговыми схемами и точными расчетами.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="co-work-prorab__parthner container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <strong class="co-work-prorab__parthner__title">Как стать партнером студии дизайна интерьера Mossebo: </strong>
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="co-work-prorab__parthner_num">01</div>
+                            <div class="co-work-prorab__parthner_text">Пришли портфолио выполненных работ</div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="co-work-prorab__parthner_num">02</div>
+                            <div class="co-work-prorab__parthner_text">Продемонстрируй собственный профессиональный инвентарь</div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="co-work-prorab__parthner_num">03</div>
+                            <div class="co-work-prorab__parthner_text">Пройди проверку в рамках Skype-интервью</div>
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4">
+                            <div class="co-work-prorab__parthner_num">04</div>
+                            <div class="co-work-prorab__parthner_text">Докажи умение работать с проектами интерьеров и технической документацией</div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="co-work-prorab__parthner_num">05</div>
+                            <div class="co-work-prorab__parthner_text">Подтверди профильное образование</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
 
 <!-- Section social's -->
 <?php get_template_part('template/social_section'); ?>

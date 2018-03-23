@@ -162,7 +162,7 @@ get_header();
             <!-- pagination -->
             <div class="reviews-video__pagination">
                 <!-- title -->
-                <div class="reviews-video__pagination-title">Интервью с франчайзи Mossebo</div>
+                <div class="reviews-video__pagination-title">Интервью с основателями Mossebo</div>
 
                 <!-- pagination -->
                 <div class="row">

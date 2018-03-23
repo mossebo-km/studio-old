@@ -1,0 +1,262 @@
+.co-work-prorab {
+    &__header {
+        padding-top: 45px;
+        padding-bottom: 60px;
+        background: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/main_bg.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        @media #{$xs} {
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        &__title {
+            color: $color_bk;
+            font-size: 46px;
+            font-weight: $weigth_reg;
+            position: relative;
+            padding-bottom: 20px;
+            margin-bottom: 10px;
+            @media #{$xs} {
+                font-size: 20px;
+            }
+            &::before {
+                content: '';
+                display: block;
+                background: $color_pr;
+                width: 50px;
+                height: 6px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        }
+        &__subtitle {
+            color: $color_gr;
+            font-size: 18px;
+            font-weight: $weigth_reg;
+            margin: 10px 0px 30px 0px;
+            @media #{$xs} {
+                font-size: 12px;
+            }
+        }
+        .youtube-player {
+            margin-bottom: 40px;
+            @media #{$xs} {
+                margin-bottom: 20px;
+            }
+        }
+        .feedback-form {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        &__brands {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 800px;
+            @media #{$sm} {
+                margin-bottom: 35px;
+            }
+            @media #{$xs} {
+                margin-bottom: 20px;
+            }
+            img {
+                display: block;
+                height: auto;
+            }
+            .icon {
+                &__1 {
+                    width: 16%;
+                }
+                &__2 {
+                    width: 16%;
+                }
+                &__3 {
+                    width: 22%;
+                }
+                &__4 {
+                    width: 9%;
+                }
+                &__5 {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    &__about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        @media #{$sm} {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        @media (max-width: 575px) {
+            padding-top: 25px;
+            padding-bottom: 0px;
+        }
+        &__title {
+            font-size: 30px;
+            max-width: 600px;
+            margin-bottom: 15px;
+            display: block;
+            @media (max-width: 1920px) {
+                max-width: 285px;
+                font-size: 24px;
+            }
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            @media (max-width: 575px) {
+                text-align: center;
+                font-size: 24px;
+                margin-bottom: 0;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &__p {
+            font-size: 18px;
+            line-height: 20px;
+            max-width: 600px;
+            @media (max-width: 1920px) {
+                max-width: 340px;
+            }
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media (max-width: 575px) {
+                margin-bottom: 0;
+                width: 100%;
+            }
+        }
+        &__strong {
+            font-size: 24px;
+            max-width: 370px;
+            @media (max-width: 1920px) {
+                font-size: 20px;
+                max-width: 310px;
+            }
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                font-size: 18px;
+            }
+        }
+        &__photo {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+    }
+
+    &__project {
+        background-image: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/project.jpg);
+        background-size: 1660px 830px;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-color: #f0f0f0;
+        padding-top: 150px;
+        padding-bottom: 600px;
+        @media (max-width: 1450px) {
+            background-size: cover;
+            padding-top: 75px;
+            padding-bottom: 300px;
+        }
+        @media #{$xs} {
+            background-size: 550px auto;
+            padding-top: 45px;
+            padding-bottom: 275px;
+        }
+        &__title {
+            font-size: 30px;
+            max-width: 600px;
+            margin-bottom: 15px;
+            display: block;
+            font-weight: bold;
+            @media (max-width: 1920px) {
+                max-width: 285px;
+                font-size: 24px;
+            }
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            @media (max-width: 575px) {
+                text-align: center;
+                font-size: 24px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &__p {
+            font-size: 18px;
+            line-height: 20px;
+            max-width: 600px;
+            @media (max-width: 1920px) {
+                max-width: 340px;
+            }
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media (max-width: 575px) {
+                margin-bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+    &__parthner {
+        color: $color_wt;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        background: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-1.png) right center no-repeat, url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-2.png) left bottom no-repeat $color_pr;
+        &__title {
+            font-size: 30px;
+            margin-bottom: 75px;
+            display: block;
+            font-weight: bold;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            @media (max-width: 575px) {
+                text-align: center;
+                font-size: 24px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        &_num {
+            font-size: 60px;
+            color: rgba(0,0,0,0.3);
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+            &::before {
+                content: '';
+                display: block;
+                background: $color_bk;
+                width: 65px;
+                height: 6px;
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        }
+        &_text {
+            font-size: 18px;
+            margin-bottom: 75px;
+        }
+    }
+}

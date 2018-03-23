@@ -22,17 +22,17 @@ get_header();
                     <div class="page-vacant-call__header__smalltitle">Стань голосом Mossebo</div>
                     <h1 class="page-vacant-call__header__title">Оператор колл-центра</h1>
                 </div>
-                <div class="col-md-8">
+                <div class="col-12">
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <span class="page-vacant-call__header_list_name">Уровень зарплаты</span>
                             <span class="page-vacant-call__header_list_value">до 100 000 руб.</span>
                         </div>
-                        <div class="col-md-3 col-sm-12">
+                        <div class="col-md-4 col-sm-12">
                             <span class="page-vacant-call__header_list_name">Город</span>
                             <span class="page-vacant-call__header_list_value">Санкт-Петербург</span>
                         </div>
-                        <div class="col-md-5 col-sm-12">
+                        <div class="col-md-4 col-sm-12">
                             <span class="page-vacant-call__header_list_name">Требуемый опыт работы</span>
                             <span class="page-vacant-call__header_list_value">от 3-х лет</span>
                         </div>

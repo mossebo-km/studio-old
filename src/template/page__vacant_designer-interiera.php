@@ -22,18 +22,20 @@ get_header();
                     <div class="page-vacant-designer-interiera__header__smalltitle">Вакансия</div>
                     <h1 class="page-vacant-designer-interiera__header__title">Дизайнер интерьеров</h1>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Уровень зарплаты</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">з/п не указана</span>
-                    </div>
-                    <div class="col-md-3 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Город</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">Все города</span>
-                    </div>
-                    <div class="col-md-5 col-sm-12">
-                        <span class="page-vacant-designer-interiera__header_list_name">Требуемый опыт работы</span>
-                        <span class="page-vacant-designer-interiera__header_list_value">от 3-х лет</span>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <span class="page-vacant-designer-interiera__header_list_name">Уровень зарплаты</span>
+                            <span class="page-vacant-designer-interiera__header_list_value">з/п не указана</span>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <span class="page-vacant-designer-interiera__header_list_name">Город</span>
+                            <span class="page-vacant-designer-interiera__header_list_value">Все города</span>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <span class="page-vacant-designer-interiera__header_list_name">Требуемый опыт работы</span>
+                            <span class="page-vacant-designer-interiera__header_list_value">от 3-х лет</span>
+                        </div>
                     </div>
                 </div>
             </div>

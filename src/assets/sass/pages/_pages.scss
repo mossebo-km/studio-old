@@ -22,9 +22,11 @@
 
 
 // Поставщики
-@import "co-work-suppliers/co-work-suppliers";
+@import "co-work/co-work-suppliers";
 // Продакшен
-@import "co-work-production/co-work-production";
+@import "co-work/co-work-production";
+// Прорабы
+@import "co-work/co-work-prorab";
 
 
 // Все Вакансии
