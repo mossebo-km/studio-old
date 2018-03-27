@@ -48,6 +48,12 @@
                 font-size: 12px;
             }
         }
+        &__flexcolumn {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            justify-content: space-around;
+        }
         &_list_name {
             color: $color_gr;
             font-size: 15px;

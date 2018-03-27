@@ -51,6 +51,9 @@ jQuery(function (jQuery) {
                     thankModal = function () {
                         alert('Благодарим за проявленный интерес. Представитель Mossebo обязательно свяжется с вами.');
                     };
+                    yaReachCol = function () {
+                        yaCounter42716444.reachGoal('co-work-suppliers');
+                    };
                     formId = 4;
                     break;
 
@@ -59,6 +62,16 @@ jQuery(function (jQuery) {
                         alert('Спасибо за интерес к рекламным площадкам Mossebo. Представитель Mossebo обязательно свяжется с вами.');
                     };
                     formId = 5;
+                    break;
+
+                case 6:
+                    thankModal = function () {
+                        alert('Спасибо за интерес к партнерству с Mossebo! С вами свяжется специалист по работе со строительными бригадами и задаст уточняющие вопросы.');
+                    };
+                    yaReachCol = function () {
+                        yaCounter42716444.reachGoal('co-work-prorab');
+                    };
+                    formId = 6;
                     break;
 
                 default:

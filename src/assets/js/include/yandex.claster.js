@@ -237,6 +237,12 @@ jQuery(function (jQuery) {
                 getPointData('Нижний Новгород', '603093, ул. Родионова, дом 165, корпус 13 ТЦ Ганза, 3 этаж', '8-800-707-83-47'),
                 getPointOptions());
 
+            //Латвия/Рига
+            ////1
+            geoObjects[24] = new ymaps.Placemark([56.991229, 24.127305],
+                getPointData('Рига', 'Duntes iela 23a, Rīga, LV-1005', '+371 66 55 50 81'),
+                getPointOptions());
+
 
             /**
              * Можно менять опции кластеризатора после создания.

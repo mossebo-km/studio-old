@@ -24,6 +24,8 @@
             <div class="page-franchising-map__info-locations"><span class="text-primary">Казахстан:</span> Астана,
                 Алма-Ата
             </div>
+            <div class="page-franchising-map__info-locations"><span class="text-primary">Латвия:</span> Рига
+            </div>
         </div>
         <div class="page-franchising-map__btn"></div>
     </div>

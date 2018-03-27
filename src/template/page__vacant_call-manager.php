@@ -90,22 +90,19 @@ get_header();
         <div class="feauteres__grid col-sm-4 col-12">
             <i class="feauteres__icon feauteres__icon_13"></i>
             <div class="feauteres__text">Обустроенный<br>офис</div>
-            <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
-                интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
+            <div class="feauteres__description">Удобное пространство в стиле лофт с Macbook для работы всех сотрудников
             </div>
         </div>
         <div class="feauteres__grid col-sm-4 col-12">
             <i class="feauteres__icon feauteres__icon_17"></i>
             <div class="feauteres__text">Зарплата + бонусы</div>
-            <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
-                рекламных площадках
+            <div class="feauteres__description">Лучшие сотрудники получают ежедневные, еженедельные и ежемесячные премии
             </div>
         </div>
         <div class="feauteres__grid col-sm-4 col-12">
             <i class="feauteres__icon feauteres__icon_19"></i>
             <div class="feauteres__text">Только входящие заявки</div>
-            <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
-                договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
+            <div class="feauteres__description">Никаких холодных звонков. Вы общаетесь с клиентами, которые сами оставляют заявки на разработку дизайна интерьера
             </div>
         </div>
     </div>

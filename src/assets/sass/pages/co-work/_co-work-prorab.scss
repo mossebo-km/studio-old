@@ -219,6 +219,16 @@
         padding-top: 75px;
         padding-bottom: 75px;
         background: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-1.png) right center no-repeat, url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-2.png) left bottom no-repeat $color_pr;
+        @media (max-width: 2450px) {
+            background: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-1.png) right -265px center no-repeat, url(/wp-content/themes/mossebo/assets/images/co-work/prorab/p-2.png) left -340px bottom no-repeat $color_pr;
+        }
+        @media (max-width: 1360px) {
+            background: $color_pr;
+        }
+        @media #{$xs} {
+            padding-top: 45px;
+            padding-bottom: 25px;
+        }
         &__title {
             font-size: 30px;
             margin-bottom: 75px;
@@ -257,6 +267,104 @@
         &_text {
             font-size: 18px;
             margin-bottom: 75px;
+            @media #{$xs} {
+                margin-bottom: 35px;
+            }
+        }
+    }
+    &__webest {
+        background-image: url(/wp-content/themes/mossebo/assets/images/co-work/prorab/gift.jpg);
+        background-size: cover;
+        background-position: center center;
+        padding-top: 75px;
+        padding-bottom: 600px;
+        @media (max-width: 1400px) {
+            padding-bottom: 400px;
+        }
+        @media #{$xs} {
+            padding-top: 35px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+            width: 100%;
+            margin-bottom: 45px;
+            @media (max-width: 575px) {
+                font-size: 20px;
+                margin-bottom: 25px;
+            }
+        }
+        &_item {
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-left: 5px solid $color_pr;
+            padding-left: 10px;
+            font-size: 18px;
+            strong {
+                display: block;
+            }
+        }
+    }
+
+    &-leadform2 {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        background: url(//mossebo.studio/wp-content/uploads/page__franchising/leadform2.jpg) 50% 50% no-repeat;
+        background-size: cover;
+        background-position: center center;
+        @media #{$sm} {
+            padding-top: 70px;
+            padding-bottom: 70px;
+        }
+        @media #{$xs} {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        &__title {
+            font-size: 30px;
+            font-weight: $weigth_reg;
+            margin-bottom: 45px;
+            max-width: 475px;
+            @media #{$sm} {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            @media #{$xs} {
+                margin-bottom: 25px;
+                font-size: 24px;
+            }
+        }
+        &__list-item {
+            font-size: 18px;
+            clear: both;
+            position: relative;
+            max-width: 500px;
+            @media #{$xs} {
+                padding-left: 25px;
+                margin-bottom: 10px;
+            }
+            strong {
+                color: $color_pr;
+                position: relative;
+                height: 80px;
+                width: 30px;
+                float: left;
+                display: block;
+                font-size: 20px;
+                @media #{$xs} {
+                    height: auto;
+                    position: absolute;
+                    left: 0;
+                }
+            }
+        }
+        .feedback-form {
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }

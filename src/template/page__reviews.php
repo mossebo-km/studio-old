@@ -115,7 +115,7 @@ if ($rows):
                     <img
                         src="<?php echo THEME_DIR; ?>/assets/images/page-reviews/reviews__service/icons/cottage_renovation.svg"
                         alt="" class="reviews__service-img">
-                    <div class="reviews__service-title">Ремонт коттеджей</div>
+                    <div class="reviews__service-title">Дизайн коттеджей</div>
                     <div class="reviews__service-text">Создаем интерьеры загородных домов в Санкт-Петербурге и
                         Ленинградской области
                     </div>
@@ -132,7 +132,7 @@ if ($rows):
                     <img
                         src="<?php echo THEME_DIR; ?>/assets/images/page-reviews/reviews__service/icons/office_renovation.svg"
                         alt="" class="reviews__service-img">
-                    <div class="reviews__service-title">Ремонт офисов</div>
+                    <div class="reviews__service-title">Дизайн офисов</div>
                     <div class="reviews__service-text">Создаем интерьеры для офисов, магазинов, банков, гостиниц,
                         салонов красоты и других видов бизнеса
                     </div>

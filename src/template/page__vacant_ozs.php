@@ -26,21 +26,7 @@ get_header();
             </div>
 
             <div class="row">
-                <div class="col-md-12 col-12">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                            <span class="page-vacant-ozs__header_list_name">Уровень зарплаты</span>
-                            <span class="page-vacant-ozs__header_list_value">+ 100 000 руб.</span>
-                        </div>
-                        <div class="col-md-3 col-sm-12">
-                            <span class="page-vacant-ozs__header_list_name">Город</span>
-                            <span class="page-vacant-ozs__header_list_value">Санкт-Петербург</span>
-                        </div>
-                        <div class="col-md-5 col-sm-12">
-                            <span class="page-vacant-ozs__header_list_name">Требуемый опыт работы</span>
-                            <span class="page-vacant-ozs__header_list_value">1–3 года</span>
-                        </div>
-                    </div>
+                <div class="col-md-7 col-12">
 
                     <strong>Смотри блог основателей Mossebo (видео о компании)</strong>
 
@@ -72,6 +58,22 @@ get_header();
                             src="//mossebo.studio/wp-content/uploads/page__franchising/icons/5.png"
                             class="icon__5"
                             alt="ТНТ">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="page-vacant-ozs__header__flexcolumn">
+                        <div class="page-vacant-ozs__header__item">
+                            <span class="page-vacant-ozs__header_list_name">Уровень зарплаты</span>
+                            <span class="page-vacant-ozs__header_list_value">+ 100 000 руб.</span>
+                        </div>
+                        <div class="page-vacant-ozs__header__item">
+                            <span class="page-vacant-ozs__header_list_name">Город</span>
+                            <span class="page-vacant-ozs__header_list_value">Санкт-Петербург</span>
+                        </div>
+                        <div class="page-vacant-ozs__header__item">
+                            <span class="page-vacant-ozs__header_list_name">Требуемый опыт работы</span>
+                            <span class="page-vacant-ozs__header_list_value">1–3 года</span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,7 +124,7 @@ get_header();
             <div class="page-vacant-ozs__youdo_text">
                 <div class="title">У тебя в руках –<br>франшиза лидера отрасли</div>
                 <p>Mossebo – крупнейшая сеть студий дизайна интерьера в мире. Новые студии открываются по всему миру.</p>
-                <p>Задача специалиста отдела – заключить сделку с подходящим партнером, соблюдая все юридические и экономические нюансоы. Также нужно деликатно показать потенциальным франчайзи Mossebo преимущества бизнеса по дизайну интерьера, четко аргументировать доходность, погрузить человека в его будущий бизнес и стать для него хорошим, имеющим вес, другом.</p>
+                <p>Задача специалиста отдела – заключить сделку с подходящим партнером, соблюдая все юридические и экономические нюансы. Также нужно деликатно показать потенциальным франчайзи Mossebo преимущества бизнеса по дизайну интерьера, четко аргументировать доходность, погрузить человека в его будущий бизнес и стать для него хорошим, имеющим вес, другом.</p>
             </div>
         </div>
         <div class="col-md-6 page-vacant-ozs__instument_bg2"></div>
@@ -279,7 +281,7 @@ get_header();
         <div class="feauteres__grid col-sm-4 col-12">
             <i class="feauteres__icon feauteres__icon_18"></i>
             <div class="feauteres__text">Рост <br>неизбежен</div>
-            <div class="feauteres__description">Если ты не будешь расти - я сделаю это вместо тебя. Я тебя заставлю и тебе это понравиться. Владислав Туржанский.
+            <div class="feauteres__description">Если ты не будешь расти - я сделаю это вместо тебя. Я тебя заставлю и тебе это понравится. Владислав Туржанский.
             </div>
         </div>
     </div>
