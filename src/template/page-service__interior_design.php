@@ -4,7 +4,7 @@
  * User: vladstarkovsky
  * Date: 30.10.2017
  * Time: 11:44
- * Template Name: Страница - Дизайн Интерьера
+ * Template Name: Страница - Услуги - Дизайн Интерьера
  */
 
 get_header();

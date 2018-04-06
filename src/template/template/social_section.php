@@ -12,7 +12,7 @@
       </div>
       <!-- Inctagram item -->
       <?php
-        $rows = get_field( 'main_page_instagram_section_option', 'option' );
+        $rows = get_field( 'main_page_instagram_section_option', 'option');
         if ( $rows ) {
         	echo '<a href="https://www.instagram.com/remont.design/" target="_blank"><div class="row inst-photo-row">';
         	foreach( $rows as $row ) {
@@ -34,7 +34,7 @@
 
       <!-- Yotube item -->
       <?php
-        $rows = get_field( 'main_page_youtube_section_option', 'option' );
+        $rows = get_field( 'main_page_youtube_section_option', 'option');
         if ( $rows ) { ?>
         	<div class="row youtube-row-fix">
           	<?php foreach( $rows as $row ) { ?>

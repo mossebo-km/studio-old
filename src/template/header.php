@@ -73,9 +73,9 @@
             </div>
 
             <?php
-            if (WP_DEBUG == true) {
+
                 do_action('wpml_add_language_selector');
-            }
+
             ?>
         </header><!-- Main header END -->
 
