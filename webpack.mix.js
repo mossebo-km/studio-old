@@ -35,11 +35,12 @@ if (!mix.inProduction()) {
         .sourceMaps()
 }
 mix.copyDirectory('src/template', publicDir);
-mix.browserSync({
-    proxy: {
-        target: "https://mossebo.test"
-    }
-});
+
+// mix.browserSync({
+//     proxy: {
+//         target: "https://mossebo.test"
+//     }
+// });
 
 mix.setResourceRoot(path.normalize(publicDir));
 mix.setPublicPath(path.normalize(publicDir));

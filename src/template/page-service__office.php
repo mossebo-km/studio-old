@@ -23,7 +23,7 @@ get_header();
                 <div class="col-12">
                     <?php feedback_form_calc(array(
                         'form-place' => 'Офисы', // Form name
-                        'title' => 'Рассчитайте стоимость дизайна и ремонта офиса <span class="text-primary">прямо сейчас:</span>', // Title
+                        'title' => 'Рассчитайте стоимость дизайна и ремонта помещения <span class="text-primary">прямо сейчас:</span>', // Title
                         'steps' => array( // Step's
                             'step-1' => array( // Step 1
                                 'label' => 'Введите площадь вашего помещения:',
@@ -31,7 +31,7 @@ get_header();
                             ),
                             'step-2' => array( // Step 2
                                 'label' => 'Выберите тип помещения:',
-                                'options' => array('Офис', 'Магазин', 'Кафе', 'Сфера услуг'),
+                                'options' => array('Бары и кафе', 'Офисы', 'Салоны красоты', 'Гостиницы', 'Другое'),
                                 'radio-label' => 'Нужен ли вам дизайн интерьера?'
                             ),
                         ),
@@ -42,28 +42,28 @@ get_header();
     </div>
 </div>
 
+
 <!-- Feauteres -->
-<div class="feauteres container-fluid">
+<div class="feauteres feauteres_theme-background-white container-fluid">
     <div class="row">
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_4"></i>
-            <div class="feauteres__text">Только прибыльные заказы</div>
-            <div class="feauteres__description">Вы работаете с клиентами изначально заинтересованными в создании дизайна
-                интерьера, покупке дорогих материалов отделки и эксклюзивной мебели.
+        <div class="feauteres__grid col-sm-4">
+            <i class="feauteres__icon feauteres__icon_10"></i>
+            <div class="feauteres__text">Точное соблюдение сроков</div>
+            <div class="feauteres__description">Вы ограничены арендными каникулами? Завершим все работы вовремя и не
+                сдвинем дату старта вашего бизнеса.
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_5"></i>
-            <div class="feauteres__text">Не нужно заниматься поиском клиентов</div>
-            <div class="feauteres__description">Mossebo создает и находит заявки на дизайн интерьера на собственных
-                рекламных площадках
+        <div class="feauteres__grid col-sm-4">
+            <i class="feauteres__icon feauteres__icon_11"></i>
+            <div class="feauteres__text">Грамотная смета</div>
+            <div class="feauteres__description">Предлагаем доступные и функциональные решения и не превышаем бюджет по
+                утвержденной смете.
             </div>
         </div>
-        <div class="feauteres__grid col-sm-4 col-12">
-            <i class="feauteres__icon feauteres__icon_6"></i>
-            <div class="feauteres__text">Нет зависимости от сезонности</div>
-            <div class="feauteres__description">Mossebo — единственная на рынке франшиза, гарантирующая клиентов по
-                договору. Вы получаете их ежемесячно из управляющей компании в Санкт-Петербурге
+        <div class="feauteres__grid col-sm-4">
+            <i class="feauteres__icon feauteres__icon_12"></i>
+            <div class="feauteres__text">Любая площадь</div>
+            <div class="feauteres__description">Работаем с помещениями от 20-ти квадратных метров любого назначения.
             </div>
         </div>
     </div>
@@ -74,74 +74,177 @@ get_header();
     <div class="office-design-portfolio__title">Портфолио</div>
 
     <section id="main-page-portfolio" class="page-interior-design-portfolio">
-    <div id="portfolio" class="container-fluid">
-    <div class="page-interior-design-portfolio__style">
-        <a @click="CategoryName = 'Все'">Все стили</a>
-        <a @click="CategoryName = 'Скандинавский'">Скандинавский</a>
-        <a @click="CategoryName = 'Классический'">Классический</a>
-        <a @click="CategoryName = 'Hi-Tech'">Hi-Tech</a>
-        <a @click="CategoryName = 'Современный'">Современный</a>
-        <a @click="CategoryName = 'Фьюжн'">Фьюжн</a>
-        <a @click="CategoryName = 'Бохо'">Бохо</a>
-        <a @click="CategoryName = 'Необарокко'">Необарокко</a>
-        <a @click="CategoryName = 'Лофт'">Лофт</a>
-        <a @click="CategoryName = 'Рустика'">Рустика</a>
-        <a @click="CategoryName = 'Ар-нуво'">Ар-нуво</a>
-        <!--<a @click="CategoryName = 'Ар-деко'">Ар-деко</a>-->
-        <a @click="CategoryName = 'Поп-арт'">Поп-арт</a>
-        <a @click="CategoryName = 'Эко'">Эко</a>
-        <a @click="CategoryName = 'Средиземноморский'">Средиземноморский</a>
-        <a @click="CategoryName = 'Сталинский ампир'">Сталинский ампир</a>
-        <a @click="CategoryName = 'Ретро'">Ретро</a>
-        <a @click="CategoryName = 'Английский'">Английский</a>
-        <a @click="CategoryName = 'Прованс'">Прованс</a>
-        <a @click="CategoryName = 'Неоклассика'">Неоклассика</a>
-    </div>
+        <div id="portfolio" class="container-fluid">
+            <div class="page-interior-design-portfolio__style">
+                <a @click="CategoryName = 'Все'">Все</a>
+                <a @click="CategoryName = 'Бары и кафе'">Бары и кафе</a>
+                <a @click="CategoryName = 'Офисы'">Офисы</a>
+                <a @click="CategoryName = 'Салоны красоты'">Салоны красоты</a>
+                <a @click="CategoryName = 'Гостиницы'">Гостиницы</a>
+            </div>
 
-    <?php
-    $query_portfolio = new WP_Query([
-        'post_type' => 'portfolio',
-        'posts_per_page' => -1
-    ]);
-    if ($query_portfolio->have_posts()) {
-        ?>
-        <div class="row">
-            <div class="portfolio-mobile-carousel">
-                <?php
-                while ($query_portfolio->have_posts()) {
-                    $query_portfolio->the_post(); ?>
+
+            <div class="row">
+                <div class="portfolio-mobile-carousel">
+
+
                     <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
-                         :key="<?php the_ID(); ?>"
-                         v-if="('Все,<?php the_field('port_project_sidebar_row'); ?>').includes(CategoryName)"
+                         :key="1"
+                         v-if="('Все, Бары и кафе').includes(CategoryName)"
                     >
                         <div class="grid">
                             <figure class="effect-roxy">
                                 <div class="roxy-grid-img-bg"
-                                     style="background: url(<?php the_field('port_img_header') ?>) 50% 50% no-repeat; background-size: cover;"></div>
+                                     style="background: url(//mossebo.studio/wp-content/uploads/Kopiya-IMG_7800.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
                                 <figcaption>
-                                    <p class="text-center"><?php the_field('port_title'); ?></p>
-                                    <span class="link-arrow">Подробнее</span>
-                                    <a class="main-link" href="<?php the_permalink(); ?>">Перейти</a>
+                                    <p class="text-center">Кафе-бар в стиле эко-лофт, 250 м²</p>
                                 </figcaption>
                             </figure>
                             <!-- Only mobile -->
                             <div class="mobile-row-portfolio-info text-left text-center-sm">
-                                <span class="mobile-geid-title"><?php the_field('port_title'); ?></span>
-                                <a href="<?php the_permalink(); ?>" class="link-arrow">Подробнее</a>
+                                <span class="mobile-geid-title">Кафе-бар в стиле эко-лофт, 250 м²</span>
                             </div>
                         </div>
                     </div>
-                    <?php
-                }
-                ?>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="2"
+                         v-if="('Все, Бары и кафе').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/Kopiya-bar_2.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Бар-лофт в стиле ар-деко, 230м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Бар-лофт в стиле ар-деко, 230м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="3"
+                         v-if="('Все, Бары и кафе').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/qgq0kQaAsoE.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Кафе-ресторан в скандинавском стиле, 165м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Кафе-ресторан в скандинавском стиле, 165м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="4"
+                         v-if="('Все, Офисы').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/Vid-008.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Двухэтажный офис в стиле лофт, 280м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Двухэтажный офис в стиле лофт, 280м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="5"
+                         v-if="('Все, Офисы').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/2-2-----kopiya.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Офис-лофт с элементами эко-стиля, 220м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Офис-лофт с элементами эко-стиля, 220м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="6"
+                         v-if="('Все, Салоны красоты').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/Kopiya-image4.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Салон красоты в стиле эко, 210м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Салон красоты в стиле эко, 210м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-12 padding-5 padding-50-sm-portfolio"
+                         :key="7"
+                         v-if="('Все, Гостиницы').includes(CategoryName)"
+                    >
+                        <div class="grid">
+                            <figure class="effect-roxy">
+                                <div class="roxy-grid-img-bg"
+                                     style="background: url(//mossebo.studio/wp-content/uploads/Bezyimyannyii--5.jpg) 50% 50% no-repeat; background-size: cover;"
+                                >
+                                </div>
+                                <figcaption>
+                                    <p class="text-center">Гостиница в стиле контемпорари. 450м²</p>
+                                </figcaption>
+                            </figure>
+                            <!-- Only mobile -->
+                            <div class="mobile-row-portfolio-info text-left text-center-sm">
+                                <span class="mobile-geid-title">Гостиница в стиле контемпорари. 450м²</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
-        <?php
-    } else {
-        echo 'В данной категории постов нет';
-    }
-    ?>
-    </div>
     </section>
 
 </div>
@@ -185,17 +288,15 @@ get_header();
             </div>
         </div>
         <div class="feauteres-grids__col col-sm-4">
-            <i class="feauteres-grids__col-icon feauteres-grids__col-icon_office-2"></i>
+            <i class="feauteres-grids__col-icon feauteres-grids__col-icon_office-3"></i>
             <div class="feauteres-grids__col-title"><span class="feauteres-grids__col-title-count">2.</span>
-                Самостоятельно реализуем и сдаем проект
+                Создаем проект интерьера и документацию
             </div>
-            <div class="feauteres-grids__col-description">Вашего присутствия на объекте не потребуется на протяжении
-                всего ремонта. Мы самостоятельно осуществляем все необходимые закупки, поддерживаем чистоту, действуем
-                согласно прописанным срокам и вовремя сдаем объект.
+            <div class="feauteres-grids__col-description">Разрабатываем проект современного интерьера и следим за его воплощением.  Бесплатный авторский надзор на всех этапах стройки гарантирует создание задуманного дизайна
             </div>
         </div>
         <div class="feauteres-grids__col col-sm-4">
-            <i class="feauteres-grids__col-icon feauteres-grids__col-icon_office-3"></i>
+            <i class="feauteres-grids__col-icon feauteres-grids__col-icon_office-2"></i>
             <div class="feauteres-grids__col-title"><span class="feauteres-grids__col-title-count">3.</span>
                 Предоставляем выходной пакет документов
             </div>
@@ -235,7 +336,7 @@ call_to_action(array(
 <div class="office-work-happy container">
     <div class="office-work-happy__row row">
         <div class="col-sm-6">
-            <img src="<?php echo THEME_DIR; ?>/assets/images/service/office/work-happy/image.jpg" alt=""
+            <img src="//mossebo.studio/wp-content/uploads/IMG_9252-1.jpg" alt=""
                  class="office-work-happy__img">
         </div>
         <div class="col-sm-6">
@@ -289,7 +390,7 @@ call_to_action(array(
 <?php
 
 call_to_action(array(
-    'title' => 'Создайте уникальный дизайн и доверьте ремонт и обустройство офиса опытной компании:',
+    'title' => 'Сделайте уникальный дизайн пространства для своего бизнеса',
     // feedback form calc
     'feedback-form-calc' => array(
         'form-place' => 'Офисы', // Form name
