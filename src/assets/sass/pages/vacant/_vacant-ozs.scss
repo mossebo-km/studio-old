@@ -93,21 +93,20 @@
         margin-right: auto;
         padding-right: 15px;
         padding-left: 15px;
-        &_bg {
-            background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/ozs-all.jpg);
-            background-size: cover;
-            background-position: center center;
-            @media #{$xs} {
-                height: 280px;
-            }
-        }
         &_text {
-            max-width: 400px;
+            max-width: 550px;
             margin-left: auto;
             margin-right: auto;
             padding-top: 70px;
             padding-bottom: 70px;
             font-size: 18px;
+            text-align: center;
+            img {
+                width: 100%;
+                height: auto;
+                margin-top: 35px;
+                display: block;
+            }
             @media (min-width: 1960px) {
                 padding-top: 160px;
                 padding-bottom: 160px;
@@ -156,8 +155,9 @@
         }
         &_bg2 {
             background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/about.jpg);
-            background-size: cover;
+            background-size: contain;
             background-position: center center;
+            background-repeat: no-repeat;
             @media #{$xs} {
                 height: 280px;
             }
@@ -242,8 +242,9 @@
         padding-left: 15px;
         &_bg {
             background-image: url(/wp-content/themes/mossebo/assets/images/vacancies/ozs/youdo.jpg);
-            background-size: cover;
+            background-size: contain;
             background-position: center center;
+            background-repeat: no-repeat;
             @media #{$xs} {
                 height: 280px;
             }

@@ -248,16 +248,14 @@ get_header();
 
 <div class="page-vacant-ozs__youdo">
     <div class="row">
-        <div class="col-md-6 page-vacant-ozs__youdo_bg"></div>
-        <div class="col-md-6">
             <div class="page-vacant-ozs__youdo_text">
                 <div class="title">Заработай себе на мечту</div>
                 <p>В Mossebo ты приходишь не для звонков по телефону. Твоя задача - вырасти настолько, чтобы захотелось открыть собственный бизнес (наработанных денег и навыков тебе хватит)</p>
+                <img src="/wp-content/themes/mossebo/assets/images/vacancies/ozs/ozs-all.jpg" alt="">
                 <p>
                     <strong>Тебе дадут все инструменты и заставят "поиметь" результат</strong>
                 </p>
             </div>
-        </div>
     </div>
 </div>
 

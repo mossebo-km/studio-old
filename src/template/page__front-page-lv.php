@@ -43,6 +43,9 @@ $select_id = rand();
                         'options' => array('Jaunbūve', 'Sekundārais mājoklis', 'Ārpilsētas māja'),
                         'radio-label' => 'Нужен ли вам дизайн интерьера?'
                     ),
+                    'step-3' => array( // Step 3
+                        'label' => 'Norādiet jūsu tālruņa numuru:',
+                    ),
                 ),
             )); ?>
         </div>
@@ -54,23 +57,26 @@ $select_id = rand();
     <div class="row">
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_1"></i>
-            <div class="feauteres__text">Бесплатный <br>авторский надзор</div>
-            <div class="feauteres__description">Дизайнер следит за работой строительной бригады на всем протяжении
-                ремонта
+            <div class="feauteres__text">Bezmaksas autoruzraudzība</div>
+            <div class="feauteres__description">
+                Dizainers seko būvbrigādes darbiem visa remonta gaitā
             </div>
         </div>
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_2"></i>
-            <div class="feauteres__text">Дизайн интерьера <br>за один месяц</div>
-            <div class="feauteres__description">Всю рабочую документацию, скетчи и наглядные 3D визуализации интерьера
-                специалисты Mossebo разработают за 30 дней или быстрее
+            <div class="feauteres__text">
+                Interjera dizains par vienu mēnesi
+            </div>
+            <div class="feauteres__description">
+                Mossebo specialisti izstrādās visu darbu dokumentāciju, skices un 3D interjera vizualizācijas par 30 dienu vai atrāk
             </div>
         </div>
         <div class="feauteres__grid col-sm-4">
             <i class="feauteres__icon feauteres__icon_3"></i>
-            <div class="feauteres__text">Эксклюзивные <br>материалы и мебель</div>
-            <div class="feauteres__description">Вы получаете доступ к базе поставщиков Mossebo и покупаете все для
-                своего интерьера по специальным ценам
+            <div class="feauteres__text">
+                Eksluzīvie materiāli un mēbeles
+            </div>
+            <div class="feauteres__description">Jūs saņemat Mossebo piegādātāju bazes piekļuvi un pērkat visu jūsu interjeram specialājās cenās
             </div>
         </div>
     </div>
@@ -183,63 +189,6 @@ $select_id = rand();
     </div>
 </div>
 
-<!-- Section new's -->
-<section id="main-page-news">
-    <div class="container">
-
-        <!-- Title -->
-        <div class="row">
-            <div class="col-xl-12 text-center">
-                <h2 class="section-title">Emuārs</h2>
-            </div>
-            <div class="col-xl-12 text-right text-center-sm text-center-xs">
-                <a href="/novosti/" class="link-arrow">Skatīt visu</a>
-            </div>
-        </div>
-
-        <!-- Mews carousel -->
-        <div class="row">
-            <div class="col-xl-10 offset-xl-1 col-lg-12 p-l-r-30">
-
-                <div class="owl-carousel owl-theme">
-                    <?php
-                    $args = array(
-                        'numberposts' => 5,
-                        'post_status' => 'publish'
-                    );
-                    $result = wp_get_recent_posts($args);
-                    foreach ($result as $news_post_elements) { ?>
-                        <div class="item">
-                            <!-- Left block -->
-                            <div class="col-xl-4 col-lg-6 col-md-6 col-12 carousel-item-block-news-left">
-                                <div
-                                    class="data-news-carousel text-right hidde-sm hidde-xs"><?php echo get_the_date('d.m.Y', $news_post_elements['ID']) ?></div>
-                                <h3 class="title-news-carousel text-center-sm text-center-xs"><?php echo $news_post_elements['post_title'] ?></h3>
-
-                                <img class="img-news-carousel-mobile hidden-block visible-sm visible-xs"
-                                     src="<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($news_post_elements['ID']), 'full', true)[0]; ?>"
-                                     alt="<?php echo $news_post_elements['post_title'] ?>">
-
-                                <div
-                                    class="data-news-carousel text-right hidden-block visible-sm visible-xs"><?php echo get_the_date('d.m.Y', $news_post_elements['ID']) ?></div>
-                                <p class="expert-text-news-carousel text-center-sm text-center-xs"><?php echo wp_trim_words($news_post_elements['post_content'], 30, '...'); ?></p>
-                                <div class="arrow-permalink text-right text-center-sm text-center-xs">
-                                    <a href="<?php echo get_permalink($news_post_elements['ID']) ?>"
-                                       class="link-arrow text-right">Uzziniet vairāk</a>
-                                </div>
-                            </div>
-                            <!-- Right block -->
-                            <div class="carousel-item-block-img"
-                                 style="background: url(<?php echo wp_get_attachment_image_src(get_post_thumbnail_id($news_post_elements['ID']), 'full', true)[0]; ?>) 50% 0% no-repeat; background-size: cover;"></div>
-                        </div>
-                    <?php } ?>
-                </div>
-
-            </div>
-        </div> <!-- News carousel END -->
-
-    </div> <!-- Container-fluid END -->
-</section> <!-- Section news END -->
 
 <!-- Section social's -->
 <?php get_template_part('template/social_section'); ?>

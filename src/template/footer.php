@@ -44,13 +44,13 @@
                                 <div class="footer-phone"><a
                                         href="tel:<?php echo geoInit('phone'); ?>"><?php echo geoInit('phone'); ?></a>
                                 </div>
-                                <div class="footer-phone-info">10:00-19:00 пн-пт</div>
+                                <div class="footer-phone-info"><?php echo __('10:00-19:00 пн-пт','mossebo_theme'); ?></div>
                             </div>
                         <?php } ?>
 
                         <div class="footer-phone-block text-center-sm text-center-xs footer-col-contacts-sm-3">
                             <div class="footer-phone"><a href="tel:8-800-707-83-47">8-800-707-83-47</a></div>
-                            <div class="footer-phone-info">служба контроля качества</div>
+                            <div class="footer-phone-info"><?php echo __('служба контроля качества','mossebo_theme'); ?></div>
                         </div>
                     </div>
                 </div>
@@ -58,10 +58,10 @@
                 <!-- Subscribe form-->
                 <div class="col-xl-3 col-lg-4 col-md-4">
                     <div class="footer-form-col text-center">
-                        <h3>Подписаться на новости</h3>
+                        <h3><?php echo __('Подписаться на новости','mossebo_theme'); ?></h3>
                         <form class="footer-subscribe" method="POST">
-                            <input class="subscribe-email-input" type="text" placeholder="введите ваш e-mail">
-                            <button class="btn btn_1" type="submit">Подписаться</button>
+                            <input class="subscribe-email-input" type="text" placeholder="<?php echo __('введите ваш e-mail','mossebo_theme'); ?>">
+                            <button class="btn btn_1" type="submit"><?php echo __('Подписаться','mossebo_theme'); ?></button>
                         </form>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 <!-- Social link's -->
                 <div class="col-xl-4 col-lg-3 col-md-3">
                     <div class="icon-social-link">
-                        <h3>Присоединяйтесь</h3>
+                        <h3><?php echo __('Присоединяйтесь','mossebo_theme'); ?></h3>
                         <div class="item-social-link-icon">
                             <a href="https://www.facebook.com/mossebodesign/" target="_blank"><i
                                     class="footer-soc-icon fb"></i></a>
@@ -114,9 +114,9 @@
                         <div class="col-xl-8">
                             <div class="copyright">
                                 <div class="copyright__row">Copyright &copy; 2017 MOSSEBO | <a
-                                        href="/politika-konfidentsialnosti/">Политика конфиденциальности</a> | <a
-                                        href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/">Защита персональных данных</a></div>
-                                <div class="copyright__row">Информация на сайте не является публичной офертой</div>
+                                        href="/politika-konfidentsialnosti/"><?php echo __('Политика конфиденциальности','mossebo_theme'); ?></a> | <a
+                                        href="/polozhenie-o-poryadke-hraneniya-i-zashhityi-personalnyih-dannyih-polzovateley/"><?php echo __('Защита персональных данных','mossebo_theme'); ?></a></div>
+                                <div class="copyright__row"><?php echo __('Информация на сайте не является публичной офертой','mossebo_theme'); ?></div>
                             </div>
                         </div>
                         <!-- Share BTN's -->

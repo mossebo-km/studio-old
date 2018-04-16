@@ -5,10 +5,10 @@
     <div class="social-inst">
       <div class="row">
         <div class="col-xl-12 text-center">
-          <h2 class="section-title">Мы в соцсетях</h2>
+          <h2 class="section-title"><?php echo __('Мы в соцсетях','mossebo_theme'); ?></h2>
         </div>
         <div class="col-xl-6 text-left"><img class="inst-icon" height="50" width="50" src="<?php echo THEME_DIR; ?>/assets/images/icon/instagram_section.svg" alt="instagram"></div>
-        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.instagram.com/remont.design/" target="_blank" class="link-arrow">Перейти  в Instagram</a></div>
+        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.instagram.com/remont.design/" target="_blank" class="link-arrow"><?php echo __('Перейти  в Instagram','mossebo_theme'); ?></a></div>
       </div>
       <!-- Inctagram item -->
       <?php
@@ -29,7 +29,7 @@
       <!-- Title -->
       <div class="row">
         <div class="col-xl-6 text-left"><img class="inst-icon" height="50" width="50" src="<?php echo THEME_DIR; ?>/assets/images/icon/social/youtube-logo.svg" alt="YouTube"></div>
-        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank" class="link-arrow">Больше наших видео на YouTube</a></div>
+        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank" class="link-arrow"><?php echo __('Больше наших видео на YouTube','mossebo_theme'); ?></a></div>
       </div>
 
       <!-- Yotube item -->

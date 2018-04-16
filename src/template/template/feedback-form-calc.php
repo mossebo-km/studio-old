@@ -46,7 +46,7 @@ function feedback_form_calc($array)
                 <?php endif; ?>
                 <!-- step 3 -->
                 <input class="calc-form-input calc-step-3" style="display: none;" type="tel"
-                       placeholder="Ваш номер телефона">
+                       placeholder="<?php echo __('Ваш номер телефона','mossebo_theme'); ?>">
             </div>
             <!-- BTN block -->
             <div class="btn-form-inner text-center">
@@ -61,7 +61,7 @@ function feedback_form_calc($array)
                                               repeatCount="indefinite" begin="0s"></animateTransform>
                         </circle>
                     </svg>
-                    Далее
+                    <?php echo __('Далее','mossebo_theme'); ?>
                 </button>
             </div>
         </div>
@@ -99,7 +99,7 @@ function feedback_form_calc($array)
         </div>
 
         <!-- Steps form -->
-        <div class="calc-steps">шаг <span class="step-number">1</span> из 3</div>
+        <div class="calc-steps"><?php echo __('шаг','mossebo_theme'); ?> <span class="step-number">1</span> <?php echo __('из','mossebo_theme'); ?> 3</div>
     </form>
 
 <?php } ?>

@@ -32,7 +32,7 @@
                     <button type="button" class="franchise-page-feedback-form-modal btn btn_1">Подробнее о франшизе
                     </button>
                 <?php } else { ?>
-                    <button type="button" id="modal_btn_modal" class="btn btn_1">Рассчитать онлайн</button>
+                    <button type="button" id="modal_btn_modal" class="btn btn_1"><?php echo __('Рассчитать онлайн','mossebo_theme'); ?></button>
                 <?php } ?>
 
             </div>
@@ -49,12 +49,13 @@
                     }
 
                     if (isset($header_phone_geo)) {
-                        echo '<div class="header-phone phone-geo"><div class="phone-number"><a href="tel:' . $header_phone_geo . '">' . $header_phone_geo . '</a></div><div class="phone-info">10:00-19:00 пн-пт</div></div>';
+                        echo '<div class="header-phone phone-geo"><div class="phone-number"><a href="tel:' . $header_phone_geo . '">' . $header_phone_geo . '</a></div>';
                     }
                     ?>
+                    <div class="phone-info"><?php echo __('10:00-19:00 пн-пт','mossebo_theme'); ?></div></div>
                     <div class="header-phone">
                         <div class="phone-number"><a href="tel:8-800-707-83-47">8-800-707-83-47</a></div>
-                        <div class="phone-info">служба контроля качества</div>
+                        <div class="phone-info"><?php echo __('служба контроля качества','mossebo_theme'); ?></div>
                     </div>
                 </address>
             </div>

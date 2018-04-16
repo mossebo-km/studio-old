@@ -44,7 +44,7 @@ function formCalc(event) {
         jQuery(thisSelect).find('.input-inner, .feedback-form-calc__label, .form-description-text, .calc-steps .step-number').animate({
             opacity: 0
         }, function () {
-            thisSelect.querySelector('.feedback-form-calc__label').innerHTML = 'Укажите ваш номер телефона:';
+            thisSelect.querySelector('.feedback-form-calc__label').innerHTML = ' ';
             thisSelect.querySelector('.step-number').innerHTML = '3';
             thisSelect.querySelector('.input-select_wrapper').style.display = 'none'; // Скрываем поле на втором шаге
             radioBlock.style.display = 'none';
