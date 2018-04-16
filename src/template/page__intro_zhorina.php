@@ -22,7 +22,7 @@ get_header();
 
 </iframe>
 <div style="position: absolute; left: 50%;">
-    <a href="<?php echo THEME_DIR; ?>/assets/mossebo.pdf"
+    <a href="<?php echo THEME_DIR; ?>/assets/prezentaciya_franshizy_stydii_dizayna_ineriera_mossebo.pdf"
        download
        class="btn btn_1 feedback-form-modal-thank-page__btn"
        style="

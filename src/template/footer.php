@@ -178,7 +178,7 @@ if (is_page(979)) { ?>
             </div>
         </div>
         <div class="tnx-descr">А также скачайте нашу презентацию:</div>
-        <a href="<?php echo THEME_DIR; ?>/assets/mossebo.pdf" download
+        <a href="<?php echo THEME_DIR; ?>/assets/prezentaciya_franshizy_stydii_dizayna_ineriera_mossebo.pdf" download
            class="btn btn_1 feedback-form-modal-thank-page__btn">Скачать презентацию</a>
     </div>
 
@@ -206,7 +206,7 @@ if (is_page(979)) { ?>
             </div>
         </div>
         <div class="tnx-descr">А также скачайте нашу презентацию:</div>
-        <a href="<?php echo THEME_DIR; ?>/assets/mossebo.pdf" download
+        <a href="<?php echo THEME_DIR; ?>/assets/prezentaciya_franshizy_stydii_dizayna_ineriera_mossebo.pdf" download
            class="btn btn_1 feedback-form-modal-thank-page__btn">Скачать презентацию</a>
     </div>
 <?php } ?>
