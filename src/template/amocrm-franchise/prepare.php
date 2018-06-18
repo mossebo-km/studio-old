@@ -89,9 +89,9 @@ if ($_POST['formId'] == 1) {
 } elseif ($_POST['formId'] == 5) {
     $data_config = array(
         'form_id' => 5,
-        // 'pipeline_id' => 190857,
-        // 'status_id' => 11769034,
-        // 'responsible_user_id' => 'Иванов Владимир',
+        'pipeline_id' => 1123488,
+        'status_id' => 19546692,
+        'responsible_user_id' => 'Управляющая Компания',
         'mail_to' => 'marketing@mossebo.ru',
         'subject' => 'Зявка со страницы продакшен на маркетинг-кит'
     );

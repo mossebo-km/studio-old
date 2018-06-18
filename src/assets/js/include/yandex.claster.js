@@ -107,15 +107,15 @@ jQuery(function (jQuery) {
             geoObjects[0] = new ymaps.Placemark([59.903814, 30.300658],
                 getPointData('Санкт-Петербург', 'Санкт-Петербург, Обводного канала наб, дом 118а, литера Х', '8-812-612-48-19'),
                 getPointOptions());
-            //// 1
-            geoObjects[1] = new ymaps.Placemark([59.909567, 30.284220],
-                getPointData('Санкт-Петербург', 'Обводного канала, 199 БЦ «Обводный двор»', '8-812-612-48-19'),
-                getPointOptions());
 
             // Москва
             //// 1
-            geoObjects[2] = new ymaps.Placemark([55.708354, 37.652705],
+            geoObjects[1] = new ymaps.Placemark([55.708354, 37.652705],
                 getPointData('Москва', 'Ленинская Слобода, 19. БЦ «Омега Плаза», офис 701', '+7 (495) 104-67-00'),
+                getPointOptions());
+            //// 1
+            geoObjects[2] = new ymaps.Placemark([55.779287, 37.633347],
+                getPointData('Москва', 'проспект Мира, 36с1', '+7 (495) 104-67-00'),
                 getPointOptions());
 
 
@@ -155,76 +155,76 @@ jQuery(function (jQuery) {
                 getPointData('Уфа', 'улица Ленина, 70, 3 эт., оф. 304.', '8-800-707-83-47'),
                 getPointOptions());
 
-            //Казань
-            ////1
-            geoObjects[9] = new ymaps.Placemark([55.799143, 49.123266],
-                getPointData('Казань', 'улица Касаткина 11', '8-800-707-83-47'),
-                getPointOptions());
-
             //Рязань
             ////1
-            geoObjects[10] = new ymaps.Placemark([54.635308, 39.734111],
+            geoObjects[9] = new ymaps.Placemark([54.635308, 39.734111],
                 getPointData('Рязань', 'ул. Нижне-Трубежная, д. 2', '+7 (4912) 77-28-86'),
                 getPointOptions());
 
             //Краснодар
             ////1
-            geoObjects[11] = new ymaps.Placemark([45.043087, 38.959118],
+            geoObjects[10] = new ymaps.Placemark([45.043087, 38.959118],
                 getPointData('Краснодар', 'г. Краснодар, ул. Северная 247, 6 этаж, офис 602. Бизнес центр "Gold"', '+7 (861) 204-07-63'),
-                getPointOptions());
-
-            //Алматы
-            ////1
-            geoObjects[12] = new ymaps.Placemark([43.231639, 76.960090],
-                getPointData('Алматы', 'проспект Достык 192/2, БЦ Green Tower','8-800-707-83-47'),
                 getPointOptions());
 
             //Саратов
             ////1
-            geoObjects[13] = new ymaps.Placemark([51.534874, 46.011272],
+            geoObjects[11] = new ymaps.Placemark([51.534874, 46.011272],
                 getPointData('Саратов', 'Вавилова 28/34 БЦ, Атлант, офис 404','8-800-707-83-47'),
                 getPointOptions());
 
             //Ташкент
             ////1
-            geoObjects[14] = new ymaps.Placemark([41.347841, 69.349556],
+            geoObjects[12] = new ymaps.Placemark([41.347841, 69.349556],
                 getPointData('Ташкент', 'Мирзо-Улугбекский район, проспект Мирзы Улугбека 7м.','8-800-707-83-47'),
                 getPointOptions());
 
             //Ярославль
             ////1
-            geoObjects[15] = new ymaps.Placemark([57.625441, 39.864142],
+            geoObjects[13] = new ymaps.Placemark([57.625441, 39.864142],
                 getPointData('Ярославль', 'ул. Свободы, д. 71а', '+7 (485) 228-00-44'),
                 getPointOptions());
 
             //Уссурийск
             ////1
-            geoObjects[16] = new ymaps.Placemark([43.804007, 131.948699],
+            geoObjects[14] = new ymaps.Placemark([43.804007, 131.948699],
                 getPointData('Уссурийск', 'ул.Комсомольская, 73 офис 217', '8-800-707-83-47'),
                 getPointOptions());
 
             //Новосибирск
             ////1
-            geoObjects[17] = new ymaps.Placemark([55.016523, 82.948358],
+            geoObjects[15] = new ymaps.Placemark([55.016523, 82.948358],
                 getPointData('Новосибирск', 'ул.Кирова, д.29, оф.303, БЦ Ново-Николаевск', '8-800-707-83-47'),
                 getPointOptions());
 
             //Нижний Новгород
             ////1
-            geoObjects[18] = new ymaps.Placemark([56.314544, 44.070084],
+            geoObjects[16] = new ymaps.Placemark([56.314544, 44.070084],
                 getPointData('Нижний Новгород', 'ул. Родионова, дом 165, корпус 13 ТЦ Ганза, 3 этаж', '8-800-707-83-47'),
                 getPointOptions());
 
             //Красноярск
             ////1
-            geoObjects[19] = new ymaps.Placemark([55.993499, 92.908995],
+            geoObjects[17] = new ymaps.Placemark([55.993499, 92.908995],
                 getPointData('Красноярск', 'Вавилова 2а/2', '8-800-707-83-47'),
                 getPointOptions());
 
             //Латвия/Рига
             ////1
-            geoObjects[20] = new ymaps.Placemark([56.991229, 24.127305],
+            geoObjects[18] = new ymaps.Placemark([56.991229, 24.127305],
                 getPointData('Рига', 'Duntes iela 23a, Rīga, LV-1005', '+371 66 55 50 81'),
+                getPointOptions());
+
+            //Екб
+            ////1
+            geoObjects[19] = new ymaps.Placemark([56.820114, 60.591590],
+                getPointData('Екатеринбург', 'улица Шейнкмана, 119', '8-800-707-83-47'),
+                getPointOptions());
+
+            //Владивосток
+            ////1
+            geoObjects[20] = new ymaps.Placemark([43.119260, 131.902876],
+                getPointData('Владивосток', 'Некрасовская улица, 36Б', '8-800-707-83-47'),
                 getPointOptions());
 
 

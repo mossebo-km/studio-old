@@ -318,6 +318,7 @@
             }
         }
         .panorama, .panorama-view {
+            height: 800px;
             @media #{$xs} {
                 height: 200px;
             }
@@ -870,4 +871,22 @@
             display: none;
         }
     }
+}
+.spoiler_links {
+    background: $color_pr;
+    padding: 15px 20px;
+    color: $color-wt;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.spoiler_body {
+    display: none;
+    margin: 8px 0 0 0;
 }

@@ -231,7 +231,21 @@ get_header();
         <div class="panorama-view">
             <div class="panorama-container">
                 <img src="//mossebo.studio/wp-content/uploads/page__franchising/__office.jpg"
-                     usemap="hotspots" data-width="2168" data-height="500" alt="Оформление студий дизайна"/>
+                     usemap="hotspots" data-width="4617" data-height="950" alt="Оформление студий дизайна"/>
+            </div>
+        </div>
+    </div>
+    <div class="spoiler_links">
+        Показать больше
+    </div>
+    <div class="spoiler_body">
+        <div class="panorama"
+             data-pano-mobile-src="//mossebo.studio/wp-content/uploads/page__franchising/__office_mobile2.jpg">
+            <div class="panorama-view">
+                <div class="panorama-container">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/__office2.jpg"
+                         usemap="hotspots" data-width="4617" data-height="950" alt="Оформление студий дизайна"/>
+                </div>
             </div>
         </div>
     </div>
