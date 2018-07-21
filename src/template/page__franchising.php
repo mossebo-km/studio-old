@@ -251,6 +251,61 @@ get_header();
     </div>
 </div>
 
+<div class="page-franchising-spark container-fluid">
+    <div class="row">
+        <div class="col-xl-10 offset-xl-1 col-12">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="page-franchising-spark__title">Оценка рисков франшизы Mossebo от СПАРК</div>
+                    <div class="page-franchising-spark__description">Международный бизнес по дизайну интерьера Mossebo отмечен ведущим сервисом по оценке контрагентов СПАРК как низкорисковый.
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="//mossebo.studio/wp-content/uploads/page__franchising/spark.png" alt="Spark" class="page-franchising-spark__logo">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="page-franchising-spark__item">
+                        <div class="page-franchising-spark__icon-1">
+                            <div class="page-franchising-spark__icon-1-circle"></div>
+                            <div class="page-franchising-spark__icon-1-line"></div>
+                        </div>
+                        <div class="page-franchising-spark__icon-1__name">
+                            <strong>Индекс риска</strong>
+                            низкий
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="page-franchising-spark__item">
+                        <div class="page-franchising-spark__icon-2">
+                            <div class="page-franchising-spark__icon-2-circle">5</div>
+                        </div>
+                        <div class="page-franchising-spark__icon-1__name">
+                            <strong>ИДО</strong>
+                            низкий
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="page-franchising-spark__item">
+                        <div class="page-franchising-spark__icon-3">
+                            <div class="page-franchising-spark__icon-3-circle">17</div>
+                        </div>
+                        <div class="page-franchising-spark__icon-1__name">
+                            <strong>ИФР</strong>
+                            средний
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- your profit -->
 <div class="page-franchising-profit container-fluid">
     <div class="row">
@@ -366,7 +421,7 @@ get_header();
                 <div class="col-md-6">
                     <strong class="co-work-production-about__title">Mossebo не зависит от кризиса и сезонности</strong>
                     <p class="co-work-production-about__p">Mossebo - единственный бренд, не зависящий от сезонности<br><br>
-                        Кризисы не влияют, т.к. нет эконом-аудитории, чувствительной к кризисам</>
+                        Кризисы не влияют, т.к. нет эконом-аудитории, чувствительной к кризисам
                     </p>
                 </div>
                 <div class="col-md-6">
