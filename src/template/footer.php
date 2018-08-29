@@ -77,7 +77,7 @@
                                     class="footer-soc-icon vk"></i></a>
                             <a href="https://ok.ru/group/53291776606394" target="_blank"><i
                                     class="footer-soc-icon odn"></i></a>
-                            <a href="https://www.instagram.com/remont.design/" target="_blank"><i
+                            <a href="https://www.instagram.com/mossebo.official/" target="_blank"><i
                                     class="footer-soc-icon inst"></i></a>
                             <a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank"><i
                                     class="footer-soc-icon you"></i></a>

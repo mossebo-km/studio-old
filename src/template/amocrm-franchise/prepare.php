@@ -104,6 +104,15 @@ if ($_POST['formId'] == 1) {
         'mail_to' => 'yuri@mossebo.ru',
         'subject' => 'Зявка со страницы Прорабы'
     );
+} elseif ($_POST['formId'] == 7) {
+    $data_config = array(
+        'form_id' => 7,
+        // 'pipeline_id' => 190857,
+        // 'status_id' => 11769034,
+        // 'responsible_user_id' => 'Иванов Владимир',
+        'mail_to' => 'review@mossebo.studio',
+        'subject' => 'Отзыв о встрече'
+    );
 }
 
 $data = $data_val + $data_config;

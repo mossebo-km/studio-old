@@ -12,73 +12,74 @@
 
 </head>
 <body <?php body_class(); ?>>
-    <!-- Main wrapper -->
-    <div id="main-wrapper" class="wrapper">
-        <!-- Main-header -->
-        <header id="main-header">
-            <div class="logo-header">
-                <a href="<?php echo get_home_url(); ?>">
-                    <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo-mossebo.svg"
-                         alt="Mossebo дизайн и ремонт">
-                </a>
+<!-- Main wrapper -->
+<div id="main-wrapper" class="wrapper">
+    <!-- Main-header -->
+    <header id="main-header">
+        <div class="logo-header">
+            <a href="<?php echo get_home_url(); ?>">
+                <img src="<?php echo THEME_DIR; ?>/assets/images/header/logo-mossebo.svg"
+                     alt="Mossebo дизайн и ремонт">
+            </a>
+        </div>
+        <!-- Main navigation -->
+        <nav id="main-nav">
+            <?php wp_nav_menu('menu=main'); ?>
+        </nav>
+        <div class="header-btn-block">
+
+            <?php if (is_page(979)) { ?>
+                <button type="button" class="franchise-page-feedback-form-modal btn btn_1">Подробнее о франшизе
+                </button>
+            <?php } else { ?>
+                <button type="button" id="modal_btn_modal"
+                        class="btn btn_1"><?php echo __('Рассчитать онлайн', 'mossebo_theme'); ?></button>
+            <?php } ?>
+
+        </div>
+
+        <!-- Contact block -->
+        <div class="heade-contact-block">
+            <address>
+                <?php
+                $header_addres_geo = geoInit('address');
+                $header_phone_geo = geoInit('phone');
+
+                if ($header_addres_geo) {
+                    echo '<div class="adress">' . $header_addres_geo . '</div>';
+                }
+
+                if ($header_phone_geo) {
+                    echo '<div class="header-phone phone-geo"><div class="phone-number"><a href="tel:' . $header_phone_geo . '">' . $header_phone_geo . '</a></div>';
+                }
+                ?>
+                <div class="phone-info"><?php echo __('10:00-19:00 пн-пт', 'mossebo_theme'); ?></div>
+        </div>
+        <div class="header-phone">
+            <div class="phone-number"><a href="tel:8-800-707-83-47">8-800-707-83-47</a></div>
+            <div class="phone-info"><?php echo __('служба контроля качества', 'mossebo_theme'); ?></div>
+        </div>
+        </address>
+
+        <!-- Social link -->
+        <div class="icon-social-link">
+            <div class="item-social-link-icon text-left">
+                <a href="https://www.facebook.com/mossebodesign/" target="_blank"><i class="footer-soc-icon fb"></i></a>
+                <a href="https://vk.com/design_mossebo" target="_blank"><i class="footer-soc-icon vk"></i></a>
+                <a href="https://ok.ru/group/53291776606394" target="_blank"><i class="footer-soc-icon odn"></i></a>
+                <a href="https://www.instagram.com/mossebo.official/" target="_blank"><i
+                        class="footer-soc-icon inst"></i></a>
+                <a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank"><i
+                        class="footer-soc-icon you"></i></a>
             </div>
-            <!-- Main navigation -->
-            <nav id="main-nav">
-                <?php wp_nav_menu('menu=main'); ?>
-            </nav>
-            <div class="header-btn-block">
+        </div>
 
-                <?php if (is_page(979)) { ?>
-                    <button type="button" class="franchise-page-feedback-form-modal btn btn_1">Подробнее о франшизе
-                    </button>
-                <?php } else { ?>
-                    <button type="button" id="modal_btn_modal" class="btn btn_1"><?php echo __('Рассчитать онлайн','mossebo_theme'); ?></button>
-                <?php } ?>
+        <?php
 
-            </div>
+        do_action('wpml_add_language_selector');
 
-            <!-- Contact block -->
-            <div class="heade-contact-block">
-                <address>
-                    <?php
-                    $header_addres_geo = geoInit('address');
-                    $header_phone_geo = geoInit('phone');
+        ?>
+    </header><!-- Main header END -->
 
-                    if (isset($header_addres_geo)) {
-                        echo '<div class="adress">' . $header_addres_geo . '</div>';
-                    }
-
-                    if (isset($header_phone_geo)) {
-                        echo '<div class="header-phone phone-geo"><div class="phone-number"><a href="tel:' . $header_phone_geo . '">' . $header_phone_geo . '</a></div>';
-                    }
-                    ?>
-                    <div class="phone-info"><?php echo __('10:00-19:00 пн-пт','mossebo_theme'); ?></div></div>
-                    <div class="header-phone">
-                        <div class="phone-number"><a href="tel:8-800-707-83-47">8-800-707-83-47</a></div>
-                        <div class="phone-info"><?php echo __('служба контроля качества','mossebo_theme'); ?></div>
-                    </div>
-                </address>
-            </div>
-
-            <!-- Social link -->
-            <div class="icon-social-link">
-                <div class="item-social-link-icon text-left">
-                    <a href="https://www.facebook.com/mossebodesign/" target="_blank"><i class="footer-soc-icon fb"></i></a>
-                    <a href="https://vk.com/design_mossebo" target="_blank"><i class="footer-soc-icon vk"></i></a>
-                    <a href="https://ok.ru/group/53291776606394" target="_blank"><i class="footer-soc-icon odn"></i></a>
-                    <a href="https://www.instagram.com/remont.design/" target="_blank"><i
-                            class="footer-soc-icon inst"></i></a>
-                    <a href="https://www.youtube.com/channel/UCmYjYyeZDuFb9hOgEUNYJuQ/featured" target="_blank"><i
-                            class="footer-soc-icon you"></i></a>
-                </div>
-            </div>
-
-            <?php
-
-                do_action('wpml_add_language_selector');
-
-            ?>
-        </header><!-- Main header END -->
-
-        <!-- MAIN content -->
-        <main id="main-container">
+    <!-- MAIN content -->
+    <main id="main-container">

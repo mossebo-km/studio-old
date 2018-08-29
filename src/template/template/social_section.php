@@ -8,13 +8,13 @@
           <h2 class="section-title"><?php echo __('Мы в соцсетях','mossebo_theme'); ?></h2>
         </div>
         <div class="col-xl-6 text-left"><img class="inst-icon" height="50" width="50" src="<?php echo THEME_DIR; ?>/assets/images/icon/instagram_section.svg" alt="instagram"></div>
-        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.instagram.com/remont.design/" target="_blank" class="link-arrow"><?php echo __('Перейти  в Instagram','mossebo_theme'); ?></a></div>
+        <div class="col-xl-6 text-right text-center-sm text-center-xs"><a href="https://www.instagram.com/mossebo.official/" target="_blank" class="link-arrow"><?php echo __('Перейти  в Instagram','mossebo_theme'); ?></a></div>
       </div>
       <!-- Inctagram item -->
       <?php
         $rows = get_field( 'main_page_instagram_section_option', 'option');
         if ( $rows ) {
-        	echo '<a href="https://www.instagram.com/remont.design/" target="_blank"><div class="row inst-photo-row">';
+        	echo '<a href="https://www.instagram.com/mossebo.official/" target="_blank"><div class="row inst-photo-row">';
         	foreach( $rows as $row ) {
         		echo '<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-3 main-page-social-item" style="background: url(' . $row[ 'main_page_instagram_section_item_option' ] . ') no-repeat scroll 50% 50% / cover content-box;"></div>';
         	}

@@ -74,6 +74,16 @@ jQuery(function (jQuery) {
                     formId = 6;
                     break;
 
+                case 7:
+                    thankModal = function () {
+                        alert('Спасибо за ваш отзыв');
+                    };
+                    yaReachCol = function () {
+
+                    };
+                    formId = 7;
+                    break;
+
                 default:
                     alert('Feedback form error!');
             }

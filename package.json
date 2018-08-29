@@ -23,10 +23,10 @@
         "normalize.css": "^8.0.0",
         "owl.carousel": "^2.3.4",
         "vue": "^2.5.16",
-        "vue-carousel-3d": "^0.1.21"
+        "vue-carousel-3d": "^0.1.23"
     },
     "devDependencies": {
-        "browser-sync": "^2.24.5",
+        "browser-sync": "^2.24.6",
         "browser-sync-webpack-plugin": "^2.2.2"
     }
 }

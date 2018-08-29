@@ -9,8 +9,6 @@ $leads[ 'request' ][ 'leads' ][ 'add' ][] = array(
 			'tags' => $data[ 'tatunashvili_tag' ] . ', mossebo.studio' . ', ' . $data['utm_source'],
 
 			'custom_fields' => array( # Дополнительные поля
-
-
 				# Дополнительное поле 'Время заполнения'.
 				array(
 					'id' => $custom_fields[ 'Время заполнения' ],
@@ -70,7 +68,6 @@ $leads[ 'request' ][ 'leads' ][ 'add' ][] = array(
 						)
 					)
 				)
-
       )
 );
 

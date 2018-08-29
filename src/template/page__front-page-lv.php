@@ -25,7 +25,7 @@ $select_id = rand();
             <h1 class="page-banner__title">
                 Interjera dizains un remonts Latvijā
             </h1>
-            <h2 class="page-banner__sub-title">Izstrādam dizainu dzīvokļiem, mājām un komerctelpām </h2>
+            <h2 class="page-banner__sub-title">Izstrādājam dizainu dzīvokļiem, mājām un komerctelpām </h2>
         </div>
 
         <!-- Calculator block -->

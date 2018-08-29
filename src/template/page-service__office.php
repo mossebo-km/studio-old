@@ -5,6 +5,8 @@ Template Name: Услуги - Ремонт офисов
 */
 get_header();
 
+$form_city_name_geo = geoInit('city');
+
 ?>
 
 <!-- Banner -->
@@ -14,8 +16,8 @@ get_header();
             <div class="row">
                 <!-- title -->
                 <div class="col-12">
-                    <h1 class="page-banner__title">Дизайн и ремонт офисов и коммерческих<br> помещений в
-                        Санкт-Петербурге</h1>
+                    <h1 class="page-banner__title">Дизайн и ремонт офисов и коммерческих<br> помещений в городе
+                        <?php echo $form_city_name_geo ?></h1>
                     <h2 class="page-banner__sub-title page-banner__sub-title_theme-color-black">Создаем интерьеры для
                         офисов, магазинов, банков,<br> гостиниц, салонов красоты и других видов бизнеса</h2>
                 </div>
