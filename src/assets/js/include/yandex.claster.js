@@ -180,22 +180,27 @@ jQuery(function (jQuery) {
             geoObjects[12] = new ymaps.Placemark([56.820114, 60.591590],
                 getPointData('Екатеринбург', 'улица Шейнкмана, 119', '8-800-707-83-47'),
                 getPointOptions());
+            //Екб
+            ////2
+            geoObjects[13] = new ymaps.Placemark([56.8382, 60.5950],
+                getPointData('Екатеринбург', 'проспект Ленина 25, БЦ "Европа", офис 4.122', '8-800-707-83-47'),
+                getPointOptions());
 
             //Нижний Новгород
             ////1
-            geoObjects[13] = new ymaps.Placemark([56.322005, 44.032550],
+            geoObjects[14] = new ymaps.Placemark([56.322005, 44.032550],
                 getPointData('Нижний Новгород', 'улица Максима Горького, 260', '8-800-707-83-47'),
                 getPointOptions());
 
             //Москва
             ////1
-            geoObjects[14] = new ymaps.Placemark([55.786380, 37.241219],
+            geoObjects[15] = new ymaps.Placemark([55.786380, 37.241219],
                 getPointData('Москва', '26-й км автодороги «Балтия», бизнес-центр «Riga Land», Строение 3', '+7 (495) 104-67-00'),
                 getPointOptions());
 
             //Ижевск
             ////1
-            geoObjects[15] = new ymaps.Placemark([56.866583, 53.207295],
+            geoObjects[16] = new ymaps.Placemark([56.866583, 53.207295],
                 getPointData('Ижевск', 'Пушкинская улица, 277', '8-800-707-83-47'),
                 getPointOptions());
 
